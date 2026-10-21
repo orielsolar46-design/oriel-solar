@@ -3473,8 +3473,87 @@
     "category": "battery-storage",
     "subcategory": "portable-power-station",
     "short_description": "1024Wh 1800W (Surge 3600W) LFP portable power station. Charges 0-80% in 45 minutes, 10ms UPS, up to 10-year lifespan.",
-    "long_description": null,
-    "specs": [],
+    "long_description": "The EcoFlow DELTA 3 Classic is EcoFlow’s best-value 1kWh portable power station for Kenyan homes, outdoor work and everyday backup. With 1024Wh LiFePO4 capacity and 1800W AC output (3600W surge, X-Boost to 2400W), it powers essentials like lights, Wi‑Fi, TVs, fridges and power tools. Charges 0–80% in 45 mins via 1400W AC, 500W solar max, 10ms UPS switchover, 5 outlets, whisper-quiet 30dB operation.",
+    "specs": [
+      {
+        "group": "GENERAL",
+        "label": "Capacity",
+        "value": "1024Wh",
+        "unit": ""
+      },
+      {
+        "group": "OUTPUT",
+        "label": "AC Output",
+        "value": "1800W (Surge 3600W)",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "X-Boost",
+        "value": "2400W",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Chemistry",
+        "value": "LFP (LiFePO4)",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Battery Life",
+        "value": "4000 cycles to 80%",
+        "unit": ""
+      },
+      {
+        "group": "INPUT",
+        "label": "Solar Input",
+        "value": "500W Max",
+        "unit": ""
+      },
+      {
+        "group": "INPUT",
+        "label": "AC Charging",
+        "value": "1400W (0-80% in 45 mins)",
+        "unit": ""
+      },
+      {
+        "group": "INPUT",
+        "label": "UPS Mode",
+        "value": "Yes (10ms switchover)",
+        "unit": ""
+      },
+      {
+        "group": "OUTPUT",
+        "label": "Outlets",
+        "value": "5",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Weight",
+        "value": "12.1kg",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Dimensions",
+        "value": "398 x 200 x 283mm",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Expandable",
+        "value": "No",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Warranty",
+        "value": "24 months",
+        "unit": ""
+      }
+    ],
     "key_specs": [
       "1024 Wh",
       "1800 W",
@@ -3523,8 +3602,69 @@
     "category": "battery-storage",
     "subcategory": "portable-power-station",
     "short_description": "3072Wh 3600W (Surge 7200W) LFP portable power station for extended home backup.",
-    "long_description": null,
-    "specs": [],
+    "long_description": "The EcoFlow DELTA 3 Ultra is the 3072Wh whole-home backup station for bigger Kenyan homes and businesses. With 3600W AC output (7200W surge, X-Boost to 4600W), 10ms UPS auto-switch, 4 charging methods (0-80% in 89 mins via AC), whisper-quiet 25dB operation and OASIS app control with Storm Guard, it keeps fridges, microwaves, office loads and essentials running through long outages.",
+    "specs": [
+      {
+        "group": "GENERAL",
+        "label": "Capacity",
+        "value": "3072Wh",
+        "unit": ""
+      },
+      {
+        "group": "OUTPUT",
+        "label": "AC Output",
+        "value": "3600W (Surge 7200W)",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "X-Boost",
+        "value": "4600W",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Chemistry",
+        "value": "LFP (LiFePO4)",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Battery Life",
+        "value": "4000 cycles to 80%",
+        "unit": ""
+      },
+      {
+        "group": "INPUT",
+        "label": "Solar Input",
+        "value": "1600W Max",
+        "unit": ""
+      },
+      {
+        "group": "INPUT",
+        "label": "AC Charging",
+        "value": "0-80% in 89 mins",
+        "unit": ""
+      },
+      {
+        "group": "INPUT",
+        "label": "UPS Mode",
+        "value": "Yes (10ms switchover)",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Expandable",
+        "value": "No",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Warranty",
+        "value": "24 months",
+        "unit": ""
+      }
+    ],
     "key_specs": [
       "3072 Wh",
       "3600 W",
@@ -3572,8 +3712,51 @@
     "category": "battery-storage",
     "subcategory": "portable-power-station",
     "short_description": "3600Wh 3600W (Surge 7200W) LFP portable power station. Coming soon.",
-    "long_description": null,
-    "specs": [],
+    "long_description": "The EcoFlow DELTA Pro is a serious home backup battery for Kenyan homes, offices and light commercial setups. With 3600Wh of LiFePO4 storage and 3600W AC output, it runs major appliances during outages, recharges fast, and can be expanded with additional batteries for longer runtime.",
+    "specs": [
+      {
+        "group": "GENERAL",
+        "label": "Capacity",
+        "value": "3600Wh",
+        "unit": ""
+      },
+      {
+        "group": "OUTPUT",
+        "label": "AC Output",
+        "value": "3600W (Surge 7200W)",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Chemistry",
+        "value": "LFP (LiFePO4)",
+        "unit": ""
+      },
+      {
+        "group": "INPUT",
+        "label": "Solar Input",
+        "value": "1600W Max",
+        "unit": ""
+      },
+      {
+        "group": "OUTPUT",
+        "label": "Ports",
+        "value": "13",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Weight",
+        "value": "45kg",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Warranty",
+        "value": "24 months",
+        "unit": ""
+      }
+    ],
     "key_specs": [
       "3600 Wh",
       "3600 W",
@@ -3621,8 +3804,51 @@
     "category": "battery-storage",
     "subcategory": "portable-power-station",
     "short_description": "4096Wh 4000W (Surge 8000W) LFP portable power station, expandable 4-48kWh.",
-    "long_description": null,
-    "specs": [],
+    "long_description": "The EcoFlow DELTA Pro 3 is the flagship DELTA model for demanding backup needs, combining 4096Wh of LiFePO4 capacity with 4000W AC output and deep-coverage port selection. It is designed for larger homes, offices, server rooms and backup-heavy environments that need serious reliability during outages.",
+    "specs": [
+      {
+        "group": "GENERAL",
+        "label": "Capacity",
+        "value": "4096Wh",
+        "unit": ""
+      },
+      {
+        "group": "OUTPUT",
+        "label": "AC Output",
+        "value": "4000W (Surge 8000W)",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Chemistry",
+        "value": "LFP (LiFePO4)",
+        "unit": ""
+      },
+      {
+        "group": "INPUT",
+        "label": "Solar Input",
+        "value": "2000W Max",
+        "unit": ""
+      },
+      {
+        "group": "OUTPUT",
+        "label": "Ports",
+        "value": "12",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Weight",
+        "value": "51.5kg",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Warranty",
+        "value": "24 months",
+        "unit": ""
+      }
+    ],
     "key_specs": [
       "4096 Wh",
       "4000 W",
@@ -3670,8 +3896,93 @@
     "category": "battery-storage",
     "subcategory": "portable-power-station",
     "short_description": "2048Wh 2400W (Surge 5000W) LFP portable power station.",
-    "long_description": null,
-    "specs": [],
+    "long_description": "The EcoFlow DELTA 3 Max is the 2048Wh mid-range backup station for Kenyan homes and small businesses. With 2400W AC output (5000W surge, X-Boost to 3400W), 1000W solar input, fast 2000W AC charging (0–80% in about an hour), expandability to 6kWh and sub-30ms UPS switchover, it covers fridges, microwaves, TVs, Wi‑Fi and office loads through long outages.",
+    "specs": [
+      {
+        "group": "GENERAL",
+        "label": "Capacity",
+        "value": "2048Wh",
+        "unit": ""
+      },
+      {
+        "group": "OUTPUT",
+        "label": "AC Output",
+        "value": "2400W (Surge 5000W)",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "X-Boost",
+        "value": "3400W",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Chemistry",
+        "value": "LFP (LiFePO4)",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Battery Life",
+        "value": "3500+ cycles to 80%",
+        "unit": ""
+      },
+      {
+        "group": "INPUT",
+        "label": "Solar Input",
+        "value": "1000W Max",
+        "unit": ""
+      },
+      {
+        "group": "INPUT",
+        "label": "AC Charging",
+        "value": "2000W (0-80% in ~1.1 hrs)",
+        "unit": ""
+      },
+      {
+        "group": "INPUT",
+        "label": "UPS Mode",
+        "value": "Yes (<30ms switchover)",
+        "unit": ""
+      },
+      {
+        "group": "OUTPUT",
+        "label": "USB-C",
+        "value": "2 x USB-C 140W",
+        "unit": ""
+      },
+      {
+        "group": "OUTPUT",
+        "label": "USB-A",
+        "value": "2 x USB-A 18W",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Expandable",
+        "value": "Yes — up to 6kWh",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Weight",
+        "value": "22kg",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Dimensions",
+        "value": "497 x 264 x 360mm",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Warranty",
+        "value": "24 months",
+        "unit": ""
+      }
+    ],
     "key_specs": [
       "2048 Wh",
       "2400 W",
@@ -3719,8 +4030,99 @@
     "category": "battery-storage",
     "subcategory": "portable-power-station",
     "short_description": "1024Wh 1800W (Surge 3600W) LFP portable power station, 16.5kg.",
-    "long_description": null,
-    "specs": [],
+    "long_description": "The EcoFlow DELTA 3 Plus takes the DELTA 3 further with enhanced capacity, faster charging, and superior power management. The benchmark mid-range power station in Kenya.",
+    "specs": [
+      {
+        "group": "OUTPUT",
+        "label": "USB-A",
+        "value": "2 x USB-A 36W",
+        "unit": ""
+      },
+      {
+        "group": "OUTPUT",
+        "label": "USB-C",
+        "value": "2 x USB-C 140W",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Weight",
+        "value": "16.5kg (36.4 lbs)",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "X-Boost",
+        "value": "2600W",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Capacity",
+        "value": "1024Wh",
+        "unit": ""
+      },
+      {
+        "group": "INPUT",
+        "label": "UPS Mode",
+        "value": "Yes (<30ms switchover)",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Warranty",
+        "value": "24 months",
+        "unit": ""
+      },
+      {
+        "group": "OUTPUT",
+        "label": "AC Output",
+        "value": "1800W (Surge 3600W)",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Cycle Life",
+        "value": "3500+ cycles to 80%",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Dimensions",
+        "value": "398 x 202 x 284mm",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Expandable",
+        "value": "Yes — up to 5kWh",
+        "unit": ""
+      },
+      {
+        "group": "INPUT",
+        "label": "AC Charging",
+        "value": "1500W Max, 0-100% in 56 mins",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "App Control",
+        "value": "Yes (Wi-Fi & Bluetooth)",
+        "unit": ""
+      },
+      {
+        "group": "INPUT",
+        "label": "Solar Input",
+        "value": "1000W Max (Dual 500W MPPT ports)",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Battery Type",
+        "value": "LFP (LiFePO4)",
+        "unit": ""
+      }
+    ],
     "key_specs": [
       "1024 Wh",
       "1800 W",
@@ -3768,8 +4170,123 @@
     "category": "battery-storage",
     "subcategory": "portable-power-station",
     "short_description": "2048Wh 2400W (Surge 4800W) LFP portable power station.",
-    "long_description": null,
-    "specs": [],
+    "long_description": "The EcoFlow EFE2000 provides 2000Wh of reliable LFP power with 2000W AC output. Designed for demanding environments and extended off-grid use across Kenya.",
+    "specs": [
+      {
+        "group": "GENERAL",
+        "label": "Noise",
+        "value": "<30dB",
+        "unit": ""
+      },
+      {
+        "group": "OUTPUT",
+        "label": "USB-A",
+        "value": "2 x USB-A 18W",
+        "unit": ""
+      },
+      {
+        "group": "OUTPUT",
+        "label": "USB-C",
+        "value": "2 x USB-C 100W",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Weight",
+        "value": "approx. 22kg",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "X-Boost",
+        "value": "3000W",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Capacity",
+        "value": "2048Wh",
+        "unit": ""
+      },
+      {
+        "group": "OUTPUT",
+        "label": "Car Port",
+        "value": "1 x 126W",
+        "unit": ""
+      },
+      {
+        "group": "INPUT",
+        "label": "UPS Mode",
+        "value": "Yes (<30ms switchover)",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Warranty",
+        "value": "24 months",
+        "unit": ""
+      },
+      {
+        "group": "OUTPUT",
+        "label": "AC Output",
+        "value": "2400W (Surge 4800W)",
+        "unit": ""
+      },
+      {
+        "group": "OUTPUT",
+        "label": "AC Outlets",
+        "value": "4 AC outlets",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Cycle Life",
+        "value": "4000+ cycles to 80%",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Dimensions",
+        "value": "426 x 260 x 337mm",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Expandable",
+        "value": "Yes — up to ~6kWh",
+        "unit": ""
+      },
+      {
+        "group": "INPUT",
+        "label": "AC Charging",
+        "value": "1800W Max, 0-100% in 80 mins",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "App Control",
+        "value": "Yes (Wi-Fi & Bluetooth)",
+        "unit": ""
+      },
+      {
+        "group": "INPUT",
+        "label": "Solar Input",
+        "value": "1000W Max (11-60V, 15A, dual MPPT)",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Battery Type",
+        "value": "LFP (LiFePO4)",
+        "unit": ""
+      },
+      {
+        "group": "INPUT",
+        "label": "Car Charging",
+        "value": "12V/24V, 8A",
+        "unit": ""
+      }
+    ],
     "key_specs": [
       "2048 Wh",
       "2400 W",
@@ -3817,8 +4334,105 @@
     "category": "battery-storage",
     "subcategory": "portable-power-station",
     "short_description": "2048Wh 2400W (Surge 5000W) LFP portable power station, 23kg.",
-    "long_description": null,
-    "specs": [],
+    "long_description": "The EcoFlow DELTA 2 Max delivers 2048Wh of LFP capacity with 2400W AC output. Expandable up to 6144Wh with extra batteries. The ideal mid-range backup power solution in Kenya.",
+    "specs": [
+      {
+        "group": "OUTPUT",
+        "label": "USB-A",
+        "value": "2 x USB-A 18W",
+        "unit": ""
+      },
+      {
+        "group": "OUTPUT",
+        "label": "USB-C",
+        "value": "2 x USB-C 100W",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Weight",
+        "value": "23kg (50.7 lbs)",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "X-Boost",
+        "value": "3000W",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Capacity",
+        "value": "2048Wh",
+        "unit": ""
+      },
+      {
+        "group": "OUTPUT",
+        "label": "Car Port",
+        "value": "1 x 126W",
+        "unit": ""
+      },
+      {
+        "group": "INPUT",
+        "label": "UPS Mode",
+        "value": "Yes (<30ms switchover)",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Warranty",
+        "value": "24 months",
+        "unit": ""
+      },
+      {
+        "group": "OUTPUT",
+        "label": "AC Output",
+        "value": "2400W (Surge 5000W)",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Cycle Life",
+        "value": "3000+ cycles to 80%",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Dimensions",
+        "value": "497 x 242 x 360mm",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Expandable",
+        "value": "Yes — up to 6kWh",
+        "unit": ""
+      },
+      {
+        "group": "INPUT",
+        "label": "AC Charging",
+        "value": "2000W Max, 0-80% in 1.1 hrs",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "App Control",
+        "value": "Yes (Wi-Fi & Bluetooth)",
+        "unit": ""
+      },
+      {
+        "group": "INPUT",
+        "label": "Solar Input",
+        "value": "1000W Max (11-60V, 15A)",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Battery Type",
+        "value": "LFP (LiFePO4)",
+        "unit": ""
+      }
+    ],
     "key_specs": [
       "2048 Wh",
       "2400 W",
@@ -3866,8 +4480,111 @@
     "category": "battery-storage",
     "subcategory": "portable-power-station",
     "short_description": "1024Wh 1800W (Surge 3600W) LFP portable power station, 12kg.",
-    "long_description": null,
-    "specs": [],
+    "long_description": "The EcoFlow DELTA 2 is the perfect home backup power station. With 1024Wh LFP capacity and 1800W AC output, it powers essential appliances during outages. Fast M-Pesa checkout.",
+    "specs": [
+      {
+        "group": "OUTPUT",
+        "label": "USB-A",
+        "value": "2 x USB-A 18W",
+        "unit": ""
+      },
+      {
+        "group": "OUTPUT",
+        "label": "USB-C",
+        "value": "2 x USB-C 100W",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Weight",
+        "value": "12kg (26.5 lbs)",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "X-Boost",
+        "value": "2200W",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Capacity",
+        "value": "1024Wh",
+        "unit": ""
+      },
+      {
+        "group": "OUTPUT",
+        "label": "Car Port",
+        "value": "1 x 126W",
+        "unit": ""
+      },
+      {
+        "group": "INPUT",
+        "label": "UPS Mode",
+        "value": "Yes (<30ms switchover)",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Warranty",
+        "value": "24 months",
+        "unit": ""
+      },
+      {
+        "group": "OUTPUT",
+        "label": "AC Output",
+        "value": "1800W (Surge 3600W)",
+        "unit": ""
+      },
+      {
+        "group": "OUTPUT",
+        "label": "AC Outlets",
+        "value": "6 AC outlets",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Cycle Life",
+        "value": "3000+ cycles to 80%",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Dimensions",
+        "value": "400 x 211 x 281mm",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Expandable",
+        "value": "Yes — up to 3kWh",
+        "unit": ""
+      },
+      {
+        "group": "INPUT",
+        "label": "AC Charging",
+        "value": "1200W Max, 0-80% in 50 mins",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "App Control",
+        "value": "Yes (Wi-Fi & Bluetooth)",
+        "unit": ""
+      },
+      {
+        "group": "INPUT",
+        "label": "Solar Input",
+        "value": "500W Max (11-60V, 15A)",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Battery Type",
+        "value": "LFP (LiFePO4)",
+        "unit": ""
+      }
+    ],
     "key_specs": [
       "1024 Wh",
       "1800 W",
@@ -3915,8 +4632,123 @@
     "category": "battery-storage",
     "subcategory": "portable-power-station",
     "short_description": "1024Wh 1800W (Surge 3600W) LFP portable power station, 12.5kg.",
-    "long_description": null,
-    "specs": [],
+    "long_description": "The EcoFlow DELTA 3 brings next-generation LFP technology to the 1024Wh class. With 1800W output, UPS functionality, and 3600W surge capacity, it handles virtually any appliance.",
+    "specs": [
+      {
+        "group": "OUTPUT",
+        "label": "USB-A",
+        "value": "2 x USB-A 18W",
+        "unit": ""
+      },
+      {
+        "group": "OUTPUT",
+        "label": "USB-C",
+        "value": "2 x USB-C 100W",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Weight",
+        "value": "12.5kg (27.6 lbs)",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "X-Boost",
+        "value": "2200W",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Capacity",
+        "value": "1024Wh",
+        "unit": ""
+      },
+      {
+        "group": "OUTPUT",
+        "label": "Car Port",
+        "value": "1 x 126W",
+        "unit": ""
+      },
+      {
+        "group": "INPUT",
+        "label": "UPS Mode",
+        "value": "Yes (<30ms switchover)",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Warranty",
+        "value": "24 months",
+        "unit": ""
+      },
+      {
+        "group": "OUTPUT",
+        "label": "AC Output",
+        "value": "1800W (Surge 3600W)",
+        "unit": ""
+      },
+      {
+        "group": "OUTPUT",
+        "label": "DC Output",
+        "value": "2 x DC5521 12.6V 3A",
+        "unit": ""
+      },
+      {
+        "group": "OUTPUT",
+        "label": "AC Outlets",
+        "value": "6 AC outlets",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Cycle Life",
+        "value": "3500+ cycles to 80%",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Dimensions",
+        "value": "398 x 202 x 284mm",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Expandable",
+        "value": "Yes — up to 5kWh",
+        "unit": ""
+      },
+      {
+        "group": "INPUT",
+        "label": "AC Charging",
+        "value": "1500W Max, 0-80% in 60 mins",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "App Control",
+        "value": "Yes (Wi-Fi & Bluetooth)",
+        "unit": ""
+      },
+      {
+        "group": "INPUT",
+        "label": "Solar Input",
+        "value": "500W Max (11-60V, 15A)",
+        "unit": ""
+      },
+      {
+        "group": "OUTPUT",
+        "label": "Total Ports",
+        "value": "13",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Battery Type",
+        "value": "LFP (LiFePO4)",
+        "unit": ""
+      }
+    ],
     "key_specs": [
       "1024 Wh",
       "1800 W",
@@ -3964,8 +4796,75 @@
     "category": "battery-storage",
     "subcategory": "portable-power-station",
     "short_description": "768Wh 800W (Surge 1600W) LFP portable power station, 7.8kg. Coming soon.",
-    "long_description": null,
-    "specs": [],
+    "long_description": "The EcoFlow RIVER 2 Pro is the most capable RIVER series power station with 768Wh capacity and 800W AC output. Supports X-Boost technology for powering high-wattage devices.",
+    "specs": [
+      {
+        "group": "OUTPUT",
+        "label": "USB-A",
+        "value": "2 x USB-A 12W",
+        "unit": ""
+      },
+      {
+        "group": "OUTPUT",
+        "label": "USB-C",
+        "value": "1 x USB-C 100W",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Weight",
+        "value": "7.8kg",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Capacity",
+        "value": "768Wh",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Warranty",
+        "value": "24 months",
+        "unit": ""
+      },
+      {
+        "group": "OUTPUT",
+        "label": "AC Output",
+        "value": "800W (Surge 1600W)",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Cycle Life",
+        "value": "3000+ cycles",
+        "unit": ""
+      },
+      {
+        "group": "INPUT",
+        "label": "AC Charging",
+        "value": "940W Max",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "App Control",
+        "value": "Yes (Wi-Fi & Bluetooth)",
+        "unit": ""
+      },
+      {
+        "group": "INPUT",
+        "label": "Solar Input",
+        "value": "220W Max (11-50V, 13A)",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Battery Type",
+        "value": "LFP",
+        "unit": ""
+      }
+    ],
     "key_specs": [
       "768 Wh",
       "800 W",
@@ -4013,8 +4912,33 @@
     "category": "battery-storage",
     "subcategory": "portable-power-station",
     "short_description": "1000Wh 1000W portable power station.",
-    "long_description": null,
-    "specs": [],
+    "long_description": "The EcoFlow E980 offers 1000Wh of reliable power with 1000W AC output, optimised for small business and home office backup in Kenya.",
+    "specs": [
+      {
+        "group": "OUTPUT",
+        "label": "Ports",
+        "value": "8",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Capacity",
+        "value": "1000Wh",
+        "unit": ""
+      },
+      {
+        "group": "OUTPUT",
+        "label": "AC Output",
+        "value": "1000W",
+        "unit": ""
+      },
+      {
+        "group": "INPUT",
+        "label": "Solar Input",
+        "value": "400W max",
+        "unit": ""
+      }
+    ],
     "key_specs": [
       "1000 Wh",
       "1000 W"
@@ -4061,8 +4985,51 @@
     "category": "solar-panels",
     "subcategory": "portable",
     "short_description": "45W monocrystalline portable solar panel, 1.3kg, 22.40% efficiency.",
-    "long_description": null,
-    "specs": [],
+    "long_description": "Lightweight 45W monocrystalline solar panel with 25% efficiency. Ideal for charging RIVER series power stations on the go. IP65 waterproof rating.",
+    "specs": [
+      {
+        "group": "GENERAL",
+        "label": "Type",
+        "value": "Monocrystalline",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Weight",
+        "value": "1.3kg",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Wattage",
+        "value": "45W",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Warranty",
+        "value": "24 months",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Connector",
+        "value": "EcoFlow MC4",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Efficiency",
+        "value": "22.40%",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Water Resistance",
+        "value": "IP68",
+        "unit": ""
+      }
+    ],
     "key_specs": [
       "45 W",
       "22.4%",
@@ -4110,8 +5077,45 @@
     "category": "solar-panels",
     "subcategory": "portable",
     "short_description": "60W portable solar panel, 2kg, 21-22% efficiency.",
-    "long_description": null,
-    "specs": [],
+    "long_description": "The EcoFlow 60W portable solar panel folds flat for easy transport. IP68 waterproof, 21-22% efficiency. Compatible with all EcoFlow power stations.",
+    "specs": [
+      {
+        "group": "OUTPUT",
+        "label": "Power",
+        "value": "60W",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Weight",
+        "value": "2kg",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Foldable",
+        "value": "Yes",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Connector",
+        "value": "XT60",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Ip Rating",
+        "value": "IP68",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Efficiency",
+        "value": "21-22%",
+        "unit": ""
+      }
+    ],
     "key_specs": [
       "60 W",
       "21-22%"
@@ -4158,8 +5162,45 @@
     "category": "solar-panels",
     "subcategory": "portable",
     "short_description": "110W portable solar panel, 4kg, 22.8% efficiency.",
-    "long_description": null,
-    "specs": [],
+    "long_description": "The EcoFlow 110W portable solar panel delivers serious solar charging for DELTA and RIVER series. IP68 rated with 22.8% cell efficiency.",
+    "specs": [
+      {
+        "group": "OUTPUT",
+        "label": "Power",
+        "value": "110W",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Weight",
+        "value": "4kg",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Foldable",
+        "value": "Yes",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Connector",
+        "value": "XT60",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Ip Rating",
+        "value": "IP68",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Efficiency",
+        "value": "22.8%",
+        "unit": ""
+      }
+    ],
     "key_specs": [
       "110 W",
       "22.8%"
@@ -4206,8 +5247,51 @@
     "category": "solar-panels",
     "subcategory": "portable",
     "short_description": "160W portable foldable solar panel, 4.5kg, 22.40% efficiency, IP67.",
-    "long_description": null,
-    "specs": [],
+    "long_description": "The EcoFlow 160W portable solar panel offers high-output charging for DELTA series power stations. Foldable, lightweight, and IP68 waterproof for all weather use in Kenya.",
+    "specs": [
+      {
+        "group": "GENERAL",
+        "label": "Type",
+        "value": "Monocrystalline",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Weight",
+        "value": "4.5kg",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Wattage",
+        "value": "160W",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Warranty",
+        "value": "24 months",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Connector",
+        "value": "EcoFlow MC4",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Efficiency",
+        "value": "22.40%",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Water Resistance",
+        "value": "IP68",
+        "unit": ""
+      }
+    ],
     "key_specs": [
       "160 W",
       "22.4%",
@@ -4255,8 +5339,51 @@
     "category": "solar-panels",
     "subcategory": "portable",
     "short_description": "220W portable solar panel, 5.9kg, 22.40% efficiency.",
-    "long_description": null,
-    "specs": [],
+    "long_description": "The EcoFlow 220W bifacial portable solar panel generates power from both sides for up to 25% more energy. Perfect for DELTA Pro and large setups in Kenya.",
+    "specs": [
+      {
+        "group": "GENERAL",
+        "label": "Type",
+        "value": "Monocrystalline",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Weight",
+        "value": "5.9kg",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Wattage",
+        "value": "220W",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Warranty",
+        "value": "24 months",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Connector",
+        "value": "EcoFlow MC4",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Efficiency",
+        "value": "22.40%",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Water Resistance",
+        "value": "IP68",
+        "unit": ""
+      }
+    ],
     "key_specs": [
       "220 W",
       "22.4%"
@@ -4303,8 +5430,51 @@
     "category": "solar-panels",
     "subcategory": "portable",
     "short_description": "400W portable solar panel, 14.2kg, 23.40% efficiency.",
-    "long_description": null,
-    "specs": [],
+    "long_description": "EcoFlow's most powerful portable solar panel at 400W. IP68 rated with 22.6% efficiency, designed for DELTA Pro, DELTA Pro 3, and PowerKit installations.",
+    "specs": [
+      {
+        "group": "GENERAL",
+        "label": "Type",
+        "value": "Monocrystalline",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Weight",
+        "value": "14.2kg",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Wattage",
+        "value": "400W",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Warranty",
+        "value": "24 months",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Connector",
+        "value": "EcoFlow MC4",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Efficiency",
+        "value": "23.40%",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Water Resistance",
+        "value": "IP68",
+        "unit": ""
+      }
+    ],
     "key_specs": [
       "400 W",
       "23.4%"
@@ -4351,8 +5521,39 @@
     "category": "solar-panels",
     "subcategory": "rigid",
     "short_description": "125W x2 rigid solar panel set, 6.2kg each, 23% efficiency.",
-    "long_description": null,
-    "specs": [],
+    "long_description": "Two 125W rigid monocrystalline solar panels with 23% efficiency for permanent rooftop or ground-mount installations. Ideal for EcoFlow PowerKit systems.",
+    "specs": [
+      {
+        "group": "GENERAL",
+        "label": "Type",
+        "value": "Rigid Monocrystalline",
+        "unit": ""
+      },
+      {
+        "group": "OUTPUT",
+        "label": "Power",
+        "value": "125W x2",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Weight",
+        "value": "6.2kg each",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Quantity",
+        "value": "2",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Efficiency",
+        "value": "23%",
+        "unit": ""
+      }
+    ],
     "key_specs": [
       "125 W x2",
       "23%",
@@ -4400,8 +5601,51 @@
     "category": "solar-panels",
     "subcategory": "flexible",
     "short_description": "100W flexible solar panel, 2.9kg, 22.40% efficiency, IP68.",
-    "long_description": null,
-    "specs": [],
+    "long_description": "Ultra-thin flexible 100W solar panel with 23% efficiency. Ideal for curved surfaces on RVs, boats, and custom solar installations in Kenya.",
+    "specs": [
+      {
+        "group": "GENERAL",
+        "label": "Type",
+        "value": "Monocrystalline",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Weight",
+        "value": "2.9kg",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Wattage",
+        "value": "100W",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Warranty",
+        "value": "24 months",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Connector",
+        "value": "EcoFlow MC4",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Efficiency",
+        "value": "22.40%",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Water Resistance",
+        "value": "IP68",
+        "unit": ""
+      }
+    ],
     "key_specs": [
       "100 W",
       "22.4%",
@@ -4449,7 +5693,7 @@
     "category": "balance-of-system",
     "subcategory": "cables-connectors",
     "short_description": "10 metre black cable for EcoFlow systems.",
-    "long_description": null,
+    "long_description": "A 10-metre black solar cable for extending the run between your panels and your power station or charge controller. UV-resistant insulation and pre-crimped connectors make it a direct replacement for short factory leads.",
     "specs": [],
     "key_specs": [
       "10 m",
@@ -4497,8 +5741,27 @@
     "category": "balance-of-system",
     "subcategory": "accessories",
     "short_description": "800W alternator charger. Charge 1kWh in 1.3 hours while driving.",
-    "long_description": null,
-    "specs": [],
+    "long_description": "Charge your EcoFlow power station from your vehicle alternator while driving. 800W output fills most EcoFlow stations in 2-3 hours of driving.",
+    "specs": [
+      {
+        "group": "OUTPUT",
+        "label": "Output",
+        "value": "800W",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Install",
+        "value": "DIY",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Compatible With",
+        "value": "EcoFlow DELTA series",
+        "unit": ""
+      }
+    ],
     "key_specs": [
       "800 W",
       "Alternator"
@@ -4545,8 +5808,33 @@
     "category": "balance-of-system",
     "subcategory": "cables-connectors",
     "short_description": "3.5M MC4 to XT60 solar cable for EcoFlow power stations.",
-    "long_description": null,
-    "specs": [],
+    "long_description": "Connect third-party MC4 solar panels to your EcoFlow power station with this 3.5M cable. Essential for expanding your solar setup.",
+    "specs": [
+      {
+        "group": "GENERAL",
+        "label": "Length",
+        "value": "3.5M",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Compatible",
+        "value": "All EcoFlow with XT60 solar input",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Connector A",
+        "value": "MC4",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Connector B",
+        "value": "XT60",
+        "unit": ""
+      }
+    ],
     "key_specs": [
       "3.5 m",
       "MC4",
@@ -4594,8 +5882,27 @@
     "category": "balance-of-system",
     "subcategory": "accessories",
     "short_description": "Camp and emergency lighting, high/low modes, EcoFlow DC output.",
-    "long_description": null,
-    "specs": [],
+    "long_description": "EcoFlow Camp Torches power via your EcoFlow station's DC output. Long-lasting, bright illumination for camping and emergency use.",
+    "specs": [
+      {
+        "group": "GENERAL",
+        "label": "Use",
+        "value": "Camp and emergency lighting",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Brightness",
+        "value": "High/Low modes",
+        "unit": ""
+      },
+      {
+        "group": "OUTPUT",
+        "label": "Power Source",
+        "value": "EcoFlow DC output",
+        "unit": ""
+      }
+    ],
     "key_specs": [
       "Camp lighting"
     ],
@@ -4641,8 +5948,39 @@
     "category": "balance-of-system",
     "subcategory": "accessories",
     "short_description": "245Wh 300W extra battery for EcoFlow RIVER 3, 3.5kg.",
-    "long_description": null,
-    "specs": [],
+    "long_description": "Expand your EcoFlow RIVER 3 capacity with the EB300 extra battery. Adds 288Wh of LFP storage, more than doubling your RIVER 3's runtime.",
+    "specs": [
+      {
+        "group": "GENERAL",
+        "label": "Capacity",
+        "value": "288Wh",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Battery type",
+        "value": "LFP (LiFePO4)",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Compatible with",
+        "value": "EcoFlow RIVER 3",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Cycle life",
+        "value": "3000+ cycles",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Warranty",
+        "value": "24 months",
+        "unit": ""
+      }
+    ],
     "key_specs": [
       "245 Wh",
       "300 W",
@@ -4690,8 +6028,27 @@
     "category": "balance-of-system",
     "subcategory": "accessories",
     "short_description": "614Wh LFP extra battery for EcoFlow RIVER 3 Plus.",
-    "long_description": null,
-    "specs": [],
+    "long_description": "Double the capacity of your EcoFlow RIVER 3 Plus with the EB600 extra battery. Adds 614Wh of LFP storage for extended backup power.",
+    "specs": [
+      {
+        "group": "GENERAL",
+        "label": "Capacity",
+        "value": "614Wh",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Chemistry",
+        "value": "LFP",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Compatible With",
+        "value": "EcoFlow RIVER 3 Plus",
+        "unit": ""
+      }
+    ],
     "key_specs": [
       "614 Wh",
       "LFP",
@@ -4739,8 +6096,51 @@
     "category": "balance-of-system",
     "subcategory": "accessories",
     "short_description": "1024Wh 1800W extra battery for EcoFlow DELTA 2, 12kg.",
-    "long_description": null,
-    "specs": [],
+    "long_description": "Expand your EcoFlow DELTA 2 from 1024Wh to 2048Wh with this plug-and-play extra battery. LFP chemistry for long cycle life.",
+    "specs": [
+      {
+        "group": "GENERAL",
+        "label": "Capacity",
+        "value": "1024Wh",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Battery type",
+        "value": "LFP (LiFePO4)",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Cycle life",
+        "value": "3000+ cycles to 80%",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Weight",
+        "value": "12kg (26.5 lbs)",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Dimensions",
+        "value": "400 x 211 x 281mm",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Expandable to",
+        "value": "3kWh",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Warranty",
+        "value": "24 months",
+        "unit": ""
+      }
+    ],
     "key_specs": [
       "1024 Wh",
       "DELTA 2"
@@ -4787,8 +6187,33 @@
     "category": "balance-of-system",
     "subcategory": "accessories",
     "short_description": "2016Wh NMC extra battery for EcoFlow DELTA Max.",
-    "long_description": null,
-    "specs": [],
+    "long_description": "Expand your EcoFlow DELTA Max to 4096Wh with this compatible extra battery. Seamless integration with the DELTA Max ecosystem.",
+    "specs": [
+      {
+        "group": "GENERAL",
+        "label": "Capacity",
+        "value": "2016Wh",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Chemistry",
+        "value": "NMC",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Compatible With",
+        "value": "EcoFlow DELTA Max",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Total With Station",
+        "value": "4032Wh",
+        "unit": ""
+      }
+    ],
     "key_specs": [
       "2016 Wh",
       "NMC",
@@ -4836,8 +6261,51 @@
     "category": "balance-of-system",
     "subcategory": "accessories",
     "short_description": "2048Wh 2400W extra battery for EcoFlow DELTA 2 Max, 23kg.",
-    "long_description": null,
-    "specs": [],
+    "long_description": "Expand your EcoFlow DELTA 2 Max to 4096Wh with this 2048Wh LFP extra battery. Supports further expansion for off-grid power independence.",
+    "specs": [
+      {
+        "group": "GENERAL",
+        "label": "Capacity",
+        "value": "2048Wh",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Battery type",
+        "value": "LFP (LiFePO4)",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Cycle life",
+        "value": "3000+ cycles to 80%",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Weight",
+        "value": "23kg (50.7 lbs)",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Dimensions",
+        "value": "497 x 242 x 360mm",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Expandable to",
+        "value": "6kWh",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Warranty",
+        "value": "24 months",
+        "unit": ""
+      }
+    ],
     "key_specs": [
       "2048 Wh",
       "DELTA 2 Max"
@@ -4884,8 +6352,33 @@
     "category": "balance-of-system",
     "subcategory": "accessories",
     "short_description": "768Wh LFP battery, 3500+ cycles.",
-    "long_description": null,
-    "specs": [],
+    "long_description": "Universal EcoFlow LiFePO4 battery module for compatible EcoFlow systems. LFP chemistry delivers 3500+ lifecycle counts for years of reliable service.",
+    "specs": [
+      {
+        "group": "GENERAL",
+        "label": "Cycles",
+        "value": "3500+",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Capacity",
+        "value": "768Wh",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Chemistry",
+        "value": "LFP",
+        "unit": ""
+      },
+      {
+        "group": "INPUT",
+        "label": "Self Discharge",
+        "value": "Low",
+        "unit": ""
+      }
+    ],
     "key_specs": [
       "768 Wh",
       "LFP",
@@ -4933,8 +6426,51 @@
     "category": "balance-of-system",
     "subcategory": "accessories",
     "short_description": "38L portable fridge freezer, two zones, 17.5kg, variable speed.",
-    "long_description": null,
-    "specs": [],
+    "long_description": "The EcoFlow GLACIER is a portable fridge-freezer that runs efficiently on EcoFlow power stations. Dual zone: one fridge, one freezer. Ideal for Kenyan camping, overlanding, and home use during power cuts.",
+    "specs": [
+      {
+        "group": "GENERAL",
+        "label": "Weight",
+        "value": "17.5kg",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Capacity",
+        "value": "38L total (two zones)",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Compressor",
+        "value": "Variable speed",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "App Control",
+        "value": "Yes",
+        "unit": ""
+      },
+      {
+        "group": "INPUT",
+        "label": "Solar Compatible",
+        "value": "Yes",
+        "unit": ""
+      },
+      {
+        "group": "OUTPUT",
+        "label": "Power Consumption",
+        "value": "35W avg",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Temperature Range",
+        "value": "-25°C to 10°C",
+        "unit": ""
+      }
+    ],
     "key_specs": [
       "38 L",
       "Two zones",
@@ -4982,8 +6518,51 @@
     "category": "balance-of-system",
     "subcategory": "accessories",
     "short_description": "Smart portable air conditioner, 10.4kg, 52dB, app + voice control.",
-    "long_description": null,
-    "specs": [],
+    "long_description": "The EcoFlow WAVE 2 is the world's most portable air conditioner designed for use with EcoFlow power stations. Heat and cool anywhere in Kenya — perfect for outdoor events, camping, and backup home cooling.",
+    "specs": [
+      {
+        "group": "GENERAL",
+        "label": "Noise",
+        "value": "52dB",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Smart",
+        "value": "Yes, app + voice control",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Weight",
+        "value": "10.4kg",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Cooling Capacity",
+        "value": "5100 BTU (1.5kW)",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Heating Capacity",
+        "value": "6100 BTU (1.8kW)",
+        "unit": ""
+      },
+      {
+        "group": "INPUT",
+        "label": "Solar Compatible",
+        "value": "Yes",
+        "unit": ""
+      },
+      {
+        "group": "OUTPUT",
+        "label": "Power Consumption",
+        "value": "1.1kW cooling mode",
+        "unit": ""
+      }
+    ],
     "key_specs": [
       "10.4 kg",
       "52 dB",
@@ -5026,7 +6605,7 @@
     "brand": "EcoFlow",
     "category": "battery-storage",
     "subcategory": "portable-power-station",
-    "long_description": "The EcoFlow RIVER 2 is a 256Wh LFP portable power station with 300W AC output (600W surge), 0-100% charging in 60 minutes, 110W solar input and Bluetooth app control. Weighing 3.5kg, it keeps phones, lights, routers and small appliances running through an outage or a weekend off-grid.",
+    "long_description": "The EcoFlow RIVER 2 is the most affordable EcoFlow power station in Kenya. Weighing just 3.5kg with 256Wh capacity and 300W AC output, it's perfect for camping, travel, and emergency backup.",
     "cost_price": null,
     "cost_per_watt": null,
     "module_watts": null,
@@ -5057,52 +6636,70 @@
     "short_description": "256Wh 300W LFP portable power station. 0-100% in 60 minutes, 110W solar input, 3.5kg.",
     "specs": [
       {
-        "group": "GENERAL",
-        "label": "Capacity",
-        "value": "256",
-        "unit": "Wh"
-      },
-      {
         "group": "OUTPUT",
-        "label": "AC output",
-        "value": "300",
-        "unit": "W"
-      },
-      {
-        "group": "OUTPUT",
-        "label": "AC surge",
-        "value": "600",
-        "unit": "W"
-      },
-      {
-        "group": "GENERAL",
-        "label": "Battery type",
-        "value": "LFP",
+        "label": "USB-A",
+        "value": "2 x USB-A 12W",
         "unit": ""
       },
       {
-        "group": "INPUT",
-        "label": "Solar input",
-        "value": "110",
-        "unit": "W"
-      },
-      {
-        "group": "INPUT",
-        "label": "AC charge time",
-        "value": "60",
-        "unit": "min"
+        "group": "OUTPUT",
+        "label": "USB-C",
+        "value": "1 x USB-C 60W",
+        "unit": ""
       },
       {
         "group": "GENERAL",
         "label": "Weight",
-        "value": "3.5",
-        "unit": "kg"
+        "value": "3.5kg",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Capacity",
+        "value": "256Wh",
+        "unit": ""
       },
       {
         "group": "GENERAL",
         "label": "Warranty",
-        "value": "24",
-        "unit": "months"
+        "value": "24 months",
+        "unit": ""
+      },
+      {
+        "group": "OUTPUT",
+        "label": "AC Output",
+        "value": "300W (Surge 600W)",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Expandable",
+        "value": "Yes",
+        "unit": ""
+      },
+      {
+        "group": "INPUT",
+        "label": "AC Charging",
+        "value": "0-100% in 60 mins",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "App Control",
+        "value": "Yes (Bluetooth)",
+        "unit": ""
+      },
+      {
+        "group": "INPUT",
+        "label": "Solar Input",
+        "value": "110W Max",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Battery Type",
+        "value": "LFP",
+        "unit": ""
       }
     ],
     "key_specs": [
@@ -5125,7 +6722,7 @@
     "brand": "EcoFlow",
     "category": "battery-storage",
     "subcategory": "portable-power-station",
-    "long_description": "The EcoFlow RIVER 2 Max packs 512Wh of LFP storage and 500W AC output (1000W surge) into a 6.1kg body. It charges to full in about an hour, accepts up to 220W of solar, and offers a 100W USB-C port for laptops — a compact base for camping, remote work and backup power.",
+    "long_description": "The EcoFlow RIVER 2 Max doubles the capacity of the RIVER 2 with 512Wh and 500W output. The perfect portable power companion for camping and small home backup needs in Kenya.",
     "cost_price": null,
     "cost_per_watt": null,
     "module_watts": null,
@@ -5156,52 +6753,70 @@
     "short_description": "512Wh 500W LFP portable power station. 100W USB-C, 220W solar input, 6.1kg.",
     "specs": [
       {
-        "group": "GENERAL",
-        "label": "Capacity",
-        "value": "512",
-        "unit": "Wh"
-      },
-      {
         "group": "OUTPUT",
-        "label": "AC output",
-        "value": "500",
-        "unit": "W"
-      },
-      {
-        "group": "OUTPUT",
-        "label": "AC surge",
-        "value": "1000",
-        "unit": "W"
-      },
-      {
-        "group": "GENERAL",
-        "label": "Battery type",
-        "value": "LFP",
+        "label": "USB-A",
+        "value": "2 x USB-A 12W",
         "unit": ""
-      },
-      {
-        "group": "INPUT",
-        "label": "Solar input",
-        "value": "220",
-        "unit": "W"
       },
       {
         "group": "OUTPUT",
         "label": "USB-C",
-        "value": "100",
-        "unit": "W"
+        "value": "1 x USB-C 100W",
+        "unit": ""
       },
       {
         "group": "GENERAL",
         "label": "Weight",
-        "value": "6.1",
-        "unit": "kg"
+        "value": "6.1kg",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Capacity",
+        "value": "512Wh",
+        "unit": ""
       },
       {
         "group": "GENERAL",
         "label": "Warranty",
-        "value": "24",
-        "unit": "months"
+        "value": "24 months",
+        "unit": ""
+      },
+      {
+        "group": "OUTPUT",
+        "label": "AC Output",
+        "value": "500W (Surge 1000W)",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Expandable",
+        "value": "Yes",
+        "unit": ""
+      },
+      {
+        "group": "INPUT",
+        "label": "AC Charging",
+        "value": "660W Max",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "App Control",
+        "value": "Yes",
+        "unit": ""
+      },
+      {
+        "group": "INPUT",
+        "label": "Solar Input",
+        "value": "220W Max",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Battery Type",
+        "value": "LFP",
+        "unit": ""
       }
     ],
     "key_specs": [
@@ -5224,7 +6839,7 @@
     "brand": "EcoFlow",
     "category": "battery-storage",
     "subcategory": "portable-power-station",
-    "long_description": "The next-generation EcoFlow RIVER 3 features 245Wh capacity, ultra-fast 10ms UPS switching, and 300W AC output. The most reliable portable power station for sensitive electronics, with an IP54 rating, sub-30dB operation and 3000+ LFP cycles.",
+    "long_description": "The next-generation EcoFlow RIVER 3 features 245Wh capacity, ultra-fast 10ms UPS switching, and 300W AC output. The most reliable portable power station for sensitive electronics.",
     "cost_price": null,
     "cost_per_watt": null,
     "module_watts": null,
@@ -5256,57 +6871,69 @@
     "specs": [
       {
         "group": "GENERAL",
-        "label": "Capacity",
-        "value": "245",
-        "unit": "Wh"
-      },
-      {
-        "group": "OUTPUT",
-        "label": "AC output",
-        "value": "300",
-        "unit": "W"
-      },
-      {
-        "group": "OUTPUT",
-        "label": "AC surge",
-        "value": "600",
-        "unit": "W"
-      },
-      {
-        "group": "GENERAL",
-        "label": "Battery type",
-        "value": "LFP",
+        "label": "Noise",
+        "value": "<30dB",
         "unit": ""
       },
       {
-        "group": "GENERAL",
-        "label": "Cycle life",
-        "value": "3000+",
-        "unit": "cycles"
-      },
-      {
-        "group": "INPUT",
-        "label": "Solar input",
-        "value": "100",
-        "unit": "W"
-      },
-      {
-        "group": "GENERAL",
-        "label": "UPS switch",
-        "value": "10",
-        "unit": "ms"
-      },
-      {
-        "group": "GENERAL",
-        "label": "Water resistance",
-        "value": "IP54",
+        "group": "OUTPUT",
+        "label": "USB-C",
+        "value": "2 x USB-C 100W",
         "unit": ""
       },
       {
         "group": "GENERAL",
         "label": "Weight",
-        "value": "3.5",
-        "unit": "kg"
+        "value": "3.5kg",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Capacity",
+        "value": "245Wh",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Warranty",
+        "value": "24 months",
+        "unit": ""
+      },
+      {
+        "group": "OUTPUT",
+        "label": "AC Output",
+        "value": "300W (Surge 600W)",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Cycle Life",
+        "value": "3000+ cycles",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "App Control",
+        "value": "Yes",
+        "unit": ""
+      },
+      {
+        "group": "INPUT",
+        "label": "Solar Input",
+        "value": "100W Max",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Battery Type",
+        "value": "LFP",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Water Resistance",
+        "value": "IP54",
+        "unit": ""
       }
     ],
     "key_specs": [
@@ -5329,7 +6956,7 @@
     "brand": "EcoFlow",
     "category": "battery-storage",
     "subcategory": "portable-power-station",
-    "long_description": "The EcoFlow RIVER 3 Plus delivers 286Wh capacity with 600W AC output and sub-10ms UPS switching. Expandable with extra batteries for extended power on the go, it is a compact base for work, travel and backup.",
+    "long_description": "The EcoFlow RIVER 3 Plus delivers 286Wh capacity with 600W AC output and sub-10ms UPS switching. Expandable with extra batteries for extended power on the go.",
     "cost_price": null,
     "cost_per_watt": null,
     "module_watts": null,
@@ -5360,34 +6987,34 @@
     "short_description": "286Wh 600W LFP portable power station with sub-10ms UPS and expandable capacity.",
     "specs": [
       {
-        "group": "GENERAL",
-        "label": "Capacity",
-        "value": "286",
-        "unit": "Wh"
-      },
-      {
         "group": "OUTPUT",
-        "label": "AC output",
-        "value": "600",
-        "unit": "W"
-      },
-      {
-        "group": "OUTPUT",
-        "label": "AC surge",
-        "value": "1200",
-        "unit": "W"
-      },
-      {
-        "group": "GENERAL",
-        "label": "Battery type",
-        "value": "LFP",
+        "label": "Ports",
+        "value": "7",
         "unit": ""
       },
       {
         "group": "GENERAL",
-        "label": "UPS switch",
-        "value": "10",
-        "unit": "ms"
+        "label": "Weight",
+        "value": "4.2kg",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Capacity",
+        "value": "286Wh",
+        "unit": ""
+      },
+      {
+        "group": "OUTPUT",
+        "label": "AC Output",
+        "value": "600W (surge 1200W)",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Chemistry",
+        "value": "LFP",
+        "unit": ""
       },
       {
         "group": "GENERAL",
@@ -5396,16 +7023,10 @@
         "unit": ""
       },
       {
-        "group": "GENERAL",
-        "label": "Ports",
-        "value": "7",
+        "group": "INPUT",
+        "label": "UPS Switch Time",
+        "value": "<10ms",
         "unit": ""
-      },
-      {
-        "group": "GENERAL",
-        "label": "Weight",
-        "value": "4.2",
-        "unit": "kg"
       }
     ],
     "key_specs": [
@@ -5428,7 +7049,7 @@
     "brand": "EcoFlow",
     "category": "balance-of-system",
     "subcategory": "accessories",
-    "long_description": "Expand your EcoFlow DELTA Pro capacity to 7200Wh with up to two extra batteries. Essential for whole-home backup power and off-grid systems, with 3600Wh LFP storage, 1600W solar input and a 2.7-hour recharge time.",
+    "long_description": "Expand your EcoFlow DELTA Pro capacity to 7200Wh with up to two extra batteries. Essential for whole-home backup power and off-grid systems.",
     "cost_price": null,
     "cost_per_watt": null,
     "module_watts": null,
@@ -5461,44 +7082,44 @@
       {
         "group": "GENERAL",
         "label": "Capacity",
-        "value": "3600",
-        "unit": "Wh"
+        "value": "3600Wh",
+        "unit": ""
       },
       {
         "group": "GENERAL",
         "label": "Battery type",
-        "value": "LFP",
+        "value": "LFP (LiFePO4)",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Weight",
+        "value": "45kg (99.2 lbs)",
         "unit": ""
       },
       {
         "group": "GENERAL",
         "label": "Expandable to",
-        "value": "25",
-        "unit": "kWh"
-      },
-      {
-        "group": "INPUT",
-        "label": "Solar input",
-        "value": "1600",
-        "unit": "W"
+        "value": "25kWh",
+        "unit": ""
       },
       {
         "group": "INPUT",
         "label": "Charge time",
-        "value": "2.7",
-        "unit": "hrs"
+        "value": "2.7 hrs (0-100%)",
+        "unit": ""
       },
       {
-        "group": "GENERAL",
-        "label": "Weight",
-        "value": "45",
-        "unit": "kg"
+        "group": "INPUT",
+        "label": "Solar input",
+        "value": "1600W Max",
+        "unit": ""
       },
       {
         "group": "GENERAL",
         "label": "Warranty",
-        "value": "24",
-        "unit": "months"
+        "value": "24 months",
+        "unit": ""
       }
     ],
     "key_specs": [
@@ -5521,7 +7142,7 @@
     "brand": "EcoFlow",
     "category": "balance-of-system",
     "subcategory": "accessories",
-    "long_description": "The smart extra battery for EcoFlow DELTA 3 Plus integrates active battery management for optimal charging cycles and longevity. Add 1024Wh of LFP storage, stack up to 5kWh, and recharge to full in 56 minutes.",
+    "long_description": "The smart extra battery for EcoFlow DELTA 3 Plus integrates active battery management for optimal charging cycles and longevity.",
     "cost_price": null,
     "cost_per_watt": null,
     "module_watts": null,
@@ -5554,44 +7175,44 @@
       {
         "group": "GENERAL",
         "label": "Capacity",
-        "value": "1024",
-        "unit": "Wh"
+        "value": "1024Wh",
+        "unit": ""
       },
       {
         "group": "GENERAL",
         "label": "Battery type",
-        "value": "LFP",
+        "value": "LFP (LiFePO4)",
         "unit": ""
       },
       {
         "group": "GENERAL",
         "label": "Cycle life",
-        "value": "3500+",
-        "unit": "cycles"
-      },
-      {
-        "group": "GENERAL",
-        "label": "Expandable to",
-        "value": "5",
-        "unit": "kWh"
-      },
-      {
-        "group": "INPUT",
-        "label": "AC charge time",
-        "value": "56",
-        "unit": "min"
-      },
-      {
-        "group": "GENERAL",
-        "label": "Dimensions",
-        "value": "398 x 202 x 284",
-        "unit": "mm"
+        "value": "3500+ cycles to 80%",
+        "unit": ""
       },
       {
         "group": "GENERAL",
         "label": "Weight",
-        "value": "16.5",
-        "unit": "kg"
+        "value": "16.5kg (36.4 lbs)",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Dimensions",
+        "value": "398 x 202 x 284mm",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Expandable to",
+        "value": "5kWh",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Warranty",
+        "value": "24 months",
+        "unit": ""
       }
     ],
     "key_specs": [
@@ -5647,32 +7268,20 @@
       {
         "group": "GENERAL",
         "label": "Capacity",
-        "value": "5120",
-        "unit": "Wh"
-      },
-      {
-        "group": "OUTPUT",
-        "label": "Power output",
-        "value": "3000",
-        "unit": "W"
-      },
-      {
-        "group": "GENERAL",
-        "label": "Battery type",
-        "value": "LFP",
+        "value": "5120Wh",
         "unit": ""
       },
       {
-        "group": "INPUT",
-        "label": "Solar input",
-        "value": "2000",
-        "unit": "W"
+        "group": "GENERAL",
+        "label": "Use Case",
+        "value": "Whole-home backup",
+        "unit": ""
       },
       {
-        "group": "INPUT",
-        "label": "Charge time",
-        "value": "3",
-        "unit": "hrs"
+        "group": "GENERAL",
+        "label": "Warranty",
+        "value": "24 months",
+        "unit": ""
       },
       {
         "group": "GENERAL",
@@ -5682,9 +7291,33 @@
       },
       {
         "group": "GENERAL",
-        "label": "Warranty",
-        "value": "24",
-        "unit": "months"
+        "label": "App Control",
+        "value": "Yes (EcoFlow App)",
+        "unit": ""
+      },
+      {
+        "group": "INPUT",
+        "label": "Charge Time",
+        "value": "3 hrs (0-100%)",
+        "unit": ""
+      },
+      {
+        "group": "INPUT",
+        "label": "Solar Input",
+        "value": "2000W Max",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Battery Type",
+        "value": "LFP (LiFePO4)",
+        "unit": ""
+      },
+      {
+        "group": "OUTPUT",
+        "label": "Power Output",
+        "value": "3000W",
+        "unit": ""
       }
     ],
     "key_specs": [
@@ -5740,26 +7373,20 @@
       {
         "group": "GENERAL",
         "label": "Capacity",
-        "value": "10240",
-        "unit": "Wh"
-      },
-      {
-        "group": "OUTPUT",
-        "label": "Power output",
-        "value": "5000",
-        "unit": "W"
-      },
-      {
-        "group": "GENERAL",
-        "label": "Battery type",
-        "value": "LFP",
+        "value": "10240Wh",
         "unit": ""
       },
       {
-        "group": "INPUT",
-        "label": "Solar input",
-        "value": "4000",
-        "unit": "W"
+        "group": "GENERAL",
+        "label": "Use Case",
+        "value": "Whole-home backup",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Warranty",
+        "value": "24 months",
+        "unit": ""
       },
       {
         "group": "GENERAL",
@@ -5769,9 +7396,27 @@
       },
       {
         "group": "GENERAL",
-        "label": "Warranty",
-        "value": "24",
-        "unit": "months"
+        "label": "App Control",
+        "value": "Yes (EcoFlow App)",
+        "unit": ""
+      },
+      {
+        "group": "INPUT",
+        "label": "Solar Input",
+        "value": "4000W Max",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Battery Type",
+        "value": "LFP (LiFePO4)",
+        "unit": ""
+      },
+      {
+        "group": "OUTPUT",
+        "label": "Power Output",
+        "value": "5000W",
+        "unit": ""
       }
     ],
     "key_specs": [
@@ -5827,26 +7472,20 @@
       {
         "group": "GENERAL",
         "label": "Capacity",
-        "value": "15360",
-        "unit": "Wh"
-      },
-      {
-        "group": "OUTPUT",
-        "label": "Power output",
-        "value": "7500",
-        "unit": "W"
-      },
-      {
-        "group": "GENERAL",
-        "label": "Battery type",
-        "value": "LFP",
+        "value": "15360Wh",
         "unit": ""
       },
       {
-        "group": "INPUT",
-        "label": "Solar input",
-        "value": "6000",
-        "unit": "W"
+        "group": "GENERAL",
+        "label": "Use Case",
+        "value": "Whole-home backup",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Warranty",
+        "value": "24 months",
+        "unit": ""
       },
       {
         "group": "GENERAL",
@@ -5856,9 +7495,27 @@
       },
       {
         "group": "GENERAL",
-        "label": "Warranty",
-        "value": "24",
-        "unit": "months"
+        "label": "App Control",
+        "value": "Yes (EcoFlow App)",
+        "unit": ""
+      },
+      {
+        "group": "INPUT",
+        "label": "Solar Input",
+        "value": "6000W Max",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Battery Type",
+        "value": "LFP (LiFePO4)",
+        "unit": ""
+      },
+      {
+        "group": "OUTPUT",
+        "label": "Power Output",
+        "value": "7500W",
+        "unit": ""
       }
     ],
     "key_specs": [
@@ -5881,7 +7538,7 @@
     "brand": "EcoFlow",
     "category": "inverters",
     "subcategory": "micro-inverter",
-    "long_description": "The EcoFlow PowerStream micro inverter connects your EcoFlow power station to your home solar array. Feed excess power back to your home grid intelligently, with app control and 800W output.",
+    "long_description": "The EcoFlow PowerStream micro inverter connects your EcoFlow power station to your home solar array. Feed excess power back to your home grid intelligently.",
     "cost_price": null,
     "cost_per_watt": null,
     "module_watts": null,
@@ -5913,26 +7570,26 @@
     "specs": [
       {
         "group": "OUTPUT",
-        "label": "Rated power",
-        "value": "800",
-        "unit": "W"
-      },
-      {
-        "group": "INPUT",
-        "label": "Solar input",
-        "value": "200-2000",
-        "unit": "W"
-      },
-      {
-        "group": "GENERAL",
-        "label": "Monitoring",
-        "value": "App-controlled",
+        "label": "Power",
+        "value": "800W",
         "unit": ""
       },
       {
         "group": "GENERAL",
-        "label": "Compatible with",
-        "value": "EcoFlow power stations",
+        "label": "Smart",
+        "value": "Yes, app-controlled",
+        "unit": ""
+      },
+      {
+        "group": "INPUT",
+        "label": "Solar Input",
+        "value": "200-2000W",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Compatible With",
+        "value": "EcoFlow DELTA Pro, DELTA Max",
         "unit": ""
       }
     ],
@@ -5956,7 +7613,7 @@
     "brand": "EcoFlow",
     "category": "balance-of-system",
     "subcategory": "accessories",
-    "long_description": "Monitor and control individual appliance power consumption with the EcoFlow Smart Plug. UK socket compatible, works with the EcoFlow app for real-time wattage and scheduling.",
+    "long_description": "Monitor and control individual appliance power consumption with the EcoFlow Smart Plug. UK socket compatible, works with EcoFlow app.",
     "cost_price": null,
     "cost_per_watt": null,
     "module_watts": null,
@@ -5987,16 +7644,16 @@
     "short_description": "UK Type G smart plug with real-time energy monitoring and EcoFlow app control, 2300W.",
     "specs": [
       {
-        "group": "GENERAL",
+        "group": "OUTPUT",
         "label": "Socket",
         "value": "UK Type G",
         "unit": ""
       },
       {
-        "group": "INPUT",
-        "label": "Max power",
-        "value": "2300",
-        "unit": "W"
+        "group": "OUTPUT",
+        "label": "Max Power",
+        "value": "2300W",
+        "unit": ""
       },
       {
         "group": "GENERAL",
@@ -6006,7 +7663,7 @@
       },
       {
         "group": "GENERAL",
-        "label": "App control",
+        "label": "App Control",
         "value": "Yes",
         "unit": ""
       }
@@ -6031,7 +7688,7 @@
     "brand": "EcoFlow",
     "category": "balance-of-system",
     "subcategory": "accessories",
-    "long_description": "The EcoFlow RAPID Magnetic Power Bank with 10000mAh capacity. MagSafe-compatible wireless charging and 27W USB-C fast charge in a 220g body — everyday carry power for iPhone and Android.",
+    "long_description": "The EcoFlow RAPID Magnetic Power Bank with 10000mAh capacity. MagSafe-compatible wireless charging, USB-C 27W fast charge.",
     "cost_price": null,
     "cost_per_watt": null,
     "module_watts": null,
@@ -6063,27 +7720,27 @@
     "specs": [
       {
         "group": "GENERAL",
-        "label": "Capacity",
-        "value": "10000",
-        "unit": "mAh"
-      },
-      {
-        "group": "OUTPUT",
-        "label": "USB-C output",
-        "value": "27",
-        "unit": "W"
+        "label": "Weight",
+        "value": "220g",
+        "unit": ""
       },
       {
         "group": "GENERAL",
+        "label": "Capacity",
+        "value": "10000mAh",
+        "unit": ""
+      },
+      {
+        "group": "OUTPUT",
         "label": "Wireless",
         "value": "MagSafe compatible",
         "unit": ""
       },
       {
-        "group": "GENERAL",
-        "label": "Weight",
-        "value": "220",
-        "unit": "g"
+        "group": "OUTPUT",
+        "label": "USB-C Output",
+        "value": "27W",
+        "unit": ""
       }
     ],
     "key_specs": [
@@ -6106,7 +7763,7 @@
     "brand": "EcoFlow",
     "category": "balance-of-system",
     "subcategory": "accessories",
-    "long_description": "Slim 5000mAh magnetic power bank with MagSafe wireless charging. Perfect everyday carry for iPhone users in Kenya, with 20W USB-C output and a 130g body.",
+    "long_description": "Slim 5000mAh magnetic power bank with MagSafe wireless charging. Perfect everyday carry for iPhone users in Kenya.",
     "cost_price": null,
     "cost_per_watt": null,
     "module_watts": null,
@@ -6138,27 +7795,33 @@
     "specs": [
       {
         "group": "GENERAL",
-        "label": "Capacity",
-        "value": "5000",
-        "unit": "mAh"
-      },
-      {
-        "group": "OUTPUT",
-        "label": "USB-C output",
-        "value": "20",
-        "unit": "W"
-      },
-      {
-        "group": "GENERAL",
-        "label": "Wireless",
-        "value": "MagSafe compatible",
+        "label": "Slim",
+        "value": "Yes",
         "unit": ""
       },
       {
         "group": "GENERAL",
         "label": "Weight",
-        "value": "130",
-        "unit": "g"
+        "value": "130g",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Capacity",
+        "value": "5000mAh",
+        "unit": ""
+      },
+      {
+        "group": "OUTPUT",
+        "label": "Wireless",
+        "value": "MagSafe compatible",
+        "unit": ""
+      },
+      {
+        "group": "OUTPUT",
+        "label": "USB-C Output",
+        "value": "20W",
+        "unit": ""
       }
     ],
     "key_specs": [
@@ -6181,7 +7844,7 @@
     "brand": "EcoFlow",
     "category": "balance-of-system",
     "subcategory": "accessories",
-    "long_description": "Innovative solar panel hat in size L that charges your devices while keeping you shaded. Built-in USB charging port, 3W solar panel and UV protection for outdoor work and travel.",
+    "long_description": "Innovative solar panel hat in size L that charges your devices while keeping you shaded. Built-in USB charging port, 3W solar panel.",
     "cost_price": null,
     "cost_per_watt": null,
     "module_watts": null,
@@ -6219,19 +7882,19 @@
       },
       {
         "group": "OUTPUT",
-        "label": "Solar panel",
-        "value": "3",
-        "unit": "W"
-      },
-      {
-        "group": "OUTPUT",
-        "label": "USB output",
+        "label": "Usb Output",
         "value": "Yes",
         "unit": ""
       },
       {
+        "group": "INPUT",
+        "label": "Solar Panel",
+        "value": "3W",
+        "unit": ""
+      },
+      {
         "group": "GENERAL",
-        "label": "UV protection",
+        "label": "Uv Protection",
         "value": "Yes",
         "unit": ""
       }
@@ -6256,7 +7919,7 @@
     "brand": "EcoFlow",
     "category": "balance-of-system",
     "subcategory": "accessories",
-    "long_description": "Extra large solar panel hat with built-in 3W solar panel and USB charging. Ideal for outdoor activities and Kenya's sunny climate, with UV protection and a comfortable XL fit.",
+    "long_description": "Extra large solar panel hat with built-in 3W solar panel and USB charging. Ideal for outdoor activities and Kenya's sunny climate.",
     "cost_price": null,
     "cost_per_watt": null,
     "module_watts": null,
@@ -6294,19 +7957,19 @@
       },
       {
         "group": "OUTPUT",
-        "label": "Solar panel",
-        "value": "3",
-        "unit": "W"
-      },
-      {
-        "group": "OUTPUT",
-        "label": "USB output",
+        "label": "Usb Output",
         "value": "Yes",
         "unit": ""
       },
       {
+        "group": "INPUT",
+        "label": "Solar Panel",
+        "value": "3W",
+        "unit": ""
+      },
+      {
         "group": "GENERAL",
-        "label": "UV protection",
+        "label": "Uv Protection",
         "value": "Yes",
         "unit": ""
       }
