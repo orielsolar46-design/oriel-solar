@@ -110,7 +110,16 @@ export async function CategoryGrid() {
 
 export async function EcoFlowShowcase() {
   const catalogue = await getAllProducts();
-  const products = catalogue.filter((p) => p.brand === 'EcoFlow').slice(0, 6);
+  const ecoflow = catalogue.filter((p) => p.brand === 'EcoFlow');
+  // Two from each family so the row reads as portable power, solar and
+  // accessories rather than six near-identical power stations.
+  const pick = (category: string, n: number) =>
+    ecoflow.filter((p) => p.category === category).slice(0, n);
+  const products = [
+    ...pick('battery-storage', 2),
+    ...pick('solar-panels', 2),
+    ...pick('balance-of-system', 2),
+  ];
   if (products.length === 0) return null;
   return (
     <section aria-labelledby="ecoflow-heading" className="border-t border-oriel-line bg-oriel-white">
@@ -123,7 +132,7 @@ export async function EcoFlowShowcase() {
             </h2>
           </div>
           <Link
-            href="/shop/battery-storage?brand=EcoFlow"
+            href="/shop?brand=EcoFlow"
             className="text-small font-semibold text-oriel-navy underline decoration-oriel-orange decoration-2 underline-offset-4 hover:text-oriel-orange"
           >
             View all EcoFlow
