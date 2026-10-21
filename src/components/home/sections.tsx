@@ -143,19 +143,22 @@ export async function EcoFlowShowcase() {
 
 export async function CategoryShowcase() {
   const showcases = await getCategoryShowcases(3);
-  if (showcases.length === 0) return null;
 
   const nameOf = (slug: string) =>
     CATEGORIES.find((c) => c.slug === slug)?.name ?? slug;
   const descriptorOf = (slug: string) =>
     CATEGORIES.find((c) => c.slug === slug)?.descriptor ?? '';
 
-  // Order the rows the way the nav does, so the page and the menu agree.
-  const ordered = [...showcases].sort((a, b) => {
-    const ia = CATEGORIES.findIndex((c) => c.slug === a.slug);
-    const ib = CATEGORIES.findIndex((c) => c.slug === b.slug);
-    return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib);
-  });
+  // EcoFlow has its own section directly under the hero, so the generic shop
+  // rows skip battery storage rather than showing the same products twice.
+  const ordered = showcases
+    .filter((row) => row.slug !== 'battery-storage')
+    .sort((a, b) => {
+      const ia = CATEGORIES.findIndex((c) => c.slug === a.slug);
+      const ib = CATEGORIES.findIndex((c) => c.slug === b.slug);
+      return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib);
+    });
+  if (ordered.length === 0) return null;
 
   return (
     <section aria-labelledby="shop-heading" className="border-t border-oriel-line bg-oriel-white">

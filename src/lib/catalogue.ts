@@ -86,9 +86,19 @@ export type PublicProduct = {
   phase: 'single' | 'three' | null;
 };
 
-/** Brand ids are slugs in the database; render the human name. */
+/**
+ * Brand ids are slugs in the database; render the human name. A handful of
+ * brands are stylised (EcoFlow, Blueetti) and cannot be recovered by
+ * title-casing the slug, so they carry an explicit label.
+ */
+const BRAND_LABELS: Record<string, string> = {
+  ecoflow: 'EcoFlow',
+  blueetti: 'Blueetti',
+};
+
 function brandName(id: string | null): string {
   if (!id) return '';
+  if (BRAND_LABELS[id]) return BRAND_LABELS[id];
   return id
     .split('-')
     .map((part) =>

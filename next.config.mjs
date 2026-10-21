@@ -9,6 +9,11 @@ const nextConfig = {
     // would not have shown up until someone actually added a product.
     remotePatterns: [
       { protocol: 'https', hostname: '*.supabase.co', pathname: '/storage/v1/object/public/**' },
+      // EcoFlow product photography is served from the retailer's Shopify CDN
+      // (us.ecoflow.com resolves to it). Allow both the CDN and the branded
+      // host so either form of the URL stored in the catalogue will render.
+      { protocol: 'https', hostname: 'cdn.shopify.com', pathname: '/s/files/**' },
+      { protocol: 'https', hostname: 'us.ecoflow.com', pathname: '/cdn/shop/**' },
     ],
   },
   experimental: {

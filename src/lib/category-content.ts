@@ -15,6 +15,29 @@ export type CategoryContent = {
 };
 
 export const CATEGORY_CONTENT: Record<string, CategoryContent> = {
+  'battery-storage': {
+    slug: 'battery-storage',
+    title: 'Portable power stations and solar generators',
+    intro:
+      'EcoFlow power stations and solar generators for home backup, camping and off-grid work. Charge from the wall, a car or a solar panel, and run fridges, lights, tools and routers through an outage.',
+    faqs: [
+      {
+        question: 'How long will a power station run my appliances?',
+        answer:
+          'Divide the station capacity in Wh by the appliance draw in watts, then subtract inverter losses. A 1,000Wh station runs a 100W load for roughly nine hours.',
+      },
+      {
+        question: 'Can I charge a power station with solar panels?',
+        answer:
+          'Yes. Match the panel voltage and current to the station input limits, and use the EcoFlow solar cable where the connector differs.',
+      },
+      {
+        question: 'Can a power station back up my whole house?',
+        answer:
+          'A portable station covers essentials — lights, router, fridge and phones. Whole-home backup needs a fixed inverter and battery sized to the property.',
+      },
+    ],
+  },
   'solar-panels': {
     slug: 'solar-panels',
     title: 'Solar panels in Kenya — Tier 1 modules',

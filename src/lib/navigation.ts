@@ -44,6 +44,17 @@ export const CATEGORIES: Category[] = [
     ],
   },
   {
+    order: 2,
+    slug: 'battery-storage',
+    name: 'Battery Storage & Portable Power',
+    navLabel: 'Battery Storage',
+    icon: BatteryCharging,
+    descriptor: 'Portable power stations, solar generators and extra batteries',
+    subcategories: [
+      { label: 'Portable power stations', href: '/shop/battery-storage?type=portable-power-station' },
+    ],
+  },
+  {
     order: 3,
     slug: 'inverters',
     name: 'Inverters',
@@ -100,6 +111,7 @@ export type NavGroup = { label: string; slugs: string[] };
 
 export const NAV_GROUPS: NavGroup[] = [
   { label: 'Solar Panels', slugs: ['solar-panels'] },
+  { label: 'Battery Storage', slugs: ['battery-storage'] },
   { label: 'Inverters', slugs: ['inverters'] },
   { label: 'Accessories', slugs: ['balance-of-system'] },
 ];
