@@ -1,14 +1,13 @@
 'use client';
 
-import Link from 'next/link';
 import { usePathname, useRouter, useSearchParams } from 'next/navigation';
-import { LayoutGrid, List, X } from 'lucide-react';
-import { SORT_OPTIONS, STOCK_LABELS, SUBCATEGORY_LABELS, buildShopQuery } from '@/lib/shop';
+import { LayoutGrid, List } from 'lucide-react';
+import { SORT_OPTIONS, buildShopQuery } from '@/lib/shop';
 import { cn } from '@/lib/utils';
 
 /**
- * Listing toolbar (MASTERPLAN 7.2): result count, sort, grid/list toggle and
- * removable active-filter chips. All state lives in the URL.
+ * Listing toolbar (MASTERPLAN 7.2): result count, sort and grid/list toggle.
+ * All state lives in the URL.
  */
 export function Toolbar({ total }: { total: number }) {
   const router = useRouter();
@@ -22,14 +21,6 @@ export function Toolbar({ total }: { total: number }) {
 
   const apply = (changes: Record<string, string | undefined>) =>
     router.push(`${pathname}${buildShopQuery(current, changes)}`, { scroll: false });
-
-  const chips: { key: string; label: string }[] = [];
-  if (current.type) chips.push({ key: 'type', label: SUBCATEGORY_LABELS[current.type] ?? current.type });
-  if (current.brand) chips.push({ key: 'brand', label: current.brand });
-  if (current.phase)
-    chips.push({ key: 'phase', label: current.phase === 'three' ? 'Three phase' : 'Single phase' });
-  if (current.min) chips.push({ key: 'min', label: `From KES ${current.min}` });
-  if (current.max) chips.push({ key: 'max', label: `To KES ${current.max}` });
 
   const view = current.view === 'list' ? 'list' : 'grid';
 
@@ -86,32 +77,6 @@ export function Toolbar({ total }: { total: number }) {
           </div>
         </div>
       </div>
-
-      {chips.length > 0 && (
-        <ul className="flex flex-wrap items-center gap-2">
-          {chips.map((chip) => (
-            <li key={chip.key}>
-              <button
-                type="button"
-                onClick={() => apply({ [chip.key]: undefined })}
-                className="inline-flex items-center gap-1.5 rounded-pill bg-oriel-orange-soft px-3 py-1.5 text-caption font-semibold text-oriel-navy transition-colors hover:bg-oriel-orange hover:text-oriel-white"
-              >
-                {chip.label}
-                <X size={13} strokeWidth={2} aria-hidden />
-                <span className="sr-only">Remove filter</span>
-              </button>
-            </li>
-          ))}
-          <li>
-            <Link
-              href={pathname}
-              className="text-caption font-medium text-oriel-slate underline underline-offset-2 hover:text-oriel-navy"
-            >
-              Clear all
-            </Link>
-          </li>
-        </ul>
-      )}
     </div>
   );
 }

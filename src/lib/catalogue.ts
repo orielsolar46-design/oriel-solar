@@ -231,7 +231,19 @@ export async function filterProducts(filters: ShopFilters): Promise<PublicProduc
   return items;
 }
 
-export function sortProducts(items: PublicProduct[], sort: SortKey): PublicProduct[] {
+/** EcoFlow's brand page leads with the batteries and ends with accessories. */
+const ECOFLOW_CATEGORY_RANK: Record<string, number> = {
+  'battery-storage': 0,
+  inverters: 1,
+  'solar-panels': 2,
+  'balance-of-system': 3,
+};
+
+export function sortProducts(
+  items: PublicProduct[],
+  sort: SortKey,
+  options?: { ecoflowFirst?: boolean }
+): PublicProduct[] {
   const copy = [...items];
   switch (sort) {
     case 'price-asc':
@@ -241,33 +253,23 @@ export function sortProducts(items: PublicProduct[], sort: SortKey): PublicProdu
     case 'name':
       return copy.sort((a, b) => a.name.localeCompare(b.name));
     default:
-      return copy.sort(
-        (a, b) =>
+      return copy.sort((a, b) => {
+        if (options?.ecoflowFirst) {
+          const rank = (p: PublicProduct) => ECOFLOW_CATEGORY_RANK[p.category] ?? 9;
+          const byCategory = rank(a) - rank(b);
+          if (byCategory !== 0) return byCategory;
+          // Within a family the biggest station comes first, so the page reads
+          // as a ladder rather than alphabetically.
+          const byPrice = (b.retailPrice ?? -1) - (a.retailPrice ?? -1);
+          if (byPrice !== 0) return byPrice;
+        }
+        return (
           Number(b.isFeatured) - Number(a.isFeatured) ||
           Number(b.images.length > 0) - Number(a.images.length > 0) ||
           a.name.localeCompare(b.name)
-      );
+        );
+      });
   }
-}
-
-/** Facet values with counts for the filter rail, within a category. */
-export async function facetsFor(category?: string) {
-  const all = await getCatalogue();
-  const items = category ? all.filter((p) => p.category === category) : all;
-  const count = (key: (p: PublicProduct) => string | null) => {
-    const map = new Map<string, number>();
-    for (const p of items) {
-      const v = key(p);
-      if (v) map.set(v, (map.get(v) ?? 0) + 1);
-    }
-    return Array.from(map.entries()).sort((a, b) => a[0].localeCompare(b[0]));
-  };
-  return {
-    subcategories: count((p) => p.subcategory),
-    brands: count((p) => p.brand),
-    availability: count((p) => p.stockStatus),
-    phases: count((p) => p.phase),
-  };
 }
 
 export async function getFeaturedProducts(): Promise<PublicProduct[]> {

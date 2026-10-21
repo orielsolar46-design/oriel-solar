@@ -7,38 +7,6 @@ export function formatKes(amount: number): string {
   return `KES ${amount.toLocaleString('en-KE', { maximumFractionDigits: 0 })}`;
 }
 
-export const SUBCATEGORY_LABELS: Record<string, string> = {
-  monocrystalline: 'Monocrystalline',
-  bifacial: 'Bifacial',
-  'mounting-rails': 'Mounting & rails',
-  'wall-mounted-lv': 'Wall-mounted LV',
-  'rack-lv': 'Rack LV',
-  'high-voltage': 'High-voltage',
-  'ci-cabinets': 'C&I cabinets',
-  '12v-24v': '12V / 24V',
-  accessories: 'Accessories',
-  hybrid: 'Hybrid',
-  'off-grid': 'Off-grid',
-  'grid-tied': 'Grid-tied',
-  'all-in-one-ess': 'All-in-one ESS',
-  'charge-controllers': 'Charge controllers',
-  'flat-plate': 'Flat plate',
-  'vacuum-tube': 'Vacuum tube',
-  'heat-pumps': 'Heat pumps',
-  spares: 'Spares',
-  'street-lights': 'Street lights',
-  'flood-lights': 'Flood lights',
-  'solar-cctv': 'Solar CCTV',
-  submersible: 'Submersible',
-  surface: 'Surface',
-  'controllers-drives': 'Controllers & drives',
-  'reverse-osmosis': 'Reverse osmosis',
-  filtration: 'Filtration',
-  softeners: 'Softeners',
-  protection: 'Protection & distribution',
-  'cables-connectors': 'Cables & connectors',
-};
-
 export const STOCK_LABELS: Record<string, string> = {
   in_stock: 'In stock',
   low_stock: 'Low stock',

@@ -3,10 +3,9 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { ArrowRight, ChevronRight } from 'lucide-react';
 import { CATEGORY_CONTENT } from '@/lib/category-content';
-import { facetsFor, filterProducts, sortProducts } from '@/lib/catalogue';
+import { filterProducts, sortProducts } from '@/lib/catalogue';
 import { PAGE_SIZE, parseShopParams, type SearchParams } from '@/lib/shop';
 import { SITE_URL } from '@/lib/site';
-import { FilterRail } from '@/components/shop/filter-rail';
 import { Pagination } from '@/components/shop/pagination';
 import { ProductCard } from '@/components/shop/product-card';
 import { Toolbar } from '@/components/shop/toolbar';
@@ -41,12 +40,12 @@ export default async function CategoryPage({ params, searchParams }: Props) {
       minPrice: parsed.minPrice,
       maxPrice: parsed.maxPrice,
     }),
-    parsed.sort
+    parsed.sort,
+    { ecoflowFirst: parsed.brand === 'EcoFlow' }
   );
   const totalPages = Math.max(1, Math.ceil(items.length / PAGE_SIZE));
   const page = Math.min(parsed.page, totalPages);
   const visible = items.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
-  const facets = await facetsFor(params.category);
 
   const query: Record<string, string | undefined> = {};
   for (const [k, v] of Object.entries(searchParams)) {
@@ -132,43 +131,34 @@ export default async function CategoryPage({ params, searchParams }: Props) {
       </section>
 
       <section className="container-oriel py-8">
-        {/* Stacks below lg — see the note on /shop: as a row, the filter
-            rail's mobile trigger left an empty column beside the results. */}
-        <div className="flex flex-col gap-4 lg:flex-row lg:gap-8">
-          <FilterRail facets={facets} />
-          <div className="min-w-0 flex-1">
-            <Toolbar total={items.length} />
-            {visible.length === 0 ? (
-              <div className="mt-8 rounded-card border border-oriel-line bg-oriel-mist p-8 text-center">
-                <p className="text-body text-oriel-navy-ink">
-                  Nothing matches those filters yet.
-                </p>
-                <p className="mt-1 text-small text-oriel-slate">
-                  Clear a filter or two, or ask us on WhatsApp — the catalogue grows monthly.
-                </p>
-              </div>
-            ) : (
-              <div
-                className={cn(
-                  'mt-5',
-                  parsed.view === 'list'
-                    ? 'flex flex-col gap-4'
-                    : 'grid grid-cols-2 gap-3 sm:gap-4 md:grid-cols-3 xl:grid-cols-4'
-                )}
-              >
-                {visible.map((p) => (
-                  <ProductCard key={p.slug} product={p} view={parsed.view} />
-                ))}
-              </div>
-            )}
-            <Pagination
-              page={page}
-              totalPages={totalPages}
-              basePath={`/shop/${params.category}`}
-              query={query}
-            />
+        <Toolbar total={items.length} />
+        {visible.length === 0 ? (
+          <div className="mt-8 rounded-card border border-oriel-line bg-oriel-mist p-8 text-center">
+            <p className="text-body text-oriel-navy-ink">Nothing here yet.</p>
+            <p className="mt-1 text-small text-oriel-slate">
+              This range is still being added. Ask us on WhatsApp and we will source it for you.
+            </p>
           </div>
-        </div>
+        ) : (
+          <div
+            className={cn(
+              'mt-5',
+              parsed.view === 'list'
+                ? 'flex flex-col gap-4'
+                : 'grid grid-cols-2 gap-3 sm:gap-4 md:grid-cols-3 xl:grid-cols-4'
+            )}
+          >
+            {visible.map((p) => (
+              <ProductCard key={p.slug} product={p} view={parsed.view} />
+            ))}
+          </div>
+        )}
+        <Pagination
+          page={page}
+          totalPages={totalPages}
+          basePath={`/shop/${params.category}`}
+          query={query}
+        />
       </section>
     </>
   );
