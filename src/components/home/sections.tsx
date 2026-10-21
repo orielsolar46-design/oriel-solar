@@ -108,6 +108,39 @@ export async function CategoryGrid() {
 /* the home page, plus a way into the rest of the family               */
 /* ------------------------------------------------------------------ */
 
+export async function EcoFlowShowcase() {
+  const catalogue = await getAllProducts();
+  const products = catalogue.filter((p) => p.brand === 'EcoFlow').slice(0, 6);
+  if (products.length === 0) return null;
+  return (
+    <section aria-labelledby="ecoflow-heading" className="border-t border-oriel-line bg-oriel-white">
+      <div className="container-oriel py-16">
+        <div className="flex flex-wrap items-end justify-between gap-3">
+          <div>
+            <p className="t-eyebrow text-oriel-slate">EcoFlow</p>
+            <h2 id="ecoflow-heading" className="t-h2 mt-2">
+              Portable power, solar and accessories
+            </h2>
+          </div>
+          <Link
+            href="/shop/battery-storage?brand=EcoFlow"
+            className="text-small font-semibold text-oriel-navy underline decoration-oriel-orange decoration-2 underline-offset-4 hover:text-oriel-orange"
+          >
+            View all EcoFlow
+          </Link>
+        </div>
+        <ul className="mt-8 grid grid-cols-2 gap-3 sm:gap-4 md:grid-cols-3">
+          {products.map((product) => (
+            <li key={product.slug}>
+              <ProductCard product={product} />
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
+  );
+}
+
 export async function CategoryShowcase() {
   const showcases = await getCategoryShowcases(3);
   if (showcases.length === 0) return null;

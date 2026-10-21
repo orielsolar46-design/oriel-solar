@@ -6,6 +6,7 @@ import {
   BrandsRow,
   CategoryGrid,
   CategoryShowcase,
+  EcoFlowShowcase,
   GreenBand,
   HowBuyingWorks,
   SolutionsBand,
@@ -63,6 +64,9 @@ export default async function HomePage() {
       />
       {/* 1 — hero with the arc load sequence */}
       <Hero />
+
+      {/* EcoFlow — first section after hero */}
+      <EcoFlowShowcase />
 
       {/* 2 — category grid */}
       <CategoryGrid />
