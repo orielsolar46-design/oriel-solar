@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { usePathname, useRouter, useSearchParams } from 'next/navigation';
 import { SlidersHorizontal, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { STOCK_LABELS, SUBCATEGORY_LABELS, buildShopQuery } from '@/lib/shop';
+import { buildShopQuery } from '@/lib/shop';
 import { cn } from '@/lib/utils';
 
 export type Facets = {
@@ -75,18 +75,6 @@ export function FilterRail({ facets }: { facets: Facets }) {
 
   const rail = (
     <div className="space-y-0">
-      <Section title="Type">
-        {facets.subcategories.map(([value, count]) => (
-          <CheckRow
-            key={value}
-            label={SUBCATEGORY_LABELS[value] ?? value}
-            count={count}
-            active={current.type === value}
-            onClick={() => apply({ type: current.type === value ? undefined : value })}
-          />
-        ))}
-      </Section>
-
       <Section title="Brand">
         {facets.brands.map(([value, count]) => (
           <CheckRow
