@@ -3481,7 +3481,13 @@
       "LFP",
       "10ms UPS"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1996/9707/files/ecoflow-ecoflow-delta-3-classic-portable-power-station-delta-3-classic-1193262710.png?v=1760666975",
+        "alt": "EcoFlow DELTA 3 Classic Portable Power Station",
+        "type": "primary"
+      }
+    ],
     "cost_price": null,
     "cost_per_watt": null,
     "module_watts": null,
@@ -3524,7 +3530,13 @@
       "3600 W",
       "LFP"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1996/9707/files/ecoflow-ecoflow-delta-3-ultra-series-portable-power-station-3072wh-d3u-series-delta-3-ultra-plus-3072wh-delta-3-ultra-plus-portable-power-station-3072wh-1201701133.png?v=1775027056",
+        "alt": "EcoFlow DELTA 3 Ultra Portable Power Station",
+        "type": "primary"
+      }
+    ],
     "cost_price": null,
     "cost_per_watt": null,
     "module_watts": null,
@@ -3567,7 +3579,13 @@
       "3600 W",
       "LFP"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1996/9707/files/ecoflow-us-ecoflow-delta-pro-portable-power-station-dp-delta-pro-portable-power-station-1248210436.png?v=1783527879",
+        "alt": "EcoFlow DELTA Pro Portable Power Station",
+        "type": "primary"
+      }
+    ],
     "cost_price": null,
     "cost_per_watt": null,
     "module_watts": null,
@@ -3610,7 +3628,13 @@
       "4000 W",
       "LFP"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1996/9707/files/ecoflow-us-ecoflow-delta-3-max-series-protection-bag-accessory-delta-3-max-series-protection-bag-1236849815.png?v=1778055972",
+        "alt": "EcoFlow DELTA Pro 3 Portable Power Station",
+        "type": "primary"
+      }
+    ],
     "cost_price": null,
     "cost_per_watt": null,
     "module_watts": null,
@@ -3653,7 +3677,13 @@
       "2400 W",
       "LFP"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1996/9707/files/ecoflow-ecoflow-delta-3-max-series-portable-power-station-2048wh-d3m-series-delta-3-max-plus-2048wh-delta-3-max-plus-portable-power-station-2048wh-1209244376.png?v=1769742118",
+        "alt": "EcoFlow DELTA 3 Max Portable Power Station",
+        "type": "primary"
+      }
+    ],
     "cost_price": null,
     "cost_per_watt": null,
     "module_watts": null,
@@ -3696,7 +3726,13 @@
       "1800 W",
       "LFP"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1996/9707/files/ecoflow-ecoflow-delta-3-max-plus-smart-extra-battery-1194623378.png?v=1758781725",
+        "alt": "EcoFlow DELTA 3 Plus Portable Power Station",
+        "type": "primary"
+      }
+    ],
     "cost_price": null,
     "cost_per_watt": null,
     "module_watts": null,
@@ -3782,7 +3818,13 @@
       "2400 W",
       "LFP"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1996/9707/files/ecoflow-us-ecoflow-delta-2-max-bag-accessory-30485226127433.png?v=1697697260",
+        "alt": "EcoFlow DELTA 2 Max Portable Power Station",
+        "type": "primary"
+      }
+    ],
     "cost_price": null,
     "cost_per_watt": null,
     "module_watts": null,
@@ -3825,7 +3867,13 @@
       "1800 W",
       "LFP"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1996/9707/files/ecoflow-us-ecoflow-delta-2-max-portable-power-station-delta-2-max-30402652930121.png?v=1764061657",
+        "alt": "EcoFlow DELTA 2 Portable Power Station",
+        "type": "primary"
+      }
+    ],
     "cost_price": null,
     "cost_per_watt": null,
     "module_watts": null,
@@ -3868,7 +3916,13 @@
       "1800 W",
       "LFP"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1996/9707/files/ecoflow-ecoflow-delta-pro-3-portable-power-station-ul9540-certificated-dp3-delta-pro-3-1179495742.png?v=1762761450",
+        "alt": "EcoFlow DELTA 3 Portable Power Station",
+        "type": "primary"
+      }
+    ],
     "cost_price": null,
     "cost_per_watt": null,
     "module_watts": null,
@@ -3911,7 +3965,13 @@
       "800 W",
       "LFP"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1996/9707/files/ecoflow-ecoflow-delta-pro-ultra-whole-home-backup-power-ecoflow-delta-pro-ultra-ecoflow-smart-home-panel-2-400w-portable-solar-panel-32325955977289.png?v=1775700861",
+        "alt": "EcoFlow RIVER 2 Pro Portable Power Station",
+        "type": "primary"
+      }
+    ],
     "cost_price": null,
     "cost_per_watt": null,
     "module_watts": null,
@@ -3996,7 +4056,13 @@
       "22.4%",
       "Monocrystalline"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1996/9707/files/ecoflow-us-ecoflow-45w-portable-solar-panel-solar-panels-1156409354.png?v=1744897975",
+        "alt": "EcoFlow Solar Panel 45W",
+        "type": "primary"
+      }
+    ],
     "cost_price": null,
     "cost_per_watt": null,
     "module_watts": null,
@@ -4038,7 +4104,13 @@
       "60 W",
       "21-22%"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1996/9707/files/ecoflow-us-ecoflow-110w-portable-solar-panel-solar-panels-110w-portable-solar-panel-30542312079433.png?v=1700213118",
+        "alt": "EcoFlow Portable Solar Panel 60W",
+        "type": "primary"
+      }
+    ],
     "cost_price": null,
     "cost_per_watt": null,
     "module_watts": null,
@@ -4080,7 +4152,13 @@
       "110 W",
       "22.8%"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1996/9707/files/ecoflow-us-ecoflow-110w-portable-solar-panel-solar-panels-110w-portable-solar-panel-30542312079433.png?v=1700213118",
+        "alt": "EcoFlow Portable Solar Panel 110W",
+        "type": "primary"
+      }
+    ],
     "cost_price": null,
     "cost_per_watt": null,
     "module_watts": null,
@@ -4123,7 +4201,13 @@
       "22.4%",
       "IP67"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1996/9707/files/ecoflow-us-ecoflow-160w-portable-solar-panel-refurbished-solar-panels-30382791524425.png?v=1689584304",
+        "alt": "EcoFlow Portable Solar Panel 160W",
+        "type": "primary"
+      }
+    ],
     "cost_price": null,
     "cost_per_watt": null,
     "module_watts": null,
@@ -4165,7 +4249,13 @@
       "220 W",
       "22.4%"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1996/9707/files/ecoflow-us-ecoflow-nextgen-220w-bifacial-portable-solar-panel-solar-panels-nextgen-220w-bifacial-portable-solar-panel-1156427757.png?v=1746869331",
+        "alt": "EcoFlow Portable Solar Panel 220W",
+        "type": "primary"
+      }
+    ],
     "cost_price": null,
     "cost_per_watt": null,
     "module_watts": null,
@@ -4207,7 +4297,13 @@
       "400 W",
       "23.4%"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1996/9707/files/ecoflow-us-ecoflow-400w-portable-solar-panel-solar-panels-400w-portable-solar-panel-1156427756.png?v=1770970223",
+        "alt": "EcoFlow Portable Solar Panel 400W",
+        "type": "primary"
+      }
+    ],
     "cost_price": null,
     "cost_per_watt": null,
     "module_watts": null,
@@ -4250,7 +4346,13 @@
       "23%",
       "Rigid"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1996/9707/files/ecoflow-us-ecoflow-175w-rigid-solar-panel-solar-panels-175w-rigid-solar-panel-31896324702281.png?v=1717422916",
+        "alt": "EcoFlow Rigid Solar Panel 125W x2",
+        "type": "primary"
+      }
+    ],
     "cost_price": null,
     "cost_per_watt": null,
     "module_watts": null,
@@ -4293,7 +4395,13 @@
       "22.4%",
       "Flexible"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1996/9707/files/ecoflow-us-ecoflow-100w-flexible-solar-panel-solar-panels-100w-flexible-solar-panel-30542311522377.png?v=1700213128",
+        "alt": "EcoFlow Flexible Solar Panel 100W",
+        "type": "primary"
+      }
+    ],
     "cost_price": null,
     "cost_per_watt": null,
     "module_watts": null,
@@ -4335,7 +4443,13 @@
       "10 m",
       "Cable"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1996/9707/files/ecoflow-ecoflow-rapid-3-in-1-power-bank-10k-45w-retractable-cable-ac-plug-rapid-dark-grey-1240843967.png?v=1780043139",
+        "alt": "EcoFlow 10M Black Cable",
+        "type": "primary"
+      }
+    ],
     "cost_price": null,
     "cost_per_watt": null,
     "module_watts": null,
@@ -4377,7 +4491,13 @@
       "800 W",
       "Alternator"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1996/9707/files/ecoflow-ecoflow-800w-alternator-charger-alternator-charger-ecoflow-800w-alternator-charger-31427701178441.png?v=1762400020",
+        "alt": "EcoFlow Alternator Charger 800W",
+        "type": "primary"
+      }
+    ],
     "cost_price": null,
     "cost_per_watt": null,
     "module_watts": null,
@@ -4420,7 +4540,13 @@
       "MC4",
       "XT60"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1996/9707/products/ecoflow-ecoflow-solar-to-xt60-xt60i-charging-cable-30058469326921.png?v=1667894490",
+        "alt": "EcoFlow MC4 to XT60 Solar Cable 3.5M",
+        "type": "primary"
+      }
+    ],
     "cost_price": null,
     "cost_per_watt": null,
     "module_watts": null,
@@ -4461,7 +4587,13 @@
     "key_specs": [
       "Camp lighting"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1996/9707/files/ecoflow-us-ecoflow-trail-series-dc-portable-power-station-1180694231.png?v=1753173286",
+        "alt": "EcoFlow Camp Torches",
+        "type": "primary"
+      }
+    ],
     "cost_price": null,
     "cost_per_watt": null,
     "module_watts": null,
@@ -4504,7 +4636,13 @@
       "300 W",
       "RIVER 3"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1996/9707/files/ecoflow-us-ecoflow-river-3-plus-smart-extra-battery-standalone-35535572238409.png?v=1733871311",
+        "alt": "EcoFlow EB300 Extra Battery (RIVER 3)",
+        "type": "primary"
+      }
+    ],
     "cost_price": null,
     "cost_per_watt": null,
     "module_watts": null,
@@ -4547,7 +4685,13 @@
       "LFP",
       "RIVER 3 Plus"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1996/9707/files/ecoflow-us-ecoflow-river-3-plus-smart-extra-battery-standalone-35535572238409.png?v=1733871311",
+        "alt": "EcoFlow EB600 Extra Battery (RIVER 3 Plus)",
+        "type": "primary"
+      }
+    ],
     "cost_price": null,
     "cost_per_watt": null,
     "module_watts": null,
@@ -4589,7 +4733,13 @@
       "1024 Wh",
       "DELTA 2"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1996/9707/files/ecoflow-us-ecoflow-delta-2-max-smart-extra-battery-30542326923337.png?v=1700214018",
+        "alt": "EcoFlow Extra Battery for DELTA 2",
+        "type": "primary"
+      }
+    ],
     "cost_price": null,
     "cost_per_watt": null,
     "module_watts": null,
@@ -4632,7 +4782,13 @@
       "NMC",
       "DELTA Max"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1996/9707/files/ecoflow-us-ecoflow-delta-2-max-smart-extra-battery-30542326923337.png?v=1700214018",
+        "alt": "EcoFlow Extra Battery for DELTA Max",
+        "type": "primary"
+      }
+    ],
     "cost_price": null,
     "cost_per_watt": null,
     "module_watts": null,
@@ -4674,7 +4830,13 @@
       "2048 Wh",
       "DELTA 2 Max"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1996/9707/files/ecoflow-us-ecoflow-delta-2-max-smart-extra-battery-30542326923337.png?v=1700214018",
+        "alt": "EcoFlow Extra Battery for DELTA 2 Max 2048Wh",
+        "type": "primary"
+      }
+    ],
     "cost_price": null,
     "cost_per_watt": null,
     "module_watts": null,
@@ -4717,7 +4879,13 @@
       "LFP",
       "3500+ cycles"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1996/9707/files/ecoflow-us-ecoflow-delta-2-max-smart-extra-battery-30542326923337.png?v=1700214018",
+        "alt": "EcoFlow LiFePO4 Battery 768Wh",
+        "type": "primary"
+      }
+    ],
     "cost_price": null,
     "cost_per_watt": null,
     "module_watts": null,
@@ -4760,7 +4928,13 @@
       "Two zones",
       "Fridge"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1996/9707/files/ecoflow-us-ecoflow-glacier-classic-portable-fridge-freezer-glacier-classic-55l-without-plug-in-battery-1170002523.png?v=1775119745",
+        "alt": "EcoFlow GLACIER Portable Fridge Freezer",
+        "type": "primary"
+      }
+    ],
     "cost_price": null,
     "cost_per_watt": null,
     "module_watts": null,
@@ -4803,7 +4977,13 @@
       "52 dB",
       "AC"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1996/9707/files/ecoflow-us-ecoflow-wave-3-portable-air-conditioner-with-heater-wave-3-wave-3-delta-pro-1244501445.png?v=1781540654",
+        "alt": "EcoFlow WAVE 2 Smart Portable Air Conditioner",
+        "type": "primary"
+      }
+    ],
     "cost_price": null,
     "cost_per_watt": null,
     "module_watts": null,
