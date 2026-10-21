@@ -10,8 +10,8 @@ import { HEADER_NAV, CONTACT } from '@/lib/navigation';
 /**
  * Mobile navigation drawer (MASTERPLAN 5.2, mobile). Slides in from the right,
  * full height. The five primary links are flat and direct — no accordion, no
- * nested menus — followed by Track order and large tappable contact rows.
- * Radix Dialog traps focus and returns it to the trigger on close.
+ * nested menus — followed by large tappable contact rows. Radix Dialog traps
+ * focus and returns it to the trigger on close.
  */
 export function MobileDrawer() {
   const [open, setOpen] = useState(false);
@@ -60,13 +60,6 @@ export function MobileDrawer() {
                   {item.label}
                 </Link>
               ))}
-              <Link
-                href="/track-order"
-                onClick={close}
-                className="border-b border-oriel-line py-3 font-sans text-body font-medium text-oriel-navy"
-              >
-                Track order
-              </Link>
             </nav>
           </div>
 
