@@ -1,0 +1,33 @@
+slug,name,cost_kes,status
+# SRNE revised dealer prices — client message, 3 August 2026.
+#
+# These are COST prices, not selling prices. Established by comparison, not
+# assumption: every figure lands in the same band as the existing cost_price
+# column and well below the existing retail, and SRNE HESP 6kW matches the
+# stored cost exactly at 100,000.
+#
+# Retail is recomputed, never typed: cost x 1.20, then 16% VAT because SRNE
+# quotes ex-VAT, rounded up to the nearest 100. That reproduces every existing
+# retail figure exactly, which is what confirms 20% is still the right markup
+# for this supplier. The 25% agreed for Chloride Exide is NOT applied here —
+# the client set that for that supplier's list only.
+srne-1-5k-off-grid,SRNE 1.5kW Off-Grid Inverter,26000,new
+srne-3k-108vdc,"SRNE 3kW Off-Grid Inverter, 108Vdc",36000,new
+srne-3-3k-500vdc,"SRNE 3.3kW Off-Grid Inverter, 500Vdc",40000,new
+srne-afp-5k,"SRNE AFP 5kW Off-Grid Inverter, 500Vdc",58000,updated
+srne-hyp-6k,SRNE HYP 6kW Hybrid Inverter,71000,new
+srne-aep-6k,SRNE AEP 6kW Off-Grid Inverter,84000,updated
+srne-hesp-6k,SRNE HESP 6kW Hybrid Inverter,100000,updated
+srne-hesp-8k,SRNE HESP 8kW Hybrid Inverter,156000,updated
+srne-asp-10k,SRNE ASP 10kW Off-Grid Inverter,122000,updated
+srne-hesp-12k,"SRNE HESP 12kW Hybrid Inverter, Single or Three Phase",212000,updated
+srne-hesp-16k-3p,SRNE HESP 16kW Three-Phase Hybrid Inverter,344000,updated
+srne-hesp-20k-3p,SRNE HESP 20kW Three-Phase Hybrid Inverter,360000,updated
+srne-lithium-2-56-24v,"SRNE Lithium Battery 2.56kWh, 24V 100Ah",65000,new
+srne-lithium-2-56-12v,"SRNE Lithium Battery 2.56kWh, 12V 200Ah",65000,new
+srne-se-5b,"SRNE SE05B Lithium Battery 5.12kWh, 100Ah",105000,updated
+srne-eos-5b,"SRNE EOS05B Lithium Battery 5.12kWh, 100Ah",115000,updated
+srne-eos-10b,"SRNE EOS10B Lithium Battery 10kWh, 200Ah",220000,updated
+srne-se-10b,"SRNE SE10B Lithium Battery 10kWh, 205Ah",192000,updated
+srne-se-16b,"SRNE SE16B Lithium Battery 16kWh, 314Ah",252000,updated
+srne-eos-16b,"SRNE EOS16B Lithium Battery 16kWh, 314Ah",276000,updated

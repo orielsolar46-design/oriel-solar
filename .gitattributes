@@ -1,0 +1,20 @@
+# Normalise line endings for text, and never touch binaries.
+#
+# This repository is worked on from Windows, where git converts LF to CRLF on
+# checkout. Git detects binary content on its own, but product photography is
+# the most valuable asset here and a mangled image is not obvious until a
+# customer sees it — so the image and font types are marked explicitly.
+
+* text=auto eol=lf
+
+*.webp  binary
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.ico   binary
+*.pdf   binary
+*.woff  binary
+*.woff2 binary
+*.ttf   binary
+*.otf   binary

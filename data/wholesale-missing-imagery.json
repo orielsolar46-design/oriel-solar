@@ -1,0 +1,261 @@
+[
+  {
+    "slug": "dyness-5-12kwh-lithium-battery",
+    "name": "Dyness 5.12kWh Lithium Battery",
+    "category": "battery-storage",
+    "brand": "dyness",
+    "retail_price": 125300
+  },
+  {
+    "slug": "dyness-hv4-5-12kwh-battery-module",
+    "name": "Dyness HV4 5.12kWh Battery Module",
+    "category": "battery-storage",
+    "brand": "dyness",
+    "retail_price": 146200
+  },
+  {
+    "slug": "dyness-hv4-battery-disconnect-unit",
+    "name": "Dyness HV4 Battery Disconnect Unit",
+    "category": "battery-storage",
+    "brand": "dyness",
+    "retail_price": 139200
+  },
+  {
+    "slug": "dyness-powerbrick-14-3kwh-lithium-battery",
+    "name": "Dyness Powerbrick 14.3kWh Lithium Battery",
+    "category": "battery-storage",
+    "brand": "dyness",
+    "retail_price": 278400
+  },
+  {
+    "slug": "dyness-powerbrick-max-16-08kwh-lithium-battery",
+    "name": "Dyness Powerbrick Max 16.08kWh Lithium Battery",
+    "category": "battery-storage",
+    "brand": "dyness",
+    "retail_price": 334100
+  },
+  {
+    "slug": "dyness-stack100-5-12kwh-battery-module",
+    "name": "Dyness Stack100 5.12kWh Battery Module",
+    "category": "battery-storage",
+    "brand": "dyness",
+    "retail_price": 146200
+  },
+  {
+    "slug": "dyness-stack100-battery-disconnect-unit",
+    "name": "Dyness Stack100 Battery Disconnect Unit",
+    "category": "battery-storage",
+    "brand": "dyness",
+    "retail_price": 139200
+  },
+  {
+    "slug": "dyness-stack280-14-3kwh-battery-module",
+    "name": "Dyness Stack280 14.3kWh Battery Module",
+    "category": "battery-storage",
+    "brand": "dyness",
+    "retail_price": 306300
+  },
+  {
+    "slug": "dyness-stack280-battery-disconnect-unit",
+    "name": "Dyness Stack280 Battery Disconnect Unit",
+    "category": "battery-storage",
+    "brand": "dyness",
+    "retail_price": 278400
+  },
+  {
+    "slug": "x-batt-10-24kwh-lithium-battery",
+    "name": "X-Batt 10.24kWh Lithium Battery",
+    "category": "battery-storage",
+    "brand": "x-batt",
+    "retail_price": 222800
+  },
+  {
+    "slug": "x-batt-16kwh-lithium-battery",
+    "name": "X-Batt 16kWh Lithium Battery",
+    "category": "battery-storage",
+    "brand": "x-batt",
+    "retail_price": 264500
+  },
+  {
+    "slug": "x-batt-5-12kwh-lithium-battery",
+    "name": "X-Batt 5.12kWh Lithium Battery",
+    "category": "battery-storage",
+    "brand": "x-batt",
+    "retail_price": 111400
+  },
+  {
+    "slug": "solarpro-10-2kw-hybrid-inverter-48v",
+    "name": "SolarPro 10.2kW Hybrid Inverter, 48V",
+    "category": "inverters",
+    "brand": "solarpro",
+    "retail_price": 125300
+  },
+  {
+    "slug": "solis-10kw-single-phase-hybrid-inverter",
+    "name": "Solis 10kW Single-Phase Hybrid Inverter",
+    "category": "inverters",
+    "brand": "solis",
+    "retail_price": 250600
+  },
+  {
+    "slug": "solis-125kw-three-phase-hybrid-inverter-h",
+    "name": "Solis 125kW Three-Phase Hybrid Inverter (H)",
+    "category": "inverters",
+    "brand": "solis",
+    "retail_price": 1531200
+  },
+  {
+    "slug": "solis-12kw-single-phase-hybrid-inverter-l",
+    "name": "Solis 12kW Single-Phase Hybrid Inverter (L)",
+    "category": "inverters",
+    "brand": "solis",
+    "retail_price": 334100
+  },
+  {
+    "slug": "solis-14kw-single-phase-hybrid-inverter-l",
+    "name": "Solis 14kW Single-Phase Hybrid Inverter (L)",
+    "category": "inverters",
+    "brand": "solis",
+    "retail_price": 320200
+  },
+  {
+    "slug": "solis-15kw-three-phase-hybrid-inverter-l",
+    "name": "Solis 15kW Three-Phase Hybrid Inverter (L)",
+    "category": "inverters",
+    "brand": "solis",
+    "retail_price": 348000
+  },
+  {
+    "slug": "solis-16kw-single-phase-hybrid-inverter-l",
+    "name": "Solis 16kW Single-Phase Hybrid Inverter (L)",
+    "category": "inverters",
+    "brand": "solis",
+    "retail_price": 348000
+  },
+  {
+    "slug": "solis-18kw-three-phase-hybrid-inverter-l",
+    "name": "Solis 18kW Three-Phase Hybrid Inverter (L)",
+    "category": "inverters",
+    "brand": "solis",
+    "retail_price": 362000
+  },
+  {
+    "slug": "solis-20kw-three-phase-hybrid-inverter-h",
+    "name": "Solis 20kW Three-Phase Hybrid Inverter (H)",
+    "category": "inverters",
+    "brand": "solis",
+    "retail_price": 348000
+  },
+  {
+    "slug": "solis-30kw-three-phase-hybrid-inverter-h",
+    "name": "Solis 30kW Three-Phase Hybrid Inverter (H)",
+    "category": "inverters",
+    "brand": "solis",
+    "retail_price": 612500
+  },
+  {
+    "slug": "solis-50kw-three-phase-hybrid-inverter-h",
+    "name": "Solis 50kW Three-Phase Hybrid Inverter (H)",
+    "category": "inverters",
+    "brand": "solis",
+    "retail_price": 807400
+  },
+  {
+    "slug": "solis-5kw-hybrid-inverter-48v",
+    "name": "Solis 5kW Hybrid Inverter, 48V",
+    "category": "inverters",
+    "brand": "solis",
+    "retail_price": 69600
+  },
+  {
+    "slug": "solis-6kw-hybrid-inverter-48v",
+    "name": "Solis 6kW Hybrid Inverter, 48V",
+    "category": "inverters",
+    "brand": "solis",
+    "retail_price": 167100
+  },
+  {
+    "slug": "solis-80kw-three-phase-hybrid-inverter-h",
+    "name": "Solis 80kW Three-Phase Hybrid Inverter (H)",
+    "category": "inverters",
+    "brand": "solis",
+    "retail_price": 1238900
+  },
+  {
+    "slug": "solis-8kw-hybrid-inverter-48v",
+    "name": "Solis 8kW Hybrid Inverter, 48V",
+    "category": "inverters",
+    "brand": "solis",
+    "retail_price": 208800
+  },
+  {
+    "slug": "longi-650w-bifacial-solar-panel-anti-shade-anti-dust",
+    "name": "Longi 650W Bifacial Solar Panel, Anti-shade / Anti-dust",
+    "category": "solar-panels",
+    "brand": "longi",
+    "retail_price": 21800
+  },
+  {
+    "slug": "pressurised-flat-plate-solar-water-heater-300l",
+    "name": "Pressurised Flat Plate Solar Water Heater 300L",
+    "category": "solar-water-heaters",
+    "brand": null,
+    "retail_price": 211500
+  },
+  {
+    "slug": "pressurised-heat-pipe-solar-water-heater-200l",
+    "name": "Pressurised Heat Pipe Solar Water Heater 200L",
+    "category": "solar-water-heaters",
+    "brand": null,
+    "retail_price": 133200
+  },
+  {
+    "slug": "pressurised-heat-pipe-solar-water-heater-300l",
+    "name": "Pressurised Heat Pipe Solar Water Heater 300L",
+    "category": "solar-water-heaters",
+    "brand": null,
+    "retail_price": 188000
+  },
+  {
+    "slug": "stainless-coil-vacuum-tube-solar-water-heater-200l",
+    "name": "Stainless Coil Vacuum Tube Solar Water Heater 200L",
+    "category": "solar-water-heaters",
+    "brand": null,
+    "retail_price": 86200
+  },
+  {
+    "slug": "stainless-coil-vacuum-tube-solar-water-heater-300l",
+    "name": "Stainless Coil Vacuum Tube Solar Water Heater 300L",
+    "category": "solar-water-heaters",
+    "brand": null,
+    "retail_price": 117500
+  },
+  {
+    "slug": "solar-flood-light-pa-a200",
+    "name": "Solar Flood Light PA-A200",
+    "category": "street-lights-cctv",
+    "brand": null,
+    "retail_price": 9100
+  },
+  {
+    "slug": "solar-flood-light-pa-b100",
+    "name": "Solar Flood Light PA-B100",
+    "category": "street-lights-cctv",
+    "brand": null,
+    "retail_price": 3500
+  },
+  {
+    "slug": "solar-flood-light-y-200",
+    "name": "Solar Flood Light Y-200",
+    "category": "street-lights-cctv",
+    "brand": null,
+    "retail_price": 2800
+  },
+  {
+    "slug": "solar-street-light-pa-h200",
+    "name": "Solar Street Light PA-H200",
+    "category": "street-lights-cctv",
+    "brand": null,
+    "retail_price": 9800
+  }
+]

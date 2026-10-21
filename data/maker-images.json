@@ -1,0 +1,64 @@
+{
+  "Lorentz": {
+    "ps2-solar-pumping-systems": [
+      "https://www.lorentz.de/wp-content/uploads/2014/10/lorentz-connected-.jpg",
+      "https://www.lorentz.de/wp-content/uploads/2014/10/lorentz-ps2_systemLayout.png",
+      "https://www.lorentz.de/wp-content/uploads/2014/10/lorentz_ps2_product-brochure_en_Page_01.jpg",
+      "https://www.lorentz.de/wp-content/uploads/2014/10/lorentz_ps_c_general_en-en.jpg",
+      "https://www.lorentz.de/wp-content/uploads/2014/10/lorentz_ps_hr_general_en-en.jpg",
+      "https://www.lorentz.de/wp-content/uploads/2014/10/lorentz_ps_surface_general_en-en.jpg"
+    ],
+    "psk-solar-pumping-systems": [
+      "https://www.lorentz.de/wp-content/uploads/2016/10/lorentz-installing-a-large-system.jpg",
+      "https://www.lorentz.de/wp-content/uploads/2016/10/lorentz-psk2-large-system-solar-panels.jpg",
+      "https://www.lorentz.de/wp-content/uploads/2016/10/lorentz_generator.jpg",
+      "https://www.lorentz.de/wp-content/uploads/2016/10/lorentz_grid-connected.jpg",
+      "https://www.lorentz.de/wp-content/uploads/2016/10/lorentz_small-wind-turbine.jpg",
+      "https://www.lorentz.de/wp-content/uploads/2021/05/PSk3_SystemLayout_irrigation_forDrawAttentionWebsite_smaller.png"
+    ],
+    "solar-pump-accessories": [
+      "https://www.lorentz.de/wp-content/uploads/2016/05/19-004395_LLS-1000-140_white-square-1.png",
+      "https://www.lorentz.de/wp-content/uploads/2016/05/PP2000S-cover-pNET-1500x1500.png",
+      "https://www.lorentz.de/wp-content/uploads/2016/05/PP2000S-cover-pNET.png",
+      "https://www.lorentz.de/wp-content/uploads/2016/05/SmartStart-Small-Blue-Box_white-square.png",
+      "https://www.lorentz.de/wp-content/uploads/2016/05/Well-Probe_Installation_10_6_cut_square.png",
+      "https://www.lorentz.de/wp-content/uploads/2016/05/lorentz-float-switch.jpg"
+    ],
+    "smarttap-water-dispensing": [
+      "https://www.lorentz.de/wp-content/uploads/2016/05/DSC_5607_higher-exposure.jpg",
+      "https://www.lorentz.de/wp-content/uploads/2016/05/IMG_7304.jpg",
+      "https://www.lorentz.de/wp-content/uploads/2019/02/IMG_4422_colours-adjusted.jpg",
+      "https://www.lorentz.de/wp-content/uploads/2019/02/IMG_5941_pole-removed-reduced.jpg",
+      "https://www.lorentz.de/wp-content/uploads/2019/02/LOR_smartTAP_DrawAttention_2019.02.26.png",
+      "https://www.lorentz.de/wp-content/uploads/2019/02/lorentz-smarttap-in-village.jpg"
+    ],
+    "pv-modules": [
+      "https://www.lorentz.de/wp-content/uploads/2016/05/lorentz-iso9001.png",
+      "https://www.lorentz.de/wp-content/uploads/2016/05/lorentz-pv-modules-happy-customers.jpg",
+      "https://www.lorentz.de/wp-content/uploads/2016/05/lorentz-pv-modules-installation.jpg",
+      "https://www.lorentz.de/wp-content/uploads/2016/05/lorentz-pv-modules-lc300-p72.jpg",
+      "https://www.lorentz.de/wp-content/uploads/2016/05/lorentz-pv-modules.jpg"
+    ],
+    "connected": [
+      "https://www.lorentz.de/wp-content/uploads/2014/10/lorentz-connected-.jpg",
+      "https://www.lorentz.de/wp-content/uploads/2016/05/Global_general_en_200916_website.jpg",
+      "https://www.lorentz.de/wp-content/uploads/2016/05/PumpScanner_general_en_200916_website.jpg",
+      "https://www.lorentz.de/wp-content/uploads/2016/05/google-play-store-icon-png-3.png",
+      "https://www.lorentz.de/wp-content/uploads/2016/05/lorentz-global-3-1.jpg",
+      "https://www.lorentz.de/wp-content/uploads/2016/05/lorentz-global-4.png"
+    ]
+  },
+  "Victron Energy": {
+    "inverters": [
+      "https://www.victronenergy.com/upload/products/402_794_20200622103403.png",
+      "https://www.victronenergy.com/upload/products/Inverter%2024V%205000VA.png",
+      "https://www.victronenergy.com/upload/products/Inverter%20RS%2048V-6000VA%20Smart%20%28frontal%29.png",
+      "https://www.victronenergy.com/upload/products/Inverter%20Smart.png",
+      "https://www.victronenergy.com/upload/products/Inverter%20VE.Direct.png",
+      "https://www.victronenergy.com/upload/products/Inverter%20compact.png"
+    ],
+    "inverters-chargers": [
+      "https://www.victronenergy.com/upload/products/Easyplus_nw.png"
+    ]
+  }
+}

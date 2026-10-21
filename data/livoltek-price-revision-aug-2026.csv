@@ -1,0 +1,13 @@
+slug,name,old_retail,new_retail,cost_ex_vat,margin_ex_vat
+# Livoltek battery selling prices, revised by the client 3 August 2026.
+# These are SELLING prices as shown on the shop (VAT-inclusive), not costs.
+#
+# margin_ex_vat compares the new price stripped of VAT against the dealer cost
+# on record. Three of the four come out negative, which almost certainly means
+# the Livoltek dealer costs have fallen and the costs stored here are stale
+# rather than that the client is selling at a loss. Flagged so the cost side
+# can be updated and margin reporting stays truthful.
+livoltek-blf-b51100r21001,"Livoltek LV LiFePO4 Battery 5.12kWh, 51.2V 100Ah",126000,100000,90500,-4293
+livoltek-blf-12100r21001,"Livoltek LV LiFePO4 Battery 1.2kWh, 12V 100Ah",31400,29000,22500,2500
+livoltek-blf-24100r11001,"Livoltek LV LiFePO4 Battery 2.4kWh, 24V 100Ah",57100,46000,41000,-1345
+livoltek-bhf-s10r11001,"Livoltek Residential High-Voltage LiFePO4 Battery Stack, 10kWh",464300,350000,333500,-31776

@@ -1,0 +1,232 @@
+[
+ {
+  "slug": "chloride-swimming-pool-heat-pump-380-415v",
+  "name": "Swimming Pool Heat Pump 380-415V",
+  "category": "solar-water-heaters"
+ },
+ {
+  "slug": "chloride-phoenix-48-500w-inverter",
+  "name": "Phoenix 48/500W Inverter",
+  "category": "inverters"
+ },
+ {
+  "slug": "chloride-phoenix-12-1200w-inverter",
+  "name": "Phoenix 12/1200W Inverter",
+  "category": "inverters"
+ },
+ {
+  "slug": "chloride-riio-sun-ii-2kva-24v-solar-inverter-150v-80a-tbb",
+  "name": "RIIO Sun-Ii 2kVA/24V Solar Inverter 150V/80A (TBB)",
+  "category": "inverters"
+ },
+ {
+  "slug": "chloride-solar-200ah-12v-eastman-deep-cycle-lead-carbon",
+  "name": "Solar 200Ah 12V Eastman Deep Cycle Lead Carbon",
+  "category": "battery-storage"
+ },
+ {
+  "slug": "chloride-solar-230ah-12v-eastman-deep-cycle-lead-carbon",
+  "name": "Solar 230Ah 12V Eastman Deep Cycle Lead Carbon",
+  "category": "battery-storage"
+ },
+ {
+  "slug": "chloride-chloride-solar-lithium-10-24-kwh-battery",
+  "name": "Chloride Solar Lithium 10.24 kWh Battery",
+  "category": "battery-storage"
+ },
+ {
+  "slug": "chloride-chloride-solar-c-i-lithium-10-24-kwh-cs-xh-battery",
+  "name": "Chloride Solar C&I Lithium 10.24 kWh CS-XH Battery",
+  "category": "battery-storage"
+ },
+ {
+  "slug": "chloride-deye-5-12-kw-hv-solar-lithium-battery-bos-g-pro",
+  "name": "Deye 5.12 kW (HV) Solar Lithium Battery BOS-G Pro",
+  "category": "battery-storage"
+ },
+ {
+  "slug": "chloride-deye-5-12-kw-lv-solar-lithium-battery-bos-w",
+  "name": "Deye 5.12 kW (LV) Solar Lithium Battery BOS-W",
+  "category": "battery-storage"
+ },
+ {
+  "slug": "chloride-deye-5-12-kw-hv-solar-lithium-battery-bos-w",
+  "name": "Deye 5.12 kW (HV) Solar Lithium Battery BOS-W",
+  "category": "battery-storage"
+ },
+ {
+  "slug": "chloride-deye-5-12-kw-lv-solar-lithium-battery-se-f5-plus",
+  "name": "Deye 5.12 kW (LV) Solar Lithium Battery SE-F5 Plus",
+  "category": "battery-storage"
+ },
+ {
+  "slug": "chloride-deye-5-12-kw-lv-solar-lithium-battery-se-g5-1",
+  "name": "Deye 5.12 kW (LV) Solar Lithium Battery SE-G5.1",
+  "category": "battery-storage"
+ },
+ {
+  "slug": "chloride-chloride-solar-125kw-261kwh-c-i-ess-all-in-one",
+  "name": "Chloride Solar 125kW/261kWh C&I ESS All In One",
+  "category": "battery-storage"
+ },
+ {
+  "slug": "chloride-chloride-solar-lithium-16-06kwh-battery",
+  "name": "Chloride Solar Lithium 16.06kWh Battery",
+  "category": "battery-storage"
+ },
+ {
+  "slug": "chloride-chloride-solar-lithium-5-1kwh-battery-v2",
+  "name": "Chloride Solar Lithium 5.1kWh Battery V2",
+  "category": "battery-storage"
+ },
+ {
+  "slug": "chloride-firstbattery-lithium-5-1kwh-battery",
+  "name": "Firstbattery Lithium 5.1kWh Battery",
+  "category": "battery-storage"
+ },
+ {
+  "slug": "chloride-solar-16k0-hv-lithium-ion-weco-battery",
+  "name": "Solar 16k0 HV Lithium Ion Weco Battery",
+  "category": "battery-storage"
+ },
+ {
+  "slug": "chloride-solar-16-06kwh-48v-lv-lithium-ion-weco-battery",
+  "name": "Solar 16.06kWh 48V (LV) Lithium Ion Weco Battery",
+  "category": "battery-storage"
+ },
+ {
+  "slug": "chloride-smart-solar-mppt-450-100-mc4",
+  "name": "Smart Solar MPPT 450/100-MC4",
+  "category": "balance-of-system"
+ },
+ {
+  "slug": "chloride-smart-solar-mppt-450-100-tr",
+  "name": "Smart Solar MPPT 450/100-TR",
+  "category": "balance-of-system"
+ },
+ {
+  "slug": "chloride-smart-solar-mppt-450-200-mc4",
+  "name": "Smart Solar MPPT 450/200-MC4",
+  "category": "balance-of-system"
+ },
+ {
+  "slug": "chloride-smart-solar-mppt-450-200-tr",
+  "name": "Smart Solar MPPT 450/200-TR",
+  "category": "balance-of-system"
+ },
+ {
+  "slug": "chloride-smart-solar-mppt-250-100-mc4",
+  "name": "Smart Solar MPPT 250/100-MC4",
+  "category": "balance-of-system"
+ },
+ {
+  "slug": "chloride-chloride-solar-vtt-100l",
+  "name": "Chloride Solar VTT 100L",
+  "category": "solar-water-heaters"
+ },
+ {
+  "slug": "chloride-chloride-solar-heat-pump-500l",
+  "name": "Chloride Solar Heat Pump 500L",
+  "category": "solar-water-heaters"
+ },
+ {
+  "slug": "chloride-chloride-solar-heat-pump-80l-vertical",
+  "name": "Chloride Solar Heat Pump 80L-Vertical",
+  "category": "solar-water-heaters"
+ },
+ {
+  "slug": "chloride-solar-air-conditioner-outdoor-indoor-unit-mount-type",
+  "name": "Solar Air Conditioner Outdoor & Indoor Unit - Mount Type",
+  "category": "solar-water-heaters"
+ },
+ {
+  "slug": "chloride-swimming-pool-heat-pump-220v-240v",
+  "name": "Swimming Pool Heat Pump 220V-240V",
+  "category": "solar-water-heaters"
+ },
+ {
+  "slug": "chloride-multiplus-5kva-48v-inverter-charger-victron",
+  "name": "Multiplus 5kVA 48V Inverter Charger Victron",
+  "category": "inverters"
+ },
+ {
+  "slug": "chloride-quattro-48-10000-140-100-100-inverter-charger",
+  "name": "Quattro 48/10000/140-100/100 Inverter Charger",
+  "category": "inverters"
+ },
+ {
+  "slug": "chloride-quattro-48-15000-inverter-charger",
+  "name": "Quattro 48/15000 Inverter Charger",
+  "category": "inverters"
+ },
+ {
+  "slug": "chloride-deye-16kw-48v-single-phase-hybrid-inverter",
+  "name": "Deye 16kW 48V Single Phase Hybrid Inverter",
+  "category": "inverters"
+ },
+ {
+  "slug": "chloride-deye-20kw-lv-48v-3-phase-2-mppt-hybrid-inverter",
+  "name": "Deye 20kW (LV) 48V 3 Phase 2 MPPT Hybrid Inverter",
+  "category": "inverters"
+ },
+ {
+  "slug": "chloride-deye-50kw-hv-3-phase-multi-mppt-hybrid-inverter",
+  "name": "Deye 50kW HV 3 Phase Multi MPPT Hybrid Inverter",
+  "category": "inverters"
+ },
+ {
+  "slug": "chloride-deye-80kw-hv-3-phase-multi-mppt-hybrid-inverter",
+  "name": "Deye 80kW HV 3 Phase Multi MPPT Hybrid Inverter",
+  "category": "inverters"
+ },
+ {
+  "slug": "chloride-solar-panel-120w",
+  "name": "Chloride Solar Panel 120W",
+  "category": "solar-panels"
+ },
+ {
+  "slug": "chloride-solar-panel-160w",
+  "name": "Chloride Solar Panel 160W",
+  "category": "solar-panels"
+ },
+ {
+  "slug": "chloride-solar-panel-200w",
+  "name": "Chloride Solar Panel 200W",
+  "category": "solar-panels"
+ },
+ {
+  "slug": "chloride-solar-panel-250w",
+  "name": "Chloride Solar Panel 250W",
+  "category": "solar-panels"
+ },
+ {
+  "slug": "chloride-solar-panel-300w",
+  "name": "Chloride Solar Panel 300W",
+  "category": "solar-panels"
+ },
+ {
+  "slug": "chloride-solar-panel-345w",
+  "name": "Chloride Solar Panel 345W",
+  "category": "solar-panels"
+ },
+ {
+  "slug": "jinko-solar-panel-585w",
+  "name": "Jinko Solar Panel 585W",
+  "category": "solar-panels"
+ },
+ {
+  "slug": "jinko-solar-panel-620w",
+  "name": "Jinko Solar Panel 620W",
+  "category": "solar-panels"
+ },
+ {
+  "slug": "jinko-solar-panel-700w",
+  "name": "Jinko Solar Panel 700W",
+  "category": "solar-panels"
+ },
+ {
+  "slug": "jinko-solar-panel-720w",
+  "name": "Jinko Solar Panel 720W",
+  "category": "solar-panels"
+ }
+]

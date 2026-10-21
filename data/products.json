@@ -1,0 +1,3865 @@
+[
+    {
+        "id":  "jinko-solar-jkm445",
+        "slug":  "jinko-solar-jkm445",
+        "name":  "Jinko Solar Monocrystalline PV Module, 445W",
+        "brand":  "Jinko Solar",
+        "model_code":  "JKM445",
+        "category":  "solar-panels",
+        "subcategory":  "monocrystalline",
+        "short_description":  "445W monocrystalline module for residential and commercial arrays.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "445 W",
+                          "Monocrystalline"
+                      ],
+        "images":  [
+                       {
+                           "url":  "/products/solar-panels/jinko-solar-jkm615-bf/01.webp",
+                           "alt":  "Jinko Solar Monocrystalline PV Module, 445W â€” Jinko Solar series photograph",
+                           "type":  "primary"
+                       },
+                       {
+                           "url":  "/products/solar-panels/jinko-solar-jkm615-bf/02.webp",
+                           "alt":  "Jinko Solar Monocrystalline PV Module, 445W â€” Jinko Solar series photograph",
+                           "type":  "detail"
+                       }
+                   ],
+        "cost_price":  8900.0,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  true,
+        "cost_per_watt":  null,
+        "module_watts":  445,
+        "pricing_note":  null,
+        "warranty_years":  null,
+        "stock_status":  "in_stock",
+        "stock_qty":  265,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  true,
+        "compatible_with":  [
+                                "solargen-mc4-std",
+                                "solargen-rail-end",
+                                "solargen-pvc-4mm",
+                                "solargen-rail-mid",
+                                "solargen-rail-4700",
+                                "solargen-pvc-6mm",
+                                "solargen-mc4-jinko"
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Solargen Technologies",
+        "source_list_date":  "2026-07",
+        "is_featured":  false,
+        "is_published":  true,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "jinko-solar-jkm615-bf",
+        "slug":  "jinko-solar-jkm615-bf",
+        "name":  "Jinko Solar Bifacial Monocrystalline PV Module, 615W",
+        "brand":  "Jinko Solar",
+        "model_code":  "JKM615-BF",
+        "category":  "solar-panels",
+        "subcategory":  "bifacial",
+        "short_description":  "615W bifacial monocrystalline module that also harvests light reflected onto its rear face.",
+        "long_description":  "The Tiger Neo 615W is a bifacial monocrystalline module: it generates from the front face like any panel, and adds output from light reflected onto its rear face â€” a real advantage over bright iron-sheet roofs and light-coloured ground. At 615W per module, an array reaches a target size with fewer panels, less rail and less labour than lower-wattage alternatives.\n\nJinko Solar is a Tier 1 manufacturer and one of the largest module makers in the world. This module suits residential arrays with limited roof area and commercial installations where cost per installed watt matters. Pair it with the mounting rails, clamps and MC4 connectors listed under this product.",
+        "specs":  [
+                      {
+                          "group":  "OUTPUT",
+                          "label":  "Rated power",
+                          "value":  "615",
+                          "unit":  "W"
+                      },
+                      {
+                          "group":  "GENERAL",
+                          "label":  "Cell type",
+                          "value":  "Bifacial monocrystalline",
+                          "unit":  ""
+                      },
+                      {
+                          "group":  "GENERAL",
+                          "label":  "Construction",
+                          "value":  "Dual glass",
+                          "unit":  ""
+                      },
+                      {
+                          "group":  "GENERAL",
+                          "label":  "Series",
+                          "value":  "Tiger Neo",
+                          "unit":  ""
+                      }
+                  ],
+        "key_specs":  [
+                          "615 W",
+                          "Bifacial",
+                          "Monocrystalline"
+                      ],
+        "images":  [
+                       {
+                           "url":  "/products/solar-panels/jinko-solar-jkm615-bf/01.webp",
+                           "alt":  "Jinko Solar Tiger Neo bifacial 615W module, front view on white",
+                           "type":  "primary"
+                       },
+                       {
+                           "url":  "/products/solar-panels/jinko-solar-jkm615-bf/02.webp",
+                           "alt":  "Jinko Solar Tiger Neo bifacial 615W module, full-face cell detail",
+                           "type":  "detail"
+                       }
+                   ],
+        "cost_price":  11070.0,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  true,
+        "cost_per_watt":  null,
+        "module_watts":  615,
+        "pricing_note":  null,
+        "warranty_years":  null,
+        "stock_status":  "on_order",
+        "stock_qty":  null,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  true,
+        "compatible_with":  [
+                                "solargen-mc4-std",
+                                "solargen-rail-end",
+                                "solargen-pvc-4mm",
+                                "solargen-rail-mid",
+                                "solargen-rail-4700",
+                                "solargen-pvc-6mm",
+                                "solargen-mc4-jinko"
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Solargen Technologies",
+        "source_list_date":  "2026-07",
+        "is_featured":  true,
+        "is_published":  true,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "jinko-solar-jkm625-bf",
+        "slug":  "jinko-solar-jkm625-bf",
+        "name":  "Jinko Solar Bifacial Monocrystalline PV Module, 625W",
+        "brand":  "Jinko Solar",
+        "model_code":  "JKM625-BF",
+        "category":  "solar-panels",
+        "subcategory":  "bifacial",
+        "short_description":  "625W bifacial monocrystalline module for maximum yield per square metre of roof.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "625 W",
+                          "Bifacial",
+                          "Monocrystalline"
+                      ],
+        "images":  [
+                       {
+                           "url":  "/products/solar-panels/jinko-solar-jkm625-bf/01.webp",
+                           "alt":  "Jinko Solar Bifacial Monocrystalline PV Module, 625W â€” front view on white (official series photograph)",
+                           "type":  "primary"
+                       },
+                       {
+                           "url":  "/products/solar-panels/jinko-solar-jkm625-bf/02.webp",
+                           "alt":  "Jinko Solar Bifacial Monocrystalline PV Module, 625W â€” full-face cell detail (official series photograph)",
+                           "type":  "detail"
+                       }
+                   ],
+        "cost_price":  11250.0,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  true,
+        "cost_per_watt":  null,
+        "module_watts":  625,
+        "pricing_note":  null,
+        "warranty_years":  null,
+        "stock_status":  "on_order",
+        "stock_qty":  null,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  true,
+        "compatible_with":  [
+                                "solargen-mc4-std",
+                                "solargen-rail-end",
+                                "solargen-pvc-4mm",
+                                "solargen-rail-mid",
+                                "solargen-rail-4700",
+                                "solargen-pvc-6mm",
+                                "solargen-mc4-jinko"
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Solargen Technologies",
+        "source_list_date":  "2026-07",
+        "is_featured":  false,
+        "is_published":  true,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "solis-s6-eo1p5k-48",
+        "slug":  "solis-s6-eo1p5k-48",
+        "name":  "Solis S6-EO 1P 48V 5kW Off-Grid Inverter",
+        "brand":  "Solis",
+        "model_code":  "S6-EO1P5K-48",
+        "category":  "inverters",
+        "subcategory":  "off-grid",
+        "short_description":  "5 kW single phase off-grid inverter from the Solis S6 series.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "5 kW",
+                          "48 V",
+                          "Single phase"
+                      ],
+        "images":  [
+                       {
+                           "url":  "/products/inverters/solis-s6-eo1p5k-48/01.webp",
+                           "alt":  "Solis S6-EO 1P 48V 5kW Off-Grid Inverter â€” front view (official series photograph)",
+                           "type":  "primary"
+                       },
+                       {
+                           "url":  "/products/inverters/solis-s6-eo1p5k-48/02.webp",
+                           "alt":  "Solis S6-EO 1P 48V 5kW Off-Grid Inverter â€” alternate view (official series photograph)",
+                           "type":  "angle"
+                       }
+                   ],
+        "cost_price":  50000.0,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  true,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  null,
+        "warranty_years":  null,
+        "stock_status":  "in_stock",
+        "stock_qty":  16,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  true,
+        "compatible_with":  [
+                                "maqbul-mqb-lv-14-3",
+                                "maqbul-mqb-lv-10",
+                                "solargen-db18-250",
+                                "solargen-zb-spd-600",
+                                "solargen-zb-dc-63a",
+                                "maqbul-mqb-lv-16",
+                                "maqbul-mqb-lv-5-12"
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Solargen Technologies",
+        "source_list_date":  "2026-07",
+        "is_featured":  false,
+        "is_published":  true,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "solargen-zb-dc-16a",
+        "slug":  "solargen-zb-dc-16a",
+        "name":  "2-Pole PV/DC Breaker 16A",
+        "brand":  "Solargen",
+        "model_code":  "ZB-DC-16A",
+        "category":  "balance-of-system",
+        "subcategory":  "protection",
+        "short_description":  "Balance-of-system component â€” 2-pole pv/dc breaker 16a.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "16 A",
+                          "2-pole",
+                          "DC"
+                      ],
+        "images":  [
+                       {
+                           "url":  "/products/balance-of-system/solargen-zb-dc-16a/01.webp",
+                           "alt":  "2-Pole PV/DC Breaker 16A â€” front view",
+                           "type":  "primary"
+                       }
+                   ],
+        "cost_price":  1972.0,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  true,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  null,
+        "warranty_years":  null,
+        "stock_status":  "in_stock",
+        "stock_qty":  206,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  false,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Solargen Technologies",
+        "source_list_date":  "2026-07",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "solargen-zb-dc-63a",
+        "slug":  "solargen-zb-dc-63a",
+        "name":  "2-Pole PV/DC Breaker 63A",
+        "brand":  "Solargen",
+        "model_code":  "ZB-DC-63A",
+        "category":  "balance-of-system",
+        "subcategory":  "protection",
+        "short_description":  "Balance-of-system component â€” 2-pole pv/dc breaker 63a.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "63 A",
+                          "2-pole",
+                          "DC"
+                      ],
+        "images":  [
+                       {
+                           "url":  "/products/balance-of-system/solargen-zb-dc-63a/01.webp",
+                           "alt":  "2-Pole PV/DC Breaker 63A â€” front view",
+                           "type":  "primary"
+                       }
+                   ],
+        "cost_price":  2320.0,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  true,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  null,
+        "warranty_years":  null,
+        "stock_status":  "in_stock",
+        "stock_qty":  203,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  false,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Solargen Technologies",
+        "source_list_date":  "2026-07",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "solargen-zb-dc-80a",
+        "slug":  "solargen-zb-dc-80a",
+        "name":  "2-Pole PV/DC Breaker 80A",
+        "brand":  "Solargen",
+        "model_code":  "ZB-DC-80A",
+        "category":  "balance-of-system",
+        "subcategory":  "protection",
+        "short_description":  "Balance-of-system component â€” 2-pole pv/dc breaker 80a.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "80 A",
+                          "2-pole",
+                          "DC"
+                      ],
+        "images":  [
+                       {
+                           "url":  "/products/balance-of-system/solargen-zb-dc-80a/01.webp",
+                           "alt":  "2-Pole PV/DC Breaker 80A â€” front view",
+                           "type":  "primary"
+                       }
+                   ],
+        "cost_price":  9280.0,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  true,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  null,
+        "warranty_years":  null,
+        "stock_status":  "in_stock",
+        "stock_qty":  41,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  false,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Solargen Technologies",
+        "source_list_date":  "2026-07",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "solargen-zb-dc-125a",
+        "slug":  "solargen-zb-dc-125a",
+        "name":  "2-Pole PV/DC Breaker 125A",
+        "brand":  "Solargen",
+        "model_code":  "ZB-DC-125A",
+        "category":  "balance-of-system",
+        "subcategory":  "protection",
+        "short_description":  "Balance-of-system component â€” 2-pole pv/dc breaker 125a.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "125 A",
+                          "2-pole",
+                          "DC"
+                      ],
+        "images":  [
+                       {
+                           "url":  "/products/balance-of-system/solargen-zb-dc-125a/01.webp",
+                           "alt":  "2-Pole PV/DC Breaker 125A â€” front view",
+                           "type":  "primary"
+                       }
+                   ],
+        "cost_price":  9280.0,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  true,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  null,
+        "warranty_years":  null,
+        "stock_status":  "in_stock",
+        "stock_qty":  148,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  false,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Solargen Technologies",
+        "source_list_date":  "2026-07",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "solargen-zb-dc-200a",
+        "slug":  "solargen-zb-dc-200a",
+        "name":  "2-Pole PV/DC Breaker 200A",
+        "brand":  "Solargen",
+        "model_code":  "ZB-DC-200A",
+        "category":  "balance-of-system",
+        "subcategory":  "protection",
+        "short_description":  "Balance-of-system component â€” 2-pole pv/dc breaker 200a.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "200 A",
+                          "2-pole",
+                          "DC"
+                      ],
+        "images":  [
+
+                   ],
+        "cost_price":  9280.0,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  true,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  null,
+        "warranty_years":  null,
+        "stock_status":  "in_stock",
+        "stock_qty":  107,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  false,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Solargen Technologies",
+        "source_list_date":  "2026-07",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "solargen-zb-dc-250a",
+        "slug":  "solargen-zb-dc-250a",
+        "name":  "2-Pole PV/DC Breaker 250A",
+        "brand":  "Solargen",
+        "model_code":  "ZB-DC-250A",
+        "category":  "balance-of-system",
+        "subcategory":  "protection",
+        "short_description":  "Balance-of-system component â€” 2-pole pv/dc breaker 250a.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "250 A",
+                          "2-pole",
+                          "DC"
+                      ],
+        "images":  [
+                       {
+                           "url":  "/products/balance-of-system/solargen-zb-dc-250a/01.webp",
+                           "alt":  "2-Pole PV/DC Breaker 250A â€” front view",
+                           "type":  "primary"
+                       }
+                   ],
+        "cost_price":  9280.0,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  true,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  null,
+        "warranty_years":  null,
+        "stock_status":  "in_stock",
+        "stock_qty":  29,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  false,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Solargen Technologies",
+        "source_list_date":  "2026-07",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "solargen-zb-spd-600",
+        "slug":  "solargen-zb-spd-600",
+        "name":  "ZB Surge Protection Device 600V 2P",
+        "brand":  "Solargen",
+        "model_code":  "ZB-SPD-600",
+        "category":  "balance-of-system",
+        "subcategory":  "protection",
+        "short_description":  "Balance-of-system component â€” zb surge protection device 600v 2p.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "600 V",
+                          "2-pole",
+                          "SPD"
+                      ],
+        "images":  [
+
+                   ],
+        "cost_price":  2552.0,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  true,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  null,
+        "warranty_years":  null,
+        "stock_status":  "in_stock",
+        "stock_qty":  5,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  false,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Solargen Technologies",
+        "source_list_date":  "2026-07",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "solargen-zb-spd-1000",
+        "slug":  "solargen-zb-spd-1000",
+        "name":  "ZB Surge Protection Device 1000V 2P",
+        "brand":  "Solargen",
+        "model_code":  "ZB-SPD-1000",
+        "category":  "balance-of-system",
+        "subcategory":  "protection",
+        "short_description":  "Balance-of-system component â€” zb surge protection device 1000v 2p.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "1000 V",
+                          "2-pole",
+                          "SPD"
+                      ],
+        "images":  [
+
+                   ],
+        "cost_price":  2900.0,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  true,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  null,
+        "warranty_years":  null,
+        "stock_status":  "on_order",
+        "stock_qty":  0,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  false,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Solargen Technologies",
+        "source_list_date":  "2026-07",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "solargen-db18-250",
+        "slug":  "solargen-db18-250",
+        "name":  "18-Way Distribution Board with AC/DC SPD and PV Breaker, 250A",
+        "brand":  "Solargen",
+        "model_code":  "DB18-250",
+        "category":  "balance-of-system",
+        "subcategory":  "protection",
+        "short_description":  "Balance-of-system component â€” 18-way distribution board with ac/dc spd and pv breaker, 250a.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "18-way",
+                          "250 A",
+                          "AC+DC SPD"
+                      ],
+        "images":  [
+
+                   ],
+        "cost_price":  10440.0,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  true,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  null,
+        "warranty_years":  null,
+        "stock_status":  "in_stock",
+        "stock_qty":  32,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  false,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Solargen Technologies",
+        "source_list_date":  "2026-07",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "solargen-bb-3w",
+        "slug":  "solargen-bb-3w",
+        "name":  "3-Way Breaker Box",
+        "brand":  "Solargen",
+        "model_code":  "BB-3W",
+        "category":  "balance-of-system",
+        "subcategory":  "protection",
+        "short_description":  "Balance-of-system component â€” 3-way breaker box.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "3-way"
+                      ],
+        "images":  [
+
+                   ],
+        "cost_price":  2204.0,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  true,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  null,
+        "warranty_years":  null,
+        "stock_status":  "in_stock",
+        "stock_qty":  136,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  false,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Solargen Technologies",
+        "source_list_date":  "2026-07",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "solargen-bb-6w",
+        "slug":  "solargen-bb-6w",
+        "name":  "6-Way Breaker Box",
+        "brand":  "Solargen",
+        "model_code":  "BB-6W",
+        "category":  "balance-of-system",
+        "subcategory":  "protection",
+        "short_description":  "Balance-of-system component â€” 6-way breaker box.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "6-way"
+                      ],
+        "images":  [
+
+                   ],
+        "cost_price":  2784.01,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  true,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  null,
+        "warranty_years":  null,
+        "stock_status":  "in_stock",
+        "stock_qty":  44,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  false,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Solargen Technologies",
+        "source_list_date":  "2026-07",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "solargen-bb-13w",
+        "slug":  "solargen-bb-13w",
+        "name":  "13-Way Breaker Box",
+        "brand":  "Solargen",
+        "model_code":  "BB-13W",
+        "category":  "balance-of-system",
+        "subcategory":  "protection",
+        "short_description":  "Balance-of-system component â€” 13-way breaker box.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "13-way"
+                      ],
+        "images":  [
+
+                   ],
+        "cost_price":  2784.01,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  true,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  null,
+        "warranty_years":  null,
+        "stock_status":  "in_stock",
+        "stock_qty":  14,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  false,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Solargen Technologies",
+        "source_list_date":  "2026-07",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "solargen-y-conn",
+        "slug":  "solargen-y-conn",
+        "name":  "Y-Branch Connectors (Pair)",
+        "brand":  "Solargen",
+        "model_code":  "Y-CONN",
+        "category":  "balance-of-system",
+        "subcategory":  "cables-connectors",
+        "short_description":  "Balance-of-system component â€” y-branch connectors (pair).",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "Pair",
+                          "Y-branch"
+                      ],
+        "images":  [
+
+                   ],
+        "cost_price":  580.0,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  true,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  null,
+        "warranty_years":  null,
+        "stock_status":  "in_stock",
+        "stock_qty":  474,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  false,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Solargen Technologies",
+        "source_list_date":  "2026-07",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "solargen-mc4-jinko",
+        "slug":  "solargen-mc4-jinko",
+        "name":  "Jinko MC4 Connectors (Pair)",
+        "brand":  "Solargen",
+        "model_code":  "MC4-JINKO",
+        "category":  "balance-of-system",
+        "subcategory":  "cables-connectors",
+        "short_description":  "Balance-of-system component â€” jinko mc4 connectors (pair).",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "Pair",
+                          "MC4"
+                      ],
+        "images":  [
+
+                   ],
+        "cost_price":  580.0,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  true,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  null,
+        "warranty_years":  null,
+        "stock_status":  "in_stock",
+        "stock_qty":  830,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  false,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Solargen Technologies",
+        "source_list_date":  "2026-07",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "solargen-mc4-std",
+        "slug":  "solargen-mc4-std",
+        "name":  "MC4 Connectors (Pair)",
+        "brand":  "Solargen",
+        "model_code":  "MC4-STD",
+        "category":  "balance-of-system",
+        "subcategory":  "cables-connectors",
+        "short_description":  "Balance-of-system component â€” mc4 connectors (pair).",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "Pair",
+                          "MC4"
+                      ],
+        "images":  [
+
+                   ],
+        "cost_price":  348.0,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  true,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  null,
+        "warranty_years":  null,
+        "stock_status":  "in_stock",
+        "stock_qty":  434,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  false,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Solargen Technologies",
+        "source_list_date":  "2026-07",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "solargen-pvc-4mm",
+        "slug":  "solargen-pvc-4mm",
+        "name":  "DC Solar PV Cable 4mm, Black/Red (Per Metre)",
+        "brand":  "Solargen",
+        "model_code":  "PVC-4MM",
+        "category":  "balance-of-system",
+        "subcategory":  "cables-connectors",
+        "short_description":  "Balance-of-system component â€” dc solar pv cable 4mm, black/red (per metre).",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "4 mmÂ²",
+                          "Per metre"
+                      ],
+        "images":  [
+
+                   ],
+        "cost_price":  139.2,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  true,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  null,
+        "warranty_years":  null,
+        "stock_status":  "on_order",
+        "stock_qty":  0,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  false,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Solargen Technologies",
+        "source_list_date":  "2026-07",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "solargen-pvc-6mm",
+        "slug":  "solargen-pvc-6mm",
+        "name":  "DC Solar PV Cable 6mm, Red/Black (Per Metre)",
+        "brand":  "Solargen",
+        "model_code":  "PVC-6MM",
+        "category":  "balance-of-system",
+        "subcategory":  "cables-connectors",
+        "short_description":  "Balance-of-system component â€” dc solar pv cable 6mm, red/black (per metre).",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "6 mmÂ²",
+                          "Per metre"
+                      ],
+        "images":  [
+
+                   ],
+        "cost_price":  150.8,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  true,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  null,
+        "warranty_years":  null,
+        "stock_status":  "in_stock",
+        "stock_qty":  50000,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  false,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Solargen Technologies",
+        "source_list_date":  "2026-07",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "solargen-rail-4700",
+        "slug":  "solargen-rail-4700",
+        "name":  "Aluminium Mounting Rail 4700mm",
+        "brand":  "Solargen",
+        "model_code":  "RAIL-4700",
+        "category":  "solar-panels",
+        "subcategory":  "mounting-rails",
+        "short_description":  "Balance-of-system component â€” aluminium mounting rail 4700mm.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "4.7 m",
+                          "Aluminium"
+                      ],
+        "images":  [
+
+                   ],
+        "cost_price":  2900.0,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  true,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  null,
+        "warranty_years":  null,
+        "stock_status":  "in_stock",
+        "stock_qty":  142,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  false,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Solargen Technologies",
+        "source_list_date":  "2026-07",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "solargen-rail-mid",
+        "slug":  "solargen-rail-mid",
+        "name":  "Rail Mid Clamp",
+        "brand":  "Solargen",
+        "model_code":  "RAIL-MID",
+        "category":  "solar-panels",
+        "subcategory":  "mounting-rails",
+        "short_description":  "Balance-of-system component â€” rail mid clamp.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "Mid clamp"
+                      ],
+        "images":  [
+
+                   ],
+        "cost_price":  116.0,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  true,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  null,
+        "warranty_years":  null,
+        "stock_status":  "in_stock",
+        "stock_qty":  10,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  false,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Solargen Technologies",
+        "source_list_date":  "2026-07",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "solargen-rail-end",
+        "slug":  "solargen-rail-end",
+        "name":  "Rail End Clamp",
+        "brand":  "Solargen",
+        "model_code":  "RAIL-END",
+        "category":  "solar-panels",
+        "subcategory":  "mounting-rails",
+        "short_description":  "Balance-of-system component â€” rail end clamp.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "End clamp"
+                      ],
+        "images":  [
+
+                   ],
+        "cost_price":  116.0,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  true,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  null,
+        "warranty_years":  null,
+        "stock_status":  "in_stock",
+        "stock_qty":  848,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  false,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Solargen Technologies",
+        "source_list_date":  "2026-07",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "solargen-rail-lfoot-l",
+        "slug":  "solargen-rail-lfoot-l",
+        "name":  "Rail L-Foot, Long",
+        "brand":  "Solargen",
+        "model_code":  "RAIL-LFOOT-L",
+        "category":  "solar-panels",
+        "subcategory":  "mounting-rails",
+        "short_description":  "Balance-of-system component â€” rail l-foot, long.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "L-foot"
+                      ],
+        "images":  [
+
+                   ],
+        "cost_price":  348.0,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  true,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  null,
+        "warranty_years":  null,
+        "stock_status":  "in_stock",
+        "stock_qty":  282,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  false,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Solargen Technologies",
+        "source_list_date":  "2026-07",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "solargen-rail-lfoot-s",
+        "slug":  "solargen-rail-lfoot-s",
+        "name":  "Rail L-Foot, Short",
+        "brand":  "Solargen",
+        "model_code":  "RAIL-LFOOT-S",
+        "category":  "solar-panels",
+        "subcategory":  "mounting-rails",
+        "short_description":  "Balance-of-system component â€” rail l-foot, short.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "L-foot"
+                      ],
+        "images":  [
+
+                   ],
+        "cost_price":  185.6,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  true,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  null,
+        "warranty_years":  null,
+        "stock_status":  "on_order",
+        "stock_qty":  0,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  false,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Solargen Technologies",
+        "source_list_date":  "2026-07",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "solargen-tile-hook",
+        "slug":  "solargen-tile-hook",
+        "name":  "Roof Tile Hooks",
+        "brand":  "Solargen",
+        "model_code":  "TILE-HOOK",
+        "category":  "solar-panels",
+        "subcategory":  "mounting-rails",
+        "short_description":  "Balance-of-system component â€” roof tile hooks.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "Tile hook"
+                      ],
+        "images":  [
+
+                   ],
+        "cost_price":  611.32,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  true,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  null,
+        "warranty_years":  null,
+        "stock_status":  "in_stock",
+        "stock_qty":  208,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  false,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Solargen Technologies",
+        "source_list_date":  "2026-07",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "solargen-rail-splice",
+        "slug":  "solargen-rail-splice",
+        "name":  "Rail Splice Kit",
+        "brand":  "Solargen",
+        "model_code":  "RAIL-SPLICE",
+        "category":  "solar-panels",
+        "subcategory":  "mounting-rails",
+        "short_description":  "Balance-of-system component â€” rail splice kit.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "Splice kit"
+                      ],
+        "images":  [
+
+                   ],
+        "cost_price":  197.2,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  true,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  null,
+        "warranty_years":  null,
+        "stock_status":  "in_stock",
+        "stock_qty":  203,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  false,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Solargen Technologies",
+        "source_list_date":  "2026-07",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "solargen-earth-lug",
+        "slug":  "solargen-earth-lug",
+        "name":  "Earthing Lug",
+        "brand":  "Solargen",
+        "model_code":  "EARTH-LUG",
+        "category":  "solar-panels",
+        "subcategory":  "mounting-rails",
+        "short_description":  "Balance-of-system component â€” earthing lug.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "Earthing"
+                      ],
+        "images":  [
+
+                   ],
+        "cost_price":  83.52,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  true,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  null,
+        "warranty_years":  null,
+        "stock_status":  "in_stock",
+        "stock_qty":  41,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  false,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Solargen Technologies",
+        "source_list_date":  "2026-07",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "solargen-earth-clip",
+        "slug":  "solargen-earth-clip",
+        "name":  "Earthing Clip",
+        "brand":  "Solargen",
+        "model_code":  "EARTH-CLIP",
+        "category":  "solar-panels",
+        "subcategory":  "mounting-rails",
+        "short_description":  "Balance-of-system component â€” earthing clip.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "Earthing"
+                      ],
+        "images":  [
+
+                   ],
+        "cost_price":  23.2,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  true,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  null,
+        "warranty_years":  null,
+        "stock_status":  "in_stock",
+        "stock_qty":  390,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  false,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Solargen Technologies",
+        "source_list_date":  "2026-07",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "livoltek-gf1-3k524s2",
+        "slug":  "livoltek-gf1-3k524s2",
+        "name":  "Livoltek 3.5kW 24V High-Frequency Off-Grid Inverter",
+        "brand":  "Livoltek",
+        "model_code":  "GF1-3K524S2",
+        "category":  "inverters",
+        "subcategory":  "off-grid",
+        "short_description":  "3.5 kW 24 V off-grid inverter with built-in MPPT solar charging.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "3.5 kW",
+                          "24 V",
+                          "High frequency"
+                      ],
+        "images":  [
+                       {
+                           "url":  "/products/inverters/livoltek-gf1-3k524s2/01.webp",
+                           "alt":  "Livoltek 3.5kW 24V High-Frequency Off-Grid Inverter â€” front view (official series photograph)",
+                           "type":  "primary"
+                       },
+                       {
+                           "url":  "/products/inverters/livoltek-gf1-3k524s2/02.webp",
+                           "alt":  "Livoltek 3.5kW 24V High-Frequency Off-Grid Inverter â€” side view (official series photograph)",
+                           "type":  "angle"
+                       }
+                   ],
+        "cost_price":  33500.0,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  false,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  null,
+        "warranty_years":  2,
+        "stock_status":  "call_for_stock",
+        "stock_qty":  null,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  true,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Hexing Africa / Livoltek",
+        "source_list_date":  "2025-Q2 (as printed on list)",
+        "is_featured":  false,
+        "is_published":  true,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "livoltek-gf1-6k248s3",
+        "slug":  "livoltek-gf1-6k248s3",
+        "name":  "Livoltek 6.2kW 48V High-Frequency Off-Grid Inverter",
+        "brand":  "Livoltek",
+        "model_code":  "GF1-6K248S3",
+        "category":  "inverters",
+        "subcategory":  "off-grid",
+        "short_description":  "6.2 kW 48 V off-grid inverter with built-in MPPT solar charging.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "6.2 kW",
+                          "48 V",
+                          "High frequency"
+                      ],
+        "images":  [
+                       {
+                           "url":  "/products/inverters/livoltek-gf1-6k248s3/01.webp",
+                           "alt":  "Livoltek 6.2kW 48V High-Frequency Off-Grid Inverter â€” front view (official series photograph)",
+                           "type":  "primary"
+                       },
+                       {
+                           "url":  "/products/inverters/livoltek-gf1-6k248s3/02.webp",
+                           "alt":  "Livoltek 6.2kW 48V High-Frequency Off-Grid Inverter â€” side view (official series photograph)",
+                           "type":  "angle"
+                       }
+                   ],
+        "cost_price":  45000.0,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  false,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  null,
+        "warranty_years":  2,
+        "stock_status":  "call_for_stock",
+        "stock_qty":  null,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  true,
+        "compatible_with":  [
+                                "livoltek-blf-b51100r21001",
+                                "hexing-hx-3010913830",
+                                "hexing-hxcb10r01002",
+                                "hexing-hx-3013200300"
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Hexing Africa / Livoltek",
+        "source_list_date":  "2025-Q2 (as printed on list)",
+        "is_featured":  false,
+        "is_published":  true,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "livoltek-gf1-12ks2-t",
+        "slug":  "livoltek-gf1-12ks2-t",
+        "name":  "Livoltek 12kW 48V Off-Grid Inverter with AFCI and Wi-Fi",
+        "brand":  "Livoltek",
+        "model_code":  "GF1-12KS2-T",
+        "category":  "inverters",
+        "subcategory":  "off-grid",
+        "short_description":  "12 kW 48 V off-grid inverter with built-in MPPT solar charging.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "12 kW",
+                          "48 V",
+                          "AFCI",
+                          "Wi-Fi"
+                      ],
+        "images":  [
+                       {
+                           "url":  "/products/inverters/livoltek-gf1-12ks2-t/01.webp",
+                           "alt":  "Livoltek 12kW 48V Off-Grid Inverter with AFCI and Wi-Fi â€” three-quarter view (official series photograph)",
+                           "type":  "primary"
+                       },
+                       {
+                           "url":  "/products/inverters/livoltek-gf1-12ks2-t/02.webp",
+                           "alt":  "Livoltek 12kW 48V Off-Grid Inverter with AFCI and Wi-Fi â€” alternate view (official series photograph)",
+                           "type":  "angle"
+                       }
+                   ],
+        "cost_price":  150000.0,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  false,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  null,
+        "warranty_years":  4,
+        "stock_status":  "call_for_stock",
+        "stock_qty":  null,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  true,
+        "compatible_with":  [
+                                "livoltek-blf-b51100r21001",
+                                "hexing-hx-3010913830",
+                                "hexing-hxcb10r01002",
+                                "hexing-hx-3013200300"
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Hexing Africa / Livoltek",
+        "source_list_date":  "2025-Q2 (as printed on list)",
+        "is_featured":  false,
+        "is_published":  true,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "livoltek-psd300-r310",
+        "slug":  "livoltek-psd300-r310",
+        "name":  "Livoltek Wi-Fi Module for Remote Monitoring",
+        "brand":  "Livoltek",
+        "model_code":  "PSD300.R310",
+        "category":  "balance-of-system",
+        "subcategory":  "protection",
+        "short_description":  "Plug-in Wi-Fi module for remote monitoring of Livoltek inverters.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "Wi-Fi",
+                          "Livoltek inverters"
+                      ],
+        "images":  [
+                       {
+                           "url":  "/products/balance-of-system/livoltek-psd300-r310/01.webp",
+                           "alt":  "Livoltek Wi-Fi Module for Remote Monitoring â€” front view (official series photograph)",
+                           "type":  "primary"
+                       }
+                   ],
+        "cost_price":  6000.0,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  false,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  null,
+        "warranty_years":  null,
+        "stock_status":  "call_for_stock",
+        "stock_qty":  null,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  false,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Hexing Africa / Livoltek",
+        "source_list_date":  "2025-Q2 (as printed on list)",
+        "is_featured":  false,
+        "is_published":  true,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "livoltek-lhe34drr11001",
+        "slug":  "livoltek-lhe34drr11001",
+        "name":  "Livoltek Three-Phase Smart Meter, Four-Wire DIN Rail",
+        "brand":  "Livoltek",
+        "model_code":  "LHE34DRR11001",
+        "category":  "balance-of-system",
+        "subcategory":  "protection",
+        "short_description":  "Four-wire DIN-rail smart meter for Livoltek three-phase hybrid inverters.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "Three phase",
+                          "DIN rail"
+                      ],
+        "images":  [
+
+                   ],
+        "cost_price":  8000.0,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  false,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  null,
+        "warranty_years":  null,
+        "stock_status":  "call_for_stock",
+        "stock_qty":  null,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  false,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Hexing Africa / Livoltek",
+        "source_list_date":  "2025-Q2 (as printed on list)",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "tw-solar-tw-715-bf",
+        "slug":  "tw-solar-tw-715-bf",
+        "name":  "TW Solar 715W Bifacial Solar Panel",
+        "brand":  "TW Solar",
+        "model_code":  "TW-715-BF",
+        "category":  "solar-panels",
+        "subcategory":  "bifacial",
+        "short_description":  "715W bifacial module for maximum generation on commercial and large residential roofs.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "715 W",
+                          "Bifacial"
+                      ],
+        "images":  [
+
+                   ],
+        "cost_price":  12155.0,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  false,
+        "cost_per_watt":  17.0,
+        "module_watts":  715,
+        "pricing_note":  "Priced per watt on source list (KES 17/W dealer); module price = 715 x 17.",
+        "warranty_years":  12,
+        "stock_status":  "call_for_stock",
+        "stock_qty":  null,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  true,
+        "compatible_with":  [
+                                "hexing-hx-mc4",
+                                "hexing-hx-8040600560",
+                                "hexing-hx-8040600590",
+                                "hexing-hx-8010301810-b",
+                                "hexing-hx-8040600660",
+                                "hexing-hx-8010301810-r"
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Hexing Africa / Livoltek",
+        "source_list_date":  "2025-Q2 (as printed on list)",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "tw-solar-tw-610-bf",
+        "slug":  "tw-solar-tw-610-bf",
+        "name":  "TW Solar 610W Bifacial Solar Panel",
+        "brand":  "TW Solar",
+        "model_code":  "TW-610-BF",
+        "category":  "solar-panels",
+        "subcategory":  "bifacial",
+        "short_description":  "610W bifacial module balancing yield and roof coverage.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "610 W",
+                          "Bifacial"
+                      ],
+        "images":  [
+
+                   ],
+        "cost_price":  9760.0,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  false,
+        "cost_per_watt":  16.0,
+        "module_watts":  610,
+        "pricing_note":  "Priced per watt on source list (KES 16/W dealer); module price = 610 x 16.",
+        "warranty_years":  12,
+        "stock_status":  "call_for_stock",
+        "stock_qty":  null,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  true,
+        "compatible_with":  [
+                                "hexing-hx-mc4",
+                                "hexing-hx-8040600560",
+                                "hexing-hx-8040600590",
+                                "hexing-hx-8010301810-b",
+                                "hexing-hx-8040600660",
+                                "hexing-hx-8010301810-r"
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Hexing Africa / Livoltek",
+        "source_list_date":  "2025-Q2 (as printed on list)",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "hexing-hxcb10r01002",
+        "slug":  "hexing-hxcb10r01002",
+        "name":  "Hexing DC Combiner Box",
+        "brand":  "Hexing",
+        "model_code":  "HXCB10R01002",
+        "category":  "balance-of-system",
+        "subcategory":  "protection",
+        "short_description":  "Balance-of-system component â€” hexing dc combiner box.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "DC",
+                          "Combiner"
+                      ],
+        "images":  [
+
+                   ],
+        "cost_price":  8000.0,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  false,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  null,
+        "warranty_years":  1,
+        "stock_status":  "call_for_stock",
+        "stock_qty":  null,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  false,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Hexing Africa / Livoltek",
+        "source_list_date":  "2025-Q2 (as printed on list)",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "hexing-hxdb20r01002",
+        "slug":  "hexing-hxdb20r01002",
+        "name":  "Hexing AC Combiner Box",
+        "brand":  "Hexing",
+        "model_code":  "HXDB20R01002",
+        "category":  "balance-of-system",
+        "subcategory":  "protection",
+        "short_description":  "Balance-of-system component â€” hexing ac combiner box.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "AC",
+                          "Combiner"
+                      ],
+        "images":  [
+
+                   ],
+        "cost_price":  7000.0,
+        "retail_price":  null,
+        "price_status":  "needs_review",
+        "source_vat_inclusive":  false,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  "Source list shows the same model code twice at KES 7,000 and KES 3,500 â€” the 7,000 line is used; confirm the 3,500 entry with Hexing.",
+        "warranty_years":  1,
+        "stock_status":  "call_for_stock",
+        "stock_qty":  null,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  false,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Hexing Africa / Livoltek",
+        "source_list_date":  "2025-Q2 (as printed on list)",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "hexing-hx-mc4",
+        "slug":  "hexing-hx-mc4",
+        "name":  "MC4 Connectors (Pair)",
+        "brand":  "Hexing",
+        "model_code":  "HX-MC4",
+        "category":  "balance-of-system",
+        "subcategory":  "protection",
+        "short_description":  "Balance-of-system component â€” mc4 connectors (pair).",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "Pair",
+                          "MC4"
+                      ],
+        "images":  [
+
+                   ],
+        "cost_price":  200.0,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  false,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  null,
+        "warranty_years":  1,
+        "stock_status":  "call_for_stock",
+        "stock_qty":  null,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  false,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Hexing Africa / Livoltek",
+        "source_list_date":  "2025-Q2 (as printed on list)",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "hexing-hx-3013000470",
+        "slug":  "hexing-hx-3013000470",
+        "name":  "Changeover Switch, AC 230V 2P 63A",
+        "brand":  "Hexing",
+        "model_code":  "HX-3013000470",
+        "category":  "balance-of-system",
+        "subcategory":  "protection",
+        "short_description":  "Balance-of-system component â€” changeover switch, ac 230v 2p 63a.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "230 V",
+                          "63 A",
+                          "2-pole"
+                      ],
+        "images":  [
+
+                   ],
+        "cost_price":  2400.0,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  false,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  null,
+        "warranty_years":  1,
+        "stock_status":  "call_for_stock",
+        "stock_qty":  null,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  false,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Hexing Africa / Livoltek",
+        "source_list_date":  "2025-Q2 (as printed on list)",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "hexing-hx-3010913840",
+        "slug":  "hexing-hx-3010913840",
+        "name":  "Adjustable Voltage/Current Protector, 230VAC",
+        "brand":  "Hexing",
+        "model_code":  "HX-3010913840",
+        "category":  "balance-of-system",
+        "subcategory":  "protection",
+        "short_description":  "Balance-of-system component â€” adjustable voltage/current protector, 230vac.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "230 V AC"
+                      ],
+        "images":  [
+
+                   ],
+        "cost_price":  1040.0,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  false,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  null,
+        "warranty_years":  1,
+        "stock_status":  "call_for_stock",
+        "stock_qty":  null,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  false,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Hexing Africa / Livoltek",
+        "source_list_date":  "2025-Q2 (as printed on list)",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "hexing-hx-3013200300",
+        "slug":  "hexing-hx-3013200300",
+        "name":  "Surge Protective Device, DC 600V 2P 20kA",
+        "brand":  "Hexing",
+        "model_code":  "HX-3013200300",
+        "category":  "balance-of-system",
+        "subcategory":  "protection",
+        "short_description":  "Balance-of-system component â€” surge protective device, dc 600v 2p 20ka.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "600 V DC",
+                          "20 kA"
+                      ],
+        "images":  [
+
+                   ],
+        "cost_price":  1200.0,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  false,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  null,
+        "warranty_years":  1,
+        "stock_status":  "call_for_stock",
+        "stock_qty":  null,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  false,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Hexing Africa / Livoltek",
+        "source_list_date":  "2025-Q2 (as printed on list)",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "hexing-hx-3013200610",
+        "slug":  "hexing-hx-3013200610",
+        "name":  "Surge Protective Device, DC 1000V 2P 20kA",
+        "brand":  "Hexing",
+        "model_code":  "HX-3013200610",
+        "category":  "balance-of-system",
+        "subcategory":  "protection",
+        "short_description":  "Balance-of-system component â€” surge protective device, dc 1000v 2p 20ka.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "1000 V DC",
+                          "20 kA"
+                      ],
+        "images":  [
+
+                   ],
+        "cost_price":  1600.0,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  false,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  null,
+        "warranty_years":  1,
+        "stock_status":  "call_for_stock",
+        "stock_qty":  null,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  false,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Hexing Africa / Livoltek",
+        "source_list_date":  "2025-Q2 (as printed on list)",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "hexing-hx-3013500270",
+        "slug":  "hexing-hx-3013500270",
+        "name":  "Fuse-Disconnector, DC 1000V 20A",
+        "brand":  "Hexing",
+        "model_code":  "HX-3013500270",
+        "category":  "balance-of-system",
+        "subcategory":  "protection",
+        "short_description":  "Balance-of-system component â€” fuse-disconnector, dc 1000v 20a.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "1000 V DC",
+                          "20 A"
+                      ],
+        "images":  [
+
+                   ],
+        "cost_price":  400.0,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  false,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  null,
+        "warranty_years":  1,
+        "stock_status":  "call_for_stock",
+        "stock_qty":  null,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  false,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Hexing Africa / Livoltek",
+        "source_list_date":  "2025-Q2 (as printed on list)",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "hexing-hx-3010913830",
+        "slug":  "hexing-hx-3010913830",
+        "name":  "DC Miniature Circuit Breaker, 600V 2P 32A",
+        "brand":  "Hexing",
+        "model_code":  "HX-3010913830",
+        "category":  "balance-of-system",
+        "subcategory":  "protection",
+        "short_description":  "Balance-of-system component â€” dc miniature circuit breaker, 600v 2p 32a.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "600 V DC",
+                          "32 A"
+                      ],
+        "images":  [
+
+                   ],
+        "cost_price":  1120.0,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  false,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  null,
+        "warranty_years":  1,
+        "stock_status":  "call_for_stock",
+        "stock_qty":  null,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  false,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Hexing Africa / Livoltek",
+        "source_list_date":  "2025-Q2 (as printed on list)",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "hexing-hx-3013200620",
+        "slug":  "hexing-hx-3013200620",
+        "name":  "AC Surge Protective Device, 400V 2P 20kA",
+        "brand":  "Hexing",
+        "model_code":  "HX-3013200620",
+        "category":  "balance-of-system",
+        "subcategory":  "protection",
+        "short_description":  "Balance-of-system component â€” ac surge protective device, 400v 2p 20ka.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "400 V AC",
+                          "20 kA"
+                      ],
+        "images":  [
+
+                   ],
+        "cost_price":  800.0,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  false,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  null,
+        "warranty_years":  1,
+        "stock_status":  "call_for_stock",
+        "stock_qty":  null,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  false,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Hexing Africa / Livoltek",
+        "source_list_date":  "2025-Q2 (as printed on list)",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "hexing-hx-5110701290",
+        "slug":  "hexing-hx-5110701290",
+        "name":  "String Box Enclosure, PC, 12-Way",
+        "brand":  "Hexing",
+        "model_code":  "HX-5110701290",
+        "category":  "balance-of-system",
+        "subcategory":  "protection",
+        "short_description":  "Balance-of-system component â€” string box enclosure, pc, 12-way.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "12-way"
+                      ],
+        "images":  [
+
+                   ],
+        "cost_price":  1040.0,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  false,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  null,
+        "warranty_years":  1,
+        "stock_status":  "call_for_stock",
+        "stock_qty":  null,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  false,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Hexing Africa / Livoltek",
+        "source_list_date":  "2025-Q2 (as printed on list)",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "hexing-hx-5110701560",
+        "slug":  "hexing-hx-5110701560",
+        "name":  "String Box Enclosure, PC, 24-Way",
+        "brand":  "Hexing",
+        "model_code":  "HX-5110701560",
+        "category":  "balance-of-system",
+        "subcategory":  "protection",
+        "short_description":  "Balance-of-system component â€” string box enclosure, pc, 24-way.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "24-way"
+                      ],
+        "images":  [
+
+                   ],
+        "cost_price":  2296.0,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  false,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  null,
+        "warranty_years":  1,
+        "stock_status":  "call_for_stock",
+        "stock_qty":  null,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  false,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Hexing Africa / Livoltek",
+        "source_list_date":  "2025-Q2 (as printed on list)",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "hexing-hx-8040600660",
+        "slug":  "hexing-hx-8040600660",
+        "name":  "Mini Rails with 4 Bolts",
+        "brand":  "Hexing",
+        "model_code":  "HX-8040600660",
+        "category":  "solar-panels",
+        "subcategory":  "mounting-rails",
+        "short_description":  "Panel mounting component â€” mini rails with 4 bolts.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "Mounting"
+                      ],
+        "images":  [
+
+                   ],
+        "cost_price":  304.0,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  false,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  null,
+        "warranty_years":  1,
+        "stock_status":  "call_for_stock",
+        "stock_qty":  null,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  false,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Hexing Africa / Livoltek",
+        "source_list_date":  "2025-Q2 (as printed on list)",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "hexing-hx-8040600560",
+        "slug":  "hexing-hx-8040600560",
+        "name":  "End Clamp",
+        "brand":  "Hexing",
+        "model_code":  "HX-8040600560",
+        "category":  "solar-panels",
+        "subcategory":  "mounting-rails",
+        "short_description":  "Panel mounting component â€” end clamp.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "Mounting"
+                      ],
+        "images":  [
+
+                   ],
+        "cost_price":  80.0,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  false,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  null,
+        "warranty_years":  1,
+        "stock_status":  "call_for_stock",
+        "stock_qty":  null,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  false,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Hexing Africa / Livoltek",
+        "source_list_date":  "2025-Q2 (as printed on list)",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "hexing-hx-8040600590",
+        "slug":  "hexing-hx-8040600590",
+        "name":  "Mid Clamp",
+        "brand":  "Hexing",
+        "model_code":  "HX-8040600590",
+        "category":  "solar-panels",
+        "subcategory":  "mounting-rails",
+        "short_description":  "Panel mounting component â€” mid clamp.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "Mounting"
+                      ],
+        "images":  [
+
+                   ],
+        "cost_price":  80.0,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  false,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  null,
+        "warranty_years":  1,
+        "stock_status":  "call_for_stock",
+        "stock_qty":  null,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  false,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Hexing Africa / Livoltek",
+        "source_list_date":  "2025-Q2 (as printed on list)",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "hexing-hx-8040600870",
+        "slug":  "hexing-hx-8040600870",
+        "name":  "C\u0026I Long Guide Rail 5.9m",
+        "brand":  "Hexing",
+        "model_code":  "HX-8040600870",
+        "category":  "solar-panels",
+        "subcategory":  "mounting-rails",
+        "short_description":  "Panel mounting component â€” c\u0026i long guide rail 5.9m.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "Mounting"
+                      ],
+        "images":  [
+
+                   ],
+        "cost_price":  3600.0,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  false,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  null,
+        "warranty_years":  1,
+        "stock_status":  "call_for_stock",
+        "stock_qty":  null,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  false,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Hexing Africa / Livoltek",
+        "source_list_date":  "2025-Q2 (as printed on list)",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "hexing-hx-8040600880",
+        "slug":  "hexing-hx-8040600880",
+        "name":  "End Clamp 33mm",
+        "brand":  "Hexing",
+        "model_code":  "HX-8040600880",
+        "category":  "solar-panels",
+        "subcategory":  "mounting-rails",
+        "short_description":  "Panel mounting component â€” end clamp 33mm.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "Mounting"
+                      ],
+        "images":  [
+
+                   ],
+        "cost_price":  100.0,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  false,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  null,
+        "warranty_years":  1,
+        "stock_status":  "call_for_stock",
+        "stock_qty":  null,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  false,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Hexing Africa / Livoltek",
+        "source_list_date":  "2025-Q2 (as printed on list)",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "hexing-hx-8040600380",
+        "slug":  "hexing-hx-8040600380",
+        "name":  "End Clamp 30mm",
+        "brand":  "Hexing",
+        "model_code":  "HX-8040600380",
+        "category":  "solar-panels",
+        "subcategory":  "mounting-rails",
+        "short_description":  "Panel mounting component â€” end clamp 30mm.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "Mounting"
+                      ],
+        "images":  [
+
+                   ],
+        "cost_price":  100.0,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  false,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  null,
+        "warranty_years":  1,
+        "stock_status":  "call_for_stock",
+        "stock_qty":  null,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  false,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Hexing Africa / Livoltek",
+        "source_list_date":  "2025-Q2 (as printed on list)",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "hexing-hx-8040600890",
+        "slug":  "hexing-hx-8040600890",
+        "name":  "Mid Clamp 30mm",
+        "brand":  "Hexing",
+        "model_code":  "HX-8040600890",
+        "category":  "solar-panels",
+        "subcategory":  "mounting-rails",
+        "short_description":  "Panel mounting component â€” mid clamp 30mm.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "Mounting"
+                      ],
+        "images":  [
+
+                   ],
+        "cost_price":  100.0,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  false,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  null,
+        "warranty_years":  1,
+        "stock_status":  "call_for_stock",
+        "stock_qty":  null,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  false,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Hexing Africa / Livoltek",
+        "source_list_date":  "2025-Q2 (as printed on list)",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "hexing-hx-8040600900",
+        "slug":  "hexing-hx-8040600900",
+        "name":  "Mid Clamp 33mm",
+        "brand":  "Hexing",
+        "model_code":  "HX-8040600900",
+        "category":  "solar-panels",
+        "subcategory":  "mounting-rails",
+        "short_description":  "Panel mounting component â€” mid clamp 33mm.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "Mounting"
+                      ],
+        "images":  [
+
+                   ],
+        "cost_price":  100.0,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  false,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  null,
+        "warranty_years":  1,
+        "stock_status":  "call_for_stock",
+        "stock_qty":  null,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  false,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Hexing Africa / Livoltek",
+        "source_list_date":  "2025-Q2 (as printed on list)",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "hexing-hx-8040600310",
+        "slug":  "hexing-hx-8040600310",
+        "name":  "Rail Joiner / Rail Splice",
+        "brand":  "Hexing",
+        "model_code":  "HX-8040600310",
+        "category":  "solar-panels",
+        "subcategory":  "mounting-rails",
+        "short_description":  "Panel mounting component â€” rail joiner / rail splice.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "Mounting"
+                      ],
+        "images":  [
+
+                   ],
+        "cost_price":  110.0,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  false,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  null,
+        "warranty_years":  1,
+        "stock_status":  "call_for_stock",
+        "stock_qty":  null,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  false,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Hexing Africa / Livoltek",
+        "source_list_date":  "2025-Q2 (as printed on list)",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "hexing-hx-8040600400",
+        "slug":  "hexing-hx-8040600400",
+        "name":  "L-Feet with Screws",
+        "brand":  "Hexing",
+        "model_code":  "HX-8040600400",
+        "category":  "solar-panels",
+        "subcategory":  "mounting-rails",
+        "short_description":  "Panel mounting component â€” l-feet with screws.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "Mounting"
+                      ],
+        "images":  [
+
+                   ],
+        "cost_price":  200.0,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  false,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  null,
+        "warranty_years":  1,
+        "stock_status":  "call_for_stock",
+        "stock_qty":  null,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  false,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Hexing Africa / Livoltek",
+        "source_list_date":  "2025-Q2 (as printed on list)",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "hexing-hx-8040600720",
+        "slug":  "hexing-hx-8040600720",
+        "name":  "Grounding Lug EG-EN-01",
+        "brand":  "Hexing",
+        "model_code":  "HX-8040600720",
+        "category":  "solar-panels",
+        "subcategory":  "mounting-rails",
+        "short_description":  "Panel mounting component â€” grounding lug eg-en-01.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "Mounting"
+                      ],
+        "images":  [
+
+                   ],
+        "cost_price":  100.0,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  false,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  null,
+        "warranty_years":  1,
+        "stock_status":  "call_for_stock",
+        "stock_qty":  null,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  false,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Hexing Africa / Livoltek",
+        "source_list_date":  "2025-Q2 (as printed on list)",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "hexing-hx-8040600730",
+        "slug":  "hexing-hx-8040600730",
+        "name":  "Grounding Clip GC-01",
+        "brand":  "Hexing",
+        "model_code":  "HX-8040600730",
+        "category":  "solar-panels",
+        "subcategory":  "mounting-rails",
+        "short_description":  "Panel mounting component â€” grounding clip gc-01.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "Mounting"
+                      ],
+        "images":  [
+
+                   ],
+        "cost_price":  20.0,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  false,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  null,
+        "warranty_years":  1,
+        "stock_status":  "call_for_stock",
+        "stock_qty":  null,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  false,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Hexing Africa / Livoltek",
+        "source_list_date":  "2025-Q2 (as printed on list)",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "hexing-hx-8010301810-r",
+        "slug":  "hexing-hx-8010301810-r",
+        "name":  "PV Cable 6mm Red (Per Metre)",
+        "brand":  "Hexing",
+        "model_code":  "HX-8010301810-R",
+        "category":  "balance-of-system",
+        "subcategory":  "cables-connectors",
+        "short_description":  "Solar DC cable â€” pv cable 6mm red (per metre).",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "6 mmÂ²",
+                          "Per metre"
+                      ],
+        "images":  [
+
+                   ],
+        "cost_price":  135.0,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  false,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  null,
+        "warranty_years":  1,
+        "stock_status":  "call_for_stock",
+        "stock_qty":  null,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  false,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Hexing Africa / Livoltek",
+        "source_list_date":  "2025-Q2 (as printed on list)",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "hexing-hx-8010301810-b",
+        "slug":  "hexing-hx-8010301810-b",
+        "name":  "PV Cable 6mm Black (Per Metre)",
+        "brand":  "Hexing",
+        "model_code":  "HX-8010301810-B",
+        "category":  "balance-of-system",
+        "subcategory":  "cables-connectors",
+        "short_description":  "Solar DC cable â€” pv cable 6mm black (per metre).",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "6 mmÂ²",
+                          "Per metre"
+                      ],
+        "images":  [
+
+                   ],
+        "cost_price":  135.0,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  false,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  null,
+        "warranty_years":  1,
+        "stock_status":  "call_for_stock",
+        "stock_qty":  null,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  false,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Hexing Africa / Livoltek",
+        "source_list_date":  "2025-Q2 (as printed on list)",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "hexing-hx-sl-40n-490",
+        "slug":  "hexing-hx-sl-40n-490",
+        "name":  "Hexing All-in-One Solar Street Light 40W (N)",
+        "brand":  "Hexing",
+        "model_code":  "HX-SL-40N-490",
+        "category":  "balance-of-system",
+        "subcategory":  "street-lights",
+        "short_description":  "40W all-in-one solar street light with integrated panel, battery and N LED head.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "40 W",
+                          "All-in-one",
+                          "N tone"
+                      ],
+        "images":  [
+                       {
+                           "url":  "/products/street-lights-cctv/hexing-hx-sl-40n-490/01.webp",
+                           "alt":  "Hexing All-in-One Solar Street Light 40W (N) â€” pole-mounted view (official series photograph)",
+                           "type":  "primary"
+                       }
+                   ],
+        "cost_price":  7720.0,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  false,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  null,
+        "warranty_years":  2,
+        "stock_status":  "call_for_stock",
+        "stock_qty":  null,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  true,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Hexing Africa / Livoltek",
+        "source_list_date":  "2025-Q2 (as printed on list)",
+        "is_featured":  false,
+        "is_published":  true,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "hexing-hx-sl-60n-500",
+        "slug":  "hexing-hx-sl-60n-500",
+        "name":  "Hexing All-in-One Solar Street Light 60W (N)",
+        "brand":  "Hexing",
+        "model_code":  "HX-SL-60N-500",
+        "category":  "balance-of-system",
+        "subcategory":  "street-lights",
+        "short_description":  "60W all-in-one solar street light with integrated panel, battery and N LED head.",
+        "long_description":  "An all-in-one solar street light: panel, LiFePO4 battery, controller and a 60W LED head in a single sealed unit. There is no trenching, no cabling and no mains connection â€” it mounts on a pole and runs itself, charging by day and lighting from dusk.\n\nThe 60W head suits estate roads, gate areas, parking and security lighting around homes, farms and business premises. Supplied by Hexing, the manufacturer behind the Livoltek range, with a 2-year warranty.",
+        "specs":  [
+                      {
+                          "group":  "OUTPUT",
+                          "label":  "LED power",
+                          "value":  "60",
+                          "unit":  "W"
+                      },
+                      {
+                          "group":  "GENERAL",
+                          "label":  "Design",
+                          "value":  "All-in-one (panel, battery, controller integrated)",
+                          "unit":  ""
+                      },
+                      {
+                          "group":  "GENERAL",
+                          "label":  "Light tone",
+                          "value":  "N (neutral)",
+                          "unit":  ""
+                      },
+                      {
+                          "group":  "GENERAL",
+                          "label":  "Warranty",
+                          "value":  "2",
+                          "unit":  "years"
+                      }
+                  ],
+        "key_specs":  [
+                          "60 W",
+                          "All-in-one",
+                          "N tone"
+                      ],
+        "images":  [
+                       {
+                           "url":  "/products/street-lights-cctv/hexing-hx-sl-60n-500/01.webp",
+                           "alt":  "Hexing HX-SL all-in-one solar street light, 60W, pole-mounted",
+                           "type":  "primary"
+                       }
+                   ],
+        "cost_price":  9850.0,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  false,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  null,
+        "warranty_years":  2,
+        "stock_status":  "call_for_stock",
+        "stock_qty":  null,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  true,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Hexing Africa / Livoltek",
+        "source_list_date":  "2025-Q2 (as printed on list)",
+        "is_featured":  true,
+        "is_published":  true,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "hexing-hx-sl-80nw-510",
+        "slug":  "hexing-hx-sl-80nw-510",
+        "name":  "Hexing All-in-One Solar Street Light 80W (NW)",
+        "brand":  "Hexing",
+        "model_code":  "HX-SL-80NW-510",
+        "category":  "balance-of-system",
+        "subcategory":  "street-lights",
+        "short_description":  "80W all-in-one solar street light with integrated panel, battery and NW LED head.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "80 W",
+                          "All-in-one",
+                          "NW tone"
+                      ],
+        "images":  [
+                       {
+                           "url":  "/products/street-lights-cctv/hexing-hx-sl-80nw-510/01.webp",
+                           "alt":  "Hexing All-in-One Solar Street Light 80W (NW) â€” pole-mounted view (official series photograph)",
+                           "type":  "primary"
+                       }
+                   ],
+        "cost_price":  12250.0,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  false,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  null,
+        "warranty_years":  2,
+        "stock_status":  "call_for_stock",
+        "stock_qty":  null,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  true,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Hexing Africa / Livoltek",
+        "source_list_date":  "2025-Q2 (as printed on list)",
+        "is_featured":  false,
+        "is_published":  true,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "hexing-hx-sl-80n-520",
+        "slug":  "hexing-hx-sl-80n-520",
+        "name":  "Hexing All-in-One Solar Street Light 80W (N)",
+        "brand":  "Hexing",
+        "model_code":  "HX-SL-80N-520",
+        "category":  "balance-of-system",
+        "subcategory":  "street-lights",
+        "short_description":  "80W all-in-one solar street light with integrated panel, battery and N LED head.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "80 W",
+                          "All-in-one",
+                          "N tone"
+                      ],
+        "images":  [
+                       {
+                           "url":  "/products/street-lights-cctv/hexing-hx-sl-80n-520/01.webp",
+                           "alt":  "Hexing All-in-One Solar Street Light 80W (N) â€” pole-mounted view (official series photograph)",
+                           "type":  "primary"
+                       }
+                   ],
+        "cost_price":  13700.0,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  false,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  null,
+        "warranty_years":  2,
+        "stock_status":  "call_for_stock",
+        "stock_qty":  null,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  true,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Hexing Africa / Livoltek",
+        "source_list_date":  "2025-Q2 (as printed on list)",
+        "is_featured":  false,
+        "is_published":  true,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "hexing-hx-sl-100n-530",
+        "slug":  "hexing-hx-sl-100n-530",
+        "name":  "Hexing All-in-One Solar Street Light 100W (N)",
+        "brand":  "Hexing",
+        "model_code":  "HX-SL-100N-530",
+        "category":  "balance-of-system",
+        "subcategory":  "street-lights",
+        "short_description":  "100W all-in-one solar street light with integrated panel, battery and N LED head.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "100 W",
+                          "All-in-one",
+                          "N tone"
+                      ],
+        "images":  [
+                       {
+                           "url":  "/products/street-lights-cctv/hexing-hx-sl-100n-530/01.webp",
+                           "alt":  "Hexing All-in-One Solar Street Light 100W (N) â€” pole-mounted view (official series photograph)",
+                           "type":  "primary"
+                       }
+                   ],
+        "cost_price":  14400.0,
+        "retail_price":  null,
+        "price_status":  "ok",
+        "source_vat_inclusive":  false,
+        "cost_per_watt":  null,
+        "module_watts":  null,
+        "pricing_note":  null,
+        "warranty_years":  2,
+        "stock_status":  "call_for_stock",
+        "stock_qty":  null,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  true,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Hexing Africa / Livoltek",
+        "source_list_date":  "2025-Q2 (as printed on list)",
+        "is_featured":  false,
+        "is_published":  true,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "horay-horay-n-350",
+        "slug":  "horay-horay-n-350",
+        "name":  "Horay N-Type Solar Panel 350W",
+        "brand":  "Horay",
+        "model_code":  "HORAY-N-350",
+        "category":  "solar-panels",
+        "subcategory":  "monocrystalline",
+        "short_description":  "350W N-type monocrystalline module from Horay\u0027s high-efficiency range.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "350 W",
+                          "N-type"
+                      ],
+        "images":  [
+
+                   ],
+        "cost_price":  6300.0,
+        "retail_price":  null,
+        "price_status":  "needs_review",
+        "source_vat_inclusive":  null,
+        "cost_per_watt":  18.0,
+        "module_watts":  350,
+        "pricing_note":  "Priced per watt on source list (KES 18/W); module price = wattage x 18.",
+        "warranty_years":  15,
+        "stock_status":  "call_for_stock",
+        "stock_qty":  null,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  true,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Lekkerix Energy",
+        "source_list_date":  "2026-06",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "horay-horay-n-420",
+        "slug":  "horay-horay-n-420",
+        "name":  "Horay N-Type Solar Panel 420W",
+        "brand":  "Horay",
+        "model_code":  "HORAY-N-420",
+        "category":  "solar-panels",
+        "subcategory":  "monocrystalline",
+        "short_description":  "420W N-type monocrystalline module from Horay\u0027s high-efficiency range.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "420 W",
+                          "N-type"
+                      ],
+        "images":  [
+                       {
+                           "url":  "/products/solar-panels/horay-horay-n-420/01.webp",
+                           "alt":  "Horay N-Type Solar Panel 420W â€” HS182-108TC-D-Ocean series photograph",
+                           "type":  "primary"
+                       }
+                   ],
+        "cost_price":  7560.0,
+        "retail_price":  null,
+        "price_status":  "needs_review",
+        "source_vat_inclusive":  null,
+        "cost_per_watt":  18.0,
+        "module_watts":  420,
+        "pricing_note":  "Priced per watt on source list (KES 18/W); module price = wattage x 18.",
+        "warranty_years":  15,
+        "stock_status":  "call_for_stock",
+        "stock_qty":  null,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  true,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Lekkerix Energy",
+        "source_list_date":  "2026-06",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "horay-horay-n-440",
+        "slug":  "horay-horay-n-440",
+        "name":  "Horay N-Type Solar Panel 440W",
+        "brand":  "Horay",
+        "model_code":  "HORAY-N-440",
+        "category":  "solar-panels",
+        "subcategory":  "monocrystalline",
+        "short_description":  "440W N-type monocrystalline module from Horay\u0027s high-efficiency range.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "440 W",
+                          "N-type"
+                      ],
+        "images":  [
+                       {
+                           "url":  "/products/solar-panels/horay-horay-n-440/01.webp",
+                           "alt":  "Horay N-Type Solar Panel 440W â€” HS182-108TC-D-Ocean series photograph",
+                           "type":  "primary"
+                       }
+                   ],
+        "cost_price":  7920.0,
+        "retail_price":  null,
+        "price_status":  "needs_review",
+        "source_vat_inclusive":  null,
+        "cost_per_watt":  18.0,
+        "module_watts":  440,
+        "pricing_note":  "Priced per watt on source list (KES 18/W); module price = wattage x 18.",
+        "warranty_years":  15,
+        "stock_status":  "call_for_stock",
+        "stock_qty":  null,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  true,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Lekkerix Energy",
+        "source_list_date":  "2026-06",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "horay-horay-n-450",
+        "slug":  "horay-horay-n-450",
+        "name":  "Horay N-Type Solar Panel 450W",
+        "brand":  "Horay",
+        "model_code":  "HORAY-N-450",
+        "category":  "solar-panels",
+        "subcategory":  "monocrystalline",
+        "short_description":  "450W N-type monocrystalline module from Horay\u0027s high-efficiency range.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "450 W",
+                          "N-type"
+                      ],
+        "images":  [
+                       {
+                           "url":  "/products/solar-panels/horay-horay-n-450/01.webp",
+                           "alt":  "Horay N-Type Solar Panel 450W â€” HS182-108TC-D-Ocean series photograph",
+                           "type":  "primary"
+                       }
+                   ],
+        "cost_price":  8100.0,
+        "retail_price":  null,
+        "price_status":  "needs_review",
+        "source_vat_inclusive":  null,
+        "cost_per_watt":  18.0,
+        "module_watts":  450,
+        "pricing_note":  "Priced per watt on source list (KES 18/W); module price = wattage x 18.",
+        "warranty_years":  15,
+        "stock_status":  "call_for_stock",
+        "stock_qty":  null,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  true,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Lekkerix Energy",
+        "source_list_date":  "2026-06",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "horay-horay-n-460",
+        "slug":  "horay-horay-n-460",
+        "name":  "Horay N-Type Solar Panel 460W",
+        "brand":  "Horay",
+        "model_code":  "HORAY-N-460",
+        "category":  "solar-panels",
+        "subcategory":  "monocrystalline",
+        "short_description":  "460W N-type monocrystalline module from Horay\u0027s high-efficiency range.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "460 W",
+                          "N-type"
+                      ],
+        "images":  [
+                       {
+                           "url":  "/products/solar-panels/horay-horay-n-460/01.webp",
+                           "alt":  "Horay N-Type Solar Panel 460W â€” HS182-108TC-D-Ocean series photograph",
+                           "type":  "primary"
+                       }
+                   ],
+        "cost_price":  8280.0,
+        "retail_price":  null,
+        "price_status":  "needs_review",
+        "source_vat_inclusive":  null,
+        "cost_per_watt":  18.0,
+        "module_watts":  460,
+        "pricing_note":  "Priced per watt on source list (KES 18/W); module price = wattage x 18.",
+        "warranty_years":  15,
+        "stock_status":  "call_for_stock",
+        "stock_qty":  null,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  true,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Lekkerix Energy",
+        "source_list_date":  "2026-06",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "horay-horay-n-490",
+        "slug":  "horay-horay-n-490",
+        "name":  "Horay N-Type Solar Panel 490W",
+        "brand":  "Horay",
+        "model_code":  "HORAY-N-490",
+        "category":  "solar-panels",
+        "subcategory":  "monocrystalline",
+        "short_description":  "490W N-type monocrystalline module from Horay\u0027s high-efficiency range.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "490 W",
+                          "N-type"
+                      ],
+        "images":  [
+                       {
+                           "url":  "/products/solar-panels/horay-horay-n-490/01.webp",
+                           "alt":  "Horay N-Type Solar Panel 490W â€” HS182-120TC-D-Ocean series photograph",
+                           "type":  "primary"
+                       }
+                   ],
+        "cost_price":  8820.0,
+        "retail_price":  null,
+        "price_status":  "needs_review",
+        "source_vat_inclusive":  null,
+        "cost_per_watt":  18.0,
+        "module_watts":  490,
+        "pricing_note":  "Priced per watt on source list (KES 18/W); module price = wattage x 18.",
+        "warranty_years":  15,
+        "stock_status":  "call_for_stock",
+        "stock_qty":  null,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  true,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Lekkerix Energy",
+        "source_list_date":  "2026-06",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "horay-horay-n-500",
+        "slug":  "horay-horay-n-500",
+        "name":  "Horay N-Type Solar Panel 500W",
+        "brand":  "Horay",
+        "model_code":  "HORAY-N-500",
+        "category":  "solar-panels",
+        "subcategory":  "monocrystalline",
+        "short_description":  "500W N-type monocrystalline module from Horay\u0027s high-efficiency range.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "500 W",
+                          "N-type"
+                      ],
+        "images":  [
+                       {
+                           "url":  "/products/solar-panels/horay-horay-n-500/01.webp",
+                           "alt":  "Horay N-Type Solar Panel 500W â€” HS182-120TC-D-Ocean series photograph",
+                           "type":  "primary"
+                       }
+                   ],
+        "cost_price":  9000.0,
+        "retail_price":  null,
+        "price_status":  "needs_review",
+        "source_vat_inclusive":  null,
+        "cost_per_watt":  18.0,
+        "module_watts":  500,
+        "pricing_note":  "Priced per watt on source list (KES 18/W); module price = wattage x 18.",
+        "warranty_years":  15,
+        "stock_status":  "call_for_stock",
+        "stock_qty":  null,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  true,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Lekkerix Energy",
+        "source_list_date":  "2026-06",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "horay-horay-n-520",
+        "slug":  "horay-horay-n-520",
+        "name":  "Horay N-Type Solar Panel 520W",
+        "brand":  "Horay",
+        "model_code":  "HORAY-N-520",
+        "category":  "solar-panels",
+        "subcategory":  "monocrystalline",
+        "short_description":  "520W N-type monocrystalline module from Horay\u0027s high-efficiency range.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "520 W",
+                          "N-type"
+                      ],
+        "images":  [
+                       {
+                           "url":  "/products/solar-panels/horay-horay-n-520/01.webp",
+                           "alt":  "Horay N-Type Solar Panel 520W â€” HS182-132TC-D-Ocean series photograph",
+                           "type":  "primary"
+                       }
+                   ],
+        "cost_price":  9360.0,
+        "retail_price":  null,
+        "price_status":  "needs_review",
+        "source_vat_inclusive":  null,
+        "cost_per_watt":  18.0,
+        "module_watts":  520,
+        "pricing_note":  "Priced per watt on source list (KES 18/W); module price = wattage x 18.",
+        "warranty_years":  15,
+        "stock_status":  "call_for_stock",
+        "stock_qty":  null,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  true,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Lekkerix Energy",
+        "source_list_date":  "2026-06",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "horay-horay-n-560",
+        "slug":  "horay-horay-n-560",
+        "name":  "Horay N-Type Solar Panel 560W",
+        "brand":  "Horay",
+        "model_code":  "HORAY-N-560",
+        "category":  "solar-panels",
+        "subcategory":  "monocrystalline",
+        "short_description":  "560W N-type monocrystalline module from Horay\u0027s high-efficiency range.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "560 W",
+                          "N-type"
+                      ],
+        "images":  [
+                       {
+                           "url":  "/products/solar-panels/horay-horay-n-560/01.webp",
+                           "alt":  "Horay N-Type Solar Panel 560W â€” HS182-132TC-D-Ocean series photograph",
+                           "type":  "primary"
+                       }
+                   ],
+        "cost_price":  10080.0,
+        "retail_price":  null,
+        "price_status":  "needs_review",
+        "source_vat_inclusive":  null,
+        "cost_per_watt":  18.0,
+        "module_watts":  560,
+        "pricing_note":  "Priced per watt on source list (KES 18/W); module price = wattage x 18.",
+        "warranty_years":  15,
+        "stock_status":  "call_for_stock",
+        "stock_qty":  null,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  true,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Lekkerix Energy",
+        "source_list_date":  "2026-06",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "horay-horay-n-590",
+        "slug":  "horay-horay-n-590",
+        "name":  "Horay N-Type Solar Panel 590W",
+        "brand":  "Horay",
+        "model_code":  "HORAY-N-590",
+        "category":  "solar-panels",
+        "subcategory":  "monocrystalline",
+        "short_description":  "590W N-type monocrystalline module from Horay\u0027s high-efficiency range.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "590 W",
+                          "N-type"
+                      ],
+        "images":  [
+                       {
+                           "url":  "/products/solar-panels/horay-horay-n-590/01.webp",
+                           "alt":  "Horay N-Type Solar Panel 590W â€” HS182-144TC-D-Ocean series photograph",
+                           "type":  "primary"
+                       }
+                   ],
+        "cost_price":  10620.0,
+        "retail_price":  null,
+        "price_status":  "needs_review",
+        "source_vat_inclusive":  null,
+        "cost_per_watt":  18.0,
+        "module_watts":  590,
+        "pricing_note":  "Priced per watt on source list (KES 18/W); module price = wattage x 18.",
+        "warranty_years":  15,
+        "stock_status":  "call_for_stock",
+        "stock_qty":  null,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  true,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Lekkerix Energy",
+        "source_list_date":  "2026-06",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    },
+    {
+        "id":  "horay-horay-n-630",
+        "slug":  "horay-horay-n-630",
+        "name":  "Horay N-Type Solar Panel 630W",
+        "brand":  "Horay",
+        "model_code":  "HORAY-N-630",
+        "category":  "solar-panels",
+        "subcategory":  "monocrystalline",
+        "short_description":  "630W N-type monocrystalline module from Horay\u0027s high-efficiency range.",
+        "long_description":  null,
+        "specs":  [
+
+                  ],
+        "key_specs":  [
+                          "630 W",
+                          "N-type"
+                      ],
+        "images":  [
+                       {
+                           "url":  "/products/solar-panels/horay-horay-n-630/01.webp",
+                           "alt":  "Horay N-Type Solar Panel 630W â€” HS210-120TC-D-Galaxy series photograph",
+                           "type":  "primary"
+                       }
+                   ],
+        "cost_price":  11340.0,
+        "retail_price":  null,
+        "price_status":  "needs_review",
+        "source_vat_inclusive":  null,
+        "cost_per_watt":  18.0,
+        "module_watts":  630,
+        "pricing_note":  "Priced per watt on source list (KES 18/W); module price = wattage x 18.",
+        "warranty_years":  15,
+        "stock_status":  "call_for_stock",
+        "stock_qty":  null,
+        "lead_time_days":  null,
+        "weight_kg":  null,
+        "dimensions_mm":  null,
+        "requires_installation":  true,
+        "compatible_with":  [
+
+                            ],
+        "annual_kwh_yield":  null,
+        "datasheet_url":  null,
+        "source_supplier":  "Lekkerix Energy",
+        "source_list_date":  "2026-06",
+        "is_featured":  false,
+        "is_published":  false,
+        "seo_title":  null,
+        "seo_description":  null
+    }
+]

@@ -1,0 +1,140 @@
+{
+ "solargen-zb-dc-16a": [
+  {
+   "url": "/products/balance-of-system/solargen-zb-dc-16a/01.webp",
+   "alt": "2-Pole PV/DC Breaker 16A — front view",
+   "type": "primary"
+  }
+ ],
+ "solargen-zb-dc-80a": [
+  {
+   "url": "/products/balance-of-system/solargen-zb-dc-80a/01.webp",
+   "alt": "2-Pole PV/DC Breaker 80A — front view",
+   "type": "primary"
+  }
+ ],
+ "solargen-zb-dc-125a": [
+  {
+   "url": "/products/balance-of-system/solargen-zb-dc-125a/01.webp",
+   "alt": "2-Pole PV/DC Breaker 125A — front view",
+   "type": "primary"
+  }
+ ],
+ "solargen-zb-dc-250a": [
+  {
+   "url": "/products/balance-of-system/solargen-zb-dc-250a/01.webp",
+   "alt": "2-Pole PV/DC Breaker 250A — front view",
+   "type": "primary"
+  }
+ ],
+ "solargen-zb-dc-63a": [
+  {
+   "url": "/products/balance-of-system/solargen-zb-dc-63a/01.webp",
+   "alt": "2-Pole PV/DC Breaker 63A — front view",
+   "type": "primary"
+  }
+ ],
+ "growatt-spf-6000-es-plus": [
+  {
+   "url": "/products/inverters/growatt-spf-6000-es-plus/01.webp",
+   "alt": "Growatt SPF 6000 ES Plus Single-Phase Inverter, 48V 6kVA — front view",
+   "type": "primary"
+  }
+ ],
+ "growatt-spf-3500-es-lite": [
+  {
+   "url": "/products/inverters/growatt-spf-3500-es-lite/01.webp",
+   "alt": "Growatt SPF 3500 ES Lite Single-Phase Inverter, 48V 3.5kVA — SPF 3000-5000 ES/ES LITE series photograph",
+   "type": "primary"
+  }
+ ],
+ "growatt-spf-12000-es": [
+  {
+   "url": "/products/inverters/growatt-spf-12000-es/01.webp",
+   "alt": "Growatt SPF 12000 ES Single-Phase Inverter, 48V 12kVA — SPF 4000-18000T DVM series photograph",
+   "type": "primary"
+  }
+ ],
+ "deye-lv-mast-t12k-a": [
+  {
+   "url": "/products/inverters/deye-lv-mast-t12k-a/01.webp",
+   "alt": "Deye Mobile Energy Storage System 12kW with 15kWh Lithium Battery — angled view",
+   "type": "primary"
+  },
+  {
+   "url": "/products/inverters/deye-lv-mast-t12k-a/02.webp",
+   "alt": "Deye Mobile Energy Storage System 12kW with 15kWh Lithium Battery — front view",
+   "type": "angle"
+  }
+ ],
+ "horay-horay-n-420": [
+  {
+   "url": "/products/solar-panels/horay-horay-n-420/01.webp",
+   "alt": "Horay N-Type Solar Panel 420W — HS182-108TC-D-Ocean series photograph",
+   "type": "primary"
+  }
+ ],
+ "horay-horay-n-440": [
+  {
+   "url": "/products/solar-panels/horay-horay-n-440/01.webp",
+   "alt": "Horay N-Type Solar Panel 440W — HS182-108TC-D-Ocean series photograph",
+   "type": "primary"
+  }
+ ],
+ "horay-horay-n-450": [
+  {
+   "url": "/products/solar-panels/horay-horay-n-450/01.webp",
+   "alt": "Horay N-Type Solar Panel 450W — HS182-108TC-D-Ocean series photograph",
+   "type": "primary"
+  }
+ ],
+ "horay-horay-n-460": [
+  {
+   "url": "/products/solar-panels/horay-horay-n-460/01.webp",
+   "alt": "Horay N-Type Solar Panel 460W — HS182-108TC-D-Ocean series photograph",
+   "type": "primary"
+  }
+ ],
+ "horay-horay-n-490": [
+  {
+   "url": "/products/solar-panels/horay-horay-n-490/01.webp",
+   "alt": "Horay N-Type Solar Panel 490W — HS182-120TC-D-Ocean series photograph",
+   "type": "primary"
+  }
+ ],
+ "horay-horay-n-500": [
+  {
+   "url": "/products/solar-panels/horay-horay-n-500/01.webp",
+   "alt": "Horay N-Type Solar Panel 500W — HS182-120TC-D-Ocean series photograph",
+   "type": "primary"
+  }
+ ],
+ "horay-horay-n-520": [
+  {
+   "url": "/products/solar-panels/horay-horay-n-520/01.webp",
+   "alt": "Horay N-Type Solar Panel 520W — HS182-132TC-D-Ocean series photograph",
+   "type": "primary"
+  }
+ ],
+ "horay-horay-n-560": [
+  {
+   "url": "/products/solar-panels/horay-horay-n-560/01.webp",
+   "alt": "Horay N-Type Solar Panel 560W — HS182-132TC-D-Ocean series photograph",
+   "type": "primary"
+  }
+ ],
+ "horay-horay-n-590": [
+  {
+   "url": "/products/solar-panels/horay-horay-n-590/01.webp",
+   "alt": "Horay N-Type Solar Panel 590W — HS182-144TC-D-Ocean series photograph",
+   "type": "primary"
+  }
+ ],
+ "horay-horay-n-630": [
+  {
+   "url": "/products/solar-panels/horay-horay-n-630/01.webp",
+   "alt": "Horay N-Type Solar Panel 630W — HS210-120TC-D-Galaxy series photograph",
+   "type": "primary"
+  }
+ ]
+}
