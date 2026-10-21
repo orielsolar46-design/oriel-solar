@@ -3630,7 +3630,7 @@
     ],
     "images": [
       {
-        "url": "https://cdn.shopify.com/s/files/1/1996/9707/files/ecoflow-us-ecoflow-delta-3-max-series-protection-bag-accessory-delta-3-max-series-protection-bag-1236849815.png?v=1778055972",
+        "url": "https://cdn.shopify.com/s/files/1/1996/9707/files/ecoflow-ecoflow-delta-pro-3-portable-power-station-ul9540-certificated-dp3-delta-pro-3-1179495742.png?v=1762761450",
         "alt": "EcoFlow DELTA Pro 3 Portable Power Station",
         "type": "primary"
       }
@@ -3728,7 +3728,7 @@
     ],
     "images": [
       {
-        "url": "https://cdn.shopify.com/s/files/1/1996/9707/files/ecoflow-ecoflow-delta-3-max-plus-smart-extra-battery-1194623378.png?v=1758781725",
+        "url": "https://cdn.shopify.com/s/files/1/1996/9707/files/ecoflow-us-ecoflow-delta-3-plus-portable-power-station-standalone-delta-3-plus-1179495741.png?v=1755573843",
         "alt": "EcoFlow DELTA 3 Plus Portable Power Station",
         "type": "primary"
       }
@@ -3775,7 +3775,13 @@
       "2400 W",
       "LFP"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1996/9707/files/ecoflow-us-ecoflow-delta-2-max-portable-power-station-delta-2-max-30402652930121.png?v=1764061657",
+        "alt": "EcoFlow EFE2000 Portable Power Station",
+        "type": "primary"
+      }
+    ],
     "cost_price": null,
     "cost_per_watt": null,
     "module_watts": null,
@@ -3820,7 +3826,7 @@
     ],
     "images": [
       {
-        "url": "https://cdn.shopify.com/s/files/1/1996/9707/files/ecoflow-us-ecoflow-delta-2-max-bag-accessory-30485226127433.png?v=1697697260",
+        "url": "https://cdn.shopify.com/s/files/1/1996/9707/files/ecoflow-us-ecoflow-delta-2-max-portable-power-station-delta-2-max-30402652930121.png?v=1764061657",
         "alt": "EcoFlow DELTA 2 Max Portable Power Station",
         "type": "primary"
       }
@@ -3869,7 +3875,7 @@
     ],
     "images": [
       {
-        "url": "https://cdn.shopify.com/s/files/1/1996/9707/files/ecoflow-us-ecoflow-delta-2-max-portable-power-station-delta-2-max-30402652930121.png?v=1764061657",
+        "url": "https://cdn.shopify.com/s/files/1/1996/9707/files/ecoflow-ecoflow-delta-3-classic-portable-power-station-delta-3-classic-1193262710.png?v=1760666975",
         "alt": "EcoFlow DELTA 2 Portable Power Station",
         "type": "primary"
       }
@@ -3918,7 +3924,7 @@
     ],
     "images": [
       {
-        "url": "https://cdn.shopify.com/s/files/1/1996/9707/files/ecoflow-ecoflow-delta-pro-3-portable-power-station-ul9540-certificated-dp3-delta-pro-3-1179495742.png?v=1762761450",
+        "url": "https://cdn.shopify.com/s/files/1/1996/9707/files/ecoflow-us-ecoflow-delta-3-portable-power-station-standalone-delta-3-1261239756.png?v=1792398189",
         "alt": "EcoFlow DELTA 3 Portable Power Station",
         "type": "primary"
       }
@@ -3967,7 +3973,7 @@
     ],
     "images": [
       {
-        "url": "https://cdn.shopify.com/s/files/1/1996/9707/files/ecoflow-ecoflow-delta-pro-ultra-whole-home-backup-power-ecoflow-delta-pro-ultra-ecoflow-smart-home-panel-2-400w-portable-solar-panel-32325955977289.png?v=1775700861",
+        "url": "https://cdn.shopify.com/s/files/1/1996/9707/products/ecoflow-us-ecoflow-river-2-pro-portable-power-station-30042784006217.png?v=1742453520",
         "alt": "EcoFlow RIVER 2 Pro Portable Power Station",
         "type": "primary"
       }
@@ -4013,7 +4019,13 @@
       "1000 Wh",
       "1000 W"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1996/9707/files/ecoflow-ecoflow-delta-3-classic-portable-power-station-delta-3-classic-1193262710.png?v=1760666975",
+        "alt": "EcoFlow E980 Portable Power Station",
+        "type": "primary"
+      }
+    ],
     "cost_price": null,
     "cost_per_watt": null,
     "module_watts": null,
@@ -4348,7 +4360,7 @@
     ],
     "images": [
       {
-        "url": "https://cdn.shopify.com/s/files/1/1996/9707/files/ecoflow-us-ecoflow-175w-rigid-solar-panel-solar-panels-175w-rigid-solar-panel-31896324702281.png?v=1717422916",
+        "url": "https://cdn.shopify.com/s/files/1/1996/9707/files/ecoflow-us-ecoflow-125w-bifacial-modular-solar-panel-500w-4-piece-kit-solar-panels-125w-bifacial-modular-solar-panel-34579394068553.png?v=1744362153",
         "alt": "EcoFlow Rigid Solar Panel 125W x2",
         "type": "primary"
       }
@@ -4445,7 +4457,7 @@
     ],
     "images": [
       {
-        "url": "https://cdn.shopify.com/s/files/1/1996/9707/files/ecoflow-ecoflow-rapid-3-in-1-power-bank-10k-45w-retractable-cable-ac-plug-rapid-dark-grey-1240843967.png?v=1780043139",
+        "url": "https://cdn.shopify.com/s/files/1/1996/9707/products/ecoflow-ecoflow-solar-extension-cable-30058467262537.png?v=1667893957",
         "alt": "EcoFlow 10M Black Cable",
         "type": "primary"
       }
@@ -4589,7 +4601,7 @@
     ],
     "images": [
       {
-        "url": "https://cdn.shopify.com/s/files/1/1996/9707/files/ecoflow-us-ecoflow-trail-series-dc-portable-power-station-1180694231.png?v=1753173286",
+        "url": "https://cdn.shopify.com/s/files/1/1996/9707/products/ecoflow-us-ecoflow-flashlight-30221693026377.png?v=1676269534",
         "alt": "EcoFlow Camp Torches",
         "type": "primary"
       }
@@ -4687,7 +4699,7 @@
     ],
     "images": [
       {
-        "url": "https://cdn.shopify.com/s/files/1/1996/9707/files/ecoflow-us-ecoflow-river-3-plus-smart-extra-battery-standalone-35535572238409.png?v=1733871311",
+        "url": "https://cdn.shopify.com/s/files/1/1996/9707/files/ecoflow-us-ecoflow-river-3-plus-smart-extra-battery-standalone-35424738443337.png?v=1733525891",
         "alt": "EcoFlow EB600 Extra Battery (RIVER 3 Plus)",
         "type": "primary"
       }
@@ -4979,7 +4991,7 @@
     ],
     "images": [
       {
-        "url": "https://cdn.shopify.com/s/files/1/1996/9707/files/ecoflow-us-ecoflow-wave-3-portable-air-conditioner-with-heater-wave-3-wave-3-delta-pro-1244501445.png?v=1781540654",
+        "url": "https://cdn.shopify.com/s/files/1/1996/9707/files/ecoflow-us-ecoflow-wave-2-portable-air-conditioner-with-heater-early-bird-ecoflow-wave-2-free-bag-35375212167241.png?v=1741329240",
         "alt": "EcoFlow WAVE 2 Smart Portable Air Conditioner",
         "type": "primary"
       }
