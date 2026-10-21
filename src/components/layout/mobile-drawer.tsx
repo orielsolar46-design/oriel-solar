@@ -3,15 +3,14 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import * as Dialog from '@radix-ui/react-dialog';
-import * as Accordion from '@radix-ui/react-accordion';
-import { Menu, X, ChevronDown, Phone } from 'lucide-react';
+import { Menu, X, Phone } from 'lucide-react';
 import { WhatsAppIcon } from '@/components/ui/brand-icons';
-import { CATEGORIES, MAIN_NAV, NAV_GROUPS, CONTACT } from '@/lib/navigation';
+import { HEADER_NAV, CONTACT } from '@/lib/navigation';
 
 /**
  * Mobile navigation drawer (MASTERPLAN 5.2, mobile). Slides in from the right,
- * full height. The seven categories are an accordion with their subcategory
- * links, followed by the remaining nav items, then large tappable contact rows.
+ * full height. The five primary links are flat and direct — no accordion, no
+ * nested menus — followed by Track order and large tappable contact rows.
  * Radix Dialog traps focus and returns it to the trigger on close.
  */
 export function MobileDrawer() {
@@ -50,62 +49,8 @@ export function MobileDrawer() {
           </div>
 
           <div className="flex-1 overflow-y-auto">
-            <p className="px-5 pb-1 pt-4 t-eyebrow">Products</p>
-            <Accordion.Root type="single" collapsible className="px-2">
-              {NAV_GROUPS.flatMap((g) => g.slugs)
-                .map((slug) => CATEGORIES.find((c) => c.slug === slug))
-                .filter((c): c is (typeof CATEGORIES)[number] => Boolean(c))
-                .map((cat) => {
-                const Icon = cat.icon;
-                return (
-                  <Accordion.Item key={cat.slug} value={cat.slug} className="border-b border-oriel-line">
-                    <Accordion.Header>
-                      <Accordion.Trigger className="group flex w-full items-center justify-between gap-3 px-3 py-3 text-left">
-                        <span className="flex items-center gap-3">
-                          <Icon size={20} strokeWidth={1.5} className="text-oriel-navy" />
-                          <span className="font-sans text-body font-medium text-oriel-navy">
-                            {cat.navLabel}
-                          </span>
-                        </span>
-                        <ChevronDown
-                          size={18}
-                          strokeWidth={1.5}
-                          className="text-oriel-slate transition-transform duration-200 group-data-[state=open]:rotate-180"
-                        />
-                      </Accordion.Trigger>
-                    </Accordion.Header>
-                    <Accordion.Content className="overflow-hidden">
-                      <ul className="space-y-1 py-1 pl-11 pr-3">
-                        <li>
-                          <Link
-                            href={`/shop/${cat.slug}`}
-                            onClick={close}
-                            className="block py-1.5 text-small font-medium text-oriel-orange"
-                          >
-                            View all
-                          </Link>
-                        </li>
-                        {cat.subcategories.map((sub) => (
-                          <li key={sub.href}>
-                            <Link
-                              href={sub.href}
-                              onClick={close}
-                              className="block py-1.5 text-small text-oriel-slate"
-                            >
-                              {sub.label}
-                            </Link>
-                          </li>
-                        ))}
-                      </ul>
-                    </Accordion.Content>
-                  </Accordion.Item>
-                );
-              })}
-            </Accordion.Root>
-
-            {/* Remaining nav items */}
-            <nav className="mt-2 flex flex-col px-5">
-              {MAIN_NAV.map((item) => (
+            <nav className="flex flex-col px-5 pt-2" aria-label="Mobile primary">
+              {HEADER_NAV.map((item) => (
                 <Link
                   key={item.href}
                   href={item.href}

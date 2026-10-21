@@ -84,9 +84,21 @@ export const CATEGORIES: Category[] = [
 ];
 
 /**
- * Primary navigation shown in the main header bar. Home leads, matching the
- * client's reference layout — the logo already links home, but an explicit
- * Home item is what people look for.
+ * Primary navigation shown in the main header bar. Five direct links, no
+ * dropdowns: the two stocked brands lead, followed by the two families people
+ * browse by category and the accessories shelf.
+ */
+export const HEADER_NAV: SubLink[] = [
+  { label: 'Home', href: '/' },
+  { label: 'EcoFlow', href: '/shop?brand=EcoFlow' },
+  { label: 'Blueetti', href: '/shop?brand=Blueetti' },
+  { label: 'Solar Panels', href: '/shop/solar-panels' },
+  { label: 'Accessories', href: '/shop/balance-of-system' },
+];
+
+/**
+ * Secondary navigation that used to sit in the header. Kept for the footer and
+ * in-page calls to action.
  */
 export const MAIN_NAV: SubLink[] = [
   { label: 'Home', href: '/' },

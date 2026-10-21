@@ -104,7 +104,9 @@ if (toInsert.length) {
   for (let i = 0; i < toInsert.length; i += 40) {
     const batch = toInsert.slice(i, i + 40).map((p) => ({
       ...row(p),
-      retail_price: retailFor(p.cost_price, p.source_vat_inclusive),
+      // Supplier-stated retail wins; otherwise derive from cost when present.
+      // EcoFlow rows carry a direct retail price and no cost.
+      retail_price: p.retail_price ?? retailFor(p.cost_price, p.source_vat_inclusive),
       price_per_watt: null,
     }));
     const r = await fetch(`${URL}/rest/v1/products`, {

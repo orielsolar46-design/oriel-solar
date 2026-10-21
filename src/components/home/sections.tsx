@@ -111,15 +111,18 @@ export async function CategoryGrid() {
 export async function EcoFlowShowcase() {
   const catalogue = await getAllProducts();
   const ecoflow = catalogue.filter((p) => p.brand === 'EcoFlow');
-  // Two from each family so the row reads as portable power, solar and
-  // accessories rather than six near-identical power stations.
-  const pick = (category: string, n: number) =>
-    ecoflow.filter((p) => p.category === category).slice(0, n);
-  const products = [
-    ...pick('battery-storage', 2),
-    ...pick('solar-panels', 2),
-    ...pick('balance-of-system', 2),
+  // The four newest batteries, in descending order of capability. Keeping a
+  // fixed list means the row always reads as a ladder (Pro 3 → Ultra → Max →
+  // Plus) instead of changing with catalogue sort order.
+  const latest = [
+    'ecoflow-delta-pro-3-portable-power-station',
+    'ecoflow-delta-3-ultra-portable-power-station',
+    'ecoflow-delta-3-max-portable-power-station',
+    'ecoflow-delta-3-plus-portable-power-station',
   ];
+  const products = latest
+    .map((slug) => ecoflow.find((p) => p.slug === slug))
+    .filter((p): p is (typeof ecoflow)[number] => Boolean(p));
   if (products.length === 0) return null;
   return (
     <section aria-labelledby="ecoflow-heading" className="border-t border-oriel-line bg-oriel-white">
@@ -128,7 +131,7 @@ export async function EcoFlowShowcase() {
           <div>
             <p className="t-eyebrow text-oriel-slate">EcoFlow</p>
             <h2 id="ecoflow-heading" className="t-h2 mt-2">
-              Portable power, solar and accessories
+              The latest EcoFlow batteries
             </h2>
           </div>
           <Link
@@ -138,7 +141,7 @@ export async function EcoFlowShowcase() {
             View all EcoFlow
           </Link>
         </div>
-        <ul className="mt-8 grid grid-cols-2 gap-3 sm:gap-4 md:grid-cols-3">
+        <ul className="mt-8 grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-4">
           {products.map((product) => (
             <li key={product.slug}>
               <ProductCard product={product} />
