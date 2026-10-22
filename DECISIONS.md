@@ -954,9 +954,10 @@ rendered navy lettering. `cn()` now extends the merger with the project's scale
 five-slot bottom bar; a floating shopfront launcher there covered the More
 button and offered visitors' chrome to staff.
 
-### Baraka never presents as AI; people reply on WhatsApp
-The storefront names the assistant Baraka and carries no "AI" label: launcher,
-header, footer and prompt all avoid the word. The only human path offered to a
-visitor is WhatsApp; the back-office takeover still exists for staff, but the
-shopfront never advertises an in-widget queue.
+### Baraka is introduced as Oriel Solar sales, and people reply on WhatsApp
+The storefront names Baraka and presents him as Oriel Solar sales; no visitor
+copy says "AI" or "assistant". The empty panel opens with an explicit "Start a
+chat" welcome. The only human path offered to a visitor is WhatsApp; the
+back-office takeover still exists for staff, and when it happens the header and
+the agent label make clear that a person is replying.
 

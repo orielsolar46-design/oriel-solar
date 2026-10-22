@@ -3,7 +3,7 @@
 import * as React from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { ArrowRight, RotateCcw, Send, X } from 'lucide-react';
+import { ArrowRight, RotateCcw, Send, UserRound, X } from 'lucide-react';
 import { WhatsAppBadge, WhatsAppIcon } from '@/components/ui/brand-icons';
 import { Button } from '@/components/ui/button';
 import { CONTACT } from '@/lib/navigation';
@@ -147,7 +147,8 @@ export function ChatWidget() {
 
   React.useEffect(() => {
     const list = listRef.current;
-    if (list) list.scrollTop = list.scrollHeight;
+    if (!list) return;
+    list.scrollTop = messages.length === 0 ? 0 : list.scrollHeight;
   }, [messages, pending, open]);
 
   React.useEffect(() => {
@@ -294,10 +295,10 @@ export function ChatWidget() {
 
   const subtitle =
     status === 'human'
-      ? 'Oriel team · a person is in this chat'
+      ? 'Oriel team · you are chatting with a person'
       : status === 'closed'
         ? 'Chat closed'
-        : 'Oriel Solar assistant';
+        : 'Sales · Oriel Solar';
 
   // The back office has its own Chats screen and a bottom bar of its own; a
   // storefront widget floating over it would cover the More button and offer
@@ -319,7 +320,7 @@ export function ChatWidget() {
         <button
           type="button"
           onClick={() => setOpen(true)}
-          aria-label="Chat with Baraka, the Oriel Solar assistant"
+          aria-label="Chat with Baraka from Oriel Solar"
           className="group fixed bottom-4 right-4 z-[70] flex h-14 w-14 items-center justify-center rounded-pill border border-oriel-green/30 bg-oriel-white shadow-[0_6px_20px_rgba(10,23,51,0.28)] transition-all duration-200 hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-oriel-orange focus-visible:ring-offset-2"
         >
           <span className="absolute inset-0 -z-10 animate-ping rounded-pill bg-oriel-green/20" />
@@ -334,7 +335,7 @@ export function ChatWidget() {
         <section
           role="dialog"
           aria-label="Chat with Baraka"
-          className="fixed inset-x-0 bottom-0 z-[70] flex h-[80vh] flex-col overflow-hidden rounded-t-card border border-oriel-line bg-oriel-white shadow-oriel-lift sm:bottom-24 sm:left-auto sm:right-4 sm:h-[34rem] sm:w-[23rem] sm:rounded-card"
+          className="fixed inset-x-0 bottom-0 z-[70] flex h-[80vh] flex-col overflow-hidden rounded-t-card border border-oriel-line bg-oriel-white shadow-oriel-lift sm:bottom-24 sm:left-auto sm:right-4 sm:h-[37rem] sm:max-h-[calc(100vh-8rem)] sm:w-[23rem] sm:rounded-card"
         >
           <header className="flex items-center gap-3 bg-oriel-navy px-4 py-3 text-oriel-white">
             <span className="relative shrink-0">
@@ -372,10 +373,15 @@ export function ChatWidget() {
 
             {ready && messages.length === 0 && (
               <div className="rounded-card border border-oriel-line bg-oriel-white p-4">
-                <p className="text-small text-oriel-navy-ink">
-                  Hi, I&apos;m <strong className="font-semibold">Baraka</strong>, the Oriel Solar
-                  assistant. How may I help you today? Ask me about panels, batteries, inverters,
-                  lighting, delivery or a price.
+                <p className="font-mono text-micro font-semibold uppercase tracking-[0.16em] text-oriel-orange">
+                  Start a chat
+                </p>
+                <p className="mt-1.5 font-display text-body-lg font-semibold leading-snug text-oriel-navy">
+                  Hi, I&apos;m Baraka.
+                </p>
+                <p className="mt-1 text-small text-oriel-navy-ink">
+                  Oriel Solar sales. Tell me what you want to power, or ask about a price,
+                  delivery or installation.
                 </p>
                 <ul className="mt-3 flex flex-wrap gap-2">
                   {SUGGESTIONS.map((s) => (
@@ -421,7 +427,7 @@ export function ChatWidget() {
                 <div key={message.id} className="space-y-2">
                   {isAgent && (
                     <p className="flex items-center gap-1.5 text-[0.6875rem] font-semibold uppercase tracking-[0.1em] text-oriel-green-deep">
-                      <WhatsAppIcon size={12} />
+                      <UserRound size={12} />
                       {message.author ?? 'Oriel team'}
                     </p>
                   )}
@@ -558,7 +564,7 @@ export function ChatWidget() {
           <p className="border-t border-oriel-line bg-oriel-mist px-3 py-2 text-micro text-oriel-slate">
             {status === 'human' ? (
               <>
-                A person from Oriel is in this chat. You can still{' '}
+                You are chatting with a person from Oriel. You can still{' '}
                 <a
                   href={CONTACT.whatsapp}
                   target="_blank"
@@ -571,7 +577,7 @@ export function ChatWidget() {
               </>
             ) : (
               <>
-                Baraka answers from our catalogue. Need a person?{' '}
+                Baraka handles our sales enquiries. Need a person?{' '}
                 <a
                   href={CONTACT.whatsapp}
                   target="_blank"
