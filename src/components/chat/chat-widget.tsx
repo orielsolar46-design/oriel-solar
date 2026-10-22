@@ -3,8 +3,8 @@
 import * as React from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { ArrowRight, MessageCircle, RotateCcw, Send, X } from 'lucide-react';
-import { WhatsAppIcon } from '@/components/ui/brand-icons';
+import { ArrowRight, RotateCcw, Send, X } from 'lucide-react';
+import { WhatsAppBadge, WhatsAppIcon } from '@/components/ui/brand-icons';
 import { Button } from '@/components/ui/button';
 import { CONTACT } from '@/lib/navigation';
 
@@ -323,11 +323,7 @@ export function ChatWidget() {
           className="group fixed bottom-4 right-4 z-[70] flex h-14 w-14 items-center justify-center rounded-pill border border-oriel-green/30 bg-oriel-white shadow-[0_6px_20px_rgba(10,23,51,0.28)] transition-all duration-200 hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-oriel-orange focus-visible:ring-offset-2"
         >
           <span className="absolute inset-0 -z-10 animate-ping rounded-pill bg-oriel-green/20" />
-          <MessageCircle size={26} strokeWidth={1.75} className="text-oriel-navy" aria-hidden />
-          <span
-            className="absolute -bottom-0.5 -right-0.5 h-3 w-3 rounded-pill border-2 border-oriel-white bg-oriel-green"
-            aria-hidden
-          />
+          <WhatsAppBadge size={40} title="" />
           <span className="absolute -right-1.5 -top-1.5 rounded-pill bg-oriel-navy px-1.5 py-0.5 font-mono text-[0.5rem] font-semibold uppercase tracking-wide text-oriel-white">
             Baraka
           </span>
@@ -342,9 +338,7 @@ export function ChatWidget() {
         >
           <header className="flex items-center gap-3 bg-oriel-navy px-4 py-3 text-oriel-white">
             <span className="relative shrink-0">
-              <span className="flex h-9 w-9 items-center justify-center rounded-pill bg-oriel-green font-display text-small font-semibold text-oriel-white">
-                B
-              </span>
+              <WhatsAppBadge size={36} title="" />
               <span
                 className="absolute -bottom-0.5 -right-0.5 h-3 w-3 rounded-pill border-2 border-oriel-navy bg-oriel-green"
                 aria-hidden
