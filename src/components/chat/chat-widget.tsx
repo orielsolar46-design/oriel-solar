@@ -3,8 +3,8 @@
 import * as React from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { ArrowRight, RotateCcw, Send, X } from 'lucide-react';
-import { WhatsAppBadge, WhatsAppIcon } from '@/components/ui/brand-icons';
+import { ArrowRight, MessageCircle, RotateCcw, Send, X } from 'lucide-react';
+import { WhatsAppIcon } from '@/components/ui/brand-icons';
 import { Button } from '@/components/ui/button';
 import { CONTACT } from '@/lib/navigation';
 
@@ -297,7 +297,7 @@ export function ChatWidget() {
       ? 'Oriel team · a person is in this chat'
       : status === 'closed'
         ? 'Chat closed'
-        : 'Oriel Solar assistant · AI';
+        : 'Oriel Solar assistant';
 
   // The back office has its own Chats screen and a bottom bar of its own; a
   // storefront widget floating over it would cover the More button and offer
@@ -309,7 +309,7 @@ export function ChatWidget() {
       {open && (
         <button
           type="button"
-          aria-label="Close the assistant"
+          aria-label="Close chat"
           onClick={() => setOpen(false)}
           className="fixed inset-0 z-[60] bg-oriel-navy-ink/40 sm:hidden"
         />
@@ -323,9 +323,13 @@ export function ChatWidget() {
           className="group fixed bottom-4 right-4 z-[70] flex h-14 w-14 items-center justify-center rounded-pill border border-oriel-green/30 bg-oriel-white shadow-[0_6px_20px_rgba(10,23,51,0.28)] transition-all duration-200 hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-oriel-orange focus-visible:ring-offset-2"
         >
           <span className="absolute inset-0 -z-10 animate-ping rounded-pill bg-oriel-green/20" />
-          <WhatsAppBadge size={40} title="" />
-          <span className="absolute -right-1 -top-1 rounded-pill bg-oriel-navy px-1.5 py-0.5 font-mono text-[0.5625rem] font-semibold uppercase tracking-wider text-oriel-white">
-            AI
+          <MessageCircle size={26} strokeWidth={1.75} className="text-oriel-navy" aria-hidden />
+          <span
+            className="absolute -bottom-0.5 -right-0.5 h-3 w-3 rounded-pill border-2 border-oriel-white bg-oriel-green"
+            aria-hidden
+          />
+          <span className="absolute -right-1.5 -top-1.5 rounded-pill bg-oriel-navy px-1.5 py-0.5 font-mono text-[0.5rem] font-semibold uppercase tracking-wide text-oriel-white">
+            Baraka
           </span>
         </button>
       )}
@@ -338,7 +342,9 @@ export function ChatWidget() {
         >
           <header className="flex items-center gap-3 bg-oriel-navy px-4 py-3 text-oriel-white">
             <span className="relative shrink-0">
-              <WhatsAppBadge size={36} title="" />
+              <span className="flex h-9 w-9 items-center justify-center rounded-pill bg-oriel-green font-display text-small font-semibold text-oriel-white">
+                B
+              </span>
               <span
                 className="absolute -bottom-0.5 -right-0.5 h-3 w-3 rounded-pill border-2 border-oriel-navy bg-oriel-green"
                 aria-hidden
@@ -354,7 +360,7 @@ export function ChatWidget() {
             <button
               type="button"
               onClick={() => setOpen(false)}
-              aria-label="Close the assistant"
+              aria-label="Close chat"
               className="flex h-9 w-9 shrink-0 items-center justify-center rounded-input text-oriel-white/80 transition-colors hover:bg-white/10"
             >
               <X size={18} strokeWidth={1.5} />
@@ -571,14 +577,14 @@ export function ChatWidget() {
               </>
             ) : (
               <>
-                AI assistant, not a person.{' '}
+                Baraka answers from our catalogue. Need a person?{' '}
                 <a
                   href={CONTACT.whatsapp}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="font-semibold text-oriel-green-deep underline underline-offset-2 hover:text-oriel-orange"
                 >
-                  Chat with a human on WhatsApp
+                  Chat with a person on WhatsApp
                 </a>
               </>
             )}

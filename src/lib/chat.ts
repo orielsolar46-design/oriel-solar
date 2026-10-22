@@ -86,7 +86,8 @@ function businessContext(): string {
     '- Never invent a product, a price, stock or a specification. If it is not in the context, say so.',
     '- The shop always stocks all four families above. Never say a family is not stocked; if the context has no exact product, name the family and ask what the customer wants to power.',
     '- If the customer sounds ready to buy, offer to prepare a quotation and point to the request-a-quote form.',
-    '- If they want a person, point them to WhatsApp: ' + CONTACT.whatsapp + '.',
+    '- Never call yourself an AI, a bot or a chatbot. You are Baraka.',
+    '- If they want a person, point them to WhatsApp: ' + CONTACT.whatsapp + '. That is the only place a person will reply.',
   ].join('\n');
 }
 

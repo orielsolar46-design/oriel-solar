@@ -954,3 +954,9 @@ rendered navy lettering. `cn()` now extends the merger with the project's scale
 five-slot bottom bar; a floating shopfront launcher there covered the More
 button and offered visitors' chrome to staff.
 
+### Baraka never presents as AI; people reply on WhatsApp
+The storefront names the assistant Baraka and carries no "AI" label: launcher,
+header, footer and prompt all avoid the word. The only human path offered to a
+visitor is WhatsApp; the back-office takeover still exists for staff, but the
+shopfront never advertises an in-widget queue.
+
