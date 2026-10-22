@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { redirect } from 'next/navigation';
 import { AlertTriangle, ImageOff, Lock, PackageX } from 'lucide-react';
 import { ProductActions } from '@/components/admin/product-actions';
+import { Button } from '@/components/ui/button';
 import { getAdminProducts } from '@/lib/admin/data';
 import { isStaffAuthenticated } from '@/lib/admin/session';
 import { formatKes } from '@/lib/shop';
@@ -48,18 +49,12 @@ export default async function AdminProducts({
   return (
     <div className="space-y-5">
       <PageHeader title="Products" subtitle={`${products.length} of ${all.length} items`}>
-        <Link
-          href="/admin/products/new"
-          className="flex h-11 items-center rounded-input bg-oriel-orange px-4 text-small font-semibold text-oriel-white transition-colors hover:bg-oriel-orange-deep"
-        >
-          Add a product
-        </Link>
-        <Link
-          href="/admin/import"
-          className="flex h-11 items-center rounded-input border border-oriel-line bg-oriel-white px-4 text-small font-semibold text-oriel-navy transition-colors hover:bg-oriel-mist"
-        >
-          Import prices
-        </Link>
+        <Button asChild>
+          <Link href="/admin/products/new">Add a product</Link>
+        </Button>
+        <Button asChild variant="outline">
+          <Link href="/admin/import">Import prices</Link>
+        </Button>
       </PageHeader>
 
       {/* Cost visibility notice */}

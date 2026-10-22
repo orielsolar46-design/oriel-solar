@@ -37,21 +37,27 @@ export const viewport: Viewport = {
 /**
  * Admin shell.
  *
- * A fixed light rail on desktop, offset by `lg:pl-64`; on phones the rail
- * becomes a bottom bar and the padding moves to the bottom so the last row of
- * a list is never trapped under it. Mobile-first is not decoration here — this
+ * A fixed navy rail on desktop, offset by `lg:pl-64`; on phones the rail is a
+ * five-slot bottom bar and the padding moves to the bottom so the last row of a
+ * list is never trapped under it. Mobile-first is not decoration here — this
  * dashboard gets used standing at a customer's gate.
+ *
+ * The page sits on a very light gradient rather than flat mist: the cards are
+ * white and hairline-bordered, and the wash keeps them from dissolving into the
+ * background on a bright laptop screen.
  *
  * The storefront's header and footer are gated out of `/admin` in the root
  * layout, so this shell is the only chrome on the page.
  */
 export default function AdminLayout({ children }: { children: React.ReactNode }) {
   return (
-    <div className={`${fontHeadline.variable} min-h-screen bg-oriel-mist`}>
+    <div
+      className={`${fontHeadline.variable} min-h-screen bg-[linear-gradient(180deg,#F7F9FD_0%,#F1F4FA_45%,#EBF0F8_100%)]`}
+    >
       <AdminNav />
       <div className="pb-safe lg:pb-0 lg:pl-64">
         <AdminTopBar />
-        <main className="mx-auto w-full max-w-6xl px-4 py-6 lg:px-10 lg:py-8">{children}</main>
+        <main className="mx-auto w-full max-w-[88rem] px-4 py-5 lg:px-8 lg:py-7">{children}</main>
       </div>
     </div>
   );

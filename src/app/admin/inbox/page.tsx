@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { redirect } from 'next/navigation';
 import { Calculator, MessageSquare, Phone } from 'lucide-react';
 import { GmailIcon } from '@/components/ui/brand-icons';
+import { Button } from '@/components/ui/button';
 import { isStaffAuthenticated } from '@/lib/admin/session';
 import { getCalculatorLeads, getMessages } from '@/lib/admin/data';
 import { EmptyState, FilterChips, PageHeader } from '@/components/admin/ui';
@@ -57,12 +58,11 @@ export default async function AdminInbox({
                     <p className="mt-0.5 text-micro text-oriel-slate">{m.county}</p>
                   </div>
                   <div className="text-right">
-                    <a
-                      href={`tel:${m.phone}`}
-                      className="inline-flex items-center gap-1.5 rounded-input bg-oriel-orange px-3.5 py-2 text-small font-semibold text-oriel-white transition-colors hover:bg-oriel-orange-deep"
-                    >
-                      <Phone size={14} strokeWidth={1.5} aria-hidden /> Call back
-                    </a>
+                    <Button asChild size="sm">
+                      <a href={`tel:${m.phone}`}>
+                        <Phone size={14} strokeWidth={1.5} aria-hidden /> Call back
+                      </a>
+                    </Button>
                     <p className="mt-1 font-mono text-[0.6875rem] text-oriel-slate">{m.phone}</p>
                     <p className="font-mono text-[0.625rem] text-oriel-slate">
                       {new Date(m.received_at).toLocaleString('en-KE')}

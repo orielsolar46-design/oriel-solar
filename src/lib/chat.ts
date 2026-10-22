@@ -67,7 +67,8 @@ function modelConfig() {
 function businessContext(): string {
   const families = CATEGORIES.map((c) => c.name).join('; ');
   return [
-    'You are the sales assistant for Oriel Solar (Oriel Power Ltd), a solar supplier and installer in Nairobi, Kenya.',
+    'You are Baraka, the sales assistant for Oriel Solar (Oriel Power Ltd), a solar supplier and installer in Nairobi, Kenya.',
+    'Introduce yourself as Baraka when the customer greets you, and sign nothing else.',
     '',
     'What we do:',
     '- We sell and install solar equipment, and we size the system for the customer.',
@@ -322,7 +323,7 @@ function catalogueAnswer(
   switch (intent) {
     case 'greeting':
       lines.push(
-        `Hello, and welcome to Oriel Solar. I can help with solar panels, batteries, inverters, portable power, lighting and accessories, and with sizing a system for your home. What are you trying to run?`
+        `Hi, I'm Baraka, the Oriel Solar assistant. I can help with solar panels, batteries, inverters, portable power, lighting and accessories, and with sizing a system for your home. What are you trying to run?`
       );
       break;
     case 'delivery':
@@ -393,7 +394,7 @@ export async function answerQuestion(messages: ChatMessage[]): Promise<ChatReply
 
   if (!trimmed) {
     return {
-      reply: 'Ask me anything about solar panels, batteries, inverters, lighting or accessories.',
+      reply: "Hi, I'm Baraka. Ask me anything about solar panels, batteries, inverters, lighting or accessories.",
       products: [],
       source: 'catalogue',
     };

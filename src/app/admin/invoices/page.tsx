@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { redirect } from 'next/navigation';
 import { FileText, Plus, Receipt, Wallet } from 'lucide-react';
 import { isStaffAuthenticated } from '@/lib/admin/session';
+import { Button } from '@/components/ui/button';
 import { listDocuments } from '@/lib/documents/store';
 import {
   DOCUMENT_STATUS_LABEL,
@@ -89,12 +90,11 @@ export default async function AdminInvoicesPage({
         title="Invoices & receipts"
         subtitle="Counter sales and web orders, in one numbered series."
       >
-        <Link
-          href="/admin/invoices/new"
-          className="inline-flex h-11 items-center gap-2 rounded-pill bg-oriel-orange px-5 text-small font-semibold text-oriel-white transition-colors hover:bg-oriel-orange-deep"
-        >
-          <Plus size={17} strokeWidth={1.5} aria-hidden /> Write one
-        </Link>
+        <Button asChild>
+          <Link href="/admin/invoices/new">
+            <Plus size={17} strokeWidth={1.5} aria-hidden /> Write one
+          </Link>
+        </Button>
       </PageHeader>
 
       <div className="grid gap-4 sm:grid-cols-3">

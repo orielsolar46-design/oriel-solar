@@ -908,3 +908,49 @@ client can state. Logged as `{{PRICE_VALIDITY_DAYS}}`.
 are strong signals for shopping results and both depend on facts still
 unknown — they would be built from `{{RETURNS_WINDOW}}` and the delivery
 terms. Worth adding as soon as those are confirmed.
+
+## Store assistant and chat inbox (2026-10-22)
+
+### Transcripts live in Supabase Storage, not a new table
+The storefront database is changed through numbered SQL migrations applied by
+hand in the Supabase SQL editor; the assistant needed transcripts before the
+next migration window. One JSON document per conversation in a private
+`chat-transcripts` bucket uses infrastructure that is already provisioned and a
+document-shaped record that reads naturally. The trade-off is a read-modify-write
+on every append: two writers landing in the same few milliseconds can lose one
+message. At this shop's volume that is acceptable; if chat becomes busy, the
+upgrade is a `chat_conversations` / `chat_messages` pair of tables with a
+transactional insert, and the store module is the only file that changes.
+
+### Polling, not websockets
+The visitor widget polls every four seconds while open; the staff thread polls
+every four seconds while visible; the list refreshes every fifteen seconds. A
+socket would be tidier, but it needs a stateful service on Vercel and the back
+office already runs on serverless functions. Polls stop when the tab is hidden,
+so an idle admin screen costs nothing.
+
+### A person cannot type into a chat they have not taken over
+Replying is refused with a 409 unless the conversation status is `human`. This
+is the one rule that keeps Baraka and a staff member from answering the same
+message: taking over stops the assistant, handing back restarts it, and both
+write a system note into the transcript so the visitor's copy has a visible
+record of what happened.
+
+### Unread means "a visitor said something since staff last looked"
+The badge counts conversations with `unreadForStaff > 0`, not messages. Opening
+the thread clears it. The assistant's own answers do not mark a chat unread for
+staff — only a visitor message does — so the inbox is a list of people waiting,
+not a log of bot activity.
+
+### Custom type scale registered with tailwind-merge
+`tailwind-merge` only knows Tailwind's stock font sizes, so it classified
+`text-small` and `text-body` as colours. Merging a variant's `text-oriel-white`
+with a size token silently dropped the colour; a green button on a light card
+rendered navy lettering. `cn()` now extends the merger with the project's scale
+(`display` through `eyebrow`), keeping size and colour in separate groups.
+
+### The storefront widget is not mounted in the back office
+`ChatWidget` returns null under `/admin`. Staff have the Chats screen and a
+five-slot bottom bar; a floating shopfront launcher there covered the More
+button and offered visitors' chrome to staff.
+

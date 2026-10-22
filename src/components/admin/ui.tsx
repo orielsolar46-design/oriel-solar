@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { ArrowRight, TrendingDown, TrendingUp } from 'lucide-react';
+import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
 
 /**
@@ -40,7 +41,7 @@ export function Card({
   return (
     <section
       className={cn(
-        'rounded-card border border-oriel-line bg-oriel-white shadow-oriel-rest',
+        'rounded-panel border border-oriel-line bg-oriel-white shadow-oriel-panel',
         padded && 'p-5',
         className
       )}
@@ -69,12 +70,9 @@ export function CardHeader({
         {hint && <p className="mt-0.5 text-micro text-oriel-slate">{hint}</p>}
       </div>
       {action && (
-        <Link
-          href={action.href}
-          className="shrink-0 whitespace-nowrap rounded-pill border border-oriel-line px-3 py-1.5 text-micro font-semibold text-oriel-navy transition-colors hover:border-oriel-orange hover:text-oriel-orange"
-        >
-          {action.label}
-        </Link>
+        <Button asChild variant="outline" size="sm" className="shrink-0">
+          <Link href={action.href}>{action.label}</Link>
+        </Button>
       )}
     </div>
   );
@@ -124,7 +122,7 @@ export function ListCard({
   footer?: { label: string; href: string };
 }) {
   return (
-    <section className="flex h-full flex-col rounded-card border border-oriel-line bg-oriel-white shadow-oriel-rest">
+    <section className="flex h-full flex-col rounded-panel border border-oriel-line bg-oriel-white shadow-oriel-panel">
       <div className="border-b border-oriel-line p-5 pb-4">
         <h2 className="font-headline text-[1.0625rem] font-semibold tracking-tight text-oriel-navy">
           {title}
@@ -133,14 +131,13 @@ export function ListCard({
       </div>
       <div className="flex-1">{children}</div>
       {footer && (
-        <div className="mt-auto rounded-b-card border-t border-oriel-line bg-oriel-mist/20 p-4">
-          <Link
-            href={footer.href}
-            className="flex w-full items-center justify-center gap-1.5 text-caption font-semibold text-oriel-navy transition-colors hover:text-oriel-orange"
-          >
-            {footer.label}
-            <ArrowRight size={15} strokeWidth={1.5} aria-hidden />
-          </Link>
+        <div className="mt-auto rounded-b-panel border-t border-oriel-line bg-oriel-mist/40 p-3">
+          <Button asChild variant="outline" size="sm" className="w-full">
+            <Link href={footer.href}>
+              {footer.label}
+              <ArrowRight size={15} strokeWidth={1.5} aria-hidden />
+            </Link>
+          </Button>
         </div>
       )}
     </section>
@@ -244,7 +241,7 @@ export function StatCard({
     </>
   );
 
-  const base = 'rounded-card border border-oriel-line bg-oriel-white p-5 shadow-oriel-rest';
+  const base = 'rounded-panel border border-oriel-line bg-oriel-white p-5 shadow-oriel-panel';
 
   if (href) {
     return (
@@ -312,7 +309,7 @@ export function QueueTile({
   // used to be. The height is what keeps the three tiles agreeing with each
   // other when one hint wraps to two lines and the others do not.
   const base =
-    'flex min-h-[10rem] flex-col justify-between rounded-card border border-oriel-line bg-oriel-white p-5 shadow-oriel-rest';
+    'flex min-h-[10rem] flex-col justify-between rounded-panel border border-oriel-line bg-oriel-white p-5 shadow-oriel-panel';
 
   const HOVER_BORDER: Record<Tone, string> = {
     plain: 'hover:border-oriel-navy',
@@ -376,7 +373,7 @@ export function Pill({
  */
 export function TableWrap({ children }: { children: React.ReactNode }) {
   return (
-    <div className="overflow-x-auto rounded-card border border-oriel-line bg-oriel-white shadow-oriel-rest">
+    <div className="overflow-x-auto rounded-panel border border-oriel-line bg-oriel-white shadow-oriel-panel">
       <table className="w-full min-w-[640px] border-collapse text-left">{children}</table>
     </div>
   );
@@ -469,7 +466,7 @@ export function FilterChips({
 /** Shown in place of a list when there is genuinely nothing to show. */
 export function EmptyState({ title, hint }: { title: string; hint?: string }) {
   return (
-    <div className="rounded-card border border-dashed border-oriel-line bg-oriel-mist/60 px-5 py-8 text-center">
+    <div className="rounded-panel border border-dashed border-oriel-line bg-oriel-mist/60 px-5 py-8 text-center">
       <p className="text-small font-medium text-oriel-navy">{title}</p>
       {hint && <p className="mt-1 text-micro text-oriel-slate">{hint}</p>}
     </div>

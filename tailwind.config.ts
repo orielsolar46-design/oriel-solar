@@ -64,11 +64,17 @@ const config: Config = {
       borderRadius: {
         input: '6px',
         card: '12px',
+        // The back office's surface radius: large enough to read as a panel,
+        // small enough that a 3-column row of them still looks like a grid.
+        panel: '18px',
         pill: '999px',
       },
       boxShadow: {
         'oriel-rest': '0 1px 2px rgba(10,23,51,0.06)',
         'oriel-lift': '0 12px 32px rgba(10,23,51,0.12)',
+        // Wide, faint and offset upwards, so a white card lifts off the pale
+        // gradient without drawing a grey halo around itself.
+        'oriel-panel': '0 1px 2px rgba(10,23,51,0.04), 0 18px 40px -30px rgba(10,23,51,0.35)',
       },
       maxWidth: {
         content: '1280px',
