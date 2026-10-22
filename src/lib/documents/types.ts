@@ -113,7 +113,7 @@ export const GOODS_CATEGORIES: {
   { id: 'batteries', label: 'Batteries', catalogue: 'battery-storage' },
   { id: 'inverters', label: 'Inverters', catalogue: 'inverters' },
   { id: 'water_heaters', label: 'Water Heaters', catalogue: 'solar-water-heaters' },
-  { id: 'street_lights', label: 'Street Lights', catalogue: 'street-lights-cctv' },
+  { id: 'street_lights', label: 'Street Lights', catalogue: 'lighting' },
   { id: 'irrigation_pumps', label: 'Irrigation Pumps', catalogue: 'irrigation-pumps' },
   { id: 'installation', label: 'Installation / Labour', catalogue: null },
   { id: 'delivery', label: 'Delivery', catalogue: null },

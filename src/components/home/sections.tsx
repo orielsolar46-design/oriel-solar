@@ -1,39 +1,19 @@
 import type { ReactNode } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import {
-  ArrowRight,
-  Award,
-  Building2,
-  Check,
-  Home as HomeIcon,
-  Lamp,
-  Leaf,
-  Sun,
-  Tractor,
-  Zap,
-} from 'lucide-react';
+import { Award, Leaf, Sun } from 'lucide-react';
 import { CATEGORIES } from '@/lib/navigation';
-import { getAllProducts, getCategoryShowcases } from '@/lib/catalogue';
+import { BLUETTI_FLAGSHIP_SLUGS, getAllProducts } from '@/lib/catalogue';
 import { Button } from '@/components/ui/button';
+import { ArrowPill } from '@/components/ui/arrow-pill';
+import { VerifiedBadge } from '@/components/brand/verified-badge';
+import { BRAND_PAGES } from '@/lib/brands';
 import { MpesaMark } from '@/components/ui/brand-icons';
 import { ProductCard } from '@/components/shop/product-card';
 
 /* ------------------------------------------------------------------ */
-/* Block 2 — category grid: one card per stocked family, plus the      */
-/* navy view-all tile                                                  */
+/* Category grid: one card per stocked family                          */
 /* ------------------------------------------------------------------ */
-
-const NUMBER_WORDS: Record<number, string> = {
-  1: 'One',
-  2: 'Two',
-  3: 'Three',
-  4: 'Four',
-  5: 'Five',
-  6: 'Six',
-  7: 'Seven',
-  8: 'Eight',
-};
 
 export async function CategoryGrid() {
   // One catalogue read (cached per request) serves both the counts and the
@@ -52,14 +32,18 @@ export async function CategoryGrid() {
 
   return (
     <section aria-labelledby="cats-heading" className="container-oriel py-16">
-      <p className="t-eyebrow text-oriel-slate">The catalogue</p>
-      <h2 id="cats-heading" className="t-h2 mt-2">
-        {NUMBER_WORDS[stocked.length] ?? stocked.length} product families, one supplier
-      </h2>
-      {/* Each tile is a signpost, not a sales pitch: photograph, name, count.
-          The descriptor line was dropped — a visitor scanning six tiles reads
-          the pictures, and the detail belongs on the page they land on. */}
-      <div className="mt-8 grid grid-cols-2 gap-3 sm:gap-4 md:grid-cols-3 lg:grid-cols-4">
+      <div className="flex flex-wrap items-end justify-between gap-3">
+        <div>
+          <p className="t-eyebrow text-oriel-slate">The catalogue</p>
+          <h2 id="cats-heading" className="t-h2 mt-2">
+            Shop by category
+          </h2>
+        </div>
+        <ArrowPill href="/shop" className="ml-auto">
+          All products
+        </ArrowPill>
+      </div>
+      <div className="mt-8 grid grid-cols-2 gap-3 sm:gap-4 md:grid-cols-4">
         {stocked.map((cat) => {
           const { count, image } = summary.get(cat.slug)!;
           return (
@@ -73,7 +57,7 @@ export async function CategoryGrid() {
                   src={image}
                   alt=""
                   fill
-                  sizes="(max-width: 640px) 45vw, (max-width: 1024px) 30vw, 260px"
+                  sizes="(max-width: 640px) 45vw, 25vw, 280px"
                   className="object-contain p-3 transition-transform duration-300 ease-out group-hover:scale-105"
                 />
               </div>
@@ -86,18 +70,6 @@ export async function CategoryGrid() {
             </Link>
           );
         })}
-        <Link
-          href="/shop"
-          className="group flex flex-col justify-between rounded-card bg-oriel-navy p-4 transition-all duration-200 ease-out hover:-translate-y-1 hover:bg-oriel-navy-deep hover:shadow-oriel-lift sm:p-6"
-        >
-          <h3 className="font-display text-[1.0625rem] font-semibold text-oriel-white sm:text-[1.25rem]">
-            View all products
-          </h3>
-          <span className="mt-6 inline-flex items-center gap-2 font-sans text-small font-semibold text-oriel-gold">
-            Browse everything
-            <ArrowRight size={16} strokeWidth={1.5} className="transition-transform group-hover:translate-x-1" />
-          </span>
-        </Link>
       </div>
     </section>
   );
@@ -133,13 +105,11 @@ export async function EcoFlowShowcase() {
             <h2 id="ecoflow-heading" className="t-h2 mt-2">
               The latest EcoFlow batteries
             </h2>
+            <VerifiedBadge label={BRAND_PAGES.ecoflow.badge} href="/ecoflow" className="mt-3" />
           </div>
-          <Link
-            href="/shop?brand=EcoFlow"
-            className="text-small font-semibold text-oriel-navy underline decoration-oriel-orange decoration-2 underline-offset-4 hover:text-oriel-orange"
-          >
+          <ArrowPill href="/ecoflow" className="ml-auto">
             View all EcoFlow
-          </Link>
+          </ArrowPill>
         </div>
         <ul className="mt-8 grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-4">
           {products.map((product) => (
@@ -153,78 +123,101 @@ export async function EcoFlowShowcase() {
   );
 }
 
-export async function CategoryShowcase() {
-  const showcases = await getCategoryShowcases(3);
-
-  const nameOf = (slug: string) =>
-    CATEGORIES.find((c) => c.slug === slug)?.name ?? slug;
-  const descriptorOf = (slug: string) =>
-    CATEGORIES.find((c) => c.slug === slug)?.descriptor ?? '';
-
-  // EcoFlow has its own section directly under the hero, so the generic shop
-  // rows skip battery storage rather than showing the same products twice.
-  const ordered = showcases
-    .filter((row) => row.slug !== 'battery-storage')
-    .sort((a, b) => {
-      const ia = CATEGORIES.findIndex((c) => c.slug === a.slug);
-      const ib = CATEGORIES.findIndex((c) => c.slug === b.slug);
-      return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib);
-    });
-  if (ordered.length === 0) return null;
+export async function VestwoodsShowcase() {
+  const catalogue = await getAllProducts();
+  // Fixed order so the row reads as a range: portable stations first, then
+  // home batteries by capacity, then the inverter that ties them together.
+  const showcase = [
+    'vestwoods-rescube-500w',
+    'vestwoods-rescube-1000w',
+    'vestwoods-ve51100l-5-12kwh',
+    'vestwoods-ve51200l-10-24kwh',
+    'vestwoods-ve51314l-16-07kwh',
+    'vestwoods-se6khb-6kw',
+  ];
+  const products = showcase
+    .map((slug) => catalogue.find((p) => p.slug === slug))
+    .filter((p): p is (typeof catalogue)[number] => Boolean(p));
+  if (products.length === 0) return null;
 
   return (
-    <section aria-labelledby="shop-heading" className="border-t border-oriel-line bg-oriel-white">
+    <section
+      aria-labelledby="vestwoods-heading"
+      className="border-t border-oriel-line bg-oriel-mist"
+    >
       <div className="container-oriel py-16">
-        <p className="t-eyebrow text-oriel-slate">Shop</p>
-        <h2 id="shop-heading" className="t-h2 mt-2">
-          Buy it here, straight from this page
-        </h2>
-        <p className="mt-2 text-body text-oriel-navy-ink">
-          Pay by M-Pesa, now or on delivery.
-        </p>
-
-        <div className="mt-10 space-y-12">
-          {ordered.map((row) => (
-            <div key={row.slug}>
-              <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-2 border-b border-oriel-line pb-3">
-                <div>
-                  <h3 className="font-display text-[1.25rem] font-semibold text-oriel-navy">
-                    {nameOf(row.slug)}
-                  </h3>
-                  {descriptorOf(row.slug) && (
-                    <p className="mt-0.5 text-small text-oriel-slate">{descriptorOf(row.slug)}</p>
-                  )}
-                </div>
-                <Link
-                  href={`/shop/${row.slug}`}
-                  className="inline-flex min-h-[44px] items-center gap-1.5 text-small font-semibold text-oriel-navy underline decoration-oriel-orange decoration-2 underline-offset-4 hover:text-oriel-orange"
-                >
-                  View all {row.total}
-                  <ArrowRight size={15} strokeWidth={2} aria-hidden />
-                </Link>
-              </div>
-              {/* A plain grid at every width. This used to swipe sideways
-                  below sm, which hid the third product behind a gesture and
-                  meant a shopper had to scroll across before they could scroll
-                  down. Two cards across on a phone shows the whole row at
-                  once. */}
-              <ul className="mt-5 grid grid-cols-2 gap-3 sm:gap-4 md:grid-cols-3">
-                {row.products.map((product) => (
-                  <li key={product.slug}>
-                    <ProductCard product={product} />
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
+        <div className="flex flex-wrap items-end justify-between gap-3">
+          <div className="max-w-2xl">
+            <p className="t-eyebrow text-oriel-slate">Vestwoods</p>
+            <h2 id="vestwoods-heading" className="t-h2 mt-2">
+              Portable power to whole-home storage
+            </h2>
+          </div>
+          <ArrowPill href="/shop?brand=Vestwoods" className="ml-auto">
+            View all Vestwoods
+          </ArrowPill>
         </div>
+        <ul className="mt-8 grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-3">
+          {products.map((product) => (
+            <li key={product.slug}>
+              <ProductCard product={product} />
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
+  );
+}
+
+export async function BluettiShowcase() {
+  const catalogue = await getAllProducts();
+  const bluetti = catalogue.filter((p) => p.brand === 'Bluetti');
+  // The flagships: fixed home storage at both ends of the range, plus the
+  // modular stations that scale with the load. Same fixed-list approach as
+  // EcoFlow so the row reads as a ladder rather than changing with sort order.
+  const products = BLUETTI_FLAGSHIP_SLUGS
+    .map((slug) => bluetti.find((p) => p.slug === slug))
+    .filter((p): p is (typeof bluetti)[number] => Boolean(p));
+  if (products.length === 0) return null;
+
+  return (
+    <section
+      aria-labelledby="bluetti-heading"
+      className="border-t border-white/10 bg-oriel-navy"
+    >
+      <div className="container-oriel py-16">
+        <div className="flex flex-wrap items-end justify-between gap-4">
+          <div className="max-w-2xl">
+            <p className="t-eyebrow text-oriel-gold">Bluetti</p>
+            <h2 id="bluetti-heading" className="t-h2 mt-2 text-oriel-white">
+              Whole-home backup, engineered
+            </h2>
+            <VerifiedBadge
+              label={BRAND_PAGES.bluetti.badge}
+              href="/bluetti"
+              tone="dark"
+              className="mt-3"
+            />
+          </div>
+          <ArrowPill href="/bluetti" className="ml-auto">
+            View all Bluetti
+          </ArrowPill>
+        </div>
+
+        <ul className="mt-8 grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-4">
+          {products.map((product) => (
+            <li key={product.slug}>
+              <ProductCard product={product} />
+            </li>
+          ))}
+        </ul>
       </div>
     </section>
   );
 }
 
 /* ------------------------------------------------------------------ */
-/* Block 3 — trust strip: the three brand pillars                     */
+/* Trust strip: the three brand pillars                               */
 /* ------------------------------------------------------------------ */
 
 export function TrustStrip() {
@@ -254,113 +247,27 @@ export function TrustStrip() {
     },
   ];
   return (
-    <section aria-label="Why Oriel Power" className="border-t border-oriel-line bg-oriel-mist">
-      <div className="container-oriel grid grid-cols-1 gap-8 py-12 md:grid-cols-3 md:gap-0 md:divide-x md:divide-oriel-line">
-        {pillars.map((pillar) => {
-          const Icon = pillar.icon;
-          return (
-            <div key={pillar.title} className="md:px-8 md:first:pl-0 md:last:pr-0">
-              <span
-                className={`inline-flex h-12 w-12 items-center justify-center rounded-pill ${pillar.chip}`}
-              >
-                <Icon size={24} strokeWidth={1.5} className={pillar.tone} aria-hidden />
-              </span>
-              <h3 className="t-h3 mt-3">{pillar.title}</h3>
-              <p className="mt-1.5 text-small text-oriel-navy-ink">{pillar.copy}</p>
-            </div>
-          );
-        })}
-      </div>
-    </section>
-  );
-}
-
-/* ------------------------------------------------------------------ */
-/* Block 6 — solutions band                                           */
-/* ------------------------------------------------------------------ */
-
-export function SolutionsBand() {
-  // Icon colours rotate through the brand set, as the reference does across
-  // its solution tiles — green and gold carry as much of the set as navy.
-  const solutions = [
-    {
-      icon: HomeIcon,
-      title: 'Home backup',
-      copy: 'Essentials on through every blackout.',
-      href: '/solutions/home-backup',
-      tone: 'text-oriel-green-deep',
-      chip: 'bg-oriel-green-soft',
-    },
-    {
-      icon: Sun,
-      title: 'Full solar home',
-      copy: 'Generate most of what you use.',
-      href: '/solutions/full-solar-home',
-      tone: 'text-oriel-gold',
-      chip: 'bg-oriel-gold-soft',
-    },
-    {
-      icon: Building2,
-      title: 'Business & commercial',
-      copy: 'Cut costs, keep trading.',
-      href: '/solutions/business-commercial',
-      tone: 'text-oriel-navy',
-      chip: 'bg-oriel-mist',
-    },
-    {
-      icon: Tractor,
-      title: 'Farm & irrigation',
-      copy: 'Pump water on sunshine.',
-      href: '/solutions/farm-irrigation',
-      tone: 'text-oriel-green-deep',
-      chip: 'bg-oriel-green-soft',
-    },
-    {
-      icon: Lamp,
-      title: 'Estate & street lighting',
-      copy: 'Dusk to dawn, no trenching.',
-      href: '/solutions/estate-street-lighting',
-      tone: 'text-oriel-gold',
-      chip: 'bg-oriel-gold-soft',
-    },
-  ];
-  return (
-    <section aria-labelledby="solutions-heading" className="border-t border-oriel-line bg-oriel-mist">
-      <div className="container-oriel py-16">
-        <p className="t-eyebrow text-oriel-slate">Solutions</p>
-        <h2 id="solutions-heading" className="t-h2 mt-2">
-          Built for how you&apos;ll use it
-        </h2>
-        <div className="mt-8 grid grid-cols-2 gap-3 sm:gap-4 md:grid-cols-3 lg:grid-cols-5">
-          {solutions.map((s) => {
-            const Icon = s.icon;
+    <section aria-labelledby="trust-heading" className="border-t border-oriel-line bg-oriel-mist">
+      <div className="container-oriel py-14">
+        <div className="max-w-2xl">
+          <p className="t-eyebrow text-oriel-slate">Why Oriel</p>
+          <h2 id="trust-heading" className="t-h2 mt-2">
+            Power you can trust
+          </h2>
+        </div>
+        <div className="mt-10 grid grid-cols-1 gap-8 md:grid-cols-3 md:gap-0 md:divide-x md:divide-oriel-line">
+          {pillars.map((pillar) => {
+            const Icon = pillar.icon;
             return (
-              <Link
-                key={s.href}
-                href={s.href}
-                className="group rounded-card border border-oriel-line bg-oriel-white p-5 shadow-oriel-rest transition-all duration-200 ease-out hover:-translate-y-1 hover:border-oriel-orange hover:shadow-oriel-lift"
-              >
+              <div key={pillar.title} className="md:px-8 md:first:pl-0 md:last:pr-0">
                 <span
-                  className={`inline-flex h-11 w-11 items-center justify-center rounded-pill ${s.chip}`}
+                  className={`inline-flex h-12 w-12 items-center justify-center rounded-pill ${pillar.chip}`}
                 >
-                  <Icon size={22} strokeWidth={1.5} className={s.tone} aria-hidden />
+                  <Icon size={24} strokeWidth={1.5} className={pillar.tone} aria-hidden />
                 </span>
-                <h3 className="mt-3 font-display text-[1rem] font-semibold leading-snug text-oriel-navy">
-                  {s.title}
-                </h3>
-                <p className="mt-1.5 text-small text-oriel-slate">{s.copy}</p>
-                {/* Navy text with an orange arrow: orange at this size on
-                    white measures 3.06:1 and fails AA, which is exactly what
-                    the brief's own contrast rule warns about. */}
-                <span className="mt-4 inline-flex items-center gap-1 text-small font-semibold text-oriel-navy">
-                  Explore
-                  <ArrowRight
-                    size={15}
-                    strokeWidth={1.5}
-                    className="text-oriel-orange transition-transform group-hover:translate-x-1"
-                  />
-                </span>
-              </Link>
+                <h3 className="t-h3 mt-3">{pillar.title}</h3>
+                <p className="mt-1.5 text-small text-oriel-navy-ink">{pillar.copy}</p>
+              </div>
             );
           })}
         </div>
@@ -370,58 +277,20 @@ export function SolutionsBand() {
 }
 
 /* ------------------------------------------------------------------ */
-/* Block 7 — THE GREEN BAND: savings and sustainability               */
+/* Savings call to action                                             */
 /* ------------------------------------------------------------------ */
 
 export function GreenBand() {
   return (
     <section aria-labelledby="green-heading" className="bg-oriel-green-deep">
-      <div className="container-oriel py-16 lg:py-20">
-        {/* Gold on deep green measures 3.2:1 — fine for the large display
-            figures the brief reserves gold for, but not for 12px eyebrow
-            text. Gold-soft carries the warmth and passes AA. */}
-        <p className="t-eyebrow text-oriel-gold-soft">Why people switch</p>
-        <h2 id="green-heading" className="t-h2 mt-2 max-w-3xl text-oriel-white">
-          Every unit you generate is one you don&apos;t buy.
-        </h2>
-
-        {/* The four statistics render here once the client confirms
-            {{SAVINGS_BAND_STATISTICS}} — figures are never invented. */}
-
-        <div className="mt-10 grid grid-cols-1 gap-8 md:grid-cols-3">
-          {[
-            {
-              icon: Zap,
-              title: 'Cut your KPLC bill',
-              copy: 'Covers the daytime load first.',
-            },
-            {
-              icon: Tractor,
-              title: 'Stop buying diesel',
-              copy: 'Retire the generator and its fuel runs.',
-            },
-            {
-              icon: HomeIcon,
-              title: 'Add value to your property',
-              copy: 'A warranted installation sells with the building.',
-            },
-          ].map((col) => {
-            const Icon = col.icon;
-            return (
-              <div key={col.title}>
-                <Icon size={22} strokeWidth={1.5} className="text-oriel-white" aria-hidden />
-                <h3 className="mt-3 font-display text-[1.0625rem] font-semibold text-oriel-white">
-                  {col.title}
-                </h3>
-                <p className="mt-1.5 text-small text-oriel-white">{col.copy}</p>
-              </div>
-            );
-          })}
+      <div className="container-oriel flex flex-col items-start justify-between gap-6 py-12 md:flex-row md:items-center md:py-14">
+        <div>
+          <p className="t-eyebrow text-oriel-gold-soft">Why people switch</p>
+          <h2 id="green-heading" className="t-h2 mt-2 max-w-2xl text-oriel-white">
+            Every unit you generate is one you don&apos;t buy.
+          </h2>
         </div>
-
-        {/* Explicit white text: the Slot merge left the anchor inheriting the
-            body's navy-ink, which measured 3.44:1 against the green. */}
-        <Button asChild variant="outline-light" size="lg" className="mt-10 !text-oriel-white">
+        <Button asChild variant="outline-light" size="lg" className="!text-oriel-white">
           <Link href="/request-a-quote">See what you&apos;d save</Link>
         </Button>
       </div>
@@ -492,10 +361,6 @@ export function HowBuyingWorks() {
           </li>
         ))}
       </ol>
-      <p className="mt-8 flex items-start gap-3 rounded-card bg-oriel-green-soft p-4 text-small text-oriel-navy-ink">
-        <Check size={18} strokeWidth={2} className="mt-0.5 shrink-0 text-oriel-green-deep" aria-hidden />
-        Pay on delivery on every order. Approve at handover — no cash.
-      </p>
     </section>
   );
 }
@@ -505,20 +370,43 @@ export function HowBuyingWorks() {
 /* ------------------------------------------------------------------ */
 
 export function BrandsRow() {
-  const brands = ['Jinko Solar', 'Livoltek', 'Solis', 'Growatt', 'Deye', 'Victron', 'Lorentz', 'Hanti'];
+  const brands = [
+    'EcoFlow',
+    'Bluetti',
+    'Vestwoods',
+    'Jinko Solar',
+    'Livoltek',
+    'Solis',
+    'Growatt',
+    'Deye',
+    'Victron',
+    'Lorentz',
+    'Hanti',
+  ];
   return (
     <section aria-label="Brands we supply" className="border-y border-oriel-line bg-oriel-mist">
       <div className="container-oriel py-10">
         <p className="t-eyebrow text-center text-oriel-slate">Brands we supply</p>
         <ul className="mt-6 flex flex-wrap items-center justify-center gap-x-10 gap-y-4">
-          {brands.map((brand) => (
-            <li
-              key={brand}
-              className="font-display text-[1.125rem] font-semibold text-oriel-slate transition-colors duration-200 hover:text-oriel-navy"
-            >
-              {brand}
-            </li>
-          ))}
+          {brands.map((brand) => {
+            const page = Object.values(BRAND_PAGES).find((b) => b.brand === brand);
+            return (
+              <li
+                key={brand}
+                className="font-display text-[1.125rem] font-semibold text-oriel-slate transition-colors duration-200 hover:text-oriel-navy"
+              >
+                {/* The brands with a landing page link to it: that is the page
+                    a person lands on when they search the brand name. */}
+                {page ? (
+                  <Link href={`/${page.slug}`} className="hover:text-oriel-navy">
+                    {brand}
+                  </Link>
+                ) : (
+                  brand
+                )}
+              </li>
+            );
+          })}
         </ul>
       </div>
     </section>

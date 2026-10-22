@@ -2,10 +2,7 @@ import {
   Sun,
   BatteryCharging,
   Zap,
-  Droplets,
   Lightbulb,
-  Waves,
-  FilterIcon,
   Wrench,
   type LucideIcon,
 } from 'lucide-react';
@@ -13,7 +10,7 @@ import {
 export type SubLink = { label: string; href: string };
 
 export type Category = {
-  /** Display order 1–7, matching the client's banner. */
+  /** Display order in navigation. */
   order: number;
   slug: string;
   name: string;
@@ -25,9 +22,8 @@ export type Category = {
 };
 
 /**
- * The seven product families, in the exact order and wording of the client's
- * banner (MASTERPLAN 5.2). Item counts are added at render time from the
- * catalogue once it is seeded.
+ * The product families shown in navigation, in display order. Item counts are
+ * added at render time from the catalogue.
  */
 export const CATEGORIES: Category[] = [
   {
@@ -71,6 +67,19 @@ export const CATEGORIES: Category[] = [
   },
   {
     order: 4,
+    slug: 'lighting',
+    name: 'Lighting',
+    navLabel: 'Lighting',
+    icon: Lightbulb,
+    descriptor: 'Solar flood lights, security lights and everyday solar lighting',
+    subcategories: [
+      { label: 'Flood lights', href: '/shop/lighting?type=flood-lights' },
+      { label: 'Security lights with camera', href: '/shop/lighting?type=security-cameras' },
+      { label: 'Solar lights', href: '/shop/lighting?type=solar-lights' },
+    ],
+  },
+  {
+    order: 5,
     slug: 'balance-of-system',
     name: 'Accessories & Balance of System',
     navLabel: 'Accessories',
@@ -85,14 +94,17 @@ export const CATEGORIES: Category[] = [
 
 /**
  * Primary navigation shown in the main header bar. Five direct links, no
- * dropdowns: the two stocked brands lead, followed by the two families people
- * browse by category and the accessories shelf.
+ * dropdowns: the home page, portable power, solar panels, lighting and
+ * accessories.
  */
 export const HEADER_NAV: SubLink[] = [
   { label: 'Home', href: '/' },
-  { label: 'EcoFlow', href: '/shop?brand=EcoFlow' },
-  { label: 'Blueetti', href: '/shop?brand=Blueetti' },
-  { label: 'Solar Panels', href: '/shop/solar-panels' },
+  {
+    label: 'Portable Power Unit',
+    href: '/shop/battery-storage?type=portable-power-station',
+  },
+  { label: 'Solars', href: '/shop/solar-panels' },
+  { label: 'Lighting', href: '/shop/lighting' },
   { label: 'Accessories', href: '/shop/balance-of-system' },
 ];
 
@@ -107,23 +119,15 @@ export const MAIN_NAV: SubLink[] = [
 ];
 
 /**
- * The header carries six items: Home, three product groups, About, Contact.
- *
- * Nine separate family buttons filled the bar and made it read as a list to
- * work through rather than a shop to enter. Grouping them keeps every family
- * one hover away while leaving the bar quiet. The split is how a buyer thinks
- * about the job: the panels that generate, the inverters and batteries that
- * convert and store, and the things that spend the power on water or light.
- * Inverters and batteries share a group because they are almost always bought
- * together and sized against each other.
- *
- * Water Treatment is deliberately absent until it carries stock.
+ * Short product-family groupings for menus and other callers that need a
+ * label narrower than the full category name.
  */
 export type NavGroup = { label: string; slugs: string[] };
 
 export const NAV_GROUPS: NavGroup[] = [
-  { label: 'Solar Panels', slugs: ['solar-panels'] },
-  { label: 'Battery Storage', slugs: ['battery-storage'] },
+  { label: 'Portable Power Unit', slugs: ['battery-storage'] },
+  { label: 'Solars', slugs: ['solar-panels'] },
+  { label: 'Lighting', slugs: ['lighting'] },
   { label: 'Inverters', slugs: ['inverters'] },
   { label: 'Accessories', slugs: ['balance-of-system'] },
 ];

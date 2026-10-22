@@ -255,7 +255,7 @@ export default async function ProductPage({ params }: Props) {
     // Absolute URLs. Google fetches these itself and a site-relative path
     // gives it nothing to resolve against, so every product photograph was
     // being dropped from the shopping result.
-    image: product.images.map((i) => `${base}${i.url}`),
+    image: product.images.map((i) => (/^https?:\/\//.test(i.url) ? i.url : `${base}${i.url}`)),
     description: product.shortDescription,
     category: categoryTitle,
     url: productUrl,

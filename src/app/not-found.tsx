@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { ArrowRight, FileText } from 'lucide-react';
+import { Button } from '@/components/ui/button';
 
 export default function NotFound() {
   return (
@@ -11,20 +12,18 @@ export default function NotFound() {
         you need and we&apos;ll quote it.
       </p>
       <div className="mt-8 flex flex-wrap gap-3">
-        <Link
-          href="/shop"
-          className="inline-flex h-11 items-center gap-2 rounded-input bg-oriel-orange px-6 font-semibold text-oriel-white transition-colors hover:bg-oriel-orange-deep"
-        >
-          Shop products
-          <ArrowRight size={18} strokeWidth={1.5} />
-        </Link>
-        <Link
-          href="/request-a-quote"
-          className="inline-flex h-11 items-center gap-2 rounded-input border border-oriel-navy px-6 font-semibold text-oriel-navy transition-colors hover:bg-oriel-navy hover:text-oriel-white"
-        >
-          <FileText size={18} strokeWidth={1.5} />
-          Request a quote
-        </Link>
+        <Button asChild>
+          <Link href="/shop">
+            Shop products
+            <ArrowRight size={18} strokeWidth={1.5} />
+          </Link>
+        </Button>
+        <Button asChild variant="outline">
+          <Link href="/request-a-quote">
+            <FileText size={18} strokeWidth={1.5} />
+            Request a quote
+          </Link>
+        </Button>
       </div>
     </div>
   );

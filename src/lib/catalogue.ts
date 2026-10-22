@@ -1,6 +1,7 @@
 import 'server-only';
 import { cache } from 'react';
 import { currentPublicClient, publicClient } from '@/lib/supabase';
+import { rankProducts } from '@/lib/search';
 
 /**
  * Server-only catalogue access, backed by the `products_public` Postgres view.
@@ -88,12 +89,13 @@ export type PublicProduct = {
 
 /**
  * Brand ids are slugs in the database; render the human name. A handful of
- * brands are stylised (EcoFlow, Blueetti) and cannot be recovered by
+ * brands are stylised (EcoFlow, Bluetti) and cannot be recovered by
  * title-casing the slug, so they carry an explicit label.
  */
 const BRAND_LABELS: Record<string, string> = {
   ecoflow: 'EcoFlow',
-  blueetti: 'Blueetti',
+  bluetti: 'Bluetti',
+  blueetti: 'Bluetti',
 };
 
 function brandName(id: string | null): string {
@@ -223,16 +225,27 @@ export async function filterProducts(filters: ShopFilters): Promise<PublicProduc
   if (filters.maxPrice != null)
     items = items.filter((p) => p.retailPrice != null && p.retailPrice <= filters.maxPrice!);
   if (filters.q) {
-    const q = filters.q.toLowerCase();
-    items = items.filter((p) =>
-      `${p.name} ${p.brand} ${p.modelCode ?? ''} ${p.shortDescription}`.toLowerCase().includes(q)
-    );
+    // The same ranker the search page uses: a word can land in the name, the
+    // brand, the model code, the family or the specification, and a near
+    // miss still counts.
+    items = rankProducts(items, filters.q).map((hit) => hit.item);
   }
   return items;
 }
 
-/** EcoFlow's brand page leads with the batteries and ends with accessories. */
-const ECOFLOW_CATEGORY_RANK: Record<string, number> = {
+/**
+ * The four Bluetti flagships shown on the home page. They are pinned above
+ * the rest of the brand range so the shop opens on the same ladder.
+ */
+export const BLUETTI_FLAGSHIP_SLUGS = [
+  'bluetti-homestar-3',
+  'bluetti-ep760',
+  'bluetti-ac500',
+  'bluetti-ac200pl',
+] as const;
+
+/** Brand pages lead with batteries and end with accessories. */
+const BRAND_CATEGORY_RANK: Record<string, number> = {
   'battery-storage': 0,
   inverters: 1,
   'solar-panels': 2,
@@ -242,7 +255,7 @@ const ECOFLOW_CATEGORY_RANK: Record<string, number> = {
 export function sortProducts(
   items: PublicProduct[],
   sort: SortKey,
-  options?: { ecoflowFirst?: boolean }
+  options?: { brandFirst?: boolean; pinned?: readonly string[] }
 ): PublicProduct[] {
   const copy = [...items];
   switch (sort) {
@@ -254,8 +267,16 @@ export function sortProducts(
       return copy.sort((a, b) => a.name.localeCompare(b.name));
     default:
       return copy.sort((a, b) => {
-        if (options?.ecoflowFirst) {
-          const rank = (p: PublicProduct) => ECOFLOW_CATEGORY_RANK[p.category] ?? 9;
+        if (options?.pinned) {
+          const pinnedRank = (p: PublicProduct) => {
+            const index = options.pinned!.indexOf(p.slug);
+            return index === -1 ? Number.MAX_SAFE_INTEGER : index;
+          };
+          const byPin = pinnedRank(a) - pinnedRank(b);
+          if (byPin !== 0) return byPin;
+        }
+        if (options?.brandFirst) {
+          const rank = (p: PublicProduct) => BRAND_CATEGORY_RANK[p.category] ?? 9;
           const byCategory = rank(a) - rank(b);
           if (byCategory !== 0) return byCategory;
           // Within a family the biggest station comes first, so the page reads

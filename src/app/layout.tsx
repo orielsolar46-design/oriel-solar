@@ -5,6 +5,7 @@ import { Footer } from '@/components/layout/footer';
 import { CartProvider } from '@/components/cart/cart-provider';
 import { SiteChrome } from '@/components/layout/site-chrome';
 import { GoogleAnalytics } from '@/components/analytics/google-analytics';
+import { ChatWidget } from '@/components/chat/chat-widget';
 import { CONTACT } from '@/lib/navigation';
 import { SITE_URL as siteUrl } from '@/lib/site';
 import { cn } from '@/lib/utils';
@@ -68,12 +69,13 @@ export const viewport = {
 const organisationSchema = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
+  '@id': `${siteUrl}/#organization`,
   name: 'Oriel Power Ltd',
   alternateName: 'Oriel Solar',
   url: siteUrl,
   logo: `${siteUrl}/brand/oriel-logo.jpg`,
   description:
-    'Supplier and installer of solar panels, lithium battery storage, inverters, solar water heaters, street lighting and solar pumping across Kenya.',
+    'Supplier and installer of solar panels, lithium battery storage, inverters, solar water heaters, street lighting and solar pumping across Kenya. Verified EcoFlow and Bluetti distributor.',
   email: CONTACT.email,
   telephone: [CONTACT.phonePrimaryTel, CONTACT.phoneSecondaryTel],
   address: {
@@ -83,6 +85,17 @@ const organisationSchema = {
   },
   areaServed: { '@type': 'Country', name: 'Kenya' },
   slogan: 'Clean energy, More Savings, Brighter Tomorrow',
+  // The brands we are known for. A crawler reading this can tell what the
+  // shop actually sells without reading a single product page.
+  brand: [
+    { '@type': 'Brand', name: 'EcoFlow' },
+    { '@type': 'Brand', name: 'Bluetti' },
+    { '@type': 'Brand', name: 'Vestwoods' },
+    { '@type': 'Brand', name: 'Jinko Solar' },
+    { '@type': 'Brand', name: 'Solis' },
+    { '@type': 'Brand', name: 'Growatt' },
+    { '@type': 'Brand', name: 'Deye' },
+  ],
   contactPoint: {
     '@type': 'ContactPoint',
     telephone: CONTACT.phonePrimaryTel,
@@ -121,6 +134,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </SiteChrome>
         </CartProvider>
         <GoogleAnalytics />
+        <ChatWidget />
       </body>
     </html>
   );

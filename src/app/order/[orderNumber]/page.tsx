@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { getOrder } from '@/lib/orders/store';
 import { OrderSummary } from '@/components/orders/order-summary';
+import { Button } from '@/components/ui/button';
 
 export const metadata: Metadata = {
   title: 'Order status',
@@ -35,12 +36,9 @@ export default async function OrderPage({ params, searchParams }: Props) {
           <p className="mt-2 text-small text-oriel-slate">
             You can also look it up with your order number and phone number.
           </p>
-          <Link
-            href="/track-order"
-            className="mt-5 inline-flex items-center rounded-input bg-oriel-orange px-5 py-2.5 text-small font-semibold text-oriel-white transition-colors hover:bg-oriel-orange-deep"
-          >
-            Track my order
-          </Link>
+          <Button asChild className="mt-5">
+            <Link href="/track-order">Track my order</Link>
+          </Button>
         </div>
       </div>
     );

@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { Check, Clock, Package } from 'lucide-react';
 import { DeliveryIcon, MpesaMark, WhatsAppIcon } from '@/components/ui/brand-icons';
+import { Button } from '@/components/ui/button';
 import type { OrderRecord, OrderStatus } from '@/lib/orders/store';
 import { PaymentPanel } from '@/components/orders/payment-panel';
 import { CONTACT } from '@/lib/navigation';
@@ -226,20 +227,18 @@ export function OrderSummary({ order }: { order: OrderRecord }) {
       </section>
 
       <div className="mt-8 flex flex-wrap gap-3 border-t border-oriel-line pt-6">
-        <a
-          href={`${CONTACT.whatsapp}?text=${encodeURIComponent(`Hello Oriel Power — a question about order ${order.orderNumber}.`)}`}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 rounded-input border border-oriel-green-deep px-5 py-2.5 text-small font-semibold text-oriel-green-deep transition-colors hover:bg-oriel-green-soft"
-        >
-          <WhatsAppIcon size={16} /> Ask about this order
-        </a>
-        <Link
-          href="/shop"
-          className="inline-flex items-center rounded-input border border-oriel-navy px-5 py-2.5 text-small font-semibold text-oriel-navy transition-colors hover:bg-oriel-navy hover:text-oriel-white"
-        >
-          Continue shopping
-        </Link>
+        <Button asChild variant="whatsapp">
+          <a
+            href={`${CONTACT.whatsapp}?text=${encodeURIComponent(`Hello Oriel Power — a question about order ${order.orderNumber}.`)}`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <WhatsAppIcon size={16} /> Ask about this order
+          </a>
+        </Button>
+        <Button asChild variant="outline">
+          <Link href="/shop">Continue shopping</Link>
+        </Button>
       </div>
     </div>
   );

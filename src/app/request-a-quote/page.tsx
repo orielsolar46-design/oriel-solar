@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Suspense } from 'react';
 import { WhatsAppIcon } from '@/components/ui/brand-icons';
+import { Button } from '@/components/ui/button';
 import { PageHero } from '@/components/content/page-hero';
 import { QuoteForm } from '@/components/content/quote-form';
 import { CONTACT } from '@/lib/navigation';
@@ -86,14 +87,11 @@ export default function RequestQuotePage() {
                 <span className="font-mono font-medium">{CONTACT.phonePrimary}</span>. A photo of
                 your switchboard, roof or borehole head says more than a form can ask.
               </p>
-              <a
-                href={CONTACT.whatsapp}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-3 inline-flex items-center gap-2 rounded-input border border-oriel-green-deep px-5 py-2.5 text-small font-semibold text-oriel-green-deep transition-colors hover:bg-oriel-white"
-              >
-                <WhatsAppIcon size={16} /> Send details on WhatsApp
-              </a>
+              <Button asChild variant="whatsapp" className="mt-3">
+                <a href={CONTACT.whatsapp} target="_blank" rel="noopener noreferrer">
+                  <WhatsAppIcon size={16} /> Send details on WhatsApp
+                </a>
+              </Button>
             </section>
           </div>
         </div>

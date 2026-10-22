@@ -281,10 +281,10 @@ export const SOLUTIONS: Solution[] = [
       'These are lights, not power supplies.',
     ],
     shopLinks: [
-      { label: 'Solar street lights', href: '/shop/street-lights-cctv?type=street-lights' },
-      { label: 'All lighting products', href: '/shop/street-lights-cctv' },
+      { label: 'Flood and security lights', href: '/shop/lighting?type=flood-lights' },
+      { label: 'All lighting products', href: '/shop/lighting' },
     ],
-    productCategories: ['street-lights-cctv'],
+    productCategories: ['lighting'],
     faqs: [
       {
         question: 'How many lights will my road need?',

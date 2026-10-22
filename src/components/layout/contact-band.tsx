@@ -2,6 +2,7 @@ import { Phone } from 'lucide-react';
 import { GmailIcon, WhatsAppIcon } from '@/components/ui/brand-icons';
 import { CONTACT } from '@/lib/navigation';
 import { CallbackForm } from '@/components/layout/callback-form';
+import { Button } from '@/components/ui/button';
 
 /**
  * The deep-navy contact band (MASTERPLAN 7.1 block 12). Shared by the home
@@ -32,18 +33,12 @@ export function ContactBand() {
             <GmailIcon size={14} className="shrink-0" />
             <a href={`mailto:${CONTACT.email}`} className="underline hover:text-oriel-gold">{CONTACT.email}</a>
           </p>
-          <a
-            href={CONTACT.whatsapp}
-            target="_blank"
-            rel="noopener noreferrer"
-            /* Green-deep, not green: the brief's own rule is that white on
-               --oriel-green fails at small sizes (3.16:1) while white on
-               --oriel-green-deep passes. */
-            className="mt-6 inline-flex items-center gap-2 rounded-input bg-oriel-green-deep px-6 py-3 font-sans text-body font-semibold text-oriel-white transition-colors hover:bg-oriel-green"
-          >
-            <WhatsAppIcon size={18} />
-            Chat on WhatsApp
-          </a>
+          <Button asChild variant="whatsapp-solid" className="mt-6">
+            <a href={CONTACT.whatsapp} target="_blank" rel="noopener noreferrer">
+              <WhatsAppIcon size={18} />
+              Chat on WhatsApp
+            </a>
+          </Button>
         </div>
 
         <CallbackForm />

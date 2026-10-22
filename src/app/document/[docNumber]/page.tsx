@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { Download, MessageCircle, Phone } from 'lucide-react';
 import { getDocumentByNumber } from '@/lib/documents/store';
+import { Button } from '@/components/ui/button';
 import {
   DOCUMENT_STATUS_LABEL,
   formatAmount,
@@ -137,13 +138,12 @@ export default async function PublicDocumentPage({
             )}
           </dl>
 
-          <a
-            href={pdfUrl}
-            className="flex min-h-touch w-full items-center justify-center gap-2 rounded-pill bg-oriel-orange px-6 font-semibold text-oriel-white transition-colors hover:bg-oriel-orange-deep"
-          >
-            <Download size={18} strokeWidth={1.5} aria-hidden />
-            Download the PDF
-          </a>
+          <Button asChild className="min-h-touch w-full">
+            <a href={pdfUrl}>
+              <Download size={18} strokeWidth={1.5} aria-hidden />
+              Download the PDF
+            </a>
+          </Button>
 
           <p className="text-center text-micro text-oriel-slate">
             All amounts in Kenyan Shillings. Goods remain the property of Oriel Power Ltd until

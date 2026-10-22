@@ -5,6 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { ImageOff, Minus, Plus, Wrench } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { DeliveryIcon } from '@/components/ui/brand-icons';
 import { useCart } from '@/components/cart/cart-provider';
 import { COUNTIES } from '@/lib/counties';
 import { formatKes } from '@/lib/shop';
@@ -271,7 +272,8 @@ export function CartPage() {
             </div>
           </dl>
           <p className="mt-1 text-right text-micro text-oriel-slate">Incl. 16% VAT</p>
-          <p className="mt-3 rounded-input bg-oriel-green-soft px-3 py-2 text-caption text-oriel-navy-ink">
+          <p className="mt-3 flex items-center gap-2 rounded-input bg-oriel-green-soft px-3 py-2 text-caption text-oriel-navy-ink">
+            <DeliveryIcon size={16} />
             Delivery is paid on arrival. Collection is free.
           </p>
 
@@ -294,7 +296,7 @@ export function CartPage() {
               Proceed to checkout
             </Link>
           </Button>
-          <Button asChild variant="ghost" className="mt-2 w-full">
+          <Button asChild variant="outline" className="mt-2 w-full">
             <Link href="/shop">Continue shopping</Link>
           </Button>
         </aside>

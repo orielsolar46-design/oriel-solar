@@ -26,6 +26,11 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const staticPages: MetadataRoute.Sitemap = [
     { url: `${base}/`, changeFrequency: 'weekly', priority: 1 },
     { url: `${base}/shop`, changeFrequency: 'daily', priority: 0.9 },
+    // The brand pages are the landing pages for the searches people actually
+    // type — "ecoflow kenya", "bluetti ac500 price" — so they are indexed
+    // ahead of the generic shop.
+    { url: `${base}/ecoflow`, changeFrequency: 'weekly', priority: 0.9 },
+    { url: `${base}/bluetti`, changeFrequency: 'weekly', priority: 0.9 },
     { url: `${base}/solutions`, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/services`, changeFrequency: 'monthly', priority: 0.7 },
     { url: `${base}/projects`, changeFrequency: 'monthly', priority: 0.5 },

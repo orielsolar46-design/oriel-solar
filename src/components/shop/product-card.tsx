@@ -3,6 +3,7 @@ import Link from 'next/link';
 import type { PublicProduct } from '@/lib/catalogue';
 import { AddToBasketButton } from '@/components/shop/add-to-basket';
 import { PriceBlock } from '@/components/shop/price-block';
+import { SearchHighlight } from '@/components/shop/search-highlight';
 import { cn } from '@/lib/utils';
 
 /**
@@ -13,9 +14,12 @@ import { cn } from '@/lib/utils';
 export function ProductCard({
   product,
   view = 'grid',
+  highlight,
 }: {
   product: PublicProduct;
   view?: 'grid' | 'list';
+  /** Words to mark in the name, so a search result shows why it matched. */
+  highlight?: string[];
 }) {
   const href = `/shop/${product.category}/${product.slug}`;
   const primary = product.images[0]?.url ?? '/products/placeholder.svg';
@@ -83,7 +87,11 @@ export function ProductCard({
           <Link href={href} className="focus-visible:outline-none">
             {/* Stretched link makes the whole card clickable without nesting interactive elements */}
             <span className="absolute inset-0 z-0" aria-hidden />
-            {product.name}
+            {highlight && highlight.length > 0 ? (
+              <SearchHighlight text={product.name} terms={highlight} />
+            ) : (
+              product.name
+            )}
           </Link>
         </h3>
         {view === 'list' && (

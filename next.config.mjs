@@ -9,11 +9,22 @@ const nextConfig = {
     // would not have shown up until someone actually added a product.
     remotePatterns: [
       { protocol: 'https', hostname: '*.supabase.co', pathname: '/storage/v1/object/public/**' },
-      // EcoFlow product photography is served from the retailer's Shopify CDN
-      // (us.ecoflow.com resolves to it). Allow both the CDN and the branded
-      // host so either form of the URL stored in the catalogue will render.
+      // EcoFlow and Bluetti product photography is served from Shopify CDNs
+      // and the brands' own media hosts. Allow both the CDN and the branded
+      // hosts so either form of the URL stored in the catalogue will render.
       { protocol: 'https', hostname: 'cdn.shopify.com', pathname: '/s/files/**' },
       { protocol: 'https', hostname: 'us.ecoflow.com', pathname: '/cdn/shop/**' },
+      { protocol: 'https', hostname: 'www.bluetti.com', pathname: '/api/media/file/**' },
+      { protocol: 'https', hostname: 'checkout.bluettipower.com', pathname: '/cdn/shop/files/**' },
+      { protocol: 'https', hostname: 'www.bluettipower.com', pathname: '/cdn/shop/**' },
+      { protocol: 'https', hostname: 'vn.vestwoods.com', pathname: '/cdn/shop/files/**' },
+      { protocol: 'https', hostname: 'stimapro.com', pathname: '/cdn/shop/files/**' },
+      {
+        protocol: 'https',
+        hostname: 'checkout.bluettipower.com.au',
+        pathname: '/cdn/shop/files/**',
+      },
+      { protocol: 'https', hostname: 'www.bluettipower.com.au', pathname: '/cdn/shop/**' },
     ],
   },
   experimental: {

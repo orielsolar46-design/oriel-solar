@@ -67,6 +67,7 @@ const CATEGORIES = [
   ['irrigation-pumps', 'Irrigation Pumps', 'Submersible and surface solar pumping', 6],
   ['water-treatment', 'Water Treatment', 'Filtration and reverse-osmosis systems', 7],
   ['balance-of-system', 'Balance of System', 'Protection, distribution, cabling and connectors', 8],
+  ['lighting', 'Lighting', 'Solar flood lights, security lights and everyday solar lighting', 9],
 ];
 
 async function main() {

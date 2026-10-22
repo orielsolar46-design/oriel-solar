@@ -102,4 +102,27 @@ export const CATEGORY_CONTENT: Record<string, CategoryContent> = {
       },
     ],
   },
+  lighting: {
+    slug: 'lighting',
+    title: 'Solar lighting in Kenya — flood, security and everyday lights',
+    intro:
+      'Solar flood lights for yards, driveways and compounds; security lights with cameras that record while they illuminate; and ordinary solar lights for gates, pathways and courtyards. Each unit charges from its own panel and needs no mains wiring.',
+    faqs: [
+      {
+        question: 'Do solar security lights need Wi-Fi?',
+        answer:
+          'Some connect to a nearby Wi-Fi router; 4G models use a SIM and work on farms, construction sites and other places without internet.',
+      },
+      {
+        question: 'Can a solar flood light run all night?',
+        answer:
+          'Runtime depends on panel size, battery capacity and brightness. Mount the panel in clear sun and choose a model sized for the hours you need.',
+      },
+      {
+        question: 'What is the difference between a flood light and a security light?',
+        answer:
+          'A flood light gives broad area illumination. A security light adds motion detection, a camera or an alarm; camera models record and send alerts.',
+      },
+    ],
+  },
 };

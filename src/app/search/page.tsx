@@ -1,8 +1,14 @@
 import type { Metadata } from 'next';
-import { Search } from 'lucide-react';
-import { filterProducts, sortProducts } from '@/lib/catalogue';
+import Link from 'next/link';
+import { Search, ArrowRight } from 'lucide-react';
+import { getAllProducts } from '@/lib/catalogue';
+import { highlightTerms, rankCategories, rankProducts } from '@/lib/search';
 import type { SearchParams } from '@/lib/shop';
 import { ProductCard } from '@/components/shop/product-card';
+import { SearchHighlight } from '@/components/shop/search-highlight';
+import { Button } from '@/components/ui/button';
+import { WhatsAppIcon } from '@/components/ui/brand-icons';
+import { CONTACT } from '@/lib/navigation';
 
 export const metadata: Metadata = {
   title: 'Search products',
@@ -14,9 +20,25 @@ export const metadata: Metadata = {
   robots: { index: false, follow: true },
 };
 
+/** What people actually type, offered before they type. */
+const POPULAR_SEARCHES = [
+  'Bluetti',
+  'inverter',
+  '5kW',
+  'solar panel',
+  'flood light',
+  'battery',
+  'pump',
+  'camera',
+];
+
 export default async function SearchPage({ searchParams }: { searchParams: SearchParams }) {
   const q = (Array.isArray(searchParams.q) ? searchParams.q[0] : searchParams.q)?.trim() ?? '';
-  const results = q ? sortProducts(await filterProducts({ q }), 'relevance') : [];
+
+  const productHits = q ? rankProducts(await getAllProducts(), q) : [];
+  const familyHits = q ? rankCategories(q).slice(0, 4) : [];
+  const terms = highlightTerms(q);
+  const results = productHits.slice(0, 48);
 
   return (
     <div className="container-oriel py-10">
@@ -38,25 +60,69 @@ export default async function SearchPage({ searchParams }: { searchParams: Searc
             name="q"
             type="search"
             defaultValue={q}
-            placeholder="Inverter, battery, model code…"
+            placeholder="Inverter, battery, model code, or “flood light”…"
             autoFocus={!q}
             className="h-12 w-full rounded-input border border-oriel-line pl-10 pr-3 text-body text-oriel-navy-ink placeholder:text-oriel-slate focus:border-oriel-navy focus:outline-none"
           />
         </div>
-        <button
-          type="submit"
-          className="h-12 rounded-input bg-oriel-orange px-6 font-sans font-semibold text-oriel-white transition-colors hover:bg-oriel-orange-deep"
-        >
+        <Button type="submit" size="lg">
           Search
-        </button>
+        </Button>
       </form>
+
+      {!q && (
+        <div className="mt-8 max-w-2xl">
+          <p className="t-eyebrow text-oriel-slate">Start with</p>
+          <ul className="mt-3 flex flex-wrap gap-2">
+            {POPULAR_SEARCHES.map((term) => (
+              <li key={term}>
+                <Link
+                  href={`/search?q=${encodeURIComponent(term)}`}
+                  className="inline-flex h-10 items-center rounded-pill border border-oriel-line bg-oriel-white px-4 text-small font-medium text-oriel-navy transition-colors hover:border-oriel-orange hover:text-oriel-orange"
+                >
+                  {term}
+                </Link>
+              </li>
+            ))}
+          </ul>
+          <p className="mt-6 text-small text-oriel-slate">
+            Search understands names, brands, model codes and specifications, and it copes with
+            typing mistakes — &ldquo;invrter&rdquo; still finds the inverters.
+          </p>
+        </div>
+      )}
 
       {q && (
         <p className="mt-6 text-small text-oriel-slate">
-          <span className="font-mono font-medium text-oriel-navy-ink">{results.length}</span>{' '}
-          {results.length === 1 ? 'result' : 'results'} for{' '}
+          <span className="font-mono font-medium text-oriel-navy-ink">{productHits.length}</span>{' '}
+          {productHits.length === 1 ? 'product' : 'products'} for{' '}
           <span className="font-semibold text-oriel-navy">&ldquo;{q}&rdquo;</span>
         </p>
+      )}
+
+      {q && familyHits.length > 0 && (
+        <section aria-label="Matching families" className="mt-6">
+          <p className="t-eyebrow text-oriel-slate">Families</p>
+          <ul className="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+            {familyHits.map((hit) => (
+              <li key={hit.item.href}>
+                <Link
+                  href={hit.item.href}
+                  className="group flex h-full flex-col rounded-card border border-oriel-line bg-oriel-white p-4 transition-all duration-200 hover:-translate-y-0.5 hover:border-oriel-orange hover:shadow-oriel-lift"
+                >
+                  <span className="text-small font-semibold text-oriel-navy group-hover:text-oriel-orange">
+                    <SearchHighlight text={hit.item.name} terms={terms} />
+                  </span>
+                  <span className="mt-1 text-micro text-oriel-slate">{hit.item.descriptor}</span>
+                  <span className="mt-3 inline-flex items-center gap-1 text-micro font-semibold text-oriel-orange">
+                    Browse
+                    <ArrowRight size={13} strokeWidth={2} aria-hidden />
+                  </span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
       )}
 
       {q && results.length === 0 && (
@@ -68,13 +134,31 @@ export default async function SearchPage({ searchParams }: { searchParams: Searc
             Try the brand name, the model code, or a capacity like &ldquo;5kW&rdquo; — or ask us on
             WhatsApp and we&apos;ll point you to the right product.
           </p>
+          <ul className="mt-5 flex flex-wrap gap-2">
+            {POPULAR_SEARCHES.map((term) => (
+              <li key={term}>
+                <Link
+                  href={`/search?q=${encodeURIComponent(term)}`}
+                  className="inline-flex h-10 items-center rounded-pill border border-oriel-line bg-oriel-white px-4 text-small font-medium text-oriel-navy transition-colors hover:border-oriel-orange hover:text-oriel-orange"
+                >
+                  {term}
+                </Link>
+              </li>
+            ))}
+          </ul>
+          <Button asChild variant="whatsapp" className="mt-6">
+            <a href={CONTACT.whatsapp} target="_blank" rel="noopener noreferrer">
+              <WhatsAppIcon size={16} />
+              Ask us on WhatsApp
+            </a>
+          </Button>
         </div>
       )}
 
       {results.length > 0 && (
-        <div className="mt-6 grid grid-cols-2 gap-3 sm:gap-4 md:grid-cols-3 xl:grid-cols-4">
-          {results.slice(0, 48).map((p) => (
-            <ProductCard key={p.slug} product={p} />
+        <div className="mt-8 grid grid-cols-2 gap-3 sm:gap-4 md:grid-cols-3 xl:grid-cols-4">
+          {results.map((hit) => (
+            <ProductCard key={hit.item.slug} product={hit.item} highlight={terms} />
           ))}
         </div>
       )}

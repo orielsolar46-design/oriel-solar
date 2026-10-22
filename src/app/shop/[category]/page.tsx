@@ -1,9 +1,10 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { ArrowRight, ChevronRight } from 'lucide-react';
+import { ChevronRight } from 'lucide-react';
+import { ArrowPill } from '@/components/ui/arrow-pill';
 import { CATEGORY_CONTENT } from '@/lib/category-content';
-import { filterProducts, sortProducts } from '@/lib/catalogue';
+import { BLUETTI_FLAGSHIP_SLUGS, filterProducts, sortProducts } from '@/lib/catalogue';
 import { PAGE_SIZE, parseShopParams, type SearchParams } from '@/lib/shop';
 import { SITE_URL } from '@/lib/site';
 import { Pagination } from '@/components/shop/pagination';
@@ -41,7 +42,10 @@ export default async function CategoryPage({ params, searchParams }: Props) {
       maxPrice: parsed.maxPrice,
     }),
     parsed.sort,
-    { ecoflowFirst: parsed.brand === 'EcoFlow' }
+    {
+      brandFirst: parsed.brand === 'EcoFlow' || parsed.brand === 'Bluetti',
+      pinned: parsed.brand === 'Bluetti' ? BLUETTI_FLAGSHIP_SLUGS : undefined,
+    }
   );
   const totalPages = Math.max(1, Math.ceil(items.length / PAGE_SIZE));
   const page = Math.min(parsed.page, totalPages);
@@ -119,12 +123,9 @@ export default async function CategoryPage({ params, searchParams }: Props) {
               <p className="mt-1.5 text-small text-oriel-navy-ink">
                 Tell us what you need to run and an engineer will specify the kit.
               </p>
-              <Link
-                href="/request-a-quote"
-                className="mt-3 inline-flex items-center gap-1.5 text-small font-semibold text-oriel-green-deep hover:underline"
-              >
-                Request a quote <ArrowRight size={15} strokeWidth={1.5} />
-              </Link>
+              <ArrowPill href="/request-a-quote" className="mt-3">
+                Request a quote
+              </ArrowPill>
             </aside>
           </div>
         </div>

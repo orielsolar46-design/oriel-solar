@@ -5,6 +5,7 @@ import Link from 'next/link';
 import * as Dialog from '@radix-ui/react-dialog';
 import { Menu, X, Phone } from 'lucide-react';
 import { WhatsAppIcon } from '@/components/ui/brand-icons';
+import { Button } from '@/components/ui/button';
 import { HEADER_NAV, CONTACT } from '@/lib/navigation';
 
 /**
@@ -66,22 +67,17 @@ export function MobileDrawer() {
           {/* Fixed bottom panel — green WhatsApp button, phone as a mono row.
               Green talks; orange sells (MASTERPLAN V2 2.2). */}
           <div className="border-t border-oriel-line bg-oriel-mist px-5 py-4">
-            <Link
-              href="/request-a-quote"
-              onClick={close}
-              className="mb-3 flex h-12 w-full items-center justify-center rounded-input border border-oriel-navy font-sans text-body font-semibold text-oriel-navy transition-colors hover:bg-oriel-navy hover:text-oriel-white"
-            >
-              Request a quote
-            </Link>
-            <a
-              href={CONTACT.whatsapp}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex h-12 w-full items-center justify-center gap-2 rounded-input bg-oriel-green font-sans text-body font-semibold text-oriel-white transition-colors hover:bg-oriel-green-deep"
-            >
-              <WhatsAppIcon size={20} />
-              Chat on WhatsApp
-            </a>
+            <Button asChild variant="outline" className="mb-3 h-12 w-full">
+              <Link href="/request-a-quote" onClick={close}>
+                Request a quote
+              </Link>
+            </Button>
+            <Button asChild variant="whatsapp-solid" className="h-12 w-full">
+              <a href={CONTACT.whatsapp} target="_blank" rel="noopener noreferrer">
+                <WhatsAppIcon size={20} />
+                Chat on WhatsApp
+              </a>
+            </Button>
             <a
               href={`tel:${CONTACT.phonePrimaryTel}`}
               className="mt-3 flex items-center justify-center gap-2 py-2 font-mono text-data font-medium text-oriel-navy"

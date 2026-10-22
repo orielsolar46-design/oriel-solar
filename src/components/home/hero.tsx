@@ -1,117 +1,156 @@
-'use client';
-
+import Image from 'next/image';
 import Link from 'next/link';
-import { Wrench } from 'lucide-react';
+import { BatteryCharging, Building2, Sun, Tractor, Wrench } from 'lucide-react';
 import { DeliveryIcon, LocationIcon, MpesaMark } from '@/components/ui/brand-icons';
 import { Button } from '@/components/ui/button';
 
+const NEEDS = [
+  {
+    label: 'Home backup',
+    copy: 'Keep the lights on',
+    href: '/solutions/home-backup',
+    icon: BatteryCharging,
+    chip: 'bg-oriel-green-soft',
+    tone: 'text-oriel-green-deep',
+  },
+  {
+    label: 'Full solar',
+    copy: 'Generate your own',
+    href: '/solutions/full-solar-home',
+    icon: Sun,
+    chip: 'bg-oriel-gold-soft',
+    tone: 'text-oriel-orange-deep',
+  },
+  {
+    label: 'Business',
+    copy: 'Cut operating costs',
+    href: '/solutions/business-commercial',
+    icon: Building2,
+    chip: 'bg-oriel-mist',
+    tone: 'text-oriel-navy',
+  },
+  {
+    label: 'Farm & water',
+    copy: 'Pump on sunshine',
+    href: '/solutions/farm-irrigation',
+    icon: Tractor,
+    chip: 'bg-oriel-green-soft',
+    tone: 'text-oriel-green-deep',
+  },
+] as const;
+
 /**
- * Home hero (MASTERPLAN 7.1 block 1). Full-bleed deep navy; the sun arc draws
- * low across the frame from its green baseline with the headline breaking its
- * plane. The site's ONE orchestrated load sequence: arc draws (600ms), the
- * headline rises with a line stagger, CTAs fade in. Runs once — CSS
- * animations replay only on full page load, never on route transitions back,
- * and prefers-reduced-motion renders final states immediately (globals.css).
+ * Home hero. A dusk photograph of a modern home with rooftop solar carries the
+ * promise, the headline sits over a deep-navy scrim, and the short needs bar
+ * overlaps the image edge so the next step is visible before the fold.
  */
 export function Hero() {
   return (
-    <section className="relative overflow-hidden bg-oriel-navy-deep">
-      {/* The arc, sitting low so the headline breaks its plane */}
-      <div className="pointer-events-none absolute inset-x-0 bottom-[-8%] h-[70%]" aria-hidden>
-        <svg
-          className="block h-full w-full"
-          viewBox="0 0 1200 200"
-          fill="none"
-          preserveAspectRatio="none"
-        >
-          <defs>
-            <linearGradient id="hero-arc" x1="0" y1="0" x2="0" y2="1">
-              <stop offset="0%" stopColor="#FDB913" />
-              <stop offset="100%" stopColor="#F26A21" />
-            </linearGradient>
-          </defs>
-          <line
-            x1="0"
-            y1="190"
-            x2="1200"
-            y2="190"
-            stroke="#3FA535"
-            strokeWidth={2}
-            vectorEffect="non-scaling-stroke"
-            className="hero-baseline"
-          />
-          <path
-            d="M 0 190 Q 600 -60 1200 190"
-            stroke="url(#hero-arc)"
-            strokeWidth={3}
-            strokeLinecap="round"
-            vectorEffect="non-scaling-stroke"
-            pathLength={1}
-            className="hero-arc-path"
-          />
-        </svg>
-      </div>
+    <>
+      <section className="relative isolate overflow-hidden bg-oriel-navy-deep">
+        <Image
+          src="/brand/home-hero.webp"
+          alt="A modern home at dusk with rooftop solar and a home battery"
+          fill
+          priority
+          sizes="100vw"
+          quality={85}
+          className="object-cover object-center"
+        />
+        <div className="absolute inset-0 bg-oriel-navy-deep/20" aria-hidden />
+        <div
+          className="absolute inset-0 bg-gradient-to-r from-oriel-navy-deep via-oriel-navy-deep/75 to-transparent"
+          aria-hidden
+        />
+        <div
+          className="absolute inset-0 bg-gradient-to-t from-oriel-navy-deep/70 via-transparent to-oriel-navy-deep/15"
+          aria-hidden
+        />
 
-      <div className="container-oriel relative py-20 md:py-28 lg:py-32">
-        <p className="hero-line t-eyebrow text-oriel-gold" style={{ animationDelay: '600ms' }}>
-          Solar supply · Sizing · Installation — Nairobi, Kenya
-        </p>
-        {/* Two-colour headline, following the client's reference where the
-            headline itself carries green. Split at the clause boundary so it
-            still reads as one sentence. */}
-        <h1
-          className="hero-line t-display mt-4 max-w-4xl text-oriel-white"
-          style={{ animationDelay: '700ms' }}
-        >
-          Power that doesn&apos;t
-          <br />
-          <span className="text-oriel-green">ask permission.</span>
-        </h1>
-        <p
-          className="hero-line mt-5 max-w-xl text-body-lg text-oriel-white/85"
-          style={{ animationDelay: '800ms' }}
-        >
-          Tier 1 panels, storage and inverters — sized, supplied, installed.
-        </p>
-        <div className="hero-fade mt-8 flex flex-wrap gap-3" style={{ animationDelay: '1000ms' }}>
-          <Button asChild size="lg">
-            <Link href="/shop">Shop products</Link>
-          </Button>
-          <Button asChild variant="outline-light" size="lg" className="!text-oriel-white">
-            <Link href="/request-a-quote">Request a quote</Link>
-          </Button>
+        <div className="container-oriel relative flex min-h-[36rem] flex-col justify-center py-20 md:min-h-[42rem] md:py-28 lg:py-32">
+          <p className="hero-line t-eyebrow text-oriel-gold" style={{ animationDelay: '100ms' }}>
+            Solar supply · Sizing · Installation — Nairobi, Kenya
+          </p>
+          <h1
+            className="hero-line t-display mt-4 max-w-4xl text-oriel-white"
+            style={{ animationDelay: '180ms' }}
+          >
+            Power that doesn&apos;t
+            <br />
+            <span className="text-oriel-green">ask permission.</span>
+          </h1>
+          <p
+            className="hero-line mt-5 max-w-xl text-body-lg text-oriel-white/90"
+            style={{ animationDelay: '260ms' }}
+          >
+            Tier 1 panels, storage and inverters — sized, supplied, installed.
+          </p>
+          <div className="hero-fade mt-8 flex flex-wrap gap-3" style={{ animationDelay: '340ms' }}>
+            <Button asChild size="lg">
+              <Link href="/shop">Shop products</Link>
+            </Button>
+            <Button asChild variant="outline-light" size="lg" className="!text-oriel-white">
+              <Link href="/request-a-quote">Request a quote</Link>
+            </Button>
+          </div>
+
+          <ul
+            className="hero-fade mt-10 grid max-w-2xl grid-cols-2 gap-x-5 gap-y-3 sm:flex sm:flex-wrap sm:items-center sm:gap-x-6"
+            style={{ animationDelay: '420ms' }}
+          >
+            <li className="flex items-center gap-2 text-small text-oriel-white">
+              <LocationIcon size={18} tone="dark" />
+              Nairobi based
+            </li>
+            <li className="flex items-center gap-2 text-small text-oriel-white">
+              <DeliveryIcon size={16} tone="dark" />
+              Nationwide delivery
+            </li>
+            <li className="flex items-center gap-2 text-small text-oriel-white">
+              <Wrench size={17} strokeWidth={1.75} className="text-oriel-green" aria-hidden />
+              We install
+            </li>
+            <li className="flex items-center gap-1.5 text-small text-oriel-white">
+              <MpesaMark height={16} tone="dark" />
+              accepted
+            </li>
+          </ul>
         </div>
-        {/* Reassurance strip — the four objections a Kenyan buyer raises
-            before they will consider the price. Icons rather than dots, so
-            each one reads at a glance on a phone; the brand colours stay in
-            rotation as the reference distributes them. */}
-        <ul
-          className="hero-fade mt-10 grid max-w-2xl grid-cols-2 gap-x-5 gap-y-3 sm:flex sm:flex-wrap sm:items-center sm:gap-x-6"
-          style={{ animationDelay: '1100ms' }}
-        >
-          {/* Location and delivery carry their own brand marks, so they are
-              listed out rather than driven from one icon array — they take a
-              `tone` for the navy instead of lucide's size/strokeWidth pair. */}
-          <li className="flex items-center gap-2 text-small text-oriel-white">
-            <LocationIcon size={18} tone="dark" />
-            Nairobi based
-          </li>
-          <li className="flex items-center gap-2 text-small text-oriel-white">
-            <DeliveryIcon size={16} tone="dark" />
-            Nationwide delivery
-          </li>
-          <li className="flex items-center gap-2 text-small text-oriel-white">
-            <Wrench size={17} strokeWidth={1.75} className="text-oriel-green" aria-hidden />
-            We install
-          </li>
-          {/* M-Pesa is a brand, not a concept, so it gets its own mark rather
-              than a generic handset outline like the three above. */}
-          <li className="flex items-center gap-1.5 text-small text-oriel-white">
-            <MpesaMark height={16} tone="dark" />
-            accepted
-          </li>
-        </ul>
+      </section>
+
+      <div className="relative z-20 -mt-8">
+        <div className="container-oriel">
+          <nav
+            aria-label="Shop by need"
+            className="grid grid-cols-2 gap-px overflow-hidden rounded-card border border-oriel-line bg-oriel-line shadow-oriel-lift md:grid-cols-4"
+          >
+            {NEEDS.map((need) => {
+              const Icon = need.icon;
+              return (
+                <Link
+                  key={need.href}
+                  href={need.href}
+                  className="group flex items-center gap-3 bg-oriel-white p-4 transition-colors hover:bg-oriel-mist sm:p-5"
+                >
+                  <span
+                    className={`inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-pill ${need.chip}`}
+                  >
+                    <Icon size={19} strokeWidth={1.75} className={need.tone} aria-hidden />
+                  </span>
+                  <span className="min-w-0">
+                    <span className="block font-display text-[0.9375rem] font-semibold leading-tight text-oriel-navy transition-colors group-hover:text-oriel-orange sm:text-[1rem]">
+                      {need.label}
+                    </span>
+                    <span className="mt-0.5 block text-micro leading-tight text-oriel-slate">
+                      {need.copy}
+                    </span>
+                  </span>
+                </Link>
+              );
+            })}
+          </nav>
+        </div>
       </div>
-    </section>
+    </>
   );
 }

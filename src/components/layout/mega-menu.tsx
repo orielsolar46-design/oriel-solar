@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
 import { CATEGORIES } from '@/lib/navigation';
+import { Button } from '@/components/ui/button';
 
 /**
  * The Products mega menu panel (MASTERPLAN V2 5.2).
@@ -61,14 +62,12 @@ export function MegaMenu({ onNavigate }: { onNavigate?: () => void }) {
             Tell us what you run and we&apos;ll specify the exact panels, inverter and
             battery for it — and quote it properly.
           </p>
-          <Link
-            href="/request-a-quote"
-            onClick={onNavigate}
-            className="mt-4 inline-flex items-center gap-1.5 rounded-input bg-oriel-orange px-4 py-2 text-small font-semibold text-oriel-white transition-colors hover:bg-oriel-orange-deep"
-          >
-            Request a quote
-            <ArrowRight size={16} strokeWidth={1.5} />
-          </Link>
+          <Button asChild size="sm" className="mt-4">
+            <Link href="/request-a-quote" onClick={onNavigate}>
+              Request a quote
+              <ArrowRight size={16} strokeWidth={1.5} />
+            </Link>
+          </Button>
 
           <hr className="my-5 border-oriel-green-deep/20" />
 

@@ -7989,5 +7989,3393 @@
     ],
     "retail_price": 10699,
     "id": "ecoflow-solar-panel-hat-xl"
+  },
+  {
+    "id": "bluetti-homestar-3",
+    "slug": "bluetti-homestar-3",
+    "name": "Bluetti Home Star 3",
+    "brand": "Bluetti",
+    "model_code": "Home Star 3",
+    "category": "battery-storage",
+    "subcategory": "home-battery-backup",
+    "short_description": "All-in-one 3.01kWh home backup with a 2kW inverter and automatic grid switchover.",
+    "long_description": "Home Star 3 is the fixed-installation end of the Bluetti range: a 3,014Wh LiFePO4 battery and 2,000W inverter in one floor-standing cabinet. When KPLC power drops, it takes over the essential circuits automatically, keeping the fridge, lights, WiFi and TV running without a generator start-up.\n\nIt recharges from the grid or up to 2,000W of solar, so it can also absorb daytime PV and carry the house into the evening. Installation and circuit separation are handled by our team; the unit is sized for a typical Kenyan family home rather than a whole estate.",
+    "specs": [
+      {
+        "group": "BATTERY",
+        "label": "Capacity",
+        "value": "3014",
+        "unit": "Wh"
+      },
+      {
+        "group": "OUTPUT",
+        "label": "AC output",
+        "value": "2000",
+        "unit": "W"
+      },
+      {
+        "group": "OUTPUT",
+        "label": "Surge power",
+        "value": "3000",
+        "unit": "W"
+      },
+      {
+        "group": "BATTERY",
+        "label": "Chemistry",
+        "value": "LiFePO4",
+        "unit": ""
+      },
+      {
+        "group": "INPUT",
+        "label": "Solar input",
+        "value": "2000",
+        "unit": "W"
+      },
+      {
+        "group": "GENERAL",
+        "label": "Voltage",
+        "value": "230V single-phase",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Grid protection",
+        "value": "140-280V",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Noise",
+        "value": "50",
+        "unit": "dB"
+      },
+      {
+        "group": "GENERAL",
+        "label": "Type",
+        "value": "All-in-one home ESS",
+        "unit": ""
+      }
+    ],
+    "key_specs": [
+      "3,014Wh",
+      "2,000W",
+      "LiFePO4"
+    ],
+    "images": [
+      {
+        "url": "https://www.bluetti.com/api/media/file/Home%20Star%203%20UK%20EU%20Front%20view.webp",
+        "alt": "Bluetti Home Star 3 all-in-one home battery system, front view",
+        "type": "primary"
+      }
+    ],
+    "cost_price": null,
+    "retail_price": 111500,
+    "price_status": "ok",
+    "source_vat_inclusive": true,
+    "cost_per_watt": null,
+    "module_watts": null,
+    "pricing_note": null,
+    "warranty_years": 2,
+    "stock_status": "in_stock",
+    "stock_qty": 4,
+    "lead_time_days": null,
+    "weight_kg": null,
+    "dimensions_mm": null,
+    "requires_installation": true,
+    "compatible_with": [
+      "bluetti-pv200",
+      "bluetti-pv350"
+    ],
+    "annual_kwh_yield": null,
+    "datasheet_url": null,
+    "source_supplier": "Batteriq",
+    "source_list_date": "2026-10",
+    "is_featured": true,
+    "is_published": true,
+    "seo_title": "Bluetti Home Star 3 price in Kenya | Oriel Solar",
+    "seo_description": "Bluetti Home Star 3 in Kenya. 3.01kWh home backup with 2kW output, automatic switchover and 2kW solar input. M-Pesa accepted."
+  },
+  {
+    "id": "bluetti-hv6k",
+    "slug": "bluetti-hv6k",
+    "name": "Bluetti HV6K Hybrid Inverter",
+    "brand": "Bluetti",
+    "model_code": "HV6K",
+    "category": "inverters",
+    "subcategory": "hybrid",
+    "short_description": "6.2kW hybrid inverter for HB500 battery stacks and up to 6.5kW of solar.",
+    "long_description": "The HV6K is the smaller of Bluetti's high-voltage hybrid inverters. It delivers 6.2kW continuously and manages a 51.2V HB500 battery bank alongside up to 6.5kW of PV, with a changeover time under 10ms. That is fast enough for computers and routers to ride through an outage without rebooting.\n\nUse it for a family home with a fridge, freezer, lighting, TV, WiFi and a home office. Battery capacity is set by the number of HB500 modules, so the system can start modestly and grow.",
+    "specs": [
+      {
+        "group": "OUTPUT",
+        "label": "AC output",
+        "value": "6.2",
+        "unit": "kW"
+      },
+      {
+        "group": "INPUT",
+        "label": "PV input",
+        "value": "6.5",
+        "unit": "kW"
+      },
+      {
+        "group": "INPUT",
+        "label": "PV voltage range",
+        "value": "90-450",
+        "unit": "Vdc"
+      },
+      {
+        "group": "BATTERY",
+        "label": "Battery voltage",
+        "value": "51.2",
+        "unit": "V"
+      },
+      {
+        "group": "BATTERY",
+        "label": "Max charge/discharge",
+        "value": "118",
+        "unit": "A"
+      },
+      {
+        "group": "GENERAL",
+        "label": "Backup changeover",
+        "value": "<10",
+        "unit": "ms"
+      },
+      {
+        "group": "GENERAL",
+        "label": "Compatible battery",
+        "value": "HB500",
+        "unit": ""
+      }
+    ],
+    "key_specs": [
+      "6.2kW",
+      "6.5kW PV",
+      "<10ms changeover"
+    ],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0558/1199/7864/files/HV6K.png?v=1773392229",
+        "alt": "Bluetti HV6K hybrid inverter, front view",
+        "type": "primary"
+      }
+    ],
+    "cost_price": null,
+    "retail_price": 57500,
+    "price_status": "ok",
+    "source_vat_inclusive": true,
+    "cost_per_watt": null,
+    "module_watts": null,
+    "pricing_note": null,
+    "warranty_years": 2,
+    "stock_status": "low_stock",
+    "stock_qty": 3,
+    "lead_time_days": null,
+    "weight_kg": null,
+    "dimensions_mm": null,
+    "requires_installation": true,
+    "compatible_with": [
+      "bluetti-hb500",
+      "bluetti-pv200",
+      "bluetti-pv350"
+    ],
+    "annual_kwh_yield": null,
+    "datasheet_url": null,
+    "source_supplier": "Batteriq",
+    "source_list_date": "2026-10",
+    "is_featured": false,
+    "is_published": true,
+    "seo_title": "Bluetti HV6K hybrid inverter price in Kenya | Oriel Solar",
+    "seo_description": "Bluetti HV6K 6.2kW hybrid inverter in Kenya. Pairs with HB500 batteries and up to 6.5kW solar. Sub-10ms backup switching."
+  },
+  {
+    "id": "bluetti-hv10k",
+    "slug": "bluetti-hv10k",
+    "name": "Bluetti HV10K Hybrid Inverter",
+    "brand": "Bluetti",
+    "model_code": "HV10K",
+    "category": "inverters",
+    "subcategory": "hybrid",
+    "short_description": "10kW hybrid inverter for whole-home backup with up to 14kW of solar.",
+    "long_description": "HV10K is the larger Bluetti hybrid inverter, built for a whole house or a small business. It delivers 10kW continuously and accepts up to 14kW of PV, while managing a 51.2V HB500 battery bank with sub-10ms backup changeover.\n\nThis is the unit for pumps, fridges and freezers, air conditioning, lighting and office equipment running together. As with the HV6K, storage is modular: add HB500 modules as the load and budget grow.",
+    "specs": [
+      {
+        "group": "OUTPUT",
+        "label": "AC output",
+        "value": "10",
+        "unit": "kW"
+      },
+      {
+        "group": "INPUT",
+        "label": "PV input",
+        "value": "14",
+        "unit": "kW"
+      },
+      {
+        "group": "INPUT",
+        "label": "PV voltage range",
+        "value": "90-450",
+        "unit": "Vdc"
+      },
+      {
+        "group": "BATTERY",
+        "label": "Battery voltage",
+        "value": "51.2",
+        "unit": "V"
+      },
+      {
+        "group": "BATTERY",
+        "label": "Max charge/discharge",
+        "value": "230",
+        "unit": "A"
+      },
+      {
+        "group": "GENERAL",
+        "label": "Backup changeover",
+        "value": "<10",
+        "unit": "ms"
+      },
+      {
+        "group": "GENERAL",
+        "label": "Compatible battery",
+        "value": "HB500",
+        "unit": ""
+      }
+    ],
+    "key_specs": [
+      "10kW",
+      "14kW PV",
+      "<10ms changeover"
+    ],
+    "images": [
+      {
+        "url": "https://www.bluetti.com/api/media/file/HV10K%20Front%20view-1.webp",
+        "alt": "Bluetti HV10K hybrid inverter, front view",
+        "type": "primary"
+      }
+    ],
+    "cost_price": null,
+    "retail_price": 111500,
+    "price_status": "ok",
+    "source_vat_inclusive": true,
+    "cost_per_watt": null,
+    "module_watts": null,
+    "pricing_note": null,
+    "warranty_years": 2,
+    "stock_status": "low_stock",
+    "stock_qty": 3,
+    "lead_time_days": null,
+    "weight_kg": null,
+    "dimensions_mm": null,
+    "requires_installation": true,
+    "compatible_with": [
+      "bluetti-hb500",
+      "bluetti-pv350",
+      "bluetti-pv200"
+    ],
+    "annual_kwh_yield": null,
+    "datasheet_url": null,
+    "source_supplier": "Batteriq",
+    "source_list_date": "2026-10",
+    "is_featured": true,
+    "is_published": true,
+    "seo_title": "Bluetti HV10K hybrid inverter price in Kenya | Oriel Solar",
+    "seo_description": "Bluetti HV10K 10kW hybrid inverter in Kenya. Whole-home backup with up to 14kW solar input and HB500 battery support."
+  },
+  {
+    "id": "bluetti-hb500",
+    "slug": "bluetti-hb500",
+    "name": "Bluetti HB500 Battery Module",
+    "brand": "Bluetti",
+    "model_code": "HB500",
+    "category": "battery-storage",
+    "subcategory": "expansion-battery",
+    "short_description": "5.12kWh LiFePO4 module for Bluetti HV6K and HV10K systems.",
+    "long_description": "HB500 is the building block of Bluetti's high-voltage home backup range. Each module stores 5.12kWh and is rated for 6,000+ cycles; up to 64 modules can be paralleled for 327.68kWh in larger installations.\n\nFor a typical home, two to four modules cover the evening and overnight load. The HV6K or HV10K inverter manages charging from grid or solar, and the battery is floor- or wall-mounted by our installation team.",
+    "specs": [
+      {
+        "group": "BATTERY",
+        "label": "Capacity",
+        "value": "5.12",
+        "unit": "kWh"
+      },
+      {
+        "group": "BATTERY",
+        "label": "Voltage",
+        "value": "51.2",
+        "unit": "V"
+      },
+      {
+        "group": "BATTERY",
+        "label": "Current",
+        "value": "100",
+        "unit": "Ah"
+      },
+      {
+        "group": "BATTERY",
+        "label": "Chemistry",
+        "value": "LiFePO4",
+        "unit": ""
+      },
+      {
+        "group": "BATTERY",
+        "label": "Cycle life",
+        "value": "6000+",
+        "unit": "cycles"
+      },
+      {
+        "group": "BATTERY",
+        "label": "Max parallel",
+        "value": "64",
+        "unit": "units"
+      },
+      {
+        "group": "BATTERY",
+        "label": "Max system",
+        "value": "327.68",
+        "unit": "kWh"
+      },
+      {
+        "group": "BATTERY",
+        "label": "Max discharge",
+        "value": "100",
+        "unit": "A"
+      }
+    ],
+    "key_specs": [
+      "5.12kWh",
+      "6,000+ cycles",
+      "Up to 64 modules"
+    ],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0558/1199/7864/files/HB500.png?v=1773392229",
+        "alt": "Bluetti HB500 5.12kWh LiFePO4 battery module",
+        "type": "primary"
+      }
+    ],
+    "cost_price": null,
+    "retail_price": 116500,
+    "price_status": "ok",
+    "source_vat_inclusive": true,
+    "cost_per_watt": null,
+    "module_watts": null,
+    "pricing_note": null,
+    "warranty_years": 2,
+    "stock_status": "in_stock",
+    "stock_qty": 4,
+    "lead_time_days": null,
+    "weight_kg": null,
+    "dimensions_mm": null,
+    "requires_installation": true,
+    "compatible_with": [
+      "bluetti-hv6k",
+      "bluetti-hv10k"
+    ],
+    "annual_kwh_yield": null,
+    "datasheet_url": null,
+    "source_supplier": "Batteriq",
+    "source_list_date": "2026-10",
+    "is_featured": false,
+    "is_published": true,
+    "seo_title": "Bluetti HB500 battery price in Kenya | Oriel Solar",
+    "seo_description": "Bluetti HB500 5.12kWh LiFePO4 battery module in Kenya. For HV6K and HV10K systems, stackable to 64 modules."
+  },
+  {
+    "id": "bluetti-pv100",
+    "slug": "bluetti-pv100",
+    "name": "Bluetti PV100 100W Solar Panel",
+    "brand": "Bluetti",
+    "model_code": "PV100",
+    "category": "solar-panels",
+    "subcategory": "foldable",
+    "short_description": "100W foldable monocrystalline panel for Bluetti power stations.",
+    "long_description": "PV100 folds into a carryable package and connects with MC4 leads, making it a practical top-up panel for a portable station or a small backup system. The monocrystalline cells work well in Kenyan sun, and the panel can be angled through the day.\n\nUse one to keep an AC2P, AC50P or Premium 30 V2 topped up on the move, or pair several with a larger Bluetti station within its solar input limit.",
+    "specs": [
+      {
+        "group": "OUTPUT",
+        "label": "Rated power",
+        "value": "100",
+        "unit": "W"
+      },
+      {
+        "group": "GENERAL",
+        "label": "Cell type",
+        "value": "Monocrystalline",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Foldable",
+        "value": "Yes",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Connector",
+        "value": "MC4",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Compatible",
+        "value": "Bluetti power stations",
+        "unit": ""
+      }
+    ],
+    "key_specs": [
+      "100W",
+      "Foldable",
+      "MC4"
+    ],
+    "images": [
+      {
+        "url": "https://checkout.bluettipower.com.au/cdn/shop/files/PV1002_1f8bd4e1-1311-4c11-a29b-29c902ba3651.webp?v=1755595591",
+        "alt": "Bluetti PV100 100W foldable solar panel",
+        "type": "primary"
+      }
+    ],
+    "cost_price": null,
+    "retail_price": 16000,
+    "price_status": "ok",
+    "source_vat_inclusive": true,
+    "cost_per_watt": null,
+    "module_watts": 100,
+    "pricing_note": null,
+    "warranty_years": 2,
+    "stock_status": "in_stock",
+    "stock_qty": 10,
+    "lead_time_days": null,
+    "weight_kg": null,
+    "dimensions_mm": null,
+    "requires_installation": false,
+    "compatible_with": [
+      "bluetti-ac2p",
+      "bluetti-ac50p",
+      "bluetti-ac70p",
+      "bluetti-premium-30-v2",
+      "bluetti-eb3a"
+    ],
+    "annual_kwh_yield": null,
+    "datasheet_url": null,
+    "source_supplier": "Batteriq",
+    "source_list_date": "2026-10",
+    "is_featured": false,
+    "is_published": true,
+    "seo_title": "Bluetti PV100 100W solar panel price in Kenya | Oriel Solar",
+    "seo_description": "Bluetti PV100 100W foldable solar panel in Kenya. Monocrystalline, MC4 connector, for Bluetti power stations. M-Pesa accepted."
+  },
+  {
+    "id": "bluetti-base-b500",
+    "slug": "bluetti-base-b500",
+    "name": "Bluetti Base for B500",
+    "brand": "Bluetti",
+    "model_code": "Base B500",
+    "category": "balance-of-system",
+    "subcategory": "battery-mounting",
+    "short_description": "Floor-mounting base for the Bluetti B500 battery module.",
+    "long_description": "The Base is the mounting plinth for a B500 battery. It holds the 50kg module securely at floor level and keeps the installation neat where a wall mount is not practical.\n\nSpecify one Base per B500 in an EP760 system. Our installers commission the battery and base together.",
+    "specs": [
+      {
+        "group": "GENERAL",
+        "label": "Type",
+        "value": "Mounting base",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Compatible battery",
+        "value": "B500",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Installation",
+        "value": "Floor-standing",
+        "unit": ""
+      }
+    ],
+    "key_specs": [
+      "B500 base",
+      "Floor mount",
+      "Genuine accessory"
+    ],
+    "images": [
+      {
+        "url": "https://checkout.bluettipower.com.au/cdn/shop/files/2000x2000_1_2000x_ba8291a2-2fb9-4c4c-bb50-69e830fd9a7e.webp?v=1697774919",
+        "alt": "Bluetti Base floor mounting base for B500 battery",
+        "type": "primary"
+      }
+    ],
+    "cost_price": null,
+    "retail_price": 11000,
+    "price_status": "ok",
+    "source_vat_inclusive": true,
+    "cost_per_watt": null,
+    "module_watts": null,
+    "pricing_note": null,
+    "warranty_years": 2,
+    "stock_status": "in_stock",
+    "stock_qty": 5,
+    "lead_time_days": null,
+    "weight_kg": null,
+    "dimensions_mm": null,
+    "requires_installation": true,
+    "compatible_with": [
+      "bluetti-b500",
+      "bluetti-ep760"
+    ],
+    "annual_kwh_yield": null,
+    "datasheet_url": null,
+    "source_supplier": "Batteriq",
+    "source_list_date": "2026-10",
+    "is_featured": false,
+    "is_published": true,
+    "seo_title": "Bluetti Base for B500 price in Kenya | Oriel Solar",
+    "seo_description": "Bluetti Base for B500 battery in Kenya. Secure floor mounting for the 4.96kWh EP760 battery module. Genuine Bluetti accessory."
+  },
+  {
+    "id": "bluetti-meter-ep760",
+    "slug": "bluetti-meter-ep760",
+    "name": "Bluetti Meter for EP760",
+    "brand": "Bluetti",
+    "model_code": "Meter EP760",
+    "category": "balance-of-system",
+    "subcategory": "energy-management",
+    "short_description": "Grid energy meter for the Bluetti EP760 home backup system.",
+    "long_description": "The Meter measures grid import and export so the EP760 can decide when to charge from the grid, discharge the battery or let solar carry the load. Without it, the system cannot manage energy flow accurately.\n\nIt is a wired accessory and should be installed by a qualified electrician as part of the EP760 commissioning. One meter is required per EP760 system.",
+    "specs": [
+      {
+        "group": "GENERAL",
+        "label": "Type",
+        "value": "Grid energy meter",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Compatible system",
+        "value": "EP760",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Function",
+        "value": "Import/export monitoring",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Installation",
+        "value": "Professional, wired",
+        "unit": ""
+      }
+    ],
+    "key_specs": [
+      "EP760 accessory",
+      "Grid monitoring",
+      "Wired"
+    ],
+    "images": [
+      {
+        "url": "https://checkout.bluettipower.com/cdn/shop/files/7acd46317ef07ef8583cd2f45e25ba65_79692acc-0c79-47f0-ad94-0ddd13b756a0.jpg?v=1715417060",
+        "alt": "Bluetti energy meter with CT clamps for EP760 home backup",
+        "type": "primary"
+      }
+    ],
+    "cost_price": null,
+    "retail_price": 6600,
+    "price_status": "ok",
+    "source_vat_inclusive": true,
+    "cost_per_watt": null,
+    "module_watts": null,
+    "pricing_note": null,
+    "warranty_years": 2,
+    "stock_status": "in_stock",
+    "stock_qty": 5,
+    "lead_time_days": null,
+    "weight_kg": null,
+    "dimensions_mm": null,
+    "requires_installation": true,
+    "compatible_with": [
+      "bluetti-ep760"
+    ],
+    "annual_kwh_yield": null,
+    "datasheet_url": null,
+    "source_supplier": "Batteriq",
+    "source_list_date": "2026-10",
+    "is_featured": false,
+    "is_published": true,
+    "seo_title": "Bluetti Meter for EP760 price in Kenya | Oriel Solar",
+    "seo_description": "Bluetti Meter for EP760 in Kenya. Grid import/export metering for accurate EP760 energy management. Professional installation."
+  },
+  {
+    "id": "bluetti-ems-ep760",
+    "slug": "bluetti-ems-ep760",
+    "name": "Bluetti EMS for EP760",
+    "brand": "Bluetti",
+    "model_code": "EMS EP760",
+    "category": "balance-of-system",
+    "subcategory": "energy-management",
+    "short_description": "Energy management module that coordinates the EP760, B500 batteries and solar.",
+    "long_description": "The EMS is the control layer for an EP760 system. It coordinates the inverter, B500 battery bank and solar input so the house uses PV first, stores surplus and falls back to the grid only when needed.\n\nIt is installed with the EP760 and configured during commissioning. One EMS is required per system.",
+    "specs": [
+      {
+        "group": "GENERAL",
+        "label": "Type",
+        "value": "Energy management module",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Compatible system",
+        "value": "EP760",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Compatible battery",
+        "value": "B500",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Installation",
+        "value": "Professional",
+        "unit": ""
+      }
+    ],
+    "key_specs": [
+      "EP760 control",
+      "B500 compatible",
+      "Genuine accessory"
+    ],
+    "images": [
+      {
+        "url": "https://checkout.bluettipower.com/cdn/shop/files/1_fe383d53-8ad5-4462-9fd5-edcba7dc2e5f.png?v=1715411671",
+        "alt": "Bluetti EMS energy management module for EP760 system",
+        "type": "primary"
+      }
+    ],
+    "cost_price": null,
+    "retail_price": 24000,
+    "price_status": "ok",
+    "source_vat_inclusive": true,
+    "cost_per_watt": null,
+    "module_watts": null,
+    "pricing_note": null,
+    "warranty_years": 2,
+    "stock_status": "in_stock",
+    "stock_qty": 5,
+    "lead_time_days": null,
+    "weight_kg": null,
+    "dimensions_mm": null,
+    "requires_installation": true,
+    "compatible_with": [
+      "bluetti-ep760",
+      "bluetti-b500"
+    ],
+    "annual_kwh_yield": null,
+    "datasheet_url": null,
+    "source_supplier": "Batteriq",
+    "source_list_date": "2026-10",
+    "is_featured": false,
+    "is_published": true,
+    "seo_title": "Bluetti EMS for EP760 price in Kenya | Oriel Solar",
+    "seo_description": "Bluetti EMS for EP760 in Kenya. Coordinates EP760 inverter, B500 batteries and solar for automatic home backup."
+  },
+  {
+    "id": "bluetti-premium-200",
+    "slug": "bluetti-premium-200",
+    "name": "Bluetti Premium 200 Portable Power Station",
+    "brand": "Bluetti",
+    "model_code": "Premium 200",
+    "category": "battery-storage",
+    "subcategory": "portable-power-station",
+    "short_description": "2,073.6Wh LiFePO4 station with 2,700W AC output for heavy home backup.",
+    "long_description": "The Premium 200 is a large portable station for loads that a small unit cannot carry: a fridge, freezer, lights, WiFi and power tools can run together within its 2,700W output. The 2,073.6Wh LiFePO4 battery is good for daily cycling and long standby.\n\nRecharge from a wall socket at up to 1,800W, from solar at up to 1,000W, or from both. UPS changeover is 15ms, and the Bluetti app shows input, output and remaining runtime.",
+    "specs": [
+      {
+        "group": "BATTERY",
+        "label": "Capacity",
+        "value": "2073.6",
+        "unit": "Wh"
+      },
+      {
+        "group": "OUTPUT",
+        "label": "AC output",
+        "value": "2700",
+        "unit": "W"
+      },
+      {
+        "group": "BATTERY",
+        "label": "Chemistry",
+        "value": "LiFePO4",
+        "unit": ""
+      },
+      {
+        "group": "INPUT",
+        "label": "AC charging",
+        "value": "1800",
+        "unit": "W"
+      },
+      {
+        "group": "INPUT",
+        "label": "Solar input",
+        "value": "1000",
+        "unit": "W"
+      },
+      {
+        "group": "GENERAL",
+        "label": "UPS changeover",
+        "value": "15",
+        "unit": "ms"
+      },
+      {
+        "group": "GENERAL",
+        "label": "Weight",
+        "value": "24.2",
+        "unit": "kg"
+      },
+      {
+        "group": "GENERAL",
+        "label": "App control",
+        "value": "Wi-Fi and Bluetooth",
+        "unit": ""
+      }
+    ],
+    "key_specs": [
+      "2,073.6Wh",
+      "2,700W",
+      "15ms UPS"
+    ],
+    "images": [
+      {
+        "url": "https://www.bluetti.com/api/media/file/Premium%20200%20V2%20US%20%E6%AD%A3%E9%9D%A2-2.webp",
+        "alt": "Bluetti Premium 200 portable power station, front view",
+        "type": "primary"
+      }
+    ],
+    "cost_price": null,
+    "retail_price": 120000,
+    "price_status": "ok",
+    "source_vat_inclusive": true,
+    "cost_per_watt": null,
+    "module_watts": null,
+    "pricing_note": null,
+    "warranty_years": 2,
+    "stock_status": "in_stock",
+    "stock_qty": 4,
+    "lead_time_days": null,
+    "weight_kg": 24.2,
+    "dimensions_mm": null,
+    "requires_installation": false,
+    "compatible_with": [
+      "bluetti-pv200",
+      "bluetti-pv350"
+    ],
+    "annual_kwh_yield": null,
+    "datasheet_url": null,
+    "source_supplier": "Batteriq",
+    "source_list_date": "2026-10",
+    "is_featured": false,
+    "is_published": true,
+    "seo_title": "Bluetti Premium 200 price in Kenya | Oriel Solar",
+    "seo_description": "Bluetti Premium 200 in Kenya. 2,073.6Wh LiFePO4 portable power station with 2,700W output, 1,800W charging and 15ms UPS."
+  },
+  {
+    "id": "bluetti-ac2p",
+    "slug": "bluetti-ac2p",
+    "name": "Bluetti AC2P Portable Power Station",
+    "brand": "Bluetti",
+    "model_code": "AC2P",
+    "category": "battery-storage",
+    "subcategory": "portable-power-station",
+    "short_description": "230.4Wh, 300W ultra-compact station for phones, lights and small devices.",
+    "long_description": "AC2P is the smallest station in the Bluetti range: 230.4Wh and 300W in a package that fits under a desk or in a backpack. It is for phone charging, a fan, lights, a router and other small loads during a short outage or a camping trip.\n\nIt charges from a wall socket, a car outlet or a PV100 panel. If you need to run a fridge or power tools, step up to the AC70P or AC180P.",
+    "specs": [
+      {
+        "group": "BATTERY",
+        "label": "Capacity",
+        "value": "230.4",
+        "unit": "Wh"
+      },
+      {
+        "group": "OUTPUT",
+        "label": "AC output",
+        "value": "300",
+        "unit": "W"
+      },
+      {
+        "group": "BATTERY",
+        "label": "Chemistry",
+        "value": "LiFePO4",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Weight",
+        "value": "3.6",
+        "unit": "kg"
+      },
+      {
+        "group": "INPUT",
+        "label": "Charging",
+        "value": "AC, car or solar",
+        "unit": ""
+      }
+    ],
+    "key_specs": [
+      "230.4Wh",
+      "300W",
+      "3.6kg"
+    ],
+    "images": [
+      {
+        "url": "https://checkout.bluettipower.com.au/cdn/shop/files/1_c7968556-05de-4b64-b28f-bd7e559f6e45.png?v=1710310471",
+        "alt": "Bluetti AC2P compact portable power station",
+        "type": "primary"
+      }
+    ],
+    "cost_price": null,
+    "retail_price": 27500,
+    "price_status": "ok",
+    "source_vat_inclusive": true,
+    "cost_per_watt": null,
+    "module_watts": null,
+    "pricing_note": null,
+    "warranty_years": 2,
+    "stock_status": "in_stock",
+    "stock_qty": 10,
+    "lead_time_days": null,
+    "weight_kg": 3.6,
+    "dimensions_mm": null,
+    "requires_installation": false,
+    "compatible_with": [
+      "bluetti-pv100",
+      "bluetti-pv120"
+    ],
+    "annual_kwh_yield": null,
+    "datasheet_url": null,
+    "source_supplier": "Batteriq",
+    "source_list_date": "2026-10",
+    "is_featured": false,
+    "is_published": true,
+    "seo_title": "Bluetti AC2P price in Kenya | Oriel Solar",
+    "seo_description": "Bluetti AC2P in Kenya. 230.4Wh, 300W ultra-compact portable power station for phones, lights, WiFi and small devices."
+  },
+  {
+    "id": "bluetti-ac50p",
+    "slug": "bluetti-ac50p",
+    "name": "Bluetti AC50P Portable Power Station",
+    "brand": "Bluetti",
+    "model_code": "AC50P",
+    "category": "battery-storage",
+    "subcategory": "portable-power-station",
+    "short_description": "504Wh LiFePO4 station with 700W AC output for camping and small backup.",
+    "long_description": "AC50P sits between the pocket-sized AC2P and the larger AC70P. Its 504Wh battery and 700W output can run a small fridge, lights, WiFi and a laptop through an evening, or charge cameras and drones on a trip.\n\nIt accepts up to 200W of solar and recharges from the mains or a car. For a household that wants to keep a fridge and a few rooms going, the AC70P or AC180P is the better fit.",
+    "specs": [
+      {
+        "group": "BATTERY",
+        "label": "Capacity",
+        "value": "504",
+        "unit": "Wh"
+      },
+      {
+        "group": "OUTPUT",
+        "label": "AC output",
+        "value": "700",
+        "unit": "W"
+      },
+      {
+        "group": "OUTPUT",
+        "label": "Surge power",
+        "value": "1050",
+        "unit": "W"
+      },
+      {
+        "group": "BATTERY",
+        "label": "Chemistry",
+        "value": "LiFePO4",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Weight",
+        "value": "6.9",
+        "unit": "kg"
+      },
+      {
+        "group": "INPUT",
+        "label": "Solar input",
+        "value": "200",
+        "unit": "W"
+      }
+    ],
+    "key_specs": [
+      "504Wh",
+      "700W",
+      "6.9kg"
+    ],
+    "images": [
+      {
+        "url": "https://checkout.bluettipower.com/cdn/shop/files/26995_1x_bfa85b66-e525-4d70-91ac-d43eb02bd3ae.png?v=1744698562",
+        "alt": "Bluetti AC50P portable power station",
+        "type": "primary"
+      }
+    ],
+    "cost_price": null,
+    "retail_price": 37500,
+    "price_status": "ok",
+    "source_vat_inclusive": true,
+    "cost_per_watt": null,
+    "module_watts": null,
+    "pricing_note": null,
+    "warranty_years": 2,
+    "stock_status": "in_stock",
+    "stock_qty": 10,
+    "lead_time_days": null,
+    "weight_kg": 6.9,
+    "dimensions_mm": null,
+    "requires_installation": false,
+    "compatible_with": [
+      "bluetti-pv100",
+      "bluetti-pv120",
+      "bluetti-pv200"
+    ],
+    "annual_kwh_yield": null,
+    "datasheet_url": null,
+    "source_supplier": "Batteriq",
+    "source_list_date": "2026-10",
+    "is_featured": false,
+    "is_published": true,
+    "seo_title": "Bluetti AC50P price in Kenya | Oriel Solar",
+    "seo_description": "Bluetti AC50P in Kenya. 504Wh LiFePO4 portable power station with 700W AC output for camping and small home backup."
+  },
+  {
+    "id": "bluetti-ac70p",
+    "slug": "bluetti-ac70p",
+    "name": "Bluetti AC70P Portable Power Station",
+    "brand": "Bluetti",
+    "model_code": "AC70P",
+    "category": "battery-storage",
+    "subcategory": "portable-power-station",
+    "short_description": "864Wh LiFePO4 station with 1,000W AC output for camping and home backup.",
+    "long_description": "AC70P is the practical middle of the range: 864Wh and 1,000W, enough for a fridge, lights, WiFi, TV and laptop through a typical outage. The LiFePO4 battery is rated for daily use and the unit stays portable at around 10kg.\n\nRecharge from mains, a car or up to 500W of solar. It is a good first home-backup station for a flat or a small house, and it doubles as a camping power box.",
+    "specs": [
+      {
+        "group": "BATTERY",
+        "label": "Capacity",
+        "value": "864",
+        "unit": "Wh"
+      },
+      {
+        "group": "OUTPUT",
+        "label": "AC output",
+        "value": "1000",
+        "unit": "W"
+      },
+      {
+        "group": "BATTERY",
+        "label": "Chemistry",
+        "value": "LiFePO4",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Weight",
+        "value": "10.2",
+        "unit": "kg"
+      },
+      {
+        "group": "INPUT",
+        "label": "Solar input",
+        "value": "500",
+        "unit": "W"
+      }
+    ],
+    "key_specs": [
+      "864Wh",
+      "1,000W",
+      "10.2kg"
+    ],
+    "images": [
+      {
+        "url": "https://checkout.bluettipower.com.au/cdn/shop/files/AC70P_36b825f4-8581-4a6a-b450-98927027e6d0.png?v=1709548682",
+        "alt": "Bluetti AC70P portable power station",
+        "type": "primary"
+      }
+    ],
+    "cost_price": null,
+    "retail_price": 60000,
+    "price_status": "ok",
+    "source_vat_inclusive": true,
+    "cost_per_watt": null,
+    "module_watts": null,
+    "pricing_note": null,
+    "warranty_years": 2,
+    "stock_status": "in_stock",
+    "stock_qty": 8,
+    "lead_time_days": null,
+    "weight_kg": 10.2,
+    "dimensions_mm": null,
+    "requires_installation": false,
+    "compatible_with": [
+      "bluetti-pv120",
+      "bluetti-pv200"
+    ],
+    "annual_kwh_yield": null,
+    "datasheet_url": null,
+    "source_supplier": "Batteriq",
+    "source_list_date": "2026-10",
+    "is_featured": false,
+    "is_published": true,
+    "seo_title": "Bluetti AC70P price in Kenya | Oriel Solar",
+    "seo_description": "Bluetti AC70P in Kenya. 864Wh LiFePO4 portable power station with 1,000W output for camping and home backup."
+  },
+  {
+    "id": "bluetti-premium-30-v2",
+    "slug": "bluetti-premium-30-v2",
+    "name": "Bluetti Premium 30 V2 Portable Power Station",
+    "brand": "Bluetti",
+    "model_code": "Premium 30 V2",
+    "category": "battery-storage",
+    "subcategory": "portable-power-station",
+    "short_description": "320Wh LiFePO4 station with 600W output and 10ms UPS changeover.",
+    "long_description": "Premium 30 V2 is a compact UPS-style station for a desk, a router, a TV or a small home office. The 320Wh battery and 600W output carry the essentials for a short outage, and the 10ms changeover keeps connected equipment running without a restart.\n\nIt recharges at up to 380W from the mains and accepts up to 200W of solar. The app shows battery level and input/output power.",
+    "specs": [
+      {
+        "group": "BATTERY",
+        "label": "Capacity",
+        "value": "320",
+        "unit": "Wh"
+      },
+      {
+        "group": "OUTPUT",
+        "label": "AC output",
+        "value": "600",
+        "unit": "W"
+      },
+      {
+        "group": "BATTERY",
+        "label": "Chemistry",
+        "value": "LiFePO4",
+        "unit": ""
+      },
+      {
+        "group": "INPUT",
+        "label": "AC charging",
+        "value": "380",
+        "unit": "W"
+      },
+      {
+        "group": "INPUT",
+        "label": "Solar input",
+        "value": "200",
+        "unit": "W"
+      },
+      {
+        "group": "GENERAL",
+        "label": "UPS changeover",
+        "value": "10",
+        "unit": "ms"
+      },
+      {
+        "group": "GENERAL",
+        "label": "Weight",
+        "value": "4.3",
+        "unit": "kg"
+      }
+    ],
+    "key_specs": [
+      "320Wh",
+      "600W",
+      "10ms UPS"
+    ],
+    "images": [
+      {
+        "url": "https://www.bluetti.com/api/media/file/Premium%2030%20V2%20US%20%E6%AD%A3%E9%9D%A2.webp",
+        "alt": "Bluetti Premium 30 V2 portable power station, front view",
+        "type": "primary"
+      }
+    ],
+    "cost_price": null,
+    "retail_price": 34500,
+    "price_status": "ok",
+    "source_vat_inclusive": true,
+    "cost_per_watt": null,
+    "module_watts": null,
+    "pricing_note": null,
+    "warranty_years": 2,
+    "stock_status": "in_stock",
+    "stock_qty": 10,
+    "lead_time_days": null,
+    "weight_kg": 4.3,
+    "dimensions_mm": null,
+    "requires_installation": false,
+    "compatible_with": [
+      "bluetti-pv100",
+      "bluetti-pv120"
+    ],
+    "annual_kwh_yield": null,
+    "datasheet_url": null,
+    "source_supplier": "Batteriq",
+    "source_list_date": "2026-10",
+    "is_featured": false,
+    "is_published": true,
+    "seo_title": "Bluetti Premium 30 V2 price in Kenya | Oriel Solar",
+    "seo_description": "Bluetti Premium 30 V2 in Kenya. 320Wh LiFePO4 station with 600W output, 10ms UPS and 380W fast charging."
+  },
+  {
+    "id": "bluetti-eb3a",
+    "slug": "bluetti-eb3a",
+    "name": "Bluetti EB3A Portable Power Station",
+    "brand": "Bluetti",
+    "model_code": "EB3A",
+    "category": "battery-storage",
+    "subcategory": "portable-power-station",
+    "short_description": "268Wh, 600W compact station with 430W fast AC charging.",
+    "long_description": "EB3A is a small, fast-charging station for lights, phones, a laptop, a fan and a router. The 268Wh battery and 600W inverter handle short outages; X-Boost lets it run some resistive loads above its rating, though not air conditioners or large fridges.\n\nIt recharges at up to 430W from the mains, which fills it quickly between outages. This unit is currently out of stock; contact us for the next delivery.",
+    "specs": [
+      {
+        "group": "BATTERY",
+        "label": "Capacity",
+        "value": "268",
+        "unit": "Wh"
+      },
+      {
+        "group": "OUTPUT",
+        "label": "AC output",
+        "value": "600",
+        "unit": "W"
+      },
+      {
+        "group": "OUTPUT",
+        "label": "X-Boost",
+        "value": "1200",
+        "unit": "W"
+      },
+      {
+        "group": "BATTERY",
+        "label": "Chemistry",
+        "value": "LiFePO4",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Weight",
+        "value": "4.6",
+        "unit": "kg"
+      },
+      {
+        "group": "INPUT",
+        "label": "AC fast charge",
+        "value": "430",
+        "unit": "W"
+      }
+    ],
+    "key_specs": [
+      "268Wh",
+      "600W",
+      "430W charging"
+    ],
+    "images": [
+      {
+        "url": "https://checkout.bluettipower.com/cdn/shop/files/EB_A.png?v=1743145874",
+        "alt": "Bluetti EB3A compact portable power station",
+        "type": "primary"
+      }
+    ],
+    "cost_price": null,
+    "retail_price": 24999,
+    "price_status": "ok",
+    "source_vat_inclusive": true,
+    "cost_per_watt": null,
+    "module_watts": null,
+    "pricing_note": null,
+    "warranty_years": 2,
+    "stock_status": "out_of_stock",
+    "stock_qty": 0,
+    "lead_time_days": null,
+    "weight_kg": 4.6,
+    "dimensions_mm": null,
+    "requires_installation": false,
+    "compatible_with": [
+      "bluetti-pv100",
+      "bluetti-pv120"
+    ],
+    "annual_kwh_yield": null,
+    "datasheet_url": null,
+    "source_supplier": "Batteriq",
+    "source_list_date": "2026-10",
+    "is_featured": false,
+    "is_published": true,
+    "seo_title": "Bluetti EB3A price in Kenya | Oriel Solar",
+    "seo_description": "Bluetti EB3A in Kenya. 268Wh, 600W compact portable power station with 430W fast AC charging. Currently out of stock."
+  },
+  {
+    "id": "bluetti-ac180p",
+    "slug": "bluetti-ac180p",
+    "name": "Bluetti AC180P Portable Power Station",
+    "brand": "Bluetti",
+    "model_code": "AC180P",
+    "category": "battery-storage",
+    "subcategory": "portable-power-station",
+    "short_description": "1,440Wh LiFePO4 station with 1,800W output and 1,440W turbo charging.",
+    "long_description": "AC180P is the benchmark home-backup station for a flat or a small house. Its 1,440Wh battery and 1,800W output run a fridge, freezer, lights, WiFi, TV and a laptop together, with a 2,700W surge for motor starts.\n\nTurbo charging takes it from 0 to 80% in about 45 minutes from the mains, and it accepts up to 500W of solar. The app shows runtime and energy flow.",
+    "specs": [
+      {
+        "group": "BATTERY",
+        "label": "Capacity",
+        "value": "1440",
+        "unit": "Wh"
+      },
+      {
+        "group": "OUTPUT",
+        "label": "AC output",
+        "value": "1800",
+        "unit": "W"
+      },
+      {
+        "group": "OUTPUT",
+        "label": "Surge power",
+        "value": "2700",
+        "unit": "W"
+      },
+      {
+        "group": "BATTERY",
+        "label": "Chemistry",
+        "value": "LiFePO4",
+        "unit": ""
+      },
+      {
+        "group": "INPUT",
+        "label": "Solar input",
+        "value": "500",
+        "unit": "W"
+      },
+      {
+        "group": "INPUT",
+        "label": "Turbo charging",
+        "value": "1440",
+        "unit": "W"
+      },
+      {
+        "group": "GENERAL",
+        "label": "Weight",
+        "value": "17.5",
+        "unit": "kg"
+      }
+    ],
+    "key_specs": [
+      "1,440Wh",
+      "1,800W",
+      "45-min charge"
+    ],
+    "images": [
+      {
+        "url": "https://checkout.bluettipower.com/cdn/shop/files/AC180P_3x_6435aedb-2c8c-4c39-b7e2-229c5db2c71d.png?v=1753180673",
+        "alt": "Bluetti AC180P portable power station",
+        "type": "primary"
+      }
+    ],
+    "cost_price": null,
+    "retail_price": 76000,
+    "price_status": "ok",
+    "source_vat_inclusive": true,
+    "cost_per_watt": null,
+    "module_watts": null,
+    "pricing_note": null,
+    "warranty_years": 2,
+    "stock_status": "in_stock",
+    "stock_qty": 6,
+    "lead_time_days": null,
+    "weight_kg": 17.5,
+    "dimensions_mm": null,
+    "requires_installation": false,
+    "compatible_with": [
+      "bluetti-pv200",
+      "bluetti-pv350"
+    ],
+    "annual_kwh_yield": null,
+    "datasheet_url": null,
+    "source_supplier": "Batteriq",
+    "source_list_date": "2026-10",
+    "is_featured": false,
+    "is_published": true,
+    "seo_title": "Bluetti AC180P price in Kenya | Oriel Solar",
+    "seo_description": "Bluetti AC180P in Kenya. 1,440Wh LiFePO4 station with 1,800W output, 2,700W surge and 45-minute turbo charging."
+  },
+  {
+    "id": "bluetti-premium-100-v2",
+    "slug": "bluetti-premium-100-v2",
+    "name": "Bluetti Premium 100 V2 Portable Power Station",
+    "brand": "Bluetti",
+    "model_code": "Premium 100 V2",
+    "category": "battery-storage",
+    "subcategory": "portable-power-station",
+    "short_description": "1,024Wh LiFePO4 station with 2,000W output for home and travel.",
+    "long_description": "Premium 100 V2 balances capacity and portability: 1,024Wh, 2,000W output and a LiFePO4 battery in an 11.5kg case. It can run a fridge, lights, WiFi and a TV through an evening outage, and still fits in a car boot for a trip.\n\nRecharge at up to 1,200W from the mains or 1,000W from solar. The app provides live input, output and battery data.",
+    "specs": [
+      {
+        "group": "BATTERY",
+        "label": "Capacity",
+        "value": "1024",
+        "unit": "Wh"
+      },
+      {
+        "group": "OUTPUT",
+        "label": "AC output",
+        "value": "2000",
+        "unit": "W"
+      },
+      {
+        "group": "BATTERY",
+        "label": "Chemistry",
+        "value": "LiFePO4",
+        "unit": ""
+      },
+      {
+        "group": "INPUT",
+        "label": "AC charging",
+        "value": "1200",
+        "unit": "W"
+      },
+      {
+        "group": "INPUT",
+        "label": "Solar input",
+        "value": "1000",
+        "unit": "W"
+      },
+      {
+        "group": "GENERAL",
+        "label": "Weight",
+        "value": "11.5",
+        "unit": "kg"
+      }
+    ],
+    "key_specs": [
+      "1,024Wh",
+      "2,000W",
+      "11.5kg"
+    ],
+    "images": [
+      {
+        "url": "https://www.bluetti.com/api/media/file/Premium%20100%20V2%20US%20%E6%AD%A3%E9%9D%A2%20(1).webp",
+        "alt": "Bluetti Premium 100 V2 portable power station, front view",
+        "type": "primary"
+      }
+    ],
+    "cost_price": null,
+    "retail_price": 66500,
+    "price_status": "ok",
+    "source_vat_inclusive": true,
+    "cost_per_watt": null,
+    "module_watts": null,
+    "pricing_note": null,
+    "warranty_years": 2,
+    "stock_status": "in_stock",
+    "stock_qty": 6,
+    "lead_time_days": null,
+    "weight_kg": 11.5,
+    "dimensions_mm": null,
+    "requires_installation": false,
+    "compatible_with": [
+      "bluetti-pv200",
+      "bluetti-pv350"
+    ],
+    "annual_kwh_yield": null,
+    "datasheet_url": null,
+    "source_supplier": "Batteriq",
+    "source_list_date": "2026-10",
+    "is_featured": false,
+    "is_published": true,
+    "seo_title": "Bluetti Premium 100 V2 price in Kenya | Oriel Solar",
+    "seo_description": "Bluetti Premium 100 V2 in Kenya. 1,024Wh LiFePO4 station with 2,000W output, 1,200W AC charging and 1,000W solar input."
+  },
+  {
+    "id": "bluetti-ac200pl",
+    "slug": "bluetti-ac200pl",
+    "name": "Bluetti AC200P L Portable Power Station",
+    "brand": "Bluetti",
+    "model_code": "AC200P L",
+    "category": "battery-storage",
+    "subcategory": "portable-power-station",
+    "short_description": "2,304Wh LiFePO4 station with 2,400W output and expandable storage.",
+    "long_description": "AC200P L is a high-capacity portable station for a whole home's essentials. The 2,304Wh battery and 2,400W output run a fridge, freezer, lights, WiFi, TV and power tools, with a 4,800W surge for motors.\n\nIt expands to 8,448Wh with two B300S batteries, accepts up to 1,200W of solar and recharges at up to 2,400W from the mains. The app and 4 AC outlets make it a practical whole-home backup hub.",
+    "specs": [
+      {
+        "group": "BATTERY",
+        "label": "Capacity",
+        "value": "2304",
+        "unit": "Wh"
+      },
+      {
+        "group": "OUTPUT",
+        "label": "AC output",
+        "value": "2400",
+        "unit": "W"
+      },
+      {
+        "group": "OUTPUT",
+        "label": "Surge power",
+        "value": "4800",
+        "unit": "W"
+      },
+      {
+        "group": "BATTERY",
+        "label": "Chemistry",
+        "value": "LiFePO4",
+        "unit": ""
+      },
+      {
+        "group": "BATTERY",
+        "label": "Expandable to",
+        "value": "8448",
+        "unit": "Wh"
+      },
+      {
+        "group": "INPUT",
+        "label": "Solar input",
+        "value": "1200",
+        "unit": "W"
+      },
+      {
+        "group": "INPUT",
+        "label": "AC charging",
+        "value": "2400",
+        "unit": "W"
+      },
+      {
+        "group": "GENERAL",
+        "label": "Weight",
+        "value": "28.1",
+        "unit": "kg"
+      },
+      {
+        "group": "GENERAL",
+        "label": "UPS changeover",
+        "value": "<20",
+        "unit": "ms"
+      },
+      {
+        "group": "GENERAL",
+        "label": "AC outlets",
+        "value": "4",
+        "unit": ""
+      }
+    ],
+    "key_specs": [
+      "2,304Wh",
+      "2,400W",
+      "Expandable"
+    ],
+    "images": [
+      {
+        "url": "https://checkout.bluettipower.com/cdn/shop/files/1_0dcc0163-179e-4a10-81de-0e87d74d1205.png?v=1769413644",
+        "alt": "Bluetti AC200P L portable power station",
+        "type": "primary"
+      }
+    ],
+    "cost_price": null,
+    "retail_price": 125000,
+    "price_status": "ok",
+    "source_vat_inclusive": true,
+    "cost_per_watt": null,
+    "module_watts": null,
+    "pricing_note": null,
+    "warranty_years": 2,
+    "stock_status": "in_stock",
+    "stock_qty": 5,
+    "lead_time_days": null,
+    "weight_kg": 28.1,
+    "dimensions_mm": null,
+    "requires_installation": false,
+    "compatible_with": [
+      "bluetti-b300s",
+      "bluetti-b230",
+      "bluetti-pv200",
+      "bluetti-pv350"
+    ],
+    "annual_kwh_yield": null,
+    "datasheet_url": null,
+    "source_supplier": "Batteriq",
+    "source_list_date": "2026-10",
+    "is_featured": true,
+    "is_published": true,
+    "seo_title": "Bluetti AC200P L price in Kenya | Oriel Solar",
+    "seo_description": "Bluetti AC200P L in Kenya. 2,304Wh LiFePO4 station with 2,400W output, 8,448Wh expansion and 1,200W solar input."
+  },
+  {
+    "id": "bluetti-premium-200-v2",
+    "slug": "bluetti-premium-200-v2",
+    "name": "Bluetti Premium 200 V2 Portable Power Station",
+    "brand": "Bluetti",
+    "model_code": "Premium 200 V2",
+    "category": "battery-storage",
+    "subcategory": "portable-power-station",
+    "short_description": "2,073.6Wh LiFePO4 station with 2,700W output and 1,800W charging.",
+    "long_description": "Premium 200 V2 is the current version of Bluetti's large portable station. The 2,073.6Wh LiFePO4 battery and 2,700W output run heavy household loads, while 1,800W AC charging and 1,000W solar input keep it ready.\n\nUPS changeover is 15ms, and the app shows live power flow. It is a strong choice where a fixed home battery is not practical but the load is too large for a mid-size station.",
+    "specs": [
+      {
+        "group": "BATTERY",
+        "label": "Capacity",
+        "value": "2073.6",
+        "unit": "Wh"
+      },
+      {
+        "group": "OUTPUT",
+        "label": "AC output",
+        "value": "2700",
+        "unit": "W"
+      },
+      {
+        "group": "BATTERY",
+        "label": "Chemistry",
+        "value": "LiFePO4",
+        "unit": ""
+      },
+      {
+        "group": "INPUT",
+        "label": "AC charging",
+        "value": "1800",
+        "unit": "W"
+      },
+      {
+        "group": "INPUT",
+        "label": "Solar input",
+        "value": "1000",
+        "unit": "W"
+      },
+      {
+        "group": "GENERAL",
+        "label": "UPS changeover",
+        "value": "15",
+        "unit": "ms"
+      },
+      {
+        "group": "GENERAL",
+        "label": "Weight",
+        "value": "24.2",
+        "unit": "kg"
+      }
+    ],
+    "key_specs": [
+      "2,073.6Wh",
+      "2,700W",
+      "15ms UPS"
+    ],
+    "images": [
+      {
+        "url": "https://checkout.bluettipower.com/cdn/shop/files/Elite200V2_1x_cfb25480-f40c-4388-9f5f-ed52b9152771.png?v=1745378979",
+        "alt": "Bluetti Premium 200 V2 portable power station",
+        "type": "primary"
+      }
+    ],
+    "cost_price": null,
+    "retail_price": 120000,
+    "price_status": "ok",
+    "source_vat_inclusive": true,
+    "cost_per_watt": null,
+    "module_watts": null,
+    "pricing_note": null,
+    "warranty_years": 2,
+    "stock_status": "in_stock",
+    "stock_qty": 5,
+    "lead_time_days": null,
+    "weight_kg": 24.2,
+    "dimensions_mm": null,
+    "requires_installation": false,
+    "compatible_with": [
+      "bluetti-pv200",
+      "bluetti-pv350"
+    ],
+    "annual_kwh_yield": null,
+    "datasheet_url": null,
+    "source_supplier": "Batteriq",
+    "source_list_date": "2026-10",
+    "is_featured": true,
+    "is_published": true,
+    "seo_title": "Bluetti Premium 200 V2 price in Kenya | Oriel Solar",
+    "seo_description": "Bluetti Premium 200 V2 in Kenya. 2,073.6Wh LiFePO4 station with 2,700W output, 1,800W charging and 15ms UPS."
+  },
+  {
+    "id": "bluetti-ac300",
+    "slug": "bluetti-ac300",
+    "name": "Bluetti AC300 Modular Power Station",
+    "brand": "Bluetti",
+    "model_code": "AC300",
+    "category": "battery-storage",
+    "subcategory": "portable-power-station",
+    "short_description": "3,000W modular inverter unit for Bluetti B300 batteries.",
+    "long_description": "AC300 is a modular power station without a built-in battery. The 3,000W inverter pairs with B300 or B300S batteries, so storage can be added as budget allows, up to 12,288Wh with four B300 units.\n\nIt has a 24/7 UPS mode, 2,400W solar input and app control. This listing is the inverter unit only; batteries are sold separately.",
+    "specs": [
+      {
+        "group": "OUTPUT",
+        "label": "AC output",
+        "value": "3000",
+        "unit": "W"
+      },
+      {
+        "group": "OUTPUT",
+        "label": "Surge power",
+        "value": "6000",
+        "unit": "W"
+      },
+      {
+        "group": "BATTERY",
+        "label": "Capacity with B300",
+        "value": "3072",
+        "unit": "Wh"
+      },
+      {
+        "group": "BATTERY",
+        "label": "Expandable to",
+        "value": "12288",
+        "unit": "Wh"
+      },
+      {
+        "group": "BATTERY",
+        "label": "Chemistry",
+        "value": "LiFePO4",
+        "unit": ""
+      },
+      {
+        "group": "INPUT",
+        "label": "Solar input",
+        "value": "2400",
+        "unit": "W"
+      },
+      {
+        "group": "GENERAL",
+        "label": "UPS mode",
+        "value": "24/7",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Weight",
+        "value": "21.6",
+        "unit": "kg"
+      },
+      {
+        "group": "GENERAL",
+        "label": "AC outlets",
+        "value": "4",
+        "unit": ""
+      }
+    ],
+    "key_specs": [
+      "3,000W",
+      "Modular",
+      "12,288Wh max"
+    ],
+    "images": [
+      {
+        "url": "https://checkout.bluettipower.com/cdn/shop/files/AC300__2_1.png?v=1688524270",
+        "alt": "Bluetti AC300 modular power station inverter unit",
+        "type": "primary"
+      }
+    ],
+    "cost_price": null,
+    "retail_price": 68499,
+    "price_status": "ok",
+    "source_vat_inclusive": true,
+    "cost_per_watt": null,
+    "module_watts": null,
+    "pricing_note": null,
+    "warranty_years": 2,
+    "stock_status": "in_stock",
+    "stock_qty": 4,
+    "lead_time_days": null,
+    "weight_kg": 21.6,
+    "dimensions_mm": null,
+    "requires_installation": false,
+    "compatible_with": [
+      "bluetti-b300s",
+      "bluetti-b300k",
+      "bluetti-pv350",
+      "bluetti-pv200"
+    ],
+    "annual_kwh_yield": null,
+    "datasheet_url": null,
+    "source_supplier": "Batteriq",
+    "source_list_date": "2026-10",
+    "is_featured": false,
+    "is_published": true,
+    "seo_title": "Bluetti AC300 price in Kenya | Oriel Solar",
+    "seo_description": "Bluetti AC300 modular power station in Kenya. 3,000W inverter unit for B300/B300S batteries, expandable to 12,288Wh."
+  },
+  {
+    "id": "bluetti-ac500",
+    "slug": "bluetti-ac500",
+    "name": "Bluetti AC500 Modular Power Station",
+    "brand": "Bluetti",
+    "model_code": "AC500",
+    "category": "battery-storage",
+    "subcategory": "portable-power-station",
+    "short_description": "5,000W modular inverter unit for Bluetti B300S batteries.",
+    "long_description": "AC500 is Bluetti's largest modular power station. The 5,000W inverter pairs with B300S batteries for up to 18,432Wh of storage, enough for a large home or a small business.\n\nIt offers a 10,000W surge, 3,000W solar input, 6 AC outlets and app control. This listing is the inverter unit only; batteries are sold separately.",
+    "specs": [
+      {
+        "group": "OUTPUT",
+        "label": "AC output",
+        "value": "5000",
+        "unit": "W"
+      },
+      {
+        "group": "OUTPUT",
+        "label": "Surge power",
+        "value": "10000",
+        "unit": "W"
+      },
+      {
+        "group": "BATTERY",
+        "label": "Capacity with B300S",
+        "value": "3072",
+        "unit": "Wh"
+      },
+      {
+        "group": "BATTERY",
+        "label": "Expandable to",
+        "value": "18432",
+        "unit": "Wh"
+      },
+      {
+        "group": "BATTERY",
+        "label": "Chemistry",
+        "value": "LiFePO4",
+        "unit": ""
+      },
+      {
+        "group": "INPUT",
+        "label": "Solar input",
+        "value": "3000",
+        "unit": "W"
+      },
+      {
+        "group": "GENERAL",
+        "label": "UPS changeover",
+        "value": "<20",
+        "unit": "ms"
+      },
+      {
+        "group": "GENERAL",
+        "label": "Weight",
+        "value": "29.8",
+        "unit": "kg"
+      },
+      {
+        "group": "GENERAL",
+        "label": "AC outlets",
+        "value": "6",
+        "unit": ""
+      }
+    ],
+    "key_specs": [
+      "5,000W",
+      "18,432Wh max",
+      "Modular"
+    ],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0536/3390/8911/files/AC500_B300K.png?v=1728354989",
+        "alt": "Bluetti AC500 modular power station with expansion battery",
+        "type": "primary"
+      }
+    ],
+    "cost_price": null,
+    "retail_price": 84499,
+    "price_status": "ok",
+    "source_vat_inclusive": true,
+    "cost_per_watt": null,
+    "module_watts": null,
+    "pricing_note": null,
+    "warranty_years": 2,
+    "stock_status": "in_stock",
+    "stock_qty": 4,
+    "lead_time_days": null,
+    "weight_kg": 29.8,
+    "dimensions_mm": null,
+    "requires_installation": false,
+    "compatible_with": [
+      "bluetti-b300s",
+      "bluetti-b300k",
+      "bluetti-pv350",
+      "bluetti-pv200"
+    ],
+    "annual_kwh_yield": null,
+    "datasheet_url": null,
+    "source_supplier": "Batteriq",
+    "source_list_date": "2026-10",
+    "is_featured": false,
+    "is_published": true,
+    "seo_title": "Bluetti AC500 price in Kenya | Oriel Solar",
+    "seo_description": "Bluetti AC500 modular power station in Kenya. 5,000W inverter for B300S batteries, expandable to 18,432Wh."
+  },
+  {
+    "id": "bluetti-ep760",
+    "slug": "bluetti-ep760",
+    "name": "Bluetti EP760 Home Battery System",
+    "brand": "Bluetti",
+    "model_code": "EP760",
+    "category": "battery-storage",
+    "subcategory": "home-battery-backup",
+    "short_description": "7.6kW hybrid inverter and 9.92kWh home battery system for whole-home backup.",
+    "long_description": "EP760 is a fixed home energy system: a 7.6kW hybrid inverter paired with two B500 battery modules for 9.92kWh of usable storage. It manages solar, grid and battery power automatically, keeping the house on during an outage and using PV first when the sun is up.\n\nIt accepts up to 4,200W of solar, delivers a 15,200W surge for motor loads, and is monitored through the Bluetti app. Installation, metering and commissioning are handled by our team; the Meter and EMS accessories are listed separately.",
+    "specs": [
+      {
+        "group": "OUTPUT",
+        "label": "Power output",
+        "value": "7600",
+        "unit": "W"
+      },
+      {
+        "group": "OUTPUT",
+        "label": "Surge power",
+        "value": "15200",
+        "unit": "W"
+      },
+      {
+        "group": "BATTERY",
+        "label": "Capacity",
+        "value": "9920",
+        "unit": "Wh"
+      },
+      {
+        "group": "BATTERY",
+        "label": "Chemistry",
+        "value": "LiFePO4",
+        "unit": ""
+      },
+      {
+        "group": "INPUT",
+        "label": "Solar input",
+        "value": "4200",
+        "unit": "W"
+      },
+      {
+        "group": "GENERAL",
+        "label": "Charge time",
+        "value": "3",
+        "unit": "hours"
+      },
+      {
+        "group": "GENERAL",
+        "label": "App control",
+        "value": "Bluetti app",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Warranty",
+        "value": "24",
+        "unit": "months"
+      }
+    ],
+    "key_specs": [
+      "7.6kW",
+      "9.92kWh",
+      "Whole-home"
+    ],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0536/3390/8911/files/27436_2x_f91247d9-cb87-4f91-ae9e-df45a40391e4.webp",
+        "alt": "Bluetti EP760 home battery system and inverter",
+        "type": "primary"
+      }
+    ],
+    "cost_price": null,
+    "retail_price": 111999,
+    "price_status": "ok",
+    "source_vat_inclusive": true,
+    "cost_per_watt": null,
+    "module_watts": null,
+    "pricing_note": null,
+    "warranty_years": 2,
+    "stock_status": "low_stock",
+    "stock_qty": 2,
+    "lead_time_days": null,
+    "weight_kg": null,
+    "dimensions_mm": null,
+    "requires_installation": true,
+    "compatible_with": [
+      "bluetti-b500",
+      "bluetti-base-b500",
+      "bluetti-meter-ep760",
+      "bluetti-ems-ep760",
+      "bluetti-pv350"
+    ],
+    "annual_kwh_yield": null,
+    "datasheet_url": null,
+    "source_supplier": "Batteriq",
+    "source_list_date": "2026-10",
+    "is_featured": true,
+    "is_published": true,
+    "seo_title": "Bluetti EP760 price in Kenya | Oriel Solar",
+    "seo_description": "Bluetti EP760 home battery system in Kenya. 7.6kW inverter with 9.92kWh storage, 4.2kW solar input and whole-home backup."
+  },
+  {
+    "id": "bluetti-b300s",
+    "slug": "bluetti-b300s",
+    "name": "Bluetti B300S Expansion Battery",
+    "brand": "Bluetti",
+    "model_code": "B300S",
+    "category": "battery-storage",
+    "subcategory": "expansion-battery",
+    "short_description": "3,072Wh LiFePO4 expansion battery for AC300 and AC500.",
+    "long_description": "B300S adds 3,072Wh to an AC300 or AC500 system. Up to six modules can be connected to an AC500 for 18,432Wh, or four to an AC300 for 12,288Wh.\n\nThe LiFePO4 cells are rated for 3,500+ cycles to 80% capacity. It is also compatible with the AC200P L. Batteries are heavy; installation and cable routing are best handled by our team.",
+    "specs": [
+      {
+        "group": "BATTERY",
+        "label": "Capacity",
+        "value": "3072",
+        "unit": "Wh"
+      },
+      {
+        "group": "BATTERY",
+        "label": "Chemistry",
+        "value": "LiFePO4",
+        "unit": ""
+      },
+      {
+        "group": "BATTERY",
+        "label": "Cycle life",
+        "value": "3500+",
+        "unit": "cycles"
+      },
+      {
+        "group": "GENERAL",
+        "label": "Weight",
+        "value": "35",
+        "unit": "kg"
+      },
+      {
+        "group": "GENERAL",
+        "label": "Warranty",
+        "value": "24",
+        "unit": "months"
+      },
+      {
+        "group": "GENERAL",
+        "label": "Compatible with",
+        "value": "AC300, AC500, AC200P L",
+        "unit": ""
+      }
+    ],
+    "key_specs": [
+      "3,072Wh",
+      "3,500+ cycles",
+      "35kg"
+    ],
+    "images": [
+      {
+        "url": "https://checkout.bluettipower.com/cdn/shop/files/B300S_13ce781d-ac75-42ec-a72a-bd8ff5bcb7e4.png?v=1711439027",
+        "alt": "Bluetti B300S 3,072Wh expansion battery",
+        "type": "primary"
+      }
+    ],
+    "cost_price": null,
+    "retail_price": 91999,
+    "price_status": "ok",
+    "source_vat_inclusive": true,
+    "cost_per_watt": null,
+    "module_watts": null,
+    "pricing_note": null,
+    "warranty_years": 2,
+    "stock_status": "in_stock",
+    "stock_qty": 4,
+    "lead_time_days": null,
+    "weight_kg": 35,
+    "dimensions_mm": null,
+    "requires_installation": false,
+    "compatible_with": [
+      "bluetti-ac300",
+      "bluetti-ac500",
+      "bluetti-ac200pl"
+    ],
+    "annual_kwh_yield": null,
+    "datasheet_url": null,
+    "source_supplier": "Batteriq",
+    "source_list_date": "2026-10",
+    "is_featured": false,
+    "is_published": true,
+    "seo_title": "Bluetti B300S expansion battery price in Kenya | Oriel Solar",
+    "seo_description": "Bluetti B300S 3,072Wh LiFePO4 expansion battery in Kenya. For AC300, AC500 and AC200P L systems."
+  },
+  {
+    "id": "bluetti-b300k",
+    "slug": "bluetti-b300k",
+    "name": "Bluetti B300K Expansion Battery",
+    "brand": "Bluetti",
+    "model_code": "B300K",
+    "category": "battery-storage",
+    "subcategory": "expansion-battery",
+    "short_description": "2,764.8Wh LiFePO4 expansion battery for Bluetti modular systems.",
+    "long_description": "B300K is a 2,764.8Wh expansion battery for Bluetti's modular platform, including AC300, AC500 and AC200P L installations with the correct cable. It uses LiFePO4 cells rated for 4,000+ cycles.\n\nAdd modules as load grows. The battery is shipped with the connection cable required for the target system; confirm the cable type when ordering.",
+    "specs": [
+      {
+        "group": "BATTERY",
+        "label": "Capacity",
+        "value": "2764.8",
+        "unit": "Wh"
+      },
+      {
+        "group": "BATTERY",
+        "label": "Chemistry",
+        "value": "LiFePO4",
+        "unit": ""
+      },
+      {
+        "group": "BATTERY",
+        "label": "Cycle life",
+        "value": "4000+",
+        "unit": "cycles"
+      },
+      {
+        "group": "GENERAL",
+        "label": "Weight",
+        "value": "35",
+        "unit": "kg"
+      },
+      {
+        "group": "GENERAL",
+        "label": "Warranty",
+        "value": "24",
+        "unit": "months"
+      },
+      {
+        "group": "GENERAL",
+        "label": "Compatible with",
+        "value": "AC300, AC500, AC200P L",
+        "unit": ""
+      }
+    ],
+    "key_specs": [
+      "2,764.8Wh",
+      "4,000+ cycles",
+      "Modular"
+    ],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0536/3390/8911/files/b300k2-apex300.png?v=1758766774",
+        "alt": "Bluetti B300K 2,764.8Wh expansion battery",
+        "type": "primary"
+      }
+    ],
+    "cost_price": null,
+    "retail_price": 84499,
+    "price_status": "ok",
+    "source_vat_inclusive": true,
+    "cost_per_watt": null,
+    "module_watts": null,
+    "pricing_note": null,
+    "warranty_years": 2,
+    "stock_status": "in_stock",
+    "stock_qty": 4,
+    "lead_time_days": null,
+    "weight_kg": 35,
+    "dimensions_mm": null,
+    "requires_installation": false,
+    "compatible_with": [
+      "bluetti-ac300",
+      "bluetti-ac500",
+      "bluetti-ac200pl"
+    ],
+    "annual_kwh_yield": null,
+    "datasheet_url": null,
+    "source_supplier": "Batteriq",
+    "source_list_date": "2026-10",
+    "is_featured": false,
+    "is_published": true,
+    "seo_title": "Bluetti B300K expansion battery price in Kenya | Oriel Solar",
+    "seo_description": "Bluetti B300K 2,764.8Wh LiFePO4 expansion battery in Kenya. For AC300, AC500 and AC200P L systems."
+  },
+  {
+    "id": "bluetti-b500",
+    "slug": "bluetti-b500",
+    "name": "Bluetti B500 Battery Module",
+    "brand": "Bluetti",
+    "model_code": "B500",
+    "category": "battery-storage",
+    "subcategory": "expansion-battery",
+    "short_description": "4,960Wh LiFePO4 battery module for the Bluetti EP760 system.",
+    "long_description": "B500 is the battery module for the EP760 home system. Each module stores 4,960Wh and is rated for 3,500+ cycles, and the EP760 can be expanded with additional modules as the household's load grows.\n\nIt is a floor-standing unit and should be installed with the matching Base. Our team commissions the battery bank and configures the inverter.",
+    "specs": [
+      {
+        "group": "BATTERY",
+        "label": "Capacity",
+        "value": "4960",
+        "unit": "Wh"
+      },
+      {
+        "group": "BATTERY",
+        "label": "Chemistry",
+        "value": "LiFePO4",
+        "unit": ""
+      },
+      {
+        "group": "BATTERY",
+        "label": "Cycle life",
+        "value": "3500+",
+        "unit": "cycles"
+      },
+      {
+        "group": "GENERAL",
+        "label": "Weight",
+        "value": "50",
+        "unit": "kg"
+      },
+      {
+        "group": "GENERAL",
+        "label": "Compatible system",
+        "value": "EP760",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Mounting",
+        "value": "Floor base",
+        "unit": ""
+      }
+    ],
+    "key_specs": [
+      "4,960Wh",
+      "3,500+ cycles",
+      "50kg"
+    ],
+    "images": [
+      {
+        "url": "https://checkout.bluettipower.com/cdn/shop/files/B500_244fc431-e991-4d89-aff9-c728de3a4f12.png?v=1708675971",
+        "alt": "Bluetti B500 4,960Wh LiFePO4 battery module",
+        "type": "primary"
+      }
+    ],
+    "cost_price": null,
+    "retail_price": 141000,
+    "price_status": "ok",
+    "source_vat_inclusive": true,
+    "cost_per_watt": null,
+    "module_watts": null,
+    "pricing_note": null,
+    "warranty_years": 2,
+    "stock_status": "low_stock",
+    "stock_qty": 3,
+    "lead_time_days": null,
+    "weight_kg": 50,
+    "dimensions_mm": null,
+    "requires_installation": true,
+    "compatible_with": [
+      "bluetti-ep760",
+      "bluetti-base-b500"
+    ],
+    "annual_kwh_yield": null,
+    "datasheet_url": null,
+    "source_supplier": "Batteriq",
+    "source_list_date": "2026-10",
+    "is_featured": false,
+    "is_published": true,
+    "seo_title": "Bluetti B500 battery price in Kenya | Oriel Solar",
+    "seo_description": "Bluetti B500 4,960Wh LiFePO4 battery module in Kenya. Expansion storage for the EP760 home backup system."
+  },
+  {
+    "id": "bluetti-b230",
+    "slug": "bluetti-b230",
+    "name": "Bluetti B230 Expansion Battery",
+    "brand": "Bluetti",
+    "model_code": "B230",
+    "category": "battery-storage",
+    "subcategory": "expansion-battery",
+    "short_description": "2,048Wh LiFePO4 expansion battery for AC200P and AC200P L.",
+    "long_description": "B230 adds 2,048Wh to a compatible Bluetti station. It is intended for AC200P and AC200P L systems that need longer runtime for a fridge, freezer or workshop loads.\n\nThe LiFePO4 battery is rated for 2,500+ cycles. Pair it with the AC200P L when you need more than the station's built-in 2,304Wh.",
+    "specs": [
+      {
+        "group": "BATTERY",
+        "label": "Capacity",
+        "value": "2048",
+        "unit": "Wh"
+      },
+      {
+        "group": "BATTERY",
+        "label": "Chemistry",
+        "value": "LiFePO4",
+        "unit": ""
+      },
+      {
+        "group": "BATTERY",
+        "label": "Cycle life",
+        "value": "2500+",
+        "unit": "cycles"
+      },
+      {
+        "group": "GENERAL",
+        "label": "Weight",
+        "value": "22.7",
+        "unit": "kg"
+      },
+      {
+        "group": "GENERAL",
+        "label": "Compatible with",
+        "value": "AC200P, AC200P L",
+        "unit": ""
+      }
+    ],
+    "key_specs": [
+      "2,048Wh",
+      "2,500+ cycles",
+      "22.7kg"
+    ],
+    "images": [
+      {
+        "url": "https://checkout.bluettipower.com/cdn/shop/files/B230_7a2ee60e-cc9b-4382-9ba4-866011472db4.png?v=1685580660",
+        "alt": "Bluetti B230 2,048Wh expansion battery",
+        "type": "primary"
+      }
+    ],
+    "cost_price": null,
+    "retail_price": 67499,
+    "price_status": "ok",
+    "source_vat_inclusive": true,
+    "cost_per_watt": null,
+    "module_watts": null,
+    "pricing_note": null,
+    "warranty_years": 2,
+    "stock_status": "low_stock",
+    "stock_qty": 3,
+    "lead_time_days": null,
+    "weight_kg": 22.7,
+    "dimensions_mm": null,
+    "requires_installation": false,
+    "compatible_with": [
+      "bluetti-ac200pl"
+    ],
+    "annual_kwh_yield": null,
+    "datasheet_url": null,
+    "source_supplier": "Batteriq",
+    "source_list_date": "2026-10",
+    "is_featured": false,
+    "is_published": true,
+    "seo_title": "Bluetti B230 expansion battery price in Kenya | Oriel Solar",
+    "seo_description": "Bluetti B230 2,048Wh LiFePO4 expansion battery in Kenya. Adds runtime to AC200P and AC200P L power stations."
+  },
+  {
+    "id": "bluetti-pv200",
+    "slug": "bluetti-pv200",
+    "name": "Bluetti PV200 200W Solar Panel",
+    "brand": "Bluetti",
+    "model_code": "PV200",
+    "category": "solar-panels",
+    "subcategory": "foldable",
+    "short_description": "200W foldable monocrystalline panel for Bluetti power stations.",
+    "long_description": "PV200 is a 200W foldable panel with monocrystalline cells and an MC4 connector. It is the usual match for AC70P, AC180P and Premium stations, and it can be paired with a second panel where the station's solar input allows.\n\nThe panel folds for transport and has an IP65 rating for outdoor use. Angle it toward the sun and check the station's maximum solar input before adding panels.",
+    "specs": [
+      {
+        "group": "OUTPUT",
+        "label": "Rated power",
+        "value": "200",
+        "unit": "W"
+      },
+      {
+        "group": "GENERAL",
+        "label": "Cell type",
+        "value": "Monocrystalline",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Foldable",
+        "value": "Yes",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Connector",
+        "value": "MC4",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "IP rating",
+        "value": "IP65",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Efficiency",
+        "value": "23.4",
+        "unit": "%"
+      },
+      {
+        "group": "GENERAL",
+        "label": "Weight",
+        "value": "4.1",
+        "unit": "kg"
+      }
+    ],
+    "key_specs": [
+      "200W",
+      "Foldable",
+      "IP65"
+    ],
+    "images": [
+      {
+        "url": "https://checkout.bluettipower.com.au/cdn/shop/files/PV200D_dd99aa3d-a415-4b0b-9d17-708a5f9849ae.png?v=1724842066",
+        "alt": "Bluetti PV200 200W foldable solar panel",
+        "type": "primary"
+      }
+    ],
+    "cost_price": null,
+    "retail_price": 27500,
+    "price_status": "ok",
+    "source_vat_inclusive": true,
+    "cost_per_watt": null,
+    "module_watts": 200,
+    "pricing_note": null,
+    "warranty_years": 2,
+    "stock_status": "in_stock",
+    "stock_qty": 8,
+    "lead_time_days": null,
+    "weight_kg": 4.1,
+    "dimensions_mm": null,
+    "requires_installation": false,
+    "compatible_with": [
+      "bluetti-ac70p",
+      "bluetti-ac180p",
+      "bluetti-premium-100-v2",
+      "bluetti-premium-200-v2",
+      "bluetti-ac200pl"
+    ],
+    "annual_kwh_yield": null,
+    "datasheet_url": null,
+    "source_supplier": "Batteriq",
+    "source_list_date": "2026-10",
+    "is_featured": false,
+    "is_published": true,
+    "seo_title": "Bluetti PV200 200W solar panel price in Kenya | Oriel Solar",
+    "seo_description": "Bluetti PV200 200W foldable solar panel in Kenya. Monocrystalline, IP65, MC4 connector for Bluetti power stations."
+  },
+  {
+    "id": "bluetti-pv350",
+    "slug": "bluetti-pv350",
+    "name": "Bluetti PV350 350W Solar Panel",
+    "brand": "Bluetti",
+    "model_code": "PV350",
+    "category": "solar-panels",
+    "subcategory": "foldable",
+    "short_description": "350W foldable monocrystalline panel for large Bluetti stations.",
+    "long_description": "PV350 is a large-format 350W panel for faster charging of AC200P L, AC300 and AC500 systems. It folds into a manageable package and uses MC4 connectors.\n\nThe monocrystalline cells are rated at 23.4% efficiency and the panel is IP65 for outdoor use. Check the station's PV input limit before combining panels.",
+    "specs": [
+      {
+        "group": "OUTPUT",
+        "label": "Rated power",
+        "value": "350",
+        "unit": "W"
+      },
+      {
+        "group": "GENERAL",
+        "label": "Cell type",
+        "value": "Monocrystalline",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Foldable",
+        "value": "Yes",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Connector",
+        "value": "MC4",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "IP rating",
+        "value": "IP65",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Efficiency",
+        "value": "23.4",
+        "unit": "%"
+      },
+      {
+        "group": "GENERAL",
+        "label": "Weight",
+        "value": "9.5",
+        "unit": "kg"
+      }
+    ],
+    "key_specs": [
+      "350W",
+      "Foldable",
+      "IP65"
+    ],
+    "images": [
+      {
+        "url": "https://checkout.bluettipower.com.au/cdn/shop/files/350W-7.webp?v=1790058903",
+        "alt": "Bluetti PV350 350W foldable solar panel",
+        "type": "primary"
+      }
+    ],
+    "cost_price": null,
+    "retail_price": 55000,
+    "price_status": "ok",
+    "source_vat_inclusive": true,
+    "cost_per_watt": null,
+    "module_watts": 350,
+    "pricing_note": null,
+    "warranty_years": 2,
+    "stock_status": "in_stock",
+    "stock_qty": 4,
+    "lead_time_days": null,
+    "weight_kg": 9.5,
+    "dimensions_mm": null,
+    "requires_installation": false,
+    "compatible_with": [
+      "bluetti-ac200pl",
+      "bluetti-ac300",
+      "bluetti-ac500",
+      "bluetti-ep760",
+      "bluetti-hv6k",
+      "bluetti-hv10k"
+    ],
+    "annual_kwh_yield": null,
+    "datasheet_url": null,
+    "source_supplier": "Batteriq",
+    "source_list_date": "2026-10",
+    "is_featured": false,
+    "is_published": true,
+    "seo_title": "Bluetti PV350 350W solar panel price in Kenya | Oriel Solar",
+    "seo_description": "Bluetti PV350 350W foldable solar panel in Kenya. Monocrystalline, IP65, MC4 connector for large Bluetti power stations."
+  },
+  {
+    "id": "bluetti-pv120",
+    "slug": "bluetti-pv120",
+    "name": "Bluetti PV120 120W Solar Panel",
+    "brand": "Bluetti",
+    "model_code": "PV120",
+    "category": "solar-panels",
+    "subcategory": "foldable",
+    "short_description": "120W foldable monocrystalline panel for compact Bluetti stations.",
+    "long_description": "PV120 is a 120W foldable panel for AC2P, AC50P, AC70P, Premium 30 V2 and similar stations. It uses monocrystalline cells and an MC4 connector, and folds for transport.\n\nThis panel is currently out of stock; contact us to be notified when the next consignment lands.",
+    "specs": [
+      {
+        "group": "OUTPUT",
+        "label": "Rated power",
+        "value": "120",
+        "unit": "W"
+      },
+      {
+        "group": "GENERAL",
+        "label": "Cell type",
+        "value": "Monocrystalline",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Foldable",
+        "value": "Yes",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Connector",
+        "value": "MC4",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Efficiency",
+        "value": "23.4",
+        "unit": "%"
+      }
+    ],
+    "key_specs": [
+      "120W",
+      "Foldable",
+      "MC4"
+    ],
+    "images": [
+      {
+        "url": "https://checkout.bluettipower.com.au/cdn/shop/files/PV120_2000_2000.png?v=1722934294",
+        "alt": "Bluetti PV120 120W foldable solar panel",
+        "type": "primary"
+      }
+    ],
+    "cost_price": null,
+    "retail_price": 16000,
+    "price_status": "ok",
+    "source_vat_inclusive": true,
+    "cost_per_watt": null,
+    "module_watts": 120,
+    "pricing_note": null,
+    "warranty_years": 2,
+    "stock_status": "out_of_stock",
+    "stock_qty": 0,
+    "lead_time_days": null,
+    "weight_kg": null,
+    "dimensions_mm": null,
+    "requires_installation": false,
+    "compatible_with": [
+      "bluetti-ac2p",
+      "bluetti-ac50p",
+      "bluetti-ac70p",
+      "bluetti-premium-30-v2",
+      "bluetti-eb3a"
+    ],
+    "annual_kwh_yield": null,
+    "datasheet_url": null,
+    "source_supplier": "Batteriq",
+    "source_list_date": "2026-10",
+    "is_featured": false,
+    "is_published": true,
+    "seo_title": "Bluetti PV120 120W solar panel price in Kenya | Oriel Solar",
+    "seo_description": "Bluetti PV120 120W foldable solar panel in Kenya. Monocrystalline, MC4 connector for compact Bluetti power stations."
+  },
+  {
+    "id": "vestwoods-rescube-1000w",
+    "slug": "vestwoods-rescube-1000w",
+    "name": "Vestwoods 2010Wh 1000W Portable Power Station",
+    "brand": "Vestwoods",
+    "model_code": "VEP1K-20B",
+    "category": "battery-storage",
+    "subcategory": "portable-power-station",
+    "short_description": "2,009.6Wh LiFePO4 station with 1,000W AC output, UPS switchover and solar charging for home backup and off-grid work.",
+    "long_description": "The Vestwoods Rescube 1000W packs a 2,009.6Wh LiFePO4 battery and a 1,000W pure sine wave inverter into a portable cabinet. It delivers up to 1,500W for short bursts, so it can start a fridge or run a TV, router and laptop together through an outage.\n\nIts built-in UPS switches to battery in under 20ms, keeping connected equipment running when mains power drops. The station recharges from the grid or up to 500W of solar, making it usable as a quiet backup supply at home, in a shop or off-grid.",
+    "specs": [
+      {
+        "group": "BATTERY",
+        "label": "Capacity",
+        "value": "2009.6",
+        "unit": "Wh"
+      },
+      {
+        "group": "OUTPUT",
+        "label": "AC output",
+        "value": "1000",
+        "unit": "W"
+      },
+      {
+        "group": "OUTPUT",
+        "label": "Surge power",
+        "value": "1500",
+        "unit": "W"
+      },
+      {
+        "group": "BATTERY",
+        "label": "Chemistry",
+        "value": "LiFePO4",
+        "unit": ""
+      },
+      {
+        "group": "INPUT",
+        "label": "Solar input",
+        "value": "500",
+        "unit": "W"
+      },
+      {
+        "group": "GENERAL",
+        "label": "Weight",
+        "value": "18.5",
+        "unit": "kg"
+      },
+      {
+        "group": "GENERAL",
+        "label": "Dimensions",
+        "value": "350 x 210 x 250",
+        "unit": "mm"
+      },
+      {
+        "group": "GENERAL",
+        "label": "UPS switch",
+        "value": "<20",
+        "unit": "ms"
+      }
+    ],
+    "key_specs": [
+      "2,009.6Wh",
+      "1,000W",
+      "UPS"
+    ],
+    "images": [
+      {
+        "url": "https://vn.vestwoods.com/cdn/shop/files/Image1.jpg?v=1781070984&width=1200",
+        "alt": "Vestwoods Rescube 1000W portable power station, front view",
+        "type": "primary"
+      },
+      {
+        "url": "https://vn.vestwoods.com/cdn/shop/files/Image3.jpg?v=1781086541&width=1200",
+        "alt": "Vestwoods Rescube 1000W portable power station, rear view",
+        "type": "gallery"
+      }
+    ],
+    "cost_price": null,
+    "retail_price": 62500,
+    "price_status": "ok",
+    "source_vat_inclusive": true,
+    "cost_per_watt": null,
+    "module_watts": null,
+    "pricing_note": null,
+    "warranty_years": 2,
+    "stock_status": "in_stock",
+    "stock_qty": 2,
+    "lead_time_days": null,
+    "weight_kg": 18.5,
+    "dimensions_mm": null,
+    "requires_installation": false,
+    "compatible_with": [],
+    "annual_kwh_yield": null,
+    "datasheet_url": "https://vestwoods.com/en/products/rescube/datasheet/",
+    "source_supplier": "LumenVault",
+    "source_list_date": "2026-10",
+    "is_featured": true,
+    "is_published": true,
+    "seo_title": "Vestwoods 2010Wh 1000W portable power station price in Kenya | Oriel Solar",
+    "seo_description": "Vestwoods Rescube 1000W portable power station in Kenya. 2,009.6Wh LiFePO4 battery, 1,000W AC output, 500W solar input and UPS backup. M-Pesa accepted."
+  },
+  {
+    "id": "vestwoods-rescube-500w",
+    "slug": "vestwoods-rescube-500w",
+    "name": "Vestwoods Rescube 500W Portable Power Station",
+    "brand": "Vestwoods",
+    "model_code": "VEP05K-10B",
+    "category": "battery-storage",
+    "subcategory": "portable-power-station",
+    "short_description": "1,004.8Wh LiFePO4 station with 500W AC output and 300W solar charging for small backup and travel.",
+    "long_description": "The Rescube 500W is the smallest member of the Vestwoods portable station range: a 1,004.8Wh LiFePO4 battery and 500W pure sine wave inverter in an 11kg cabinet. It runs a router, lights, laptop, TV and fan through a short outage, and travels easily for camping or site work.\n\nCharge it from a wall socket, a car or up to 300W of solar. The LiFePO4 cells are rated for daily use, and the station can be topped up between outages without generator noise or fumes.",
+    "specs": [
+      {
+        "group": "BATTERY",
+        "label": "Capacity",
+        "value": "1004.8",
+        "unit": "Wh"
+      },
+      {
+        "group": "OUTPUT",
+        "label": "AC output",
+        "value": "500",
+        "unit": "W"
+      },
+      {
+        "group": "BATTERY",
+        "label": "Chemistry",
+        "value": "LiFePO4",
+        "unit": ""
+      },
+      {
+        "group": "INPUT",
+        "label": "Solar input",
+        "value": "300",
+        "unit": "W"
+      },
+      {
+        "group": "INPUT",
+        "label": "PV voltage",
+        "value": "11-55",
+        "unit": "V"
+      },
+      {
+        "group": "GENERAL",
+        "label": "Weight",
+        "value": "11",
+        "unit": "kg"
+      },
+      {
+        "group": "GENERAL",
+        "label": "Dimensions",
+        "value": "300 x 200 x 150",
+        "unit": "mm"
+      },
+      {
+        "group": "GENERAL",
+        "label": "Protection",
+        "value": "IP20",
+        "unit": ""
+      }
+    ],
+    "key_specs": [
+      "1,004.8Wh",
+      "500W",
+      "LiFePO4"
+    ],
+    "images": [
+      {
+        "url": "https://vn.vestwoods.com/cdn/shop/files/WPS.jpg?v=1781102020&width=1200",
+        "alt": "Vestwoods Rescube 500W portable power station",
+        "type": "primary"
+      }
+    ],
+    "cost_price": null,
+    "retail_price": 35000,
+    "price_status": "ok",
+    "source_vat_inclusive": true,
+    "cost_per_watt": null,
+    "module_watts": null,
+    "pricing_note": null,
+    "warranty_years": 2,
+    "stock_status": "in_stock",
+    "stock_qty": 2,
+    "lead_time_days": null,
+    "weight_kg": 11,
+    "dimensions_mm": "300 x 200 x 150",
+    "requires_installation": false,
+    "compatible_with": [],
+    "annual_kwh_yield": null,
+    "datasheet_url": "https://vestwoods.com/en/products/rescube/datasheet/",
+    "source_supplier": "Moveki Solar Solutions",
+    "source_list_date": "2026-10",
+    "is_featured": true,
+    "is_published": true,
+    "seo_title": "Vestwoods Rescube 500W portable power station price in Kenya | Oriel Solar",
+    "seo_description": "Vestwoods Rescube 500W portable power station in Kenya. 1,004.8Wh LiFePO4 battery, 500W AC output, 300W solar input and portable backup power. M-Pesa accepted."
+  },
+  {
+    "id": "vestwoods-ve51100l-5-12kwh",
+    "slug": "vestwoods-ve51100l-5-12kwh",
+    "name": "Vestwoods VE51100L 5.12kWh Lithium Battery",
+    "brand": "Vestwoods",
+    "model_code": "VE51100L",
+    "category": "battery-storage",
+    "subcategory": "home-battery",
+    "short_description": "51.2V 100Ah LiFePO4 home battery with 5.12kWh storage, 100A charge/discharge and 6,000+ cycles.",
+    "long_description": "The VE51100L is a 51.2V 100Ah LiFePO4 home battery rated at 5.12kWh, sized for a typical Kenyan house that wants to store daytime solar and ride out evening outages. It pairs with low-voltage hybrid inverters from Deye, Solis, Growatt, SRNE and others.\n\nThe integrated BMS protects against overcharge, over-discharge, overcurrent, short circuit and overheating. Up to 15 units can be paralleled, so a system can grow from 5.12kWh to more than 75kWh without changing battery platform.",
+    "specs": [
+      {
+        "group": "BATTERY",
+        "label": "Capacity",
+        "value": "5.12",
+        "unit": "kWh"
+      },
+      {
+        "group": "BATTERY",
+        "label": "Nominal voltage",
+        "value": "51.2",
+        "unit": "V"
+      },
+      {
+        "group": "BATTERY",
+        "label": "Capacity",
+        "value": "100",
+        "unit": "Ah"
+      },
+      {
+        "group": "BATTERY",
+        "label": "Chemistry",
+        "value": "LiFePO4",
+        "unit": ""
+      },
+      {
+        "group": "BATTERY",
+        "label": "Max charge current",
+        "value": "100",
+        "unit": "A"
+      },
+      {
+        "group": "BATTERY",
+        "label": "Max discharge current",
+        "value": "100",
+        "unit": "A"
+      },
+      {
+        "group": "BATTERY",
+        "label": "Cycle life",
+        "value": "6000+",
+        "unit": "cycles"
+      },
+      {
+        "group": "GENERAL",
+        "label": "Communication",
+        "value": "CAN / RS485",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Protection",
+        "value": "IP20",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Installation",
+        "value": "Floor mounted",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Parallel expansion",
+        "value": "15",
+        "unit": "units"
+      }
+    ],
+    "key_specs": [
+      "5.12kWh",
+      "51.2V",
+      "6,000+ cycles"
+    ],
+    "images": [
+      {
+        "url": "https://vn.vestwoods.com/cdn/shop/files/VE51100L.png?v=1781156282&width=1200",
+        "alt": "Vestwoods VE51100L 5.12kWh home battery",
+        "type": "primary"
+      }
+    ],
+    "cost_price": null,
+    "retail_price": 109000,
+    "price_status": "ok",
+    "source_vat_inclusive": true,
+    "cost_per_watt": null,
+    "module_watts": null,
+    "pricing_note": null,
+    "warranty_years": 2,
+    "stock_status": "in_stock",
+    "stock_qty": 2,
+    "lead_time_days": null,
+    "weight_kg": null,
+    "dimensions_mm": null,
+    "requires_installation": true,
+    "compatible_with": [
+      "vestwoods-se6khb-6kw"
+    ],
+    "annual_kwh_yield": null,
+    "datasheet_url": "https://vestwoods.com/en/products/l-series/datasheet/",
+    "source_supplier": "Moveki Solar Solutions",
+    "source_list_date": "2026-10",
+    "is_featured": true,
+    "is_published": true,
+    "seo_title": "Vestwoods VE51100L 5.12kWh lithium battery price in Kenya | Oriel Solar",
+    "seo_description": "Vestwoods VE51100L 5.12kWh lithium battery in Kenya. 51.2V 100Ah LiFePO4, 100A charge/discharge, 6,000+ cycles and parallel expansion. M-Pesa accepted."
+  },
+  {
+    "id": "vestwoods-ve51200l-10-24kwh",
+    "slug": "vestwoods-ve51200l-10-24kwh",
+    "name": "Vestwoods VE51200L 10.24kWh Lithium Battery",
+    "brand": "Vestwoods",
+    "model_code": "VE51200L",
+    "category": "battery-storage",
+    "subcategory": "home-battery",
+    "short_description": "51.2V 200Ah LiFePO4 home battery with 10.24kWh storage, 200A charge/discharge and 6,000+ cycles.",
+    "long_description": "The VE51200L doubles the capacity of the VE51100L in the same floor-standing format: 10.24kWh from 51.2V 200Ah LiFePO4 cells. It is aimed at larger homes, villas and small businesses that need overnight backup for fridges, pumps, lighting and office equipment.\n\nUp to 15 batteries can be paralleled for systems beyond 150kWh, and the 200A charge/discharge rating supports high-power hybrid inverters. The integrated BMS monitors voltage, current and temperature, with a 6,000+ cycle life.",
+    "specs": [
+      {
+        "group": "BATTERY",
+        "label": "Capacity",
+        "value": "10.24",
+        "unit": "kWh"
+      },
+      {
+        "group": "BATTERY",
+        "label": "Nominal voltage",
+        "value": "51.2",
+        "unit": "V"
+      },
+      {
+        "group": "BATTERY",
+        "label": "Capacity",
+        "value": "200",
+        "unit": "Ah"
+      },
+      {
+        "group": "BATTERY",
+        "label": "Chemistry",
+        "value": "LiFePO4",
+        "unit": ""
+      },
+      {
+        "group": "BATTERY",
+        "label": "Max charge current",
+        "value": "200",
+        "unit": "A"
+      },
+      {
+        "group": "BATTERY",
+        "label": "Max discharge current",
+        "value": "200",
+        "unit": "A"
+      },
+      {
+        "group": "BATTERY",
+        "label": "Cycle life",
+        "value": "6000+",
+        "unit": "cycles"
+      },
+      {
+        "group": "GENERAL",
+        "label": "Communication",
+        "value": "CAN / RS485",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Protection",
+        "value": "IP20",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Installation",
+        "value": "Floor mounted",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Parallel expansion",
+        "value": "15",
+        "unit": "units"
+      }
+    ],
+    "key_specs": [
+      "10.24kWh",
+      "51.2V",
+      "6,000+ cycles"
+    ],
+    "images": [
+      {
+        "url": "https://vn.vestwoods.com/cdn/shop/files/VE51200L.png?v=1781156729&width=1200",
+        "alt": "Vestwoods VE51200L 10.24kWh home battery",
+        "type": "primary"
+      }
+    ],
+    "cost_price": null,
+    "retail_price": 200000,
+    "price_status": "ok",
+    "source_vat_inclusive": true,
+    "cost_per_watt": null,
+    "module_watts": null,
+    "pricing_note": null,
+    "warranty_years": 2,
+    "stock_status": "in_stock",
+    "stock_qty": 2,
+    "lead_time_days": null,
+    "weight_kg": null,
+    "dimensions_mm": null,
+    "requires_installation": true,
+    "compatible_with": [
+      "vestwoods-se6khb-6kw"
+    ],
+    "annual_kwh_yield": null,
+    "datasheet_url": "https://vestwoods.com/en/products/l-series/datasheet/",
+    "source_supplier": "Moveki Solar Solutions",
+    "source_list_date": "2026-10",
+    "is_featured": true,
+    "is_published": true,
+    "seo_title": "Vestwoods VE51200L 10.24kWh lithium battery price in Kenya | Oriel Solar",
+    "seo_description": "Vestwoods VE51200L 10.24kWh lithium battery in Kenya. 51.2V 200Ah LiFePO4, 200A charge/discharge, 6,000+ cycles and parallel expansion. M-Pesa accepted."
+  },
+  {
+    "id": "vestwoods-ve51314l-16-07kwh",
+    "slug": "vestwoods-ve51314l-16-07kwh",
+    "name": "Vestwoods VE51314L 16.07kWh Lithium Battery",
+    "brand": "Vestwoods",
+    "model_code": "VE51314L",
+    "category": "battery-storage",
+    "subcategory": "home-battery",
+    "short_description": "51.2V 314Ah LiFePO4 home battery with 16.07kWh storage and 157A charge/discharge.",
+    "long_description": "The VE51314L is the largest single battery in the Vestwoods low-voltage home range: 16.07kWh from 51.2V 314Ah LiFePO4 cells. It suits large homes, villas and off-grid properties with heavy evening loads, and up to 15 units can be paralleled.\n\nThe 157A charge/discharge rating supports high-power hybrid inverters, while the integrated BMS monitors voltage, current, temperature and battery health. Pair it with the 6kW SE6KHB hybrid inverter for a compact whole-home backup system.",
+    "specs": [
+      {
+        "group": "BATTERY",
+        "label": "Capacity",
+        "value": "16.07",
+        "unit": "kWh"
+      },
+      {
+        "group": "BATTERY",
+        "label": "Nominal voltage",
+        "value": "51.2",
+        "unit": "V"
+      },
+      {
+        "group": "BATTERY",
+        "label": "Capacity",
+        "value": "314",
+        "unit": "Ah"
+      },
+      {
+        "group": "BATTERY",
+        "label": "Chemistry",
+        "value": "LiFePO4",
+        "unit": ""
+      },
+      {
+        "group": "BATTERY",
+        "label": "Max charge current",
+        "value": "157",
+        "unit": "A"
+      },
+      {
+        "group": "BATTERY",
+        "label": "Max discharge current",
+        "value": "157",
+        "unit": "A"
+      },
+      {
+        "group": "BATTERY",
+        "label": "Cycle life",
+        "value": "6000+",
+        "unit": "cycles"
+      },
+      {
+        "group": "GENERAL",
+        "label": "Communication",
+        "value": "CAN / RS485",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Installation",
+        "value": "Floor mounted",
+        "unit": ""
+      },
+      {
+        "group": "GENERAL",
+        "label": "Parallel expansion",
+        "value": "15",
+        "unit": "units"
+      }
+    ],
+    "key_specs": [
+      "16.07kWh",
+      "51.2V",
+      "6,000+ cycles"
+    ],
+    "images": [
+      {
+        "url": "https://vn.vestwoods.com/cdn/shop/files/VE51314L.png?v=1781157374&width=1200",
+        "alt": "Vestwoods VE51314L 16.07kWh home battery",
+        "type": "primary"
+      }
+    ],
+    "cost_price": null,
+    "retail_price": 256000,
+    "price_status": "ok",
+    "source_vat_inclusive": true,
+    "cost_per_watt": null,
+    "module_watts": null,
+    "pricing_note": null,
+    "warranty_years": 2,
+    "stock_status": "in_stock",
+    "stock_qty": 2,
+    "lead_time_days": null,
+    "weight_kg": null,
+    "dimensions_mm": null,
+    "requires_installation": true,
+    "compatible_with": [
+      "vestwoods-se6khb-6kw"
+    ],
+    "annual_kwh_yield": null,
+    "datasheet_url": "https://vestwoods.com/en/products/l-series/datasheet/",
+    "source_supplier": "Moveki Solar Solutions",
+    "source_list_date": "2026-10",
+    "is_featured": true,
+    "is_published": true,
+    "seo_title": "Vestwoods VE51314L 16.07kWh lithium battery price in Kenya | Oriel Solar",
+    "seo_description": "Vestwoods VE51314L 16.07kWh lithium battery in Kenya. 51.2V 314Ah LiFePO4, 157A charge/discharge, 6,000+ cycles and parallel expansion. M-Pesa accepted."
+  },
+  {
+    "id": "vestwoods-se6khb-6kw",
+    "slug": "vestwoods-se6khb-6kw",
+    "name": "Vestwoods SE6KHB 6kW Hybrid Solar Inverter",
+    "brand": "Vestwoods",
+    "model_code": "SE6KHB",
+    "category": "inverters",
+    "subcategory": "hybrid",
+    "short_description": "6kW low-voltage hybrid inverter with dual MPPT, 8kW solar input and under-10ms backup switchover.",
+    "long_description": "The SE6KHB is a 6kW low-voltage hybrid inverter that blends solar, battery and grid power. It delivers 6kW of pure sine wave output, enough for a typical home including a 1.5HP water pump or air conditioner, and switches to backup in under 10ms.\n\nDual MPPT trackers accept up to 8kW of solar across a 180-520V range, useful for two roof orientations. Built-in Wi-Fi and the free app provide monitoring and control, while smart hybrid modes prioritise solar, battery or grid charging.",
+    "specs": [
+      {
+        "group": "OUTPUT",
+        "label": "AC output",
+        "value": "6",
+        "unit": "kW"
+      },
+      {
+        "group": "OUTPUT",
+        "label": "Waveform",
+        "value": "Pure sine wave",
+        "unit": ""
+      },
+      {
+        "group": "INPUT",
+        "label": "PV input",
+        "value": "8000",
+        "unit": "W"
+      },
+      {
+        "group": "INPUT",
+        "label": "MPPT trackers",
+        "value": "2",
+        "unit": ""
+      },
+      {
+        "group": "INPUT",
+        "label": "PV voltage range",
+        "value": "180-520",
+        "unit": "V"
+      },
+      {
+        "group": "BATTERY",
+        "label": "Battery voltage",
+        "value": "40-60",
+        "unit": "V"
+      },
+      {
+        "group": "GENERAL",
+        "label": "Backup changeover",
+        "value": "<10",
+        "unit": "ms"
+      },
+      {
+        "group": "GENERAL",
+        "label": "Monitoring",
+        "value": "Wi-Fi + app",
+        "unit": ""
+      }
+    ],
+    "key_specs": [
+      "6kW",
+      "8kW PV",
+      "<10ms switchover"
+    ],
+    "images": [
+      {
+        "url": "https://stimapro.com/cdn/shop/files/Vestwoods-6-kW-Hybrid-Solar-Inverter-SE6KHB.jpg?v=1774278873&width=1200",
+        "alt": "Vestwoods SE6KHB 6kW hybrid solar inverter",
+        "type": "primary"
+      }
+    ],
+    "cost_price": null,
+    "retail_price": 79500,
+    "price_status": "ok",
+    "source_vat_inclusive": true,
+    "cost_per_watt": null,
+    "module_watts": null,
+    "pricing_note": null,
+    "warranty_years": 2,
+    "stock_status": "in_stock",
+    "stock_qty": 2,
+    "lead_time_days": null,
+    "weight_kg": null,
+    "dimensions_mm": null,
+    "requires_installation": true,
+    "compatible_with": [
+      "vestwoods-ve51100l-5-12kwh",
+      "vestwoods-ve51200l-10-24kwh",
+      "vestwoods-ve51314l-16-07kwh"
+    ],
+    "annual_kwh_yield": null,
+    "datasheet_url": null,
+    "source_supplier": "Solar Shop Africa",
+    "source_list_date": "2026-10",
+    "is_featured": true,
+    "is_published": true,
+    "seo_title": "Vestwoods SE6KHB 6kW hybrid inverter price in Kenya | Oriel Solar",
+    "seo_description": "Vestwoods SE6KHB 6kW hybrid solar inverter in Kenya. 8kW PV input, dual MPPT, under-10ms backup switchover and Wi-Fi monitoring. M-Pesa accepted."
+  },
+  {
+    "id": "win-win-100w-solar-flood-light-camera",
+    "slug": "win-win-100w-solar-flood-light-camera",
+    "name": "WIN WIN 100W Solar Flood Light with Wi-Fi Security Camera",
+    "brand": "WIN WIN",
+    "model_code": "SANG-0028",
+    "category": "lighting",
+    "subcategory": "flood-lights",
+    "short_description": "100W solar flood light with a built-in Wi-Fi CCTV camera, full-colour night vision and app recording.",
+    "long_description": "A 100W solar flood light with an integrated Wi-Fi camera: it lights the compound and records it at the same time. The 1080P camera has full-colour night vision, and footage is stored on the supplied 16GB SD card.\n\nUse the mobile app to watch live, play back incidents and control the light. The ABS and aluminium housing is IP65-rated, and the integrated solar panel means no mains wiring or electrician is needed.",
+    "specs": [
+      { "group": "OUTPUT", "label": "LED power", "value": "100", "unit": "W" },
+      { "group": "CAMERA", "label": "Resolution", "value": "1080P", "unit": "" },
+      { "group": "CAMERA", "label": "Night vision", "value": "Full colour", "unit": "" },
+      { "group": "CAMERA", "label": "Storage", "value": "16GB SD card", "unit": "" },
+      { "group": "POWER", "label": "Solar", "value": "Integrated panel", "unit": "" },
+      { "group": "GENERAL", "label": "Connectivity", "value": "Wi-Fi", "unit": "" },
+      { "group": "GENERAL", "label": "Protection", "value": "IP65", "unit": "" },
+      { "group": "GENERAL", "label": "Control", "value": "Mobile app", "unit": "" }
+    ],
+    "key_specs": ["100 W", "1080P camera", "Wi-Fi", "IP65"],
+    "images": [
+      {
+        "url": "https://stimapro.com/cdn/shop/files/100WSOLARLIGHTWITHCAMERA.jpg?v=1780752905&width=1200",
+        "alt": "WIN WIN 100W solar flood light with built-in Wi-Fi security camera",
+        "type": "primary"
+      }
+    ],
+    "cost_price": null,
+    "retail_price": 9800,
+    "price_status": "ok",
+    "source_vat_inclusive": true,
+    "cost_per_watt": null,
+    "module_watts": null,
+    "pricing_note": null,
+    "warranty_years": null,
+    "stock_status": "in_stock",
+    "stock_qty": 1,
+    "lead_time_days": null,
+    "weight_kg": null,
+    "dimensions_mm": null,
+    "requires_installation": false,
+    "compatible_with": [],
+    "annual_kwh_yield": null,
+    "datasheet_url": null,
+    "source_supplier": "StimaPro",
+    "source_list_date": "2026-10",
+    "is_featured": false,
+    "is_published": true,
+    "seo_title": "WIN WIN 100W solar flood light with camera price in Kenya | Oriel Solar",
+    "seo_description": "WIN WIN 100W solar flood light with built-in Wi-Fi CCTV camera. 1080P full-colour night vision, 16GB storage and IP65 weather protection. M-Pesa accepted."
+  },
+  {
+    "id": "solguard-aov-4g-solar-security-camera",
+    "slug": "solguard-aov-4g-solar-security-camera",
+    "name": "Solguard AOV 4G Multi-Lens Solar Security Camera",
+    "brand": "Solguard",
+    "model_code": "SOLG-0001",
+    "category": "lighting",
+    "subcategory": "security-cameras",
+    "short_description": "Always-on 4G solar security camera with multi-lens 360° coverage, dual panels and AI human detection.",
+    "long_description": "The Solguard AOV camera is built for farms, large compounds and construction sites where mains power and Wi-Fi are not available. It records continuously rather than waking only on motion, connects over 4G LTE and covers a wide area with a multi-lens 360° view.\n\nDual solar panels charge a 12,000–24,000mAh battery, while AI humanoid detection sends alerts to the Hieasy app. It has full-colour night vision, two-way audio, IP66 protection and storage on a microSD card up to 256GB plus encrypted cloud backup.",
+    "specs": [
+      { "group": "CAMERA", "label": "Connectivity", "value": "4G LTE", "unit": "" },
+      { "group": "CAMERA", "label": "Coverage", "value": "360° multi-lens", "unit": "" },
+      { "group": "CAMERA", "label": "Recording", "value": "24/7 AOV", "unit": "" },
+      { "group": "CAMERA", "label": "Detection", "value": "AI humanoid", "unit": "" },
+      { "group": "CAMERA", "label": "Night vision", "value": "Full colour", "unit": "" },
+      { "group": "POWER", "label": "Solar", "value": "Dual panels", "unit": "" },
+      { "group": "POWER", "label": "Battery", "value": "12,000–24,000", "unit": "mAh" },
+      { "group": "GENERAL", "label": "Protection", "value": "IP66", "unit": "" },
+      { "group": "GENERAL", "label": "App", "value": "Hieasy", "unit": "" },
+      { "group": "GENERAL", "label": "Storage", "value": "microSD up to 256GB + cloud", "unit": "" }
+    ],
+    "key_specs": ["4G LTE", "360° multi-lens", "24/7 recording", "IP66"],
+    "images": [
+      {
+        "url": "https://stimapro.com/cdn/shop/files/SOLGUARDsolarCCTVcamera.webp?v=1781104112&width=1200",
+        "alt": "Solguard AOV 4G multi-lens solar security camera",
+        "type": "primary"
+      }
+    ],
+    "cost_price": null,
+    "retail_price": 10500,
+    "price_status": "ok",
+    "source_vat_inclusive": true,
+    "cost_per_watt": null,
+    "module_watts": null,
+    "pricing_note": null,
+    "warranty_years": null,
+    "stock_status": "in_stock",
+    "stock_qty": 1,
+    "lead_time_days": null,
+    "weight_kg": null,
+    "dimensions_mm": null,
+    "requires_installation": false,
+    "compatible_with": [],
+    "annual_kwh_yield": null,
+    "datasheet_url": null,
+    "source_supplier": "StimaPro",
+    "source_list_date": "2026-10",
+    "is_featured": false,
+    "is_published": true,
+    "seo_title": "Solguard AOV 4G solar security camera price in Kenya | Oriel Solar",
+    "seo_description": "Solguard AOV 4G multi-lens solar security camera with 24/7 recording, dual solar panels, AI human detection and IP66 protection. M-Pesa accepted."
+  },
+  {
+    "id": "alltop-100w-solar-flood-light",
+    "slug": "alltop-100w-solar-flood-light",
+    "name": "ALLTOP 100W Solar Flood Light",
+    "brand": "ALLTOP",
+    "model_code": "MS-7500-ALL",
+    "category": "lighting",
+    "subcategory": "flood-lights",
+    "short_description": "100W integrated solar flood light for gardens, driveways, compounds and security lighting.",
+    "long_description": "A 100W solar flood light with an integrated panel, designed for gardens, pathways, driveways and compound security. The wide-angle beam covers a broad area, and the IP65 housing is built for outdoor use.\n\nNo wiring is required: mount the light where it gets clear sun and it charges through the day. The integrated panel and battery keep the installation simple and avoid an electrician.",
+    "specs": [
+      { "group": "OUTPUT", "label": "LED power", "value": "100", "unit": "W" },
+      { "group": "POWER", "label": "Solar", "value": "Integrated panel", "unit": "" },
+      { "group": "GENERAL", "label": "Protection", "value": "IP65", "unit": "" },
+      { "group": "GENERAL", "label": "Installation", "value": "No wiring", "unit": "" }
+    ],
+    "key_specs": ["100 W", "Integrated solar", "IP65"],
+    "images": [
+      {
+        "url": "https://stimapro.com/cdn/shop/files/154684831600542.jpg?v=1774290954&width=1200",
+        "alt": "ALLTOP 100W solar flood light",
+        "type": "primary"
+      }
+    ],
+    "cost_price": null,
+    "retail_price": 5200,
+    "price_status": "ok",
+    "source_vat_inclusive": true,
+    "cost_per_watt": null,
+    "module_watts": null,
+    "pricing_note": null,
+    "warranty_years": null,
+    "stock_status": "in_stock",
+    "stock_qty": 1,
+    "lead_time_days": null,
+    "weight_kg": null,
+    "dimensions_mm": null,
+    "requires_installation": false,
+    "compatible_with": [],
+    "annual_kwh_yield": null,
+    "datasheet_url": null,
+    "source_supplier": "StimaPro",
+    "source_list_date": "2026-10",
+    "is_featured": false,
+    "is_published": true,
+    "seo_title": "ALLTOP 100W solar flood light price in Kenya | Oriel Solar",
+    "seo_description": "ALLTOP 100W solar flood light with integrated panel, wide-angle beam and IP65 protection. No wiring required. M-Pesa accepted."
+  },
+  {
+    "id": "1000-lumens-solar-courtyard-light",
+    "slug": "1000-lumens-solar-courtyard-light",
+    "name": "1000 Lumens Solar Courtyard Light with Remote",
+    "brand": "StimaPro",
+    "model_code": "SANG-0016",
+    "category": "lighting",
+    "subcategory": "solar-lights",
+    "short_description": "1000-lumen solar courtyard light with remote control, dusk-to-dawn operation and IP65 protection.",
+    "long_description": "A 1000-lumen solar courtyard light for gardens, patios, walkways, fences and gate areas. The remote control adjusts brightness, modes and timers, and the dusk-to-dawn sensor switches it on automatically at night.\n\nThe integrated solar panel charges through the day, so there is no wiring or electricity bill. The IP65 housing is weatherproof for year-round outdoor use.",
+    "specs": [
+      { "group": "OUTPUT", "label": "Brightness", "value": "1000", "unit": "lm" },
+      { "group": "GENERAL", "label": "Control", "value": "Remote control", "unit": "" },
+      { "group": "GENERAL", "label": "Sensor", "value": "Dusk-to-dawn", "unit": "" },
+      { "group": "POWER", "label": "Solar", "value": "Integrated panel", "unit": "" },
+      { "group": "GENERAL", "label": "Protection", "value": "IP65", "unit": "" },
+      { "group": "GENERAL", "label": "Installation", "value": "No wiring", "unit": "" }
+    ],
+    "key_specs": ["1000 lm", "Remote control", "IP65"],
+    "images": [
+      {
+        "url": "https://stimapro.com/cdn/shop/files/1000lumensstreetlight.jpg?v=1780926479&width=1200",
+        "alt": "1000 lumens solar courtyard light with remote control",
+        "type": "primary"
+      }
+    ],
+    "cost_price": null,
+    "retail_price": 12600,
+    "price_status": "ok",
+    "source_vat_inclusive": true,
+    "cost_per_watt": null,
+    "module_watts": null,
+    "pricing_note": null,
+    "warranty_years": null,
+    "stock_status": "in_stock",
+    "stock_qty": 1,
+    "lead_time_days": null,
+    "weight_kg": null,
+    "dimensions_mm": null,
+    "requires_installation": false,
+    "compatible_with": [],
+    "annual_kwh_yield": null,
+    "datasheet_url": null,
+    "source_supplier": "StimaPro",
+    "source_list_date": "2026-10",
+    "is_featured": false,
+    "is_published": true,
+    "seo_title": "1000 lumens solar courtyard light price in Kenya | Oriel Solar",
+    "seo_description": "1000 lumens solar courtyard light with remote control, dusk-to-dawn sensor, integrated panel and IP65 protection. M-Pesa accepted."
   }
 ]

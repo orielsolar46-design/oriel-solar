@@ -7,6 +7,7 @@ import { ShoppingCart, Lock } from 'lucide-react';
 import { SearchOverlay } from '@/components/layout/search-overlay';
 import { Logo } from '@/components/brand/logo';
 import { MobileDrawer } from '@/components/layout/mobile-drawer';
+import { Button } from '@/components/ui/button';
 import { HEADER_NAV } from '@/lib/navigation';
 import { useCart } from '@/components/cart/cart-provider';
 import { cn } from '@/lib/utils';
@@ -44,8 +45,9 @@ export function Header() {
     const [path, query] = href.split('?');
     if (query) {
       if (pathname !== path) return false;
-      const expected = new URLSearchParams(query).get('brand');
-      return new URLSearchParams(search).get('brand') === expected;
+      const expected = new URLSearchParams(query);
+      const current = new URLSearchParams(search);
+      return Array.from(expected.entries()).every(([key, value]) => current.get(key) === value);
     }
     return pathname === path || pathname.startsWith(`${path}/`);
   };
@@ -115,12 +117,9 @@ export function Header() {
           {/* Right actions */}
           <div className="flex items-center gap-1 sm:gap-2">
             <SearchOverlay />
-            <Link
-              href="/request-a-quote"
-              className="hidden whitespace-nowrap rounded-input border border-oriel-navy px-4 py-2 font-sans text-small font-semibold text-oriel-navy transition-colors hover:bg-oriel-navy hover:text-oriel-white xl:inline-flex"
-            >
-              Request a quote
-            </Link>
+            <Button asChild variant="outline" size="sm" className="hidden px-4 xl:inline-flex">
+              <Link href="/request-a-quote">Request a quote</Link>
+            </Button>
             {/* The accessible name must CONTAIN the visible text (the count),
                 or assistive tech and the visible label disagree. */}
             <Link

@@ -1,22 +1,19 @@
+import Image from 'next/image';
+
 /**
  * Brand marks for the third-party services Oriel actually points a customer at:
  * M-Pesa (payment), the delivery fleet, the Nairobi location pin, Gmail (email)
  * and WhatsApp.
  *
- * All of them are inline SVG rather than image files, so they scale to any
- * size, stay crisp on a high-density phone screen, carry no white box onto the
- * navy surfaces, cost no extra request, and can be tuned per surface.
+ * M-Pesa and delivery use the client-supplied artwork unmodified, so we are
+ * not redrawing another company's logo. The supplied JPGs have white
+ * backgrounds; on navy surfaces they sit in a small white rounded chip rather
+ * than being recoloured. The remaining marks stay inline SVG so they can take
+ * a `tone` and inherit `currentColor` where they are really UI affordances.
  *
- * Two rules hold across the set:
- *
- * 1. No `<defs>`, gradients or `id` attributes. Several of these render inside
- *    server components and repeat many times on one page, where a fixed id
- *    would collide and `useId` is not available. Depth is built from flat
- *    fills instead.
- * 2. Every mark that lands on both the white/mist surfaces and the navy ones
- *    takes a `tone`. `light` is the artwork as drawn, `dark` lifts it for the
- *    navy, and `mono` drops to `currentColor` for the places that are really
- *    UI affordances and need to inherit an active/inactive state.
+ * The SVG marks follow one rule: no `<defs>`, gradients or `id` attributes.
+ * Several render inside server components and repeat many times on one page,
+ * where a fixed id would collide and `useId` is not available.
  */
 
 type Tone = 'light' | 'dark' | 'mono';
@@ -32,80 +29,33 @@ type IconProps = {
 /* -------------------------------------------------------------------------- */
 
 /**
- * M-Pesa acceptance mark: the green "M" and "PESA" logotype with the handset
- * device and its red swoosh standing in for the hyphen.
- *
- * The letterforms are stroked centre-lines rather than filled outlines, which
- * keeps the weight uniform at every size and holds the shapes together down at
- * the 15–17px this is set at inline.
- *
- * Safaricom's green is #43B02A, which lands at 2.8:1 on white. A logotype is
- * exempt from the contrast rule, but this one sits inline in a sentence a buyer
- * has to read before parting with money, so the light tone darkens it to
- * #2F7D1D — clearing 4.5:1 on white and on the peach payment card while still
- * reading as M-Pesa green next to the red swoosh. On navy there is nothing to
- * fix: the true green reads at 6.7:1, so `dark` shows the authentic colour.
+ * Official M-Pesa acceptance logo. Used exactly as supplied so the wordmark
+ * and the handset device stay authentic. On the navy surfaces the white-backed
+ * JPG is wrapped in a small white rounded chip instead of being recoloured.
  */
 export function MpesaMark({
   height = 16,
-  tone = 'light',
   className,
 }: {
   height?: number;
-  /** Surface the mark sits on: `light` for white/mist, `dark` for the navy. */
+  /** Kept for call-site compatibility; the official artwork is tone-neutral. */
   tone?: 'light' | 'dark';
   className?: string;
 }) {
-  const green = tone === 'dark' ? '#43B02A' : '#2F7D1D';
-  const red = tone === 'dark' ? '#FF3B30' : '#C4050F';
-  const handset = tone === 'dark' ? '#E8F0E8' : '#D9E5DA';
-
   return (
-    <svg
-      height={height}
-      width={height * (293 / 84)}
-      viewBox="0 0 293 84"
-      fill="none"
-      className={className}
-      role="img"
-      aria-label="M-Pesa"
-    >
-      <title>M-Pesa</title>
-
-      {/* Handset device, drawn first so the M's right leg crosses in front of
-          its left edge exactly as it does in the Safaricom lockup. It stands
-          taller than the cap height, as in the original. */}
-      <rect x="64" y="0" width="40" height="84" rx="20" fill={handset} />
-      {/* Screen band stays white on both tones — it is the contrast the red
-          swoosh needs, and the handset colour already carries the surface. */}
-      <rect x="64" y="28" width="40" height="30" fill="#FFFFFF" />
-      <path
-        d="M66,52 C67,41 75,32 87,32 C95,32 101,36 104,42 C97,38 88,39 80,45 C73,50 67,55 66,52 Z"
-        fill={red}
-      />
-
-      <g
-        transform="translate(0,12)"
-        stroke={green}
-        strokeWidth={14}
-        strokeLinecap="butt"
-        strokeLinejoin="miter"
-        strokeMiterlimit={3}
-      >
-        {/* M */}
-        <path d="M7,53 V7 L31,33 L55,7 V53" />
-        {/* P */}
-        <path d="M119,53 V7 H133 A11.5,11.5 0 0 1 133,30 H119" />
-        {/* E */}
-        <path d="M188,7 H164 V53 H188" />
-        <path d="M164,30 H185" />
-        {/* S */}
-        <path d="M231,17 C231,11 225,7 219,7 C213,7 207,11 207,17 C207,23 212,27 219,30 C226,33 231,37 231,43 C231,49 225,53 219,53 C213,53 207,49 207,43" />
-        {/* A */}
-        <path d="M250,53 L268,7 L286,53" />
-        <path d="M257.5,40 H278.5" />
-      </g>
-    </svg>
+    <Image
+      src="/brand/mpesa-logo.jpg"
+      alt="M-Pesa"
+      width={736}
+      height={414}
+      className={[
+        'inline-block w-auto rounded-[3px] bg-white align-middle',
+        className ?? '',
+      ]
+        .filter(Boolean)
+        .join(' ')}
+      style={{ height, width: 'auto' }}
+    />
   );
 }
 
@@ -114,12 +64,11 @@ export function MpesaMark({
 /* -------------------------------------------------------------------------- */
 
 /**
- * Delivery mark — the navy lorry with its blue motion swooshes.
- *
- * The supplied artwork is a three-quarter cab wrapped in a swoosh ring. That
- * detail turns to mush below about 40px, and this sits at 17–20px next to
- * "Nationwide delivery", so the silhouette is reduced to a side-on box lorry
- * with the three swooshes kept as the recognisable part of the identity.
+ * Client-supplied delivery logo for customer-facing surfaces. The artwork is
+ * full colour and has a white background, so on navy it gets a rounded white
+ * chip. `mono` keeps the small line-art lorry because that tone is only used
+ * for the admin rail and other functional UI, where a detailed colour logo
+ * would read as noise.
  */
 export function DeliveryIcon({
   size = 20,
@@ -127,12 +76,28 @@ export function DeliveryIcon({
   className,
   title,
 }: IconProps & { tone?: Tone }) {
-  const body =
-    tone === 'dark' ? '#FFFFFF' : tone === 'mono' ? 'currentColor' : '#232063';
-  const swoosh =
-    tone === 'dark' ? '#6FB2F0' : tone === 'mono' ? 'currentColor' : '#4A90D9';
-  const glass =
-    tone === 'dark' ? '#1B2A4A' : tone === 'mono' ? 'none' : '#FFFFFF';
+  if (tone !== 'mono') {
+    return (
+      <Image
+        src="/brand/delivery-logo.jpg"
+        alt={title ?? ''}
+        aria-hidden={title ? undefined : true}
+        width={640}
+        height={640}
+        className={[
+          'inline-block shrink-0 rounded-[3px] bg-white align-middle',
+          className ?? '',
+        ]
+          .filter(Boolean)
+          .join(' ')}
+        style={{ width: size, height: size }}
+      />
+    );
+  }
+
+  const body = 'currentColor';
+  const swoosh = 'currentColor';
+  const glass = 'none';
 
   return (
     <svg

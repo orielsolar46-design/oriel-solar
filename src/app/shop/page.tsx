@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { filterProducts, sortProducts } from '@/lib/catalogue';
+import { BLUETTI_FLAGSHIP_SLUGS, filterProducts, sortProducts } from '@/lib/catalogue';
 import { PAGE_SIZE, parseShopParams, type SearchParams } from '@/lib/shop';
 import { Pagination } from '@/components/shop/pagination';
 import { ProductCard } from '@/components/shop/product-card';
@@ -27,7 +27,10 @@ export default async function ShopPage({ searchParams }: { searchParams: SearchP
       maxPrice: parsed.maxPrice,
     }),
     parsed.sort,
-    { ecoflowFirst: parsed.brand === 'EcoFlow' }
+    {
+      brandFirst: parsed.brand === 'EcoFlow' || parsed.brand === 'Bluetti',
+      pinned: parsed.brand === 'Bluetti' ? BLUETTI_FLAGSHIP_SLUGS : undefined,
+    }
   );
   const totalPages = Math.max(1, Math.ceil(items.length / PAGE_SIZE));
   const page = Math.min(parsed.page, totalPages);
@@ -38,13 +41,25 @@ export default async function ShopPage({ searchParams }: { searchParams: SearchP
     query[k] = Array.isArray(v) ? v[0] : v;
   }
 
+  const isBluetti = parsed.brand === 'Bluetti';
+
   return (
     <>
-      <section className="bg-oriel-mist">
+      <section className={isBluetti ? 'bg-oriel-navy' : 'bg-oriel-mist'}>
         <div className="container-oriel py-8 lg:py-10">
-          <h1 className="t-h1 text-oriel-navy">All products</h1>
-          <p className="mt-3 max-w-3xl text-body text-oriel-navy-ink">
-            Anything above KES 500,000 is priced per project.
+          {isBluetti && <p className="t-eyebrow text-oriel-gold">Bluetti</p>}
+          <h1 className={cn('t-h1', isBluetti ? 'mt-2 text-oriel-white' : 'text-oriel-navy')}>
+            {isBluetti ? 'Bluetti home and portable power' : 'All products'}
+          </h1>
+          <p
+            className={cn(
+              'mt-3 max-w-3xl text-body',
+              isBluetti ? 'text-oriel-white/70' : 'text-oriel-navy-ink'
+            )}
+          >
+            {isBluetti
+              ? 'Fixed home storage, modular systems and portable stations — genuine Bluetti stock, installed and supported in Kenya.'
+              : 'Anything above KES 500,000 is priced per project.'}
           </p>
         </div>
       </section>

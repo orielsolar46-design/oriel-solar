@@ -260,7 +260,7 @@ export default function StyleGuidePage() {
             <p className="t-eyebrow mb-3">States</p>
             <div className="flex flex-wrap items-center gap-3">
               <Button>Default</Button>
-              <Button className="bg-oriel-orange-deep">Hover</Button>
+              <Button className="from-oriel-orange-deep to-oriel-orange-deep">Hover</Button>
               <Button disabled>Disabled</Button>
             </div>
             <p className="mt-2 text-small text-oriel-slate">

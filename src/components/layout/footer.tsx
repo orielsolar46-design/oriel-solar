@@ -1,8 +1,9 @@
 import Link from 'next/link';
 import { Phone, Leaf } from 'lucide-react';
-import { GmailIcon, LocationIcon, WhatsAppIcon } from '@/components/ui/brand-icons';
+import { GmailIcon, LocationIcon, MpesaMark, WhatsAppIcon } from '@/components/ui/brand-icons';
 import { SunArc } from '@/components/brand/sun-arc';
 import { CATEGORIES, MAIN_NAV, CONTACT } from '@/lib/navigation';
+import { BRAND_PAGES } from '@/lib/brands';
 
 // The header now carries the product families instead of the marketing pages,
 // so this column is the only route to Solutions. Without it that page and its
@@ -77,6 +78,17 @@ export function Footer() {
                 </li>
               ))}
             </ul>
+            {/* The brand pages are where the brand searches land, so they are
+                linked from every page on the site. */}
+            <ul className="mt-4 space-y-2.5 border-t border-white/10 pt-4">
+              {Object.values(BRAND_PAGES).map((brand) => (
+                <li key={brand.slug}>
+                  <Link href={`/${brand.slug}`} className="text-small text-oriel-white/80 hover:text-oriel-gold">
+                    {brand.brand}
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </div>
 
           {/* Company */}
@@ -131,7 +143,9 @@ export function Footer() {
             <Link href="/legal/terms" className="hover:text-oriel-gold">Terms</Link>
             <Link href="/legal/privacy" className="hover:text-oriel-gold">Privacy</Link>
             <Link href="/legal/delivery-returns" className="hover:text-oriel-gold">Delivery &amp; returns</Link>
-            <span className="text-oriel-white">Nairobi, Kenya · M-Pesa accepted</span>
+            <span className="inline-flex items-center gap-1.5 text-oriel-white">
+              Nairobi, Kenya · <MpesaMark height={14} tone="dark" /> accepted
+            </span>
           </nav>
         </div>
       </div>
