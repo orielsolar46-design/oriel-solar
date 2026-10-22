@@ -11377,5 +11377,413 @@
     "is_published": true,
     "seo_title": "1000 lumens solar courtyard light price in Kenya | Oriel Solar",
     "seo_description": "1000 lumens solar courtyard light with remote control, dusk-to-dawn sensor, integrated panel and IP65 protection. M-Pesa accepted."
+  },
+  {
+    "id": "marstek-s500s",
+    "slug": "marstek-s500s",
+    "name": "Marstek S500S 500W Portable Power Station",
+    "brand": "Marstek",
+    "model_code": "S500S",
+    "category": "battery-storage",
+    "subcategory": "portable-power-station",
+    "short_description": "510Wh Li-ion station with 800W AC output, 240W solar charging and a 6.7kg carry case for small backup and travel.",
+    "long_description": "The S500S is the smallest Marstek Saturn station: a 510Wh lithium-ion battery and 800W pure sine wave inverter in a 6.7kg case. It runs a router, lights, laptop, TV and fan through a short outage, and travels easily for camping or site work.\n\nCharge it from a wall socket in about 2.5 hours, from a car, or from up to 240W of solar. USB-C and USB-A ports cover phones and laptops, and the 12V output runs small DC appliances.",
+    "specs": [
+      {
+        "group": "BATTERY",
+        "label": "Capacity",
+        "value": "510",
+        "unit": "Wh"
+      },
+      {
+        "group": "BATTERY",
+        "label": "Chemistry",
+        "value": "Li-ion NCM",
+        "unit": ""
+      },
+      {
+        "group": "BATTERY",
+        "label": "Cycle life",
+        "value": "1000+",
+        "unit": "cycles"
+      },
+      {
+        "group": "OUTPUT",
+        "label": "AC output (max)",
+        "value": "800",
+        "unit": "W"
+      },
+      {
+        "group": "OUTPUT",
+        "label": "Inverter",
+        "value": "Pure sine wave",
+        "unit": ""
+      },
+      {
+        "group": "OUTPUT",
+        "label": "USB-C",
+        "value": "100",
+        "unit": "W"
+      },
+      {
+        "group": "OUTPUT",
+        "label": "USB-A",
+        "value": "2 x 18",
+        "unit": "W"
+      },
+      {
+        "group": "OUTPUT",
+        "label": "12V DC",
+        "value": "120",
+        "unit": "W"
+      },
+      {
+        "group": "INPUT",
+        "label": "Solar input",
+        "value": "240",
+        "unit": "W"
+      },
+      {
+        "group": "INPUT",
+        "label": "DC input",
+        "value": "240",
+        "unit": "W"
+      },
+      {
+        "group": "INPUT",
+        "label": "USB-C input",
+        "value": "100",
+        "unit": "W"
+      },
+      {
+        "group": "GENERAL",
+        "label": "Weight",
+        "value": "6.7",
+        "unit": "kg"
+      },
+      {
+        "group": "GENERAL",
+        "label": "Dimensions",
+        "value": "340 x 178 x 230",
+        "unit": "mm"
+      },
+      {
+        "group": "GENERAL",
+        "label": "Recharge time",
+        "value": "2.0-2.5",
+        "unit": "hours"
+      }
+    ],
+    "key_specs": [
+      "510Wh",
+      "800W AC",
+      "240W solar"
+    ],
+    "images": [
+      {
+        "url": "/products/battery-storage/marstek-s500s/01.webp",
+        "alt": "Marstek S500S 500W portable power station",
+        "type": "primary"
+      }
+    ],
+    "cost_price": null,
+    "retail_price": 25000,
+    "price_status": "ok",
+    "source_vat_inclusive": true,
+    "cost_per_watt": null,
+    "module_watts": null,
+    "pricing_note": null,
+    "warranty_years": 1,
+    "stock_status": "in_stock",
+    "stock_qty": 1,
+    "lead_time_days": null,
+    "weight_kg": 6.7,
+    "dimensions_mm": "340 x 178 x 230",
+    "requires_installation": false,
+    "compatible_with": [],
+    "annual_kwh_yield": null,
+    "datasheet_url": null,
+    "source_supplier": "Client price list",
+    "source_list_date": "2026-10",
+    "is_featured": true,
+    "is_published": true,
+    "seo_title": "Marstek S500S 500W portable power station price in Kenya | Oriel Solar",
+    "seo_description": "Marstek S500S 500W portable power station in Kenya. 510Wh Li-ion battery, 800W AC output, 240W solar input and portable backup power. M-Pesa accepted."
+  },
+  {
+    "id": "marstek-s1000p-s",
+    "slug": "marstek-s1000p-s",
+    "name": "Marstek S1000P-S 1000W Portable Power Station",
+    "brand": "Marstek",
+    "model_code": "S1000P-S",
+    "category": "battery-storage",
+    "subcategory": "portable-power-station",
+    "short_description": "1,021Wh Li-ion station with 1,200W AC output, 240W solar charging and app monitoring for home backup and site work.",
+    "long_description": "The S1000P-S sits between the S500S and S2000F: 1,021Wh of lithium-ion storage and a 1,200W pure sine wave inverter in an 8.7kg case. It runs a fridge, TV, lights, router and power tools through an outage without the weight of a whole-home battery.\n\nRecharge from a wall socket in about five hours, from a car, or from up to 240W of solar. USB-C, USB-A and 12V outputs cover smaller devices, and the app and LED display show charge and load.",
+    "specs": [
+      {
+        "group": "BATTERY",
+        "label": "Capacity",
+        "value": "1021",
+        "unit": "Wh"
+      },
+      {
+        "group": "BATTERY",
+        "label": "Chemistry",
+        "value": "Li-ion NCM",
+        "unit": ""
+      },
+      {
+        "group": "BATTERY",
+        "label": "Cycle life",
+        "value": "1000+",
+        "unit": "cycles"
+      },
+      {
+        "group": "OUTPUT",
+        "label": "AC output (max)",
+        "value": "1200",
+        "unit": "W"
+      },
+      {
+        "group": "OUTPUT",
+        "label": "Inverter",
+        "value": "Pure sine wave",
+        "unit": ""
+      },
+      {
+        "group": "OUTPUT",
+        "label": "USB-C",
+        "value": "100",
+        "unit": "W"
+      },
+      {
+        "group": "OUTPUT",
+        "label": "USB-A",
+        "value": "2 x 18",
+        "unit": "W"
+      },
+      {
+        "group": "OUTPUT",
+        "label": "12V DC",
+        "value": "120",
+        "unit": "W"
+      },
+      {
+        "group": "INPUT",
+        "label": "Solar input",
+        "value": "240",
+        "unit": "W"
+      },
+      {
+        "group": "INPUT",
+        "label": "DC input",
+        "value": "240",
+        "unit": "W"
+      },
+      {
+        "group": "INPUT",
+        "label": "USB-C input",
+        "value": "100",
+        "unit": "W"
+      },
+      {
+        "group": "GENERAL",
+        "label": "Weight",
+        "value": "8.7",
+        "unit": "kg"
+      },
+      {
+        "group": "GENERAL",
+        "label": "Dimensions",
+        "value": "340 x 178 x 230",
+        "unit": "mm"
+      },
+      {
+        "group": "GENERAL",
+        "label": "Recharge time",
+        "value": "4.5-5.0",
+        "unit": "hours"
+      },
+      {
+        "group": "GENERAL",
+        "label": "Monitoring",
+        "value": "App + LED display",
+        "unit": ""
+      }
+    ],
+    "key_specs": [
+      "1,021Wh",
+      "1,200W AC",
+      "240W solar"
+    ],
+    "images": [
+      {
+        "url": "/products/battery-storage/marstek-s1000p-s/01.jpg",
+        "alt": "Marstek S1000P-S 1000W portable power station",
+        "type": "primary"
+      }
+    ],
+    "cost_price": null,
+    "retail_price": 34000,
+    "price_status": "ok",
+    "source_vat_inclusive": true,
+    "cost_per_watt": null,
+    "module_watts": null,
+    "pricing_note": null,
+    "warranty_years": 1,
+    "stock_status": "in_stock",
+    "stock_qty": 1,
+    "lead_time_days": null,
+    "weight_kg": 8.7,
+    "dimensions_mm": "340 x 178 x 230",
+    "requires_installation": false,
+    "compatible_with": [],
+    "annual_kwh_yield": null,
+    "datasheet_url": null,
+    "source_supplier": "Client price list",
+    "source_list_date": "2026-10",
+    "is_featured": true,
+    "is_published": true,
+    "seo_title": "Marstek S1000P-S 1000W portable power station price in Kenya | Oriel Solar",
+    "seo_description": "Marstek S1000P-S 1000W portable power station in Kenya. 1,021Wh Li-ion battery, 1,200W AC output, 240W solar input and app monitoring. M-Pesa accepted."
+  },
+  {
+    "id": "marstek-s2000f",
+    "slug": "marstek-s2000f",
+    "name": "Marstek S2000F 2000W Portable Power Station",
+    "brand": "Marstek",
+    "model_code": "S2000F",
+    "category": "battery-storage",
+    "subcategory": "portable-power-station",
+    "short_description": "2,042Wh Li-ion station with 2,400W AC output, 2,000W AC fast charging and 1,000W solar input for serious backup.",
+    "long_description": "The S2000F is the largest portable station in the Marstek range: 2,042Wh of lithium-ion storage and a 2,400W pure sine wave inverter, with 2,800W surge for motor loads. It can run a fridge, freezer, TV, lights, router and power tools during an outage, or serve as a portable supply for a site or event.\n\nBi-directional charging takes it from empty to 80% in about an hour from a 2,000W wall socket, and dual solar inputs accept up to 1,000W. USB-C, USB-A and 12V outputs cover smaller devices; the 24kg cabinet has a carry handle.",
+    "specs": [
+      {
+        "group": "BATTERY",
+        "label": "Capacity",
+        "value": "2042",
+        "unit": "Wh"
+      },
+      {
+        "group": "BATTERY",
+        "label": "Chemistry",
+        "value": "Li-ion NCM",
+        "unit": ""
+      },
+      {
+        "group": "BATTERY",
+        "label": "Cycle life",
+        "value": "1000+",
+        "unit": "cycles"
+      },
+      {
+        "group": "OUTPUT",
+        "label": "AC output (max)",
+        "value": "2400",
+        "unit": "W"
+      },
+      {
+        "group": "OUTPUT",
+        "label": "Surge power",
+        "value": "2800",
+        "unit": "W"
+      },
+      {
+        "group": "OUTPUT",
+        "label": "Inverter",
+        "value": "Pure sine wave",
+        "unit": ""
+      },
+      {
+        "group": "OUTPUT",
+        "label": "USB-C 1",
+        "value": "100",
+        "unit": "W"
+      },
+      {
+        "group": "OUTPUT",
+        "label": "USB-C 2",
+        "value": "45",
+        "unit": "W"
+      },
+      {
+        "group": "OUTPUT",
+        "label": "USB-A",
+        "value": "2 x 18",
+        "unit": "W"
+      },
+      {
+        "group": "OUTPUT",
+        "label": "12V DC",
+        "value": "120",
+        "unit": "W"
+      },
+      {
+        "group": "INPUT",
+        "label": "AC input",
+        "value": "2000",
+        "unit": "W"
+      },
+      {
+        "group": "INPUT",
+        "label": "Solar input",
+        "value": "1000",
+        "unit": "W"
+      },
+      {
+        "group": "GENERAL",
+        "label": "Weight",
+        "value": "24",
+        "unit": "kg"
+      },
+      {
+        "group": "GENERAL",
+        "label": "Dimensions",
+        "value": "360 x 290 x 307",
+        "unit": "mm"
+      },
+      {
+        "group": "GENERAL",
+        "label": "Recharge time",
+        "value": "1.0-1.5",
+        "unit": "hours"
+      }
+    ],
+    "key_specs": [
+      "2,042Wh",
+      "2,400W AC",
+      "1,000W solar"
+    ],
+    "images": [
+      {
+        "url": "/products/battery-storage/marstek-s2000f/01.webp",
+        "alt": "Marstek S2000F 2000W portable power station",
+        "type": "primary"
+      }
+    ],
+    "cost_price": null,
+    "retail_price": 56000,
+    "price_status": "ok",
+    "source_vat_inclusive": true,
+    "cost_per_watt": null,
+    "module_watts": null,
+    "pricing_note": null,
+    "warranty_years": 1,
+    "stock_status": "in_stock",
+    "stock_qty": 1,
+    "lead_time_days": null,
+    "weight_kg": 24,
+    "dimensions_mm": "360 x 290 x 307",
+    "requires_installation": false,
+    "compatible_with": [],
+    "annual_kwh_yield": null,
+    "datasheet_url": null,
+    "source_supplier": "Client price list",
+    "source_list_date": "2026-10",
+    "is_featured": true,
+    "is_published": true,
+    "seo_title": "Marstek S2000F 2000W portable power station price in Kenya | Oriel Solar",
+    "seo_description": "Marstek S2000F 2000W portable power station in Kenya. 2,042Wh Li-ion battery, 2,400W AC output, 2,000W AC charging, 1,000W solar input. M-Pesa accepted."
   }
 ]

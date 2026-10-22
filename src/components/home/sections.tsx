@@ -169,6 +169,54 @@ export async function VestwoodsShowcase() {
   );
 }
 
+export async function MarstekShowcase() {
+  const catalogue = await getAllProducts();
+  const showcase = ['marstek-s500s', 'marstek-s1000p-s', 'marstek-s2000f'];
+  const products = showcase
+    .map((slug) => catalogue.find((p) => p.slug === slug))
+    .filter((p): p is (typeof catalogue)[number] => Boolean(p));
+  if (products.length === 0) return null;
+
+  return (
+    <section
+      aria-labelledby="marstek-heading"
+      className="border-t border-oriel-line bg-oriel-white"
+    >
+      <div className="container-oriel py-16">
+        <div className="flex flex-wrap items-end justify-between gap-3">
+          <div className="max-w-2xl">
+            <p className="t-eyebrow text-oriel-slate">Marstek</p>
+            <h2 id="marstek-heading" className="t-h2 mt-2">
+              Portable power stations
+            </h2>
+            <p className="mt-3 max-w-xl text-small text-oriel-slate">
+              500W, 1,000W and 2,000W units for outages, travel and site work, priced and ready to
+              deliver.
+            </p>
+          </div>
+          <ArrowPill href="/shop?brand=Marstek" className="ml-auto">
+            View all Marstek
+          </ArrowPill>
+        </div>
+        <ul className="mt-8 grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-3">
+          {products.map((product, index) => (
+            <li
+              key={product.slug}
+              className={
+                index === products.length - 1 && products.length % 2 === 1
+                  ? 'col-span-2 sm:col-span-1'
+                  : undefined
+              }
+            >
+              <ProductCard product={product} />
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
+  );
+}
+
 export async function BluettiShowcase() {
   const catalogue = await getAllProducts();
   const bluetti = catalogue.filter((p) => p.brand === 'Bluetti');

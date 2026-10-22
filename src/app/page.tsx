@@ -7,6 +7,7 @@ import {
   EcoFlowShowcase,
   GreenBand,
   HowBuyingWorks,
+  MarstekShowcase,
   TrustStrip,
   VestwoodsShowcase,
 } from '@/components/home/sections';
@@ -20,8 +21,8 @@ export const metadata: Metadata = {
 };
 
 /**
- * The home page: a visual hero, the catalogue, a short trust strip, the three
- * featured brands, one savings call to action, the buying steps and contact.
+ * The home page: a visual hero, the catalogue, a short trust strip, the featured
+ * brands, one savings call to action, the buying steps and contact.
  * Statically rendered and refreshed hourly so the first paint never waits on a
  * database round-trip.
  */
@@ -74,6 +75,7 @@ export default function HomePage() {
       <BluettiShowcase />
       <EcoFlowShowcase />
       <VestwoodsShowcase />
+      <MarstekShowcase />
 
       <GreenBand />
       <HowBuyingWorks />
